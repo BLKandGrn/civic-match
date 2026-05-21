@@ -365,7 +365,7 @@ export default function App() {
       const ANTH_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY || ""; const resp = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
         headers: { "Content-Type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": ANTH_KEY, "anthropic-dangerous-direct-browser-access": "true" },
-        body: JSON.stringify({ model: "claude-sonnet-4-20250514", max_tokens: 3000, messages: [{ role: "user", content: buildPrompt(members, stateLeg, voteData) }] }),
+        body: JSON.stringify({ model: "claude-sonnet-4-5", max_tokens: 3000, messages: [{ role: "user", content: buildPrompt(members, stateLeg, voteData) }] }),
       });
 
       if (!resp.ok) {
