@@ -89,8 +89,9 @@ const REG_STEPS = {
   MA: { check: "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx", register: "https://www.sec.state.ma.us/OVR/", deadline: "10 days before election", method: "Online, by mail, or in person at your city or town clerk" },
 };
 
-function scoreCandidate(votes) {
 const DEFAULT_REG = { check: null, register: null, deadline: "varies by state", method: "Visit your state's official election website for registration options" };
+
+function scoreCandidate(votes) {
   const scores = {};
   ISSUES.forEach(function(i) { scores[i.id] = { hits: 0, total: 0 }; });
   (votes || []).forEach(function(vote) {
