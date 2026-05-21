@@ -194,7 +194,11 @@ function Tabs(props) {
             <button key={i}
               style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"11px", letterSpacing:".06em", padding:"6px 12px", borderRadius:"4px", background: tab === i ? "#C8F97A" : "#1a1a1a", color: tab === i ? "#0e0e0e" : "#666", border: tab === i ? "1px solid #C8F97A" : "1px solid #2a2a2a", cursor:"pointer" }}
               onClick={function() { changeTab(i); }}>
-              {sec.heading}
+              {props.photos && props.photos[sec.heading] ? (
+              <img src={props.photos[sec.heading]} alt={sec.heading}
+                style={{ width:"48px", height:"48px", borderRadius:"50%", objectFit:"cover", flexShrink:0 }} />
+            ) : null}
+            {sec.heading}
             </button>
           );
         })}
@@ -282,6 +286,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [loadMsg, setLoadMsg] = useState("");
   const [results, setResults] = useState(null);
+  const [photos, setPhotos] = useState({});
   const [regUrl, setRegUrl] = useState(null);
   const [error, setError] = useState(null);
   const [anim, setAnim] = useState(true);
@@ -323,6 +328,17 @@ export default function App() {
     return "You are a nonpartisan civic information assistant. Be specific, concise, and evidence-based. Every opinion about a candidate must have an inline citation immediately after it.\n\nVOTER INFO:\nAddress: " + fullAddr + "\nState: " + addr.state + "\nRegistered: " + (registered ? "Yes" : "No/Unsure") + "\n\nFEDERAL REPS (Congress.gov):\n" + membersStr + "\n\nSTATE LEGISLATORS (OpenStates):\n" + stateStr + "\n\nVOTING RECORD ALIGNMENT:\n" + voteStr + "\n\nVOTER PRIORITIES:\n" + issueList + "\n\nPRODUCE THESE SECTIONS. Be concise — 2-4 sentences per candidate max. Group related information together. No long paragraphs.\n\n## Your Districts\nOne clean list: Congressional district, State Senate district, State House district, County, City, School board district. No prose — just the list.\n\n## Candidate Rankings\nRank ALL candidates from highest to lowest alignment. For each candidate write exactly this format:\n\n**[Rank]. [Name] ([Party]) — [Office]** — [Strong Match / Partial Match / Low Match]\nWhy they fit: [1-2 sentences with inline citations like (HR 1234, voted Yes, Jan 2024) or (Statement to Baltimore Sun, March 2023)]\nWhere they fall short: [1-2 sentences with inline citations showing specific votes or positions that conflict with voter priorities]\n\nDo not skip any candidate. Do not write more than 4 sentences per candidate total.\n\n## Federal Representatives\nFor each rep, group their record by the voter's top 3 priorities only. Format:\n**[Name] — [Office] — [next election date]**\n- [Priority 1]: [Their position + inline citation]\n- [Priority 2]: [Their position + inline citation]\n- [Priority 3]: [Their position + inline citation]\n\n## State Legislators\nSame format as Federal Representatives.\n\n## Local Elections\nGroup by office type. For each race:\n**[Office] — [Election date]**\n- [Candidate name] ([Party]): [Known position on voter priorities + inline citation if available]\n\n## Questions to Ask\nGroup by priority. For each of the top 3 priorities, list 2 sharp questions. Format:\n**[Priority name]**\n- [Question]\n- [Question]\n\n## Election Dates\nBullet list only: primary date, general date, registration deadline, early voting window.\n\nCITATION RULES:\n- Every factual claim about a candidate gets an inline citation in parentheses immediately after the claim\n- Format: (Bill name/number, vote direction, date) or (Source name, date) or (Official statement, date)\n- Never group citations at the end — they go right next to the claim they support\n- If you cannot cite a claim, do not make it\n- Keep all sections tight. No padding. No repetition.";
   }
 
+  
+  async function fetchWikiPhoto(name) {
+    try {
+      const q = encodeURIComponent(name.replace(/ /g, "_"));
+      const r = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + q);
+      if (!r.ok) return null;
+      const d = await r.json();
+      return (d.thumbnail && d.thumbnail.source) ? d.thumbnail.source : null;
+    } catch(e) { return null; }
+  }
+
   async function run() {
     setLoading(true);
     setError(null);
@@ -362,7 +378,19 @@ export default function App() {
     } catch(e) { console.warn("Votes:", e.message); }
 
     try {
-      setLoadMsg("Matching your priorities to candidates...");
+      
+    const allNames = [
+      ...members.map(function(m) { return m.name; }),
+      ...stateLeg.map(function(l) { return l.name; })
+    ];
+    const photoMap = {};
+    await Promise.all(allNames.map(async function(name) {
+      const p = await fetchWikiPhoto(name);
+      if (p) photoMap[name] = p;
+    }));
+    setPhotos(photoMap);
+
+    setLoadMsg("Matching your priorities to candidates...");
       const ANTH_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY || ""; const resp = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
         headers: { "Content-Type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": ANTH_KEY, "anthropic-dangerous-direct-browser-access": "true" },
@@ -657,7 +685,7 @@ export default function App() {
                 </div>
               </div>
 
-              <Tabs sections={parseSections(results)} />
+              <Tabs sections={parseSections(results)} photos={photos} />
 
               <div style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"20px 22px", display:"flex", flexDirection:"column", gap:"14px" }}>
                 <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"12px", letterSpacing:".12em", color:"#888", textTransform:"uppercase" }}>Explore Further</div>
