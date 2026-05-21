@@ -194,10 +194,13 @@ function Tabs(props) {
             <button key={i}
               style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"11px", letterSpacing:".06em", padding:"6px 12px", borderRadius:"4px", background: tab === i ? "#C8F97A" : "#1a1a1a", color: tab === i ? "#0e0e0e" : "#666", border: tab === i ? "1px solid #C8F97A" : "1px solid #2a2a2a", cursor:"pointer" }}
               onClick={function() { changeTab(i); }}>
-              {props.photos && props.photos[sec.heading] ? (
-              <img src={props.photos[sec.heading]} alt={sec.heading}
-                style={{ width:"48px", height:"48px", borderRadius:"50%", objectFit:"cover", flexShrink:0 }} />
-            ) : null}
+              {(function() {
+              const nameKey = Object.keys(props.photos || {}).find(function(k) { return sec.heading.indexOf(k) >= 0; });
+              return nameKey ? (
+                <img src={props.photos[nameKey]} alt={nameKey}
+                  style={{ width:"48px", height:"48px", borderRadius:"50%", objectFit:"cover", flexShrink:0 }} />
+              ) : null;
+            })()}
             {sec.heading}
             </button>
           );
