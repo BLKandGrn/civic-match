@@ -368,6 +368,14 @@ export default function App() {
         const d = await r.json();
         if (d.thumbnail && d.thumbnail.source) return d.thumbnail.source;
       }
+      // Try with disambiguation terms
+      for (const suffix of [" politician", " U.S. Representative", " senator", " congressman"]) {
+        const rs = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent((name + suffix).replace(/ /g, "_")));
+        if (rs.ok) {
+          const ds = await rs.json();
+          if (ds.thumbnail && ds.thumbnail.source) return ds.thumbnail.source;
+        }
+      }
       const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(name + " politician") + "&format=json&origin=*&srlimit=1");
       if (!s.ok) return null;
       const sd = await s.json();
@@ -488,17 +496,20 @@ export default function App() {
 
       // Extract candidate names from bold headers in AI output and fetch missing photos
       const boldNames = [];
-      const boldMatches = text.match(/\*\*([^*—]+?)(?:—|\*\*)/g) || [];
+      const boldMatches = text.match(/\*\*([^*
+]+?)(?:\s*—|\*\*)/g) || [];
       boldMatches.forEach(function(m) {
-        const name = m.replace(/\*\*/g, "").replace(/—.*/, "").trim();
-        if (name.length > 3 && name.length < 40 && !name.includes(":") && !name.includes("Match")) {
+        const name = m.replace(/\*\*/g, "").replace(/\s*—.*/, "").trim();
+        if (name.length > 3 && name.length < 50 && !name.includes(":") && !name.includes("Match") && !name.includes("recorded") && /[A-Z]/.test(name)) {
           boldNames.push(name);
         }
       });
+      console.log("Extracted candidate names:", boldNames);
       const newPhotoMap = Object.assign({}, photoMap);
       await Promise.all(boldNames.map(async function(name) {
         if (!newPhotoMap[name]) {
           const p = await fetchWikiPhoto(name);
+          console.log("Photo for", name, ":", p ? "found" : "not found");
           if (p) newPhotoMap[name] = p;
         }
       }));
