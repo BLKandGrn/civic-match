@@ -317,7 +317,7 @@ export default function App() {
     setTimeout(function() { setStep(n); setAnim(true); }, 200);
   }
 
-  function buildPrompt(members, stateLeg, voteData) {
+  function buildPrompt(members, stateLeg, voteData, localElections) {
     const sorted = ISSUES.map(function(i) { return { id:i.id, label:i.label, score: priorities[i.id] || 0 }; }).sort(function(a,b) { return b.score - a.score; });
     const top3 = sorted.slice(0,3).map(function(i) { return i.label; }).join(", ");
     const issueList = sorted.map(function(i) { return "- " + i.label + " (" + PL[i.score] + ")"; }).join("\n");
@@ -330,6 +330,15 @@ export default function App() {
       ? stateLeg.map(function(l) { return "- " + l.name + " (" + (l.party||"Unknown") + ", " + (l.current_role&&l.current_role.chamber?l.current_role.chamber:"State Legislature") + ", District " + (l.current_role&&l.current_role.district?l.current_role.district:"?") + ")"; }).join("\n")
       : "No state legislator data retrieved.";
 
+    const localStr = localElections && localElections.length
+      ? localElections.map(function(c) {
+          const cands = c.candidates && c.candidates.length
+            ? c.candidates.map(function(cd) { return cd.name + (cd.party ? " (" + cd.party + ")" : ""); }).join(", ")
+            : "No candidates listed";
+          return "- " + (c.office || c.type || "Local Race") + ": " + cands;
+        }).join("\n")
+      : "No local election data available.";
+
     const voteStr = voteData && Object.keys(voteData).length
       ? Object.keys(voteData).map(function(name) {
           const scores = voteData[name];
@@ -341,7 +350,7 @@ export default function App() {
         }).join("\n\n")
       : "No voting record data available.";
 
-    return "You are a nonpartisan civic information assistant. Be specific, concise, and evidence-based. Every opinion about a candidate must have an inline citation immediately after it. The API data provided may sometimes miscategorize federal legislators as state legislators or vice versa — use the names provided and your own knowledge of their actual roles, voting records, and positions to produce accurate results. Never refuse to provide information about a named representative just because the API data appears miscategorized. If you can identify the representative by name, provide their full record.\n\nVOTER INFO:\nAddress: " + fullAddr + "\nState: " + addr.state + "\nRegistered: " + (registered ? "Yes" : "No/Unsure") + "\n\nFEDERAL REPS (Congress.gov):\n" + membersStr + "\n\nSTATE LEGISLATORS (OpenStates):\n" + stateStr + "\n\nVOTING RECORD ALIGNMENT:\n" + voteStr + "\n\nVOTER PRIORITIES:\n" + issueList + "\n\nPRODUCE THESE SECTIONS. Be concise — 2-4 sentences per candidate max. Group related information together. No long paragraphs.\n\n## Your Districts\nOne clean list: Congressional district, State Senate district, State House district, County, City, School board district. No prose — just the list.\n## Federal Representatives\nFor each rep, cover ALL voter priorities listed above — not just the top 3. For each priority, include their position with an inline citation. Format:\n**[Name] — [Office] — Elected: [date elected] — Term ends: [date term ends]**\n- [Priority]: [Their position + inline citation]\n(repeat for every priority)\n\n## State Legislators\nSame format as Federal Representatives.\n\n## Local Elections\nGroup by office type. For each race:\n**[Office] — [Election date]**\n- [Candidate name] ([Party]): [Known position on voter priorities + inline citation if available]\n\n## Questions to Ask\nGroup by priority. For each of the top 3 priorities, list 2 sharp questions. Format:\n**[Priority name]**\n- [Question]\n- [Question]\n\n## Election Dates\nBullet list only: primary date, general date, registration deadline, early voting window.\n\nCITATION RULES:\n- Every factual claim about a candidate gets an inline citation in parentheses immediately after the claim\n- Format: (Bill name/number, vote direction, date) or (Source name, date) or (Official statement, date)\n- Never group citations at the end — they go right next to the claim they support\n- If you cannot cite a claim, do not make it\n- For each candidate, list every issue you can find a position on. For issues with no voting record, bill sponsorship, or public statement, do not scatter 'No recorded position' entries throughout — instead group all issues with no recorded position together at the end of that candidate's section under a single line: **No recorded position found on:** [comma-separated list of issues]. Do not infer positions based on party affiliation or related votes. Never include notes, disclaimers, or explanations about data sources, API categorization, or district mapping — just present the information directly. No padding. No repetition.";
+    return "You are a nonpartisan civic information assistant. Be specific, concise, and evidence-based. Every opinion about a candidate must have an inline citation immediately after it. The API data provided may sometimes miscategorize federal legislators as state legislators or vice versa — use the names provided and your own knowledge of their actual roles, voting records, and positions to produce accurate results. Never refuse to provide information about a named representative just because the API data appears miscategorized. If you can identify the representative by name, provide their full record.\n\nVOTER INFO:\nAddress: " + fullAddr + "\nState: " + addr.state + "\nRegistered: " + (registered ? "Yes" : "No/Unsure") + "\n\nFEDERAL REPS (Congress.gov):\n" + membersStr + "\n\nSTATE LEGISLATORS (OpenStates):\n" + stateStr + "\n\nLOCAL ELECTIONS (Google Civic):\n" + localStr + "\n\nVOTING RECORD ALIGNMENT:\n" + voteStr + "\n\nVOTER PRIORITIES:\n" + issueList + "\n\nPRODUCE THESE SECTIONS. Be concise — 2-4 sentences per candidate max. Group related information together. No long paragraphs.\n\n## Your Districts\nOne clean list: Congressional district, State Senate district, State House district, County, City, School board district. No prose — just the list.\n## Federal Representatives\nFor each rep, cover ALL voter priorities listed above — not just the top 3. For each priority, include their position with an inline citation. Format:\n**[Name] — [Office] — Elected: [date elected] — Term ends: [date term ends]**\n- [Priority]: [Their position + inline citation]\n(repeat for every priority)\n\n## State Legislators\nSame format as Federal Representatives.\n\n## Local Elections\nGroup by office type. For each race:\n**[Office] — [Election date]**\n- [Candidate name] ([Party]): [Known position on voter priorities + inline citation if available]\n\n## Questions to Ask\nGroup by priority. For each of the top 3 priorities, list 2 sharp questions. Format:\n**[Priority name]**\n- [Question]\n- [Question]\n\n## Election Dates\nBullet list only: primary date, general date, registration deadline, early voting window.\n\nCITATION RULES:\n- Every factual claim about a candidate gets an inline citation in parentheses immediately after the claim\n- Format: (Bill name/number, vote direction, date) or (Source name, date) or (Official statement, date)\n- Never group citations at the end — they go right next to the claim they support\n- If you cannot cite a claim, do not make it\n- For each candidate, list every issue you can find a position on. For issues with no voting record, bill sponsorship, or public statement, do not scatter 'No recorded position' entries throughout — instead group all issues with no recorded position together at the end of that candidate's section under a single line: **No recorded position found on:** [comma-separated list of issues]. Do not infer positions based on party affiliation or related votes. Never include notes, disclaimers, or explanations about data sources, API categorization, or district mapping — just present the information directly. No padding. No repetition.";
   }
 
   
@@ -371,7 +380,7 @@ export default function App() {
     setResults(null);
     setRegUrl(REGS[addr.state.toUpperCase()] || "https://vote.org/register-to-vote/");
 
-    let members = [], stateLeg = [], voteData = {};
+    let members = [], stateLeg = [], voteData = {}, localElections = [];
 
     try {
       setLoadMsg("Finding your representatives...");
@@ -401,6 +410,34 @@ export default function App() {
         stateLeg = (d.results || []).slice(0, 6);
       }
     } catch(e) { console.warn("OpenStates:", e.message); }
+
+    try {
+      setLoadMsg("Finding local elections...");
+      const CIVIC_KEY = import.meta.env.VITE_GOOGLE_CIVIC_API_KEY || "";
+      const civicUrl = "https://www.googleapis.com/civicinfo/v2/voterinfo?key=" + CIVIC_KEY + "&address=" + encodeURIComponent(fullAddr) + "&electionId=2000";
+      const rc = await fetch(civicUrl);
+      if (rc.ok) {
+        const dc = await rc.json();
+        const contests = dc.contests || [];
+        localElections = contests.filter(function(c) {
+          const t = (c.type || "").toLowerCase();
+          return t !== "federal" && t !== "state";
+        }).slice(0, 10);
+      } else {
+        // Fallback: use representatives endpoint for local officials
+        const repUrl = "https://www.googleapis.com/civicinfo/v2/representatives?key=" + CIVIC_KEY + "&address=" + encodeURIComponent(fullAddr) + "&levels=locality&levels=administrativeArea2&roles=legislatorLowerBody&roles=legislatorUpperBody&roles=schoolBoard";
+        const rr = await fetch(repUrl);
+        if (rr.ok) {
+          const dr = await rr.json();
+          const offices = dr.offices || [];
+          const officials = dr.officials || [];
+          localElections = offices.map(function(o) {
+            const reps = (o.officialIndices || []).map(function(idx) { return officials[idx]; }).filter(Boolean);
+            return { office: o.name, type: "local", candidates: reps.map(function(r) { return { name: r.name, party: r.party || "Unknown" }; }) };
+          }).filter(function(o) { return o.candidates.length > 0; });
+        }
+      }
+    } catch(e) { console.warn("Google Civic:", e.message); }
 
     try {
       setLoadMsg("Analyzing voting records...");
@@ -434,7 +471,7 @@ export default function App() {
       const ANTH_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY || ""; const resp = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
         headers: { "Content-Type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": ANTH_KEY, "anthropic-dangerous-direct-browser-access": "true" },
-        body: JSON.stringify({ model: "claude-sonnet-4-5", max_tokens: 3000, messages: [{ role: "user", content: buildPrompt(members, stateLeg, voteData) }] }),
+        body: JSON.stringify({ model: "claude-sonnet-4-5", max_tokens: 3500, messages: [{ role: "user", content: buildPrompt(members, stateLeg, voteData, localElections) }] }),
       });
 
       if (!resp.ok) {
