@@ -107,7 +107,61 @@ function scoreCandidate(votes) {
   return scores;
 }
 
-function parseSections(text) {
+const STATE_ELECTION_SITES = {
+    "AK": "https://elections.alaska.gov",
+    "AL": "https://www.sos.alabama.gov/alabama-votes",
+    "AR": "https://www.sos.arkansas.gov/elections",
+    "AZ": "https://azsos.gov/elections",
+    "CA": "https://www.sos.ca.gov/elections",
+    "CO": "https://www.coloradosos.gov/voter/pages/pub/home.xhtml",
+    "CT": "https://portal.ct.gov/SOTS/Election-Services/Election-Services-Home-Page",
+    "DC": "https://www.dcboe.org",
+    "DE": "https://elections.delaware.gov",
+    "FL": "https://dos.fl.gov/elections",
+    "GA": "https://sos.ga.gov/page/elections-division",
+    "HI": "https://elections.hawaii.gov",
+    "IA": "https://sos.iowa.gov/elections",
+    "ID": "https://sos.idaho.gov/elections-division",
+    "IL": "https://www.elections.il.gov",
+    "IN": "https://www.in.gov/sos/elections",
+    "KS": "https://www.sos.ks.gov/elections",
+    "KY": "https://elect.ky.gov",
+    "LA": "https://www.sos.la.gov/ElectionsAndVoting",
+    "MA": "https://www.sec.state.ma.us/ele",
+    "MD": "https://elections.maryland.gov",
+    "ME": "https://www.maine.gov/sos/cec/elec",
+    "MI": "https://mvic.sos.state.mi.us",
+    "MN": "https://www.sos.state.mn.us/elections-voting",
+    "MO": "https://www.sos.mo.gov/elections",
+    "MS": "https://www.sos.ms.gov/elections-voting",
+    "MT": "https://sosmt.gov/elections",
+    "NC": "https://www.ncsbe.gov",
+    "ND": "https://vip.sos.nd.gov",
+    "NE": "https://sos.nebraska.gov/elections",
+    "NH": "https://sos.nh.gov/elections",
+    "NJ": "https://www.njelections.org",
+    "NM": "https://www.sos.nm.gov/voting-and-elections",
+    "NV": "https://www.nvsos.gov/sos/elections",
+    "NY": "https://www.elections.ny.gov",
+    "OH": "https://www.ohiosos.gov/elections",
+    "OK": "https://www.ok.gov/elections",
+    "OR": "https://sos.oregon.gov/voting",
+    "PA": "https://www.vote.pa.gov",
+    "RI": "https://vote.sos.ri.gov",
+    "SC": "https://www.scvotes.gov",
+    "SD": "https://sdsos.gov/elections-voting",
+    "TN": "https://sos.tn.gov/elections",
+    "TX": "https://www.sos.state.tx.us/elections",
+    "UT": "https://vote.utah.gov",
+    "VA": "https://www.elections.virginia.gov",
+    "VT": "https://sos.vermont.gov/elections",
+    "WA": "https://www.sos.wa.gov/elections",
+    "WI": "https://elections.wi.gov",
+    "WV": "https://sos.wv.gov/elections",
+    "WY": "https://sos.wyo.gov/elections",
+  };
+
+  function parseSections(text) {
   const sections = [];
   let cur = null;
   const lines = text.split("\n");
@@ -402,7 +456,14 @@ export default function App() {
         }).join("\n\n")
       : "No voting record data available.";
 
-    return "You are a nonpartisan civic information assistant. Be specific, concise, and evidence-based. Every opinion about a candidate must have an inline citation immediately after it. The API data provided may sometimes miscategorize federal legislators as state legislators or vice versa. NOTE: As of June 2025, Aisha Braveboy is the Prince George's County Executive (not State's Attorney — that role is now held by Tara Jackson) — use the names provided and your own knowledge of their actual roles, voting records, and positions to produce accurate results. Never refuse to provide information about a named representative just because the API data appears miscategorized. If you can identify the representative by name, provide their full record.\n\nVOTER INFO:\nAddress: " + fullAddr + "\nState: " + addr.state + "\nRegistered: " + (registered ? "Yes" : "No/Unsure") + "\n\nFEDERAL REPS (Congress.gov):\n" + membersStr + "\n\nSTATE LEGISLATORS (OpenStates):\n" + stateStr + "\n\nVERIFIED ELECTION DATES (Democracy Works):\n" + dwStr + "\n\nSTATE VOTING URLS:\n" + dwUrlStr + "\n\nLOCAL OFFICIALS & ELECTIONS (Google Civic + your knowledge):\n" + localStr + "\n\nVOTING RECORD ALIGNMENT:\n" + voteStr + "\n\nVOTER PRIORITIES:\n" + issueList + "\n\nPRODUCE THESE SECTIONS. Be concise — 2-4 sentences per candidate max. Group related information together. No long paragraphs.\n\n## Your Districts\nOne clean list: Congressional district, State Senate district, State House district, County, City, School board district. No prose — just the list.\n## Federal Representatives\nFor each rep, cover ALL voter priorities listed above — not just the top 3. For each priority, include their position with an inline citation. Format:\n**[Name] — [Office] — Elected: [date elected] — Term ends: [date term ends]**\n- [Priority]: [Their position + inline citation]\n(repeat for every priority)\n\n## State Legislators\nSame format as Federal Representatives.\n\n## Local Elections\nUsing the local data provided OR your own knowledge for this address, list current officeholders and upcoming races for county, city, school board, and other local offices. For each:\n**[Name] ([Party]) — [Office] — Elected: [date] — Term ends: [date]**\n- [Priority]: [Known position on voter priorities + inline citation if available]\nIf no data is available for an office, use your best knowledge for this specific address.\n\n## Questions to Ask\nFor EVERY voter priority listed above, provide 2 sharp, specific questions a voter should ask their representatives. Format:\n**[Priority name]**\n- [Question]\n- [Question]\n\n## Election Dates\nIf verified Democracy Works data is provided above, use it to list upcoming elections with dates, registration deadlines, voting methods, early voting windows, and polling place lookup URLs. If no verified data is available, use your own knowledge to list the next primary date, general election date, voter registration deadline, and early voting window for this state. Always produce this section.\n\nCITATION RULES:\n- Every factual claim about a candidate gets an inline citation in parentheses immediately after the claim\n- Format: (Bill name/number, vote direction, date) or (Source name, date) or (Official statement, date)\n- Never group citations at the end — they go right next to the claim they support\n- If you cannot cite a claim, do not make it\n- For each candidate, list every issue you can find a position on. For issues with no voting record, bill sponsorship, or public statement, do not scatter 'No recorded position' entries throughout — instead group all issues with no recorded position together at the end of that candidate's section under a single line: **No recorded position found on:** [comma-separated list of issues]. Do not infer positions based on party affiliation or related votes. Never include notes, disclaimers, or explanations about data sources, API categorization, or district mapping — just present the information directly. CRITICAL: Every bold header MUST start with the person's name. CORRECT: **Angela Alsobrooks -- County Executive -- Elected: 2018 -- Term ends: December 2026**. WRONG: **County Executive -- Angela Alsobrooks -- ...**. NEVER put the office before the name. No padding. No repetition.";
+    return "You are a nonpartisan civic information assistant. Be specific, concise, and evidence-based. Every opinion about a candidate must have an inline citation immediately after it.
+
+IMPORTANT DATA RULES:
+1. SOURCE PRIORITY: Always prioritize data from the APIs provided (Congress.gov, OpenStates, Google Civic) over your own training knowledge. Only use your knowledge to fill gaps.
+2. STALE DATA WARNING: Your training has a cutoff date. For any official whose term may have ended or where an election occurred after November 2024, add "(Verify current status)" after their name.
+3. NEVER ASSUME INCUMBENCY: If an election occurred for this office since November 2024, note that the current officeholder should be verified.
+4. CITE RECENCY: Every factual claim must include an inline citation with the source and date. If you cannot cite something with a date, do not state it as fact.
+5. TERM AWARENESS: If a term end date has already passed, flag the entry as "Term ended [date] — current officeholder unverified." The API data provided may sometimes miscategorize federal legislators as state legislators or vice versa. NOTE: As of June 2025, Aisha Braveboy is the Prince George's County Executive (not State's Attorney — that role is now held by Tara Jackson) — use the names provided and your own knowledge of their actual roles, voting records, and positions to produce accurate results. Never refuse to provide information about a named representative just because the API data appears miscategorized. If you can identify the representative by name, provide their full record.\n\nVOTER INFO:\nAddress: " + fullAddr + "\nState: " + addr.state + "\nRegistered: " + (registered ? "Yes" : "No/Unsure") + "\n\nFEDERAL REPS (Congress.gov):\n" + membersStr + "\n\nSTATE LEGISLATORS (OpenStates):\n" + stateStr + "\n\nVERIFIED ELECTION DATES (Democracy Works):\n" + dwStr + "\n\nSTATE VOTING URLS:\n" + dwUrlStr + "\n\nLOCAL OFFICIALS & ELECTIONS (Google Civic + your knowledge):\n" + localStr + "\n\nVOTING RECORD ALIGNMENT:\n" + voteStr + "\n\nVOTER PRIORITIES:\n" + issueList + "\n\nPRODUCE THESE SECTIONS. Be concise — 2-4 sentences per candidate max. Group related information together. No long paragraphs.\n\n## Your Districts\nOne clean list: Congressional district, State Senate district, State House district, County, City, School board district. No prose — just the list.\n## Federal Representatives\nFor each rep, cover ALL voter priorities listed above — not just the top 3. For each priority, include their position with an inline citation. Format:\n**[Name] — [Office] — Elected: [date elected] — Term ends: [date term ends]**\n- [Priority]: [Their position + inline citation]\n(repeat for every priority)\n\n## State Legislators\nSame format as Federal Representatives.\n\n## Local Elections\nUsing the local data provided OR your own knowledge for this address, list current officeholders and upcoming races for county, city, school board, and other local offices. For each:\n**[Name] ([Party]) — [Office] — Elected: [date] — Term ends: [date]**\n- [Priority]: [Known position on voter priorities + inline citation if available]\nIf no data is available for an office, use your best knowledge for this specific address.\n\n## Questions to Ask\nFor EVERY voter priority listed above, provide 2 sharp, specific questions a voter should ask their representatives. Format:\n**[Priority name]**\n- [Question]\n- [Question]\n\n## Election Dates\nIf verified Democracy Works data is provided above, use it to list upcoming elections with dates, registration deadlines, voting methods, early voting windows, and polling place lookup URLs. If no verified data is available, use your own knowledge to list the next primary date, general election date, voter registration deadline, and early voting window for this state. Always produce this section.\n\nCITATION RULES:\n- Every factual claim about a candidate gets an inline citation in parentheses immediately after the claim\n- Format: (Bill name/number, vote direction, date) or (Source name, date) or (Official statement, date)\n- Never group citations at the end — they go right next to the claim they support\n- If you cannot cite a claim, do not make it\n- For each candidate, list every issue you can find a position on. For issues with no voting record, bill sponsorship, or public statement, do not scatter 'No recorded position' entries throughout — instead group all issues with no recorded position together at the end of that candidate's section under a single line: **No recorded position found on:** [comma-separated list of issues]. Do not infer positions based on party affiliation or related votes. Never include notes, disclaimers, or explanations about data sources, API categorization, or district mapping — just present the information directly. CRITICAL: Every bold header MUST start with the person's name. CORRECT: **Angela Alsobrooks -- County Executive -- Elected: 2018 -- Term ends: December 2026**. WRONG: **County Executive -- Angela Alsobrooks -- ...**. NEVER put the office before the name. No padding. No repetition.";
   }
 
   
@@ -870,6 +931,11 @@ export default function App() {
 
               <div style={{ fontFamily:FF_SYNE, fontSize:"15px", color:"#aaa" }}>
                 {[addr.city, addr.state].filter(Boolean).join(", ")}
+              </div>
+
+              <div style={{ background:"#1a1a1a", border:"1px solid #333", borderRadius:"6px", padding:"12px 16px", fontSize:"12px", color:"#999", lineHeight:1.6, marginTop:"4px" }}>
+                AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your
+                {" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#C8F97A", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
               </div>
 
               <Tabs sections={parseSections(results)} photos={photos} />
