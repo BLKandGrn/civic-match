@@ -498,6 +498,25 @@ export default function App() {
       const text = data.content.filter(function(b) { return b.type === "text"; }).map(function(b) { return b.text; }).join("\n");
       if (!text.trim()) throw new Error("No text returned.");
       setResults(text);
+
+      // Extract candidate names from bold headers in AI output and fetch missing photos
+      const boldNames = [];
+      const boldMatches = text.match(/\*\*([^*—]+?)(?:—|\*\*)/g) || [];
+      boldMatches.forEach(function(m) {
+        const name = m.replace(/\*\*/g, "").replace(/—.*/, "").trim();
+        if (name.length > 3 && name.length < 40 && !name.includes(":") && !name.includes("Match")) {
+          boldNames.push(name);
+        }
+      });
+      const newPhotoMap = Object.assign({}, photoMap);
+      await Promise.all(boldNames.map(async function(name) {
+        if (!newPhotoMap[name]) {
+          const p = await fetchWikiPhoto(name);
+          if (p) newPhotoMap[name] = p;
+        }
+      }));
+      setPhotos(newPhotoMap);
+
       go(4);
     } catch(e) {
       console.error(e);
