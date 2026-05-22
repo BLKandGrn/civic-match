@@ -294,7 +294,7 @@ function RegRegisterPanel(props) {
 
 export default function App() {
   const [step, setStep] = useState(0);
-  const [priorities, setPriorities] = useState({});
+  const [priorities, setPriorities] = useState(Object.fromEntries(ISSUES.map(function(i) { return [i.id, 3]; })));
   const [addr, setAddr] = useState({ street:"", city:"", state:"", zip:"" });
   const [registered, setRegistered] = useState(null);
   const [regStatus, setRegStatus] = useState(null); // "confirmed" | "need-to-register" | "need-to-check"
@@ -481,7 +481,7 @@ export default function App() {
                   return <div key={f} style={{ display:"flex", alignItems:"center", gap:"10px", fontSize:"14px", color:"#ccc", fontFamily:FF_SYNE }}><span style={{ width:"6px", height:"6px", borderRadius:"50%", background:"#C8F97A", flexShrink:0, display:"block" }} />{f}</div>;
                 })}
               </div>
-              <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} onClick={function() { go(1); }}>Get Started</button>
+              <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} onClick={function() { go(2); }}>Get Started</button>
             </div>
           )}
 
@@ -543,7 +543,7 @@ export default function App() {
                   <span style={{ fontFamily:FF_SYNE, fontSize:"10px", color:"#555", background:"#1e1e1e", padding:"2px 8px", borderRadius:"20px" }}>Optional</span>
                 </div>
                 <input style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"4px", padding:"14px 16px", fontSize:"16px", color:"#f0f0f0", fontFamily:FF_NEWS2, width:"100%" }}
-                  autoComplete="off" placeholder="123 Main St" value={addr.street}
+                  autoComplete="street-address" placeholder="123 Main St" value={addr.street}
                   onChange={function(e) { const v = e.target.value; setAddr(function(a) { return { street:v, city:a.city, state:a.state, zip:a.zip }; }); }} />
               </div>
 
