@@ -496,12 +496,17 @@ export default function App() {
 
       // Extract candidate names from bold headers in AI output and fetch missing photos
       const boldNames = [];
-      const boldMatches = text.match(/\*\*([^*
-]+?)(?:\s*—|\*\*)/g) || [];
-      boldMatches.forEach(function(m) {
-        const name = m.replace(/\*\*/g, "").replace(/\s*—.*/, "").trim();
-        if (name.length > 3 && name.length < 50 && !name.includes(":") && !name.includes("Match") && !name.includes("recorded") && /[A-Z]/.test(name)) {
-          boldNames.push(name);
+      text.split("
+").forEach(function(line) {
+        if (line.indexOf("**") === 0) {
+          const afterBold = line.slice(2);
+          const dashIdx = afterBold.indexOf(" —");
+          const endBold = afterBold.indexOf("**");
+          const cutIdx = dashIdx > 0 ? dashIdx : endBold > 0 ? endBold : afterBold.length;
+          const name = afterBold.slice(0, cutIdx).trim();
+          if (name.length > 3 && name.length < 50 && name.indexOf(":") < 0 && name.indexOf("Match") < 0 && name.indexOf("recorded") < 0) {
+            boldNames.push(name);
+          }
         }
       });
       console.log("Extracted candidate names:", boldNames);
