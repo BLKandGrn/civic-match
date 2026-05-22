@@ -379,8 +379,7 @@ export default function App() {
       : "No verified election data available for this state.";
 
     const dwUrlStr = dwStateUrls
-      ? (dwStateUrls["voter-registration-status-url"] ? "Registration Status: " + dwStateUrls["voter-registration-status-url"] + "\n" : "")
-        + (dwStateUrls["local-election-authority-lookup-url"] ? "Local Election Authority: " + dwStateUrls["local-election-authority-lookup-url"] : "")
+      ? (dwStateUrls["local-election-authority-lookup-url"] ? "Local Election Authority: " + dwStateUrls["local-election-authority-lookup-url"] : "")
       : "";
 
     const localStr = localElections && localElections.length
