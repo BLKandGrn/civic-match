@@ -364,10 +364,9 @@ export default function App() {
   function isPersonPage(d) {
     const desc = (d.description || "").toLowerCase();
     const extract = (d.extract || "").toLowerCase();
-    const personWords = ["politician", "representative", "senator", "mayor", "council", "legislator", "governor", "official", "born", "american", "served", "elected", "attorney", "judge", "commissioner", "delegate"];
-    const nonPersonWords = ["building", "stadium", "arena", "school", "university", "college", "hospital", "church", "park", "bridge", "street", "avenue", "district", "county", "city of", "town of"];
-    if (nonPersonWords.some(function(w) { return desc.includes(w) || extract.slice(0,200).includes(w); })) return false;
-    return personWords.some(function(w) { return desc.includes(w) || extract.slice(0,300).includes(w); });
+    // Only reject clearly non-person pages
+    const nonPersonWords = ["building", "stadium", "arena", "hospital", "bridge", "city of", "town of", "county seat", "nonprofit", "organization", "company", "corporation"];
+    return !nonPersonWords.some(function(w) { return desc.includes(w) || extract.slice(0, 150).includes(w); });
   }
 
   async function fetchWikiPhoto(name) {
