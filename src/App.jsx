@@ -496,8 +496,7 @@ export default function App() {
 
       // Extract candidate names from bold headers in AI output and fetch missing photos
       const boldNames = [];
-      text.split("
-").forEach(function(line) {
+      text.split("\n").forEach(function(line) {
         if (line.indexOf("**") === 0) {
           const afterBold = line.slice(2);
           const dashIdx = afterBold.indexOf(" —");
