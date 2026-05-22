@@ -407,11 +407,18 @@ export default function App() {
 
   
   function isPersonPage(d) {
+    // Wikipedia returns type="standard" for biographical pages
+    if (d.type && d.type !== "standard") return false;
     const desc = (d.description || "").toLowerCase();
     const extract = (d.extract || "").toLowerCase();
-    // Only reject clearly non-person pages
-    const nonPersonWords = ["building", "stadium", "arena", "hospital", "bridge", "city of", "town of", "county seat", "nonprofit", "organization", "company", "corporation"];
-    return !nonPersonWords.some(function(w) { return desc.includes(w) || extract.slice(0, 150).includes(w); });
+    // Reject if description clearly identifies a non-person entity
+    const nonPersonWords = ["building", "stadium", "arena", "hospital", "bridge", "city of", "town of", "county seat", "nonprofit", "organization", "company", "corporation", "founded in", "is a city", "is a town", "is a county", "is a district", "is a school"];
+    if (nonPersonWords.some(function(w) { return desc.includes(w) || extract.slice(0, 200).includes(w); })) return false;
+    // Reject if the thumbnail URL looks like architecture/landscape (contains common non-portrait signals)
+    const thumb = (d.thumbnail && d.thumbnail.source) ? d.thumbnail.source.toLowerCase() : "";
+    const nonPortraitPatterns = ["building", "courthouse", "capitol", "skyline", "aerial", "campus", "stadium", "hospital", "bridge", "church", "map", "flag", "seal", "logo", "coat_of_arms"];
+    if (nonPortraitPatterns.some(function(p) { return thumb.includes(p); })) return false;
+    return true;
   }
 
   async function fetchWikiPhoto(name) {
@@ -531,10 +538,7 @@ export default function App() {
       ...members.map(function(m) { return m.name; }),
       ...stateLeg.map(function(l) { return l.name; })
     ];
-    const photoMap = {
-      "Aisha Braveboy": "https://www.princegeorgescountymd.gov/sites/default/files/styles/coh_small/public/2025-07/CE%20Braveboy%20Official%20Photo.jpg",
-      "Aisha N. Braveboy": "https://www.princegeorgescountymd.gov/sites/default/files/styles/coh_small/public/2025-07/CE%20Braveboy%20Official%20Photo.jpg",
-    };
+    const photoMap = {};
     await Promise.all(allNames.map(async function(name) {
       const p = await fetchWikiPhoto(name);
       if (p) photoMap[name] = p;
