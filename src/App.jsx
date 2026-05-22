@@ -465,13 +465,17 @@ export default function App() {
       ...members.map(function(m) { return m.name; }),
       ...stateLeg.map(function(l) { return l.name; })
     ];
-    // Also add well-known federal reps that may be miscategorized in API data
-    const extraNames = ["Steny Hoyer", "Chris Van Hollen", "Angela Alsobrooks", "Ben Cardin", "Todd Turner", "Juanita Miller", "Melony Griffith"];
+    const extraNames = ["Steny Hoyer", "Chris Van Hollen", "Angela Alsobrooks", "Ben Cardin", "Melony Griffith"];
     const allNamesDeduped = [...new Set([...allNames, ...extraNames])];
-    const photoMap = {};
+    const photoMap = {
+      "Todd Turner": "https://www.princegeorgescountymd.gov/sites/default/files/styles/coh_small/public/media-image/Todd%20M.%20Turner%2C%20Esq..jpg",
+      "Todd M. Turner": "https://www.princegeorgescountymd.gov/sites/default/files/styles/coh_small/public/media-image/Todd%20M.%20Turner%2C%20Esq..jpg",
+    };
     await Promise.all(allNamesDeduped.map(async function(name) {
-      const p = await fetchWikiPhoto(name);
-      if (p) photoMap[name] = p;
+      if (!photoMap[name]) {
+        const p = await fetchWikiPhoto(name);
+        if (p) photoMap[name] = p;
+      }
     }));
     setPhotos(photoMap);
 
