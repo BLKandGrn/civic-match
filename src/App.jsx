@@ -361,20 +361,29 @@ export default function App() {
   }
 
   
+  function isPersonPage(d) {
+    const desc = (d.description || "").toLowerCase();
+    const extract = (d.extract || "").toLowerCase();
+    const personWords = ["politician", "representative", "senator", "mayor", "council", "legislator", "governor", "official", "born", "american", "served", "elected", "attorney", "judge", "commissioner", "delegate"];
+    const nonPersonWords = ["building", "stadium", "arena", "school", "university", "college", "hospital", "church", "park", "bridge", "street", "avenue", "district", "county", "city of", "town of"];
+    if (nonPersonWords.some(function(w) { return desc.includes(w) || extract.slice(0,200).includes(w); })) return false;
+    return personWords.some(function(w) { return desc.includes(w) || extract.slice(0,300).includes(w); });
+  }
+
   async function fetchWikiPhoto(name) {
     try {
       const q = encodeURIComponent(name.replace(/ /g, "_"));
       const r = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + q);
       if (r.ok) {
         const d = await r.json();
-        if (d.thumbnail && d.thumbnail.source) return d.thumbnail.source;
+        if (d.thumbnail && d.thumbnail.source && isPersonPage(d)) return d.thumbnail.source;
       }
       // Try with disambiguation terms
-      for (const suffix of [" politician", " U.S. Representative", " senator", " congressman"]) {
+      for (const suffix of [" politician", " U.S. Representative", " senator", " congressman", " council member"]) {
         const rs = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent((name + suffix).replace(/ /g, "_")));
         if (rs.ok) {
           const ds = await rs.json();
-          if (ds.thumbnail && ds.thumbnail.source) return ds.thumbnail.source;
+          if (ds.thumbnail && ds.thumbnail.source && isPersonPage(ds)) return ds.thumbnail.source;
         }
       }
       const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(name + " politician") + "&format=json&origin=*&srlimit=1");
@@ -385,7 +394,7 @@ export default function App() {
       const r2 = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(title.replace(/ /g, "_")));
       if (!r2.ok) return null;
       const d2 = await r2.json();
-      return (d2.thumbnail && d2.thumbnail.source) ? d2.thumbnail.source : null;
+      return (d2.thumbnail && d2.thumbnail.source && isPersonPage(d2)) ? d2.thumbnail.source : null;
     } catch(e) { return null; }
   }
 
