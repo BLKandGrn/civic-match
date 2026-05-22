@@ -157,7 +157,8 @@ function renderLine(line, i, photos) {
     return lastName.length > 3 && tLower.indexOf(lastName.toLowerCase()) >= 0;
   });
   const photoUrl = nameKey ? photos[nameKey] : null;
-  if (photoUrl && !strong && !partial && !low) {
+  const isCandidateHeader = t.indexOf("**") === 0 && t.indexOf(" — ") >= 0;
+  if (photoUrl && !strong && !partial && !low && isCandidateHeader) {
     return (
       <div key={i} style={{ display:"flex", alignItems:"center", gap:"12px", marginTop:"16px", marginBottom:"4px" }}>
         <img src={photoUrl} alt={nameKey} style={{ width:"48px", height:"48px", borderRadius:"50%", objectFit:"cover", flexShrink:0 }} />
