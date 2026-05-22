@@ -927,8 +927,7 @@ export default function App() {
               </div>
 
               <div style={{ background:"#1a1a1a", border:"1px solid #333", borderRadius:"6px", padding:"12px 16px", fontSize:"12px", color:"#999", lineHeight:1.6, marginTop:"4px" }}>
-                AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your
-                {" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#C8F97A", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
+                AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#C8F97A", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
               </div>
 
               <Tabs sections={parseSections(results)} photos={photos} />
