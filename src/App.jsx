@@ -413,9 +413,8 @@ export default function App() {
 
     try {
       setLoadMsg("Finding local elections...");
-      const CIVIC_KEY = import.meta.env.VITE_GOOGLE_CIVIC_API_KEY || "";
-      const civicUrl = "https://www.googleapis.com/civicinfo/v2/voterinfo?key=" + CIVIC_KEY + "&address=" + encodeURIComponent(fullAddr) + "&electionId=2000";
-      const rc = await fetch(civicUrl);
+      // Try voter info first (active elections)
+      const rc = await fetch(PROXY + "?endpoint=elections&address=" + encodeURIComponent(fullAddr));
       if (rc.ok) {
         const dc = await rc.json();
         const contests = dc.contests || [];
@@ -423,19 +422,22 @@ export default function App() {
           const t = (c.type || "").toLowerCase();
           return t !== "federal" && t !== "state";
         }).slice(0, 10);
-      } else {
-        // Fallback: use representatives endpoint for local officials
-        const repUrl = "https://www.googleapis.com/civicinfo/v2/representatives?key=" + CIVIC_KEY + "&address=" + encodeURIComponent(fullAddr) + "&levels=locality&levels=administrativeArea2&roles=legislatorLowerBody&roles=legislatorUpperBody&roles=schoolBoard";
-        const rr = await fetch(repUrl);
-        if (rr.ok) {
-          const dr = await rr.json();
-          const offices = dr.offices || [];
-          const officials = dr.officials || [];
-          localElections = offices.map(function(o) {
-            const reps = (o.officialIndices || []).map(function(idx) { return officials[idx]; }).filter(Boolean);
-            return { office: o.name, type: "local", candidates: reps.map(function(r) { return { name: r.name, party: r.party || "Unknown" }; }) };
-          }).filter(function(o) { return o.candidates.length > 0; });
-        }
+      }
+      // Always also fetch local representatives
+      const rr = await fetch(PROXY + "?address=" + encodeURIComponent(fullAddr));
+      if (rr.ok) {
+        const dr = await rr.json();
+        const offices = dr.offices || [];
+        const officials = dr.officials || [];
+        const localOffices = offices.filter(function(o) {
+          const lvl = (o.levels || []).join(",").toLowerCase();
+          return lvl.includes("locality") || lvl.includes("administrativearea2") || lvl.includes("regional") || lvl.includes("special");
+        });
+        const localReps = localOffices.map(function(o) {
+          const reps = (o.officialIndices || []).map(function(idx) { return officials[idx]; }).filter(Boolean);
+          return { office: o.name, type: "local", candidates: reps.map(function(r) { return { name: r.name, party: r.party || "Unknown" }; }) };
+        }).filter(function(o) { return o.candidates.length > 0; });
+        if (localReps.length > 0) localElections = [...localElections, ...localReps];
       }
     } catch(e) { console.warn("Google Civic:", e.message); }
 
