@@ -377,7 +377,18 @@ export default function App() {
       const r1 = await fetch(PROXY + "?endpoint=congress-members&state=" + addr.state.toUpperCase());
       if (r1.ok) {
         const d = await r1.json();
-        members = (d.members || []).filter(function(m) { return m.state && m.state.toUpperCase() === addr.state.toUpperCase(); }).slice(0, 6);
+        members = (d.members || []).filter(function(m) {
+          if (!m.state || m.state.toUpperCase() !== addr.state.toUpperCase()) return false;
+          if (m.terms && m.terms.item) {
+            const terms = Array.isArray(m.terms.item) ? m.terms.item : [m.terms.item];
+            const lastTerm = terms[terms.length - 1];
+            if (lastTerm && lastTerm.endYear) {
+              const endYear = parseInt(lastTerm.endYear);
+              if (endYear < 2025) return false;
+            }
+          }
+          return true;
+        }).slice(0, 6);
       }
     } catch(e) { console.warn("Congress:", e.message); }
 
