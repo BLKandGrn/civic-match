@@ -148,15 +148,24 @@ function renderLine(line, i, photos) {
   const strong = t.indexOf("**Strong Match**") >= 0;
   const partial = t.indexOf("**Partial Match**") >= 0;
   const low = t.indexOf("**Low Match**") >= 0;
+  const nameKey = photos && Object.keys(photos).find(function(k) { return t.indexOf(k) >= 0; });
+  const photoUrl = nameKey ? photos[nameKey] : null;
+  if (photoUrl && !strong && !partial && !low) {
+    return (
+      <div key={i} style={{ display:"flex", alignItems:"center", gap:"12px", marginTop:"16px", marginBottom:"4px" }}>
+        <img src={photoUrl} alt={nameKey} style={{ width:"48px", height:"48px", borderRadius:"50%", objectFit:"cover", flexShrink:0 }} />
+        <span style={{ fontSize:"16px", color:"#f0f0f0", fontFamily:"FF_NEWS2", lineHeight:1.3 }} dangerouslySetInnerHTML={{ __html: styleCitations(t) }} />
+      </div>
+    );
+  }
   if (strong || partial || low) {
-    const nameKey = photos && Object.keys(photos).find(function(k) { return t.indexOf(k) >= 0; });
-    const photoUrl = nameKey ? photos[nameKey] : null;
+    const photoUrl2 = photoUrl;
     const badge = strong ? "Strong Match" : partial ? "Partial Match" : "Low Match";
     const color = strong ? "#C8F97A" : partial ? "#F9C87A" : "#ff8080";
     const rest = t.replace("**" + badge + "**", "").trim();
     return (
       <div key={i} style={{ display:"flex", alignItems:"flex-start", gap:"10px", flexWrap:"wrap", marginBottom:"4px" }}>
-        {photoUrl ? <img src={photoUrl} alt={nameKey} style={{ width:"40px", height:"40px", borderRadius:"50%", objectFit:"cover", flexShrink:0, marginTop:"2px" }} /> : null}
+        {photoUrl2 ? <img src={photoUrl2} alt={nameKey} style={{ width:"40px", height:"40px", borderRadius:"50%", objectFit:"cover", flexShrink:0, marginTop:"2px" }} /> : null}
         <span style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"10px", letterSpacing:".08em", padding:"3px 8px", borderRadius:"3px", whiteSpace:"nowrap", flexShrink:0, marginTop:"2px", background:color, color:"#0e0e0e" }}>{badge}</span>
         <span dangerouslySetInnerHTML={{ __html: styleCitations(rest) }} />
       </div>
