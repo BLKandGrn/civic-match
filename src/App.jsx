@@ -419,7 +419,7 @@ export default function App() {
 
     try {
       setLoadMsg("Finding local elections...");
-      const rr = await fetch(PROXY + "?address=" + encodeURIComponent(fullAddr));
+      const rr = await fetch(PROXY + "?endpoint=representatives&address=" + encodeURIComponent(fullAddr));
       if (rr.ok) {
         const dr = await rr.json();
         const offices = dr.offices || [];
