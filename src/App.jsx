@@ -419,22 +419,25 @@ export default function App() {
 
     try {
       setLoadMsg("Finding local elections...");
-      // Fetch all representatives via Google Civic
       const rr = await fetch(PROXY + "?address=" + encodeURIComponent(fullAddr));
       if (rr.ok) {
         const dr = await rr.json();
         const offices = dr.offices || [];
         const officials = dr.officials || [];
-        // Separate local from federal/state
+        console.log("Google Civic offices:", offices.map(function(o) { return o.name + " | " + JSON.stringify(o.levels); }));
         const localOffices = offices.filter(function(o) {
           const lvl = (o.levels || []).join(",").toLowerCase();
           return !lvl.includes("country") && !lvl.includes("administrativearea1");
         });
+        console.log("Local offices after filter:", localOffices.map(function(o) { return o.name; }));
         const localReps = localOffices.map(function(o) {
           const reps = (o.officialIndices || []).map(function(idx) { return officials[idx]; }).filter(Boolean);
           return { office: o.name, type: "local", candidates: reps.map(function(r) { return { name: r.name, party: r.party || "Unknown" }; }) };
         }).filter(function(o) { return o.candidates.length > 0; });
+        console.log("Local reps:", localReps);
         if (localReps.length > 0) localElections = localReps;
+      } else {
+        console.warn("Google Civic response not ok:", rr.status);
       }
     } catch(e) { console.warn("Google Civic:", e.message); }
 
