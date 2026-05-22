@@ -368,13 +368,7 @@ export default function App() {
         const d = await r.json();
         if (d.thumbnail && d.thumbnail.source) return d.thumbnail.source;
       }
-      // Try with Maryland context for local officials
-      const rmd = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent((name + "_Maryland").replace(/ /g, "_")));
-      if (rmd.ok) {
-        const dmd = await rmd.json();
-        if (dmd.thumbnail && dmd.thumbnail.source) return dmd.thumbnail.source;
-      }
-      const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(name + " politician Maryland") + "&format=json&origin=*&srlimit=1");
+      const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(name + " politician") + "&format=json&origin=*&srlimit=1");
       if (!s.ok) return null;
       const sd = await s.json();
       const title = sd.query && sd.query.search && sd.query.search[0] && sd.query.search[0].title;
@@ -465,17 +459,10 @@ export default function App() {
       ...members.map(function(m) { return m.name; }),
       ...stateLeg.map(function(l) { return l.name; })
     ];
-    const extraNames = ["Steny Hoyer", "Chris Van Hollen", "Angela Alsobrooks", "Ben Cardin", "Melony Griffith"];
-    const allNamesDeduped = [...new Set([...allNames, ...extraNames])];
-    const photoMap = {
-      "Todd Turner": "https://www.princegeorgescountymd.gov/sites/default/files/styles/coh_small/public/media-image/Todd%20M.%20Turner%2C%20Esq..jpg",
-      "Todd M. Turner": "https://www.princegeorgescountymd.gov/sites/default/files/styles/coh_small/public/media-image/Todd%20M.%20Turner%2C%20Esq..jpg",
-    };
-    await Promise.all(allNamesDeduped.map(async function(name) {
-      if (!photoMap[name]) {
-        const p = await fetchWikiPhoto(name);
-        if (p) photoMap[name] = p;
-      }
+    const photoMap = {};
+    await Promise.all(allNames.map(async function(name) {
+      const p = await fetchWikiPhoto(name);
+      if (p) photoMap[name] = p;
     }));
     setPhotos(photoMap);
 
