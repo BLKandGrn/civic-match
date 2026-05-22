@@ -368,7 +368,13 @@ export default function App() {
         const d = await r.json();
         if (d.thumbnail && d.thumbnail.source) return d.thumbnail.source;
       }
-      const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(name + " politician") + "&format=json&origin=*&srlimit=1");
+      // Try with Maryland context for local officials
+      const rmd = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent((name + "_Maryland").replace(/ /g, "_")));
+      if (rmd.ok) {
+        const dmd = await rmd.json();
+        if (dmd.thumbnail && dmd.thumbnail.source) return dmd.thumbnail.source;
+      }
+      const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(name + " politician Maryland") + "&format=json&origin=*&srlimit=1");
       if (!s.ok) return null;
       const sd = await s.json();
       const title = sd.query && sd.query.search && sd.query.search[0] && sd.query.search[0].title;
@@ -460,7 +466,7 @@ export default function App() {
       ...stateLeg.map(function(l) { return l.name; })
     ];
     // Also add well-known federal reps that may be miscategorized in API data
-    const extraNames = ["Steny Hoyer", "Chris Van Hollen", "Angela Alsobrooks", "Ben Cardin"];
+    const extraNames = ["Steny Hoyer", "Chris Van Hollen", "Angela Alsobrooks", "Ben Cardin", "Todd Turner", "Juanita Miller", "Melony Griffith"];
     const allNamesDeduped = [...new Set([...allNames, ...extraNames])];
     const photoMap = {};
     await Promise.all(allNamesDeduped.map(async function(name) {
