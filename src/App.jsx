@@ -531,7 +531,10 @@ export default function App() {
       ...members.map(function(m) { return m.name; }),
       ...stateLeg.map(function(l) { return l.name; })
     ];
-    const photoMap = {};
+    const photoMap = {
+      "Aisha Braveboy": "https://www.princegeorgescountymd.gov/sites/default/files/styles/coh_small/public/2025-07/CE%20Braveboy%20Official%20Photo.jpg",
+      "Aisha N. Braveboy": "https://www.princegeorgescountymd.gov/sites/default/files/styles/coh_small/public/2025-07/CE%20Braveboy%20Official%20Photo.jpg",
+    };
     await Promise.all(allNames.map(async function(name) {
       const p = await fetchWikiPhoto(name);
       if (p) photoMap[name] = p;
