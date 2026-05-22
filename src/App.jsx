@@ -226,7 +226,8 @@ function Tabs(props) {
           );
         })}
       </div>
-      <div style={{ background:"#141414", border:"1px solid #222", borderRadius:"6px", padding:"22px", display:"flex", flexDirection:"column", gap:"14px", marginTop:"0" }}>
+      {/* Screen view: single active tab */}
+      <div className="screen-only" style={{ background:"#141414", border:"1px solid #222", borderRadius:"6px", padding:"22px", display:"flex", flexDirection:"column", gap:"14px", marginTop:"0" }}>
         <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", letterSpacing:".08em", color:"#C8F97A", textTransform:"uppercase", paddingBottom:"10px", borderBottom:"1px solid #1e1e1e" }}>{cur.heading}</div>
         <div style={{ display:"flex", flexDirection:"column", gap:"8px" }}>
           {cur.body.map(function(line, i) { return renderLine(line, i, props.photos); })}
@@ -245,6 +246,19 @@ function Tabs(props) {
             </button>
           )}
         </div>
+      </div>
+      {/* Print view: all sections expanded */}
+      <div className="print-only">
+        {secs.map(function(sec, si) {
+          return (
+            <div key={si} style={{ marginBottom:"24px", pageBreakInside:"avoid" }}>
+              <div style={{ fontWeight:700, fontSize:"14px", textTransform:"uppercase", paddingBottom:"8px", borderBottom:"1px solid #ccc", marginBottom:"12px" }}>{sec.heading}</div>
+              <div style={{ display:"flex", flexDirection:"column", gap:"6px" }}>
+                {sec.body.map(function(line, i) { return renderLine(line, i, props.photos); })}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
@@ -552,13 +566,16 @@ export default function App() {
         button.cta{transition:all .18s ease;cursor:pointer;border:none;}
         button.cta:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(200,249,122,.25);}
         button.cta:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none;}
+        .print-only{display:none;}
         @media print{
-          body{background:#fff!important;color:#000!important;}
-          .no-print{display:none!important;}
+          .screen-only{display:none!important;}
+          .print-only{display:block!important;}
+          body{background:#fff!important;color:#000!important;font-size:11px!important;}
           button{display:none!important;}
-          nav,header{display:none!important;}
-          *{color:#000!important;background:#fff!important;border-color:#ccc!important;}
-          img{max-width:40px!important;}
+          *{color:#000!important;background:#fff!important;border-color:#ccc!important;box-shadow:none!important;}
+          img{width:36px!important;height:36px!important;border-radius:50%!important;}
+          h2{font-size:20px!important;}
+          div[style*="gap"]{gap:4px!important;}
         }
         input:focus{outline:none;border-color:#C8F97A!important;}
         a{color:#C8F97A;}
