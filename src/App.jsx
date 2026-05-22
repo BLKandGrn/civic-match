@@ -149,7 +149,13 @@ function renderLine(line, i, photos) {
   const strong = t.indexOf("**Strong Match**") >= 0;
   const partial = t.indexOf("**Partial Match**") >= 0;
   const low = t.indexOf("**Low Match**") >= 0;
-  const nameKey = photos && Object.keys(photos).find(function(k) { return t.indexOf(k) >= 0; });
+  const tLower = t.toLowerCase();
+  const nameKey = photos && Object.keys(photos).find(function(k) {
+    if (tLower.indexOf(k.toLowerCase()) >= 0) return true;
+    // Also match on last name alone (e.g. "Griffith" matches "Melony Griffith")
+    const lastName = k.split(" ").pop();
+    return lastName.length > 3 && tLower.indexOf(lastName.toLowerCase()) >= 0;
+  });
   const photoUrl = nameKey ? photos[nameKey] : null;
   if (photoUrl && !strong && !partial && !low) {
     return (
