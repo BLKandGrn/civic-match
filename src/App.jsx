@@ -365,26 +365,17 @@ export default function App() {
           const earlyEnd = earlyVoting && earlyVoting["end-date"] ? earlyVoting["end-date"].slice(0, 10) : "";
           const pollingUrl = e["polling-place-url"] || "";
           const sampleBallot = e["website"] || "";
-          return "Election: " + desc + "
-Date: " + date
-            + (regDeadline ? "
-Registration Deadline: " + regDeadline : "")
-            + (vmethods ? "
-Voting Methods: " + vmethods : "")
-            + (earlyStart ? "
-Early Voting: " + earlyStart + " to " + earlyEnd : "")
-            + (pollingUrl ? "
-Polling Place Lookup: " + pollingUrl : "")
-            + (sampleBallot ? "
-More Info: " + sampleBallot : "");
-        }).join("
-
-")
+          return "Election: " + desc + "\nDate: " + date
+            + (regDeadline ? "\nRegistration Deadline: " + regDeadline : "")
+            + (vmethods ? "\nVoting Methods: " + vmethods : "")
+            + (earlyStart ? "\nEarly Voting: " + earlyStart + " to " + earlyEnd : "")
+            + (pollingUrl ? "\nPolling Place Lookup: " + pollingUrl : "")
+            + (sampleBallot ? "\nMore Info: " + sampleBallot : "");
+        }).join("\n\n")
       : "No verified election data available for this state.";
 
     const dwUrlStr = dwStateUrls
-      ? (dwStateUrls["voter-registration-status-url"] ? "Registration Status: " + dwStateUrls["voter-registration-status-url"] + "
-" : "")
+      ? (dwStateUrls["voter-registration-status-url"] ? "Registration Status: " + dwStateUrls["voter-registration-status-url"] + "\n" : "")
         + (dwStateUrls["local-election-authority-lookup-url"] ? "Local Election Authority: " + dwStateUrls["local-election-authority-lookup-url"] : "")
       : "";
 
