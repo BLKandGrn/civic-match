@@ -348,9 +348,19 @@ export default function App() {
     try {
       const q = encodeURIComponent(name.replace(/ /g, "_"));
       const r = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + q);
-      if (!r.ok) return null;
-      const d = await r.json();
-      return (d.thumbnail && d.thumbnail.source) ? d.thumbnail.source : null;
+      if (r.ok) {
+        const d = await r.json();
+        if (d.thumbnail && d.thumbnail.source) return d.thumbnail.source;
+      }
+      const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(name + " politician") + "&format=json&origin=*&srlimit=1");
+      if (!s.ok) return null;
+      const sd = await s.json();
+      const title = sd.query && sd.query.search && sd.query.search[0] && sd.query.search[0].title;
+      if (!title) return null;
+      const r2 = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(title.replace(/ /g, "_")));
+      if (!r2.ok) return null;
+      const d2 = await r2.json();
+      return (d2.thumbnail && d2.thumbnail.source) ? d2.thumbnail.source : null;
     } catch(e) { return null; }
   }
 
