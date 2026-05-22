@@ -552,6 +552,14 @@ export default function App() {
         button.cta{transition:all .18s ease;cursor:pointer;border:none;}
         button.cta:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(200,249,122,.25);}
         button.cta:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none;}
+        @media print{
+          body{background:#fff!important;color:#000!important;}
+          .no-print{display:none!important;}
+          button{display:none!important;}
+          nav,header{display:none!important;}
+          *{color:#000!important;background:#fff!important;border-color:#ccc!important;}
+          img{max-width:40px!important;}
+        }
         input:focus{outline:none;border-color:#C8F97A!important;}
         a{color:#C8F97A;}
         .regBtn{transition:border-color .15s ease;}
@@ -836,10 +844,16 @@ export default function App() {
                 </div>
               )}
 
-              <button className="cta" style={{ background:"#2a2a2a", color:"#C8F97A", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start" }}
+              <div style={{ display:"flex", gap:"12px", flexWrap:"wrap" }}>
+                <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px" }}
+                  onClick={function() { window.print(); }}>
+                  Print Voter Guide
+                </button>
+                <button className="cta" style={{ background:"#2a2a2a", color:"#C8F97A", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px" }}
                 onClick={function() { setStep(0); setPriorities({}); setAddr({street:"",city:"",state:"",zip:""}); setRegistered(null); setRegStatus(null); setResults(null); setRegUrl(null); setError(null); go(0); }}>
                 Start Over
               </button>
+              </div>
             </div>
           )}
 
