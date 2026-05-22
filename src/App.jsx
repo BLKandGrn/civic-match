@@ -136,6 +136,10 @@ function renderLine(line, i, photos) {
   // Style inline citations — anything in parentheses that looks like a citation
   function styleCitations(text) {
     return text
+      .replace(/(https?:\/\/[^\s<)]+)/g, function(url) {
+        const display = url.replace(/^https?:\/\//, "").replace(/\/$/, "");
+        return '<a href="' + url + '" target="_blank" rel="noopener noreferrer" style="color:#C8F97A;text-decoration:underline;word-break:break-all;">' + display + '</a>';
+      })
       .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
       .replace(/\(([^)]{10,})\)/g, function(match, inner) {
         // Only style if it looks like a citation (has a year, bill number, or source name)
