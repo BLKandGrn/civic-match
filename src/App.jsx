@@ -125,7 +125,7 @@ function parseSections(text) {
   return sections.filter(function(s) { return s.heading; });
 }
 
-function renderLine(line, i) {
+function renderLine(line, i, photos) {
   const t = line.trim();
   if (!t) return <br key={i} />;
   if (t.indexOf("### ") === 0) {
@@ -149,11 +149,14 @@ function renderLine(line, i) {
   const partial = t.indexOf("**Partial Match**") >= 0;
   const low = t.indexOf("**Low Match**") >= 0;
   if (strong || partial || low) {
+    const nameKey = photos && Object.keys(photos).find(function(k) { return t.indexOf(k) >= 0; });
+    const photoUrl = nameKey ? photos[nameKey] : null;
     const badge = strong ? "Strong Match" : partial ? "Partial Match" : "Low Match";
     const color = strong ? "#C8F97A" : partial ? "#F9C87A" : "#ff8080";
     const rest = t.replace("**" + badge + "**", "").trim();
     return (
       <div key={i} style={{ display:"flex", alignItems:"flex-start", gap:"10px", flexWrap:"wrap", marginBottom:"4px" }}>
+        {photoUrl ? <img src={photoUrl} alt={nameKey} style={{ width:"40px", height:"40px", borderRadius:"50%", objectFit:"cover", flexShrink:0, marginTop:"2px" }} /> : null}
         <span style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"10px", letterSpacing:".08em", padding:"3px 8px", borderRadius:"3px", whiteSpace:"nowrap", flexShrink:0, marginTop:"2px", background:color, color:"#0e0e0e" }}>{badge}</span>
         <span dangerouslySetInnerHTML={{ __html: styleCitations(rest) }} />
       </div>
@@ -209,7 +212,7 @@ function Tabs(props) {
       <div style={{ background:"#141414", border:"1px solid #222", borderRadius:"6px", padding:"22px", display:"flex", flexDirection:"column", gap:"14px", marginTop:"0" }}>
         <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", letterSpacing:".08em", color:"#C8F97A", textTransform:"uppercase", paddingBottom:"10px", borderBottom:"1px solid #1e1e1e" }}>{cur.heading}</div>
         <div style={{ display:"flex", flexDirection:"column", gap:"8px" }}>
-          {cur.body.map(function(line, i) { return renderLine(line, i); })}
+          {cur.body.map(function(line, i) { return renderLine(line, i, props.photos); })}
         </div>
         <div style={{ display:"flex", gap:"10px", marginTop:"8px" }}>
           {tab > 0 && (
