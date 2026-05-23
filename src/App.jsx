@@ -332,6 +332,10 @@ function Tabs(props) {
       </div>
       {/* Print view: all sections expanded */}
       <div className="print-only">
+        <div style={{ textAlign:"center", marginBottom:"20px", paddingBottom:"16px", borderBottom:"2px solid #000" }}>
+          <img src="/blkgrn-logo.png" alt="BLK + GRN" style={{ height:"32px" }} />
+          <div style={{ fontSize:"11px", color:"#666", marginTop:"6px" }}>Civic Match — Your Personalized Voter Guide</div>
+        </div>
         {secs.map(function(sec, si) {
           return (
             <div key={si} style={{ marginBottom:"24px", pageBreakInside:"avoid" }}>
@@ -958,7 +962,7 @@ export default function App() {
 
               <Tabs sections={parseSections(results)} photos={photos} />
 
-              <div style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"20px 22px", display:"flex", flexDirection:"column", gap:"14px" }}>
+              <div className="screen-only" style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"20px 22px", display:"flex", flexDirection:"column", gap:"14px" }}>
                 <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"12px", letterSpacing:".12em", color:"#888", textTransform:"uppercase" }}>Explore Further</div>
                 <div style={{ display:"flex", flexDirection:"column", gap:"10px" }}>
                   {[
