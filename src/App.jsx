@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const FF_SYNE = "'Syne',sans-serif";
 const FF_NEWS = "'Newsreader',Georgia,serif";
@@ -680,11 +680,22 @@ export default function App() {
     }
   }
 
+  useEffect(function() {
+    function reportHeight() {
+      var h = document.documentElement.scrollHeight;
+      window.parent.postMessage({ type: "civic-match-height", height: h }, "*");
+    }
+    reportHeight();
+    var observer = new ResizeObserver(reportHeight);
+    observer.observe(document.body);
+    return function() { observer.disconnect(); };
+  }, []);
+
   return (
     <div style={{ minHeight:"100vh", background:"#0e0e0e", color:"#f0f0f0", fontFamily:FF_NEWS, display:"flex", flexDirection:"column" }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Newsreader:ital,wght@0,300;0,400;1,300&display=swap');
-        *{box-sizing:border-box;margin:0;padding:0;}
+        *{box-sizing:border-box;margin:0;padding:0;}html,body{margin:0;padding:0;overflow-x:hidden;width:100%;}
         ::selection{background:#C8F97A;color:#0e0e0e;}
         ::-webkit-scrollbar{width:4px;}
         ::-webkit-scrollbar-thumb{background:#C8F97A;border-radius:2px;}
