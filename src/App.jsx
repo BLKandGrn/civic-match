@@ -906,7 +906,6 @@ export default function App() {
                     <div style={{ display:"flex", flexDirection:"column", gap:"16px" }}>
                       <div style={{ display:"flex", gap:"12px", alignItems:"center" }}>
                         {[
-                         [
                           { label:"Representatives", msg:"Finding your representatives..." },
                           { label:"State Legislators", msg:"Finding your state legislators..." },
                           { label:"Voting Records", msg:"Finding local elections..." },
