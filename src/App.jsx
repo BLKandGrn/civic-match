@@ -523,7 +523,7 @@ export default function App() {
         if (d.thumbnail && d.thumbnail.source && isPersonPage(d)) return d.thumbnail.source;
       }
       // Try with disambiguation terms
-      for (const suffix of [" politician", " U.S. Representative", " senator", " congressman", " council member"]) {
+      for (const suffix of [" politician"]) {
         const rs = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent((name + suffix).replace(/ /g, "_")));
         if (rs.ok) {
           const ds = await rs.json();
