@@ -962,29 +962,36 @@ export default function App() {
                 AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
               </div>
 
-              <Tabs sections={parseSections(results)} photos={photos} location={[addr.city, addr.state].filter(Boolean).join(", ")} />
+              <Tabs sections={[...parseSections(results), { heading: "Explore Further", body: [
+          "**NAACP Legal Defense Fund** — Fighting for voting rights and racial justice in the courts",
+          "Website: https://www.naacpldf.org | Instagram: https://www.instagram.com/naacp_ldf",
+          "",
+          "**Democracy Docket** — Real-time tracking of voting rights litigation across the country",
+          "Website: https://www.democracydocket.com | Instagram: https://www.instagram.com/democracydocket",
+          "",
+          "**Black Voters Matter** — Amplifying Black voting power in communities across the South and beyond",
+          "Website: https://www.blackvotersmatterfund.org | Instagram: https://www.instagram.com/blackvotersmatter",
+          "",
+          "**Congress.gov** — Official voting records and legislation for all federal representatives",
+          "Website: https://www.congress.gov",
+          "",
+          "**OpenStates** — State legislative data, voting records, and bill tracking",
+          "Website: https://www.openstates.org",
+          "",
+          "**Ballotpedia** — Comprehensive candidate profiles, election history, and local races",
+          "Website: https://www.ballotpedia.org",
+          "",
+          "**Vote411** — League of Women Voters voter guide with local candidate Q&A",
+          "Website: https://www.vote411.org",
+          "",
+          "**BallotReady** — Personalized ballot guide covering local races by address",
+          "Website: https://www.ballotready.org",
+          "",
+          "**USA.gov Elected Officials** — Find all your current elected officials at every level",
+          "Website: https://www.usa.gov/elected-officials"
+        ] }]} photos={photos} location={[addr.city, addr.state].filter(Boolean).join(", ")} />
 
-              <div className="screen-only" style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"20px 22px", display:"flex", flexDirection:"column", gap:"14px" }}>
-                <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"12px", letterSpacing:".12em", color:"#888", textTransform:"uppercase" }}>Explore Further</div>
-                <div style={{ display:"flex", flexDirection:"column", gap:"10px" }}>
-                  {[
-                    { label:"Congress.gov", desc:"Official voting records and legislation for all federal representatives", url:"https://www.congress.gov" },
-                    { label:"OpenStates", desc:"State legislative data, voting records, and bill tracking", url:"https://openstates.org" },
-                    { label:"Ballotpedia", desc:"Comprehensive candidate profiles, election history, and local races", url:"https://ballotpedia.org" },
-                    { label:"Vote411", desc:"League of Women Voters voter guide with local candidate Q&A", url:"https://www.vote411.org" },
-                    { label:"BallotReady", desc:"Personalized ballot guide covering local races by address", url:"https://www.ballotready.org" },
-                    { label:"USA.gov Elected Officials", desc:"Find all your current elected officials at every level", url:"https://www.usa.gov/elected-officials" },
-                  ].map(function(src) {
-                    return (
-                      <a key={src.url} href={src.url} target="_blank" rel="noopener noreferrer"
-                        style={{ display:"flex", flexDirection:"column", gap:"2px", textDecoration:"none", padding:"10px 12px", background:"#1a1a1a", borderRadius:"4px", border:"1px solid #252525" }}>
-                        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E" }}>{src.label}</div>
-                        <div style={{ fontSize:"12px", color:"#666", lineHeight:1.5 }}>{src.desc}</div>
-                      </a>
-                    );
-                  })}
-                </div>
-              </div>
+              
 
               <div style={{ fontSize:"12px", color:"#444", lineHeight:1.6, borderTop:"1px solid #1e1e1e", paddingTop:"16px", fontStyle:"italic" }}>
                 Federal data from Congress.gov. State data from OpenStates. Local election guidance based on AI analysis. Verify with your county board of elections. Nonpartisan and informational. No personal data stored.
