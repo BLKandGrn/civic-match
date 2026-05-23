@@ -672,29 +672,33 @@ export default function App() {
       setResults(text);
 
       // Extract candidate names from bold headers in AI output and fetch missing photos
-      const boldNames = [];
-      text.split("\n").forEach(function(line) {
-        if (line.indexOf("**") === 0) {
-          const afterBold = line.slice(2);
-          const dashIdx = afterBold.indexOf(" —");
-          const endBold = afterBold.indexOf("**");
-          const cutIdx = dashIdx > 0 ? dashIdx : endBold > 0 ? endBold : afterBold.length;
-          const name = afterBold.slice(0, cutIdx).trim();
-          if (name.length > 3 && name.length < 50 && name.indexOf(":") < 0 && name.indexOf("Match") < 0 && name.indexOf("recorded") < 0) {
-            boldNames.push(name);
+      try {
+        const boldNames = [];
+        text.split("\n").forEach(function(line) {
+          if (line.indexOf("**") === 0) {
+            const afterBold = line.slice(2);
+            const dashIdx = afterBold.indexOf(" —");
+            const endBold = afterBold.indexOf("**");
+            const cutIdx = dashIdx > 0 ? dashIdx : endBold > 0 ? endBold : afterBold.length;
+            const name = afterBold.slice(0, cutIdx).trim();
+            if (name.length > 3 && name.length < 50 && name.indexOf(":") < 0 && name.indexOf("Match") < 0 && name.indexOf("recorded") < 0) {
+              boldNames.push(name);
+            }
           }
-        }
-      });
-      console.log("Extracted candidate names:", boldNames);
-      const newPhotoMap = Object.assign({}, photoMap);
-      await Promise.all(boldNames.map(async function(name) {
-        if (!newPhotoMap[name]) {
-          const p = await fetchWikiPhoto(name);
-          console.log("Photo for", name, ":", p ? "found" : "not found");
-          if (p) newPhotoMap[name] = p;
-        }
-      }));
-      setPhotos(newPhotoMap);
+        });
+        const newPhotoMap = Object.assign({}, photoMap);
+        await Promise.all(boldNames.map(async function(name) {
+          try {
+            if (!newPhotoMap[name]) {
+              const p = await fetchWikiPhoto(name);
+              if (p) newPhotoMap[name] = p;
+            }
+          } catch(photoErr) { console.warn("Photo fetch failed for", name); }
+        }));
+        setPhotos(newPhotoMap);
+      } catch(photoSectionErr) {
+        console.warn("Photo section error:", photoSectionErr);
+      }
 
       go(3);
     } catch(e) {
