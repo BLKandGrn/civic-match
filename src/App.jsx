@@ -323,7 +323,7 @@ function Tabs(props) {
             </button>
           )}
           {tab < secs.length - 1 && (
-            <button style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", padding:"10px 20px", borderRadius:"4px", background:"#445B3E", color:"#0e0e0e", border:"none", cursor:"pointer", marginLeft:"auto" }}
+            <button style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", padding:"10px 20px", borderRadius:"4px", background:"#445B3E", color:"#fff", border:"none", cursor:"pointer", marginLeft:"auto" }}
               onClick={function() { changeTab(tab + 1); }}>
               Next
             </button>
@@ -359,13 +359,13 @@ function RegCheckPanel(props) {
       <div style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"20px 22px", display:"flex", flexDirection:"column", gap:"12px" }}>
         <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E", letterSpacing:".06em" }}>Check Your {props.state || "State"} Registration</div>
         <p style={{ fontSize:"14px", color:"#aaa", lineHeight:1.6 }}>Use your state's official voter lookup tool to confirm your registration is active at your current address.</p>
-        <a href={checkUrl} target="_blank" rel="noopener noreferrer" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", textDecoration:"none", alignSelf:"flex-start" }}>
+        <a href={checkUrl} target="_blank" rel="noopener noreferrer" style={{ background:"#445B3E", color:"#fff", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", textDecoration:"none", alignSelf:"flex-start" }}>
           Check Registration Status
         </a>
         <p style={{ fontSize:"12px", color:"#555", lineHeight:1.6 }}>After checking, confirm your status below so we can include the right resources in your guide.</p>
       </div>
       <div style={{ display:"flex", gap:"10px", flexWrap:"wrap" }}>
-        <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px" }}
+        <button className="cta" style={{ background:"#445B3E", color:"#fff", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px" }}
           onClick={function() { props.setRegistered(true); props.setRegStatus("confirmed"); }}>
           I am registered
         </button>
@@ -394,7 +394,7 @@ function RegRegisterPanel(props) {
           <div style={{ fontSize:"14px", color:"#ccc", lineHeight:1.6 }}>{stateInfo.deadline}</div>
         </div>
       </div>
-      <a href={regUrl} target="_blank" rel="noopener noreferrer" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", textDecoration:"none", alignSelf:"flex-start" }}>
+      <a href={regUrl} target="_blank" rel="noopener noreferrer" style={{ background:"#445B3E", color:"#fff", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", textDecoration:"none", alignSelf:"flex-start" }}>
         {"Register to Vote in " + (props.state || "Your State")}
       </a>
     </div>
@@ -728,7 +728,7 @@ export default function App() {
       `}</style>
 
       <div style={{ display:"flex", alignItems:"center", gap:"16px", padding:"20px 32px", borderBottom:"1px solid #1e1e1e", position:"sticky", top:0, background:"#0e0e0e", zIndex:10 }}>
-        <div style={{ fontFamily:FF_SYNE, fontWeight:800, fontSize:"14px", letterSpacing:".15em", color:"#445B3E", whiteSpace:"nowrap" }}>CIVIC MATCH</div>
+        <div style={{ fontFamily:FF_SYNE, fontWeight:800, fontSize:"14px", letterSpacing:".15em", color:"#fff", whiteSpace:"nowrap" }}>CIVIC MATCH</div>
         <div style={{ flex:1, height:"2px", background:"#2a2a2a", borderRadius:"1px", overflow:"hidden" }}>
           <div style={{ height:"100%", background:"#445B3E", borderRadius:"1px", transition:"width .4s ease", width: (step/(STEPS.length-1)*100)+"%" }} />
         </div>
@@ -750,7 +750,7 @@ export default function App() {
                   return <div key={f} style={{ display:"flex", alignItems:"center", gap:"10px", fontSize:"14px", color:"#ccc", fontFamily:FF_SYNE }}><span style={{ width:"6px", height:"6px", borderRadius:"50%", background:"#445B3E", flexShrink:0, display:"block" }} />{f}</div>;
                 })}
               </div>
-              <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} onClick={function() { go(1); }}>Get Started</button>
+              <button className="cta" style={{ background:"#445B3E", color:"#fff", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} onClick={function() { go(1); }}>Get Started</button>
             </div>
           )}
 
@@ -807,7 +807,7 @@ export default function App() {
                     onChange={function(e) { const v = e.target.value.replace(/\D/g,""); setAddr(function(a) { return { street:a.street, city:a.city, state:a.state, zip:v }; }); }} />
                 </div>
               </div>
-              <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} disabled={addr.zip.length < 5} onClick={function() { go(2); }}>Continue</button>
+              <button className="cta" style={{ background:"#445B3E", color:"#fff", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} disabled={addr.zip.length < 5} onClick={function() { go(2); }}>Continue</button>
             </div>
           )}
 
@@ -855,7 +855,7 @@ export default function App() {
                 <div style={{ background:"rgba(200,249,122,.06)", border:"1px solid rgba(200,249,122,.25)", borderRadius:"6px", padding:"18px 20px", display:"flex", flexDirection:"column", gap:"8px" }}>
                   <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#445B3E" }}>We are experiencing high demand right now</div>
                   <div style={{ fontSize:"13px", color:"#aaa", lineHeight:1.6 }}>Our servers are busy helping other voters. Please wait a few minutes and try again. Your selections have been saved.</div>
-                  <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", padding:"10px 24px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"4px" }}
+                  <button className="cta" style={{ background:"#445B3E", color:"#fff", fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", padding:"10px 24px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"4px" }}
                     onClick={function() { setError(null); run(); }}>Try Again</button>
                 </div>
               )}
@@ -865,7 +865,7 @@ export default function App() {
 
               {(regStatus === "confirmed" || regStatus === "need-to-register") && (
                 <div style={{ display:"flex", flexDirection:"column", gap:"12px" }}>
-                  <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start" }} disabled={loading} onClick={run}>
+                  <button className="cta" style={{ background:"#445B3E", color:"#fff", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start" }} disabled={loading} onClick={run}>
                     {loading ? ("◌ " + loadMsg + "...") : "Generate My Voter Guide"}
                   </button>
                   {loading && (
@@ -968,7 +968,7 @@ export default function App() {
               )}
 
               <div style={{ display:"flex", gap:"12px", flexWrap:"wrap" }}>
-                <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px" }}
+                <button className="cta" style={{ background:"#445B3E", color:"#fff", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px" }}
                   onClick={function() { window.print(); }}>
                   Print Voter Guide
                 </button>
