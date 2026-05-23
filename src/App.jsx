@@ -179,7 +179,8 @@ const STATE_ELECTION_SITES = {
   return sections.filter(function(s) { return s.heading; });
 }
 
-function renderLine(line, i, photos) {
+function renderLine(line, i, photos, usedPhotoUrls) {
+  if (!usedPhotoUrls) usedPhotoUrls = new Set();
   const t = line.trim();
   if (!t) return <br key={i} />;
   if (t.indexOf("Note:") === 0 || t.indexOf("Note (") === 0) return null;
@@ -231,7 +232,8 @@ function renderLine(line, i, photos) {
   });
   const photoUrl = nameKey ? photos[nameKey] : null;
   const isCandidateHeader = t.indexOf("**") === 0 && t.indexOf(" — ") >= 0;
-  if (photoUrl && !strong && !partial && !low && isCandidateHeader) {
+  if (photoUrl && !strong && !partial && !low && isCandidateHeader && !usedPhotoUrls.has(photoUrl)) {
+    usedPhotoUrls.add(photoUrl);
     return (
       <div key={i} style={{ display:"flex", alignItems:"center", gap:"12px", marginTop:"16px", marginBottom:"4px" }}>
         <img src={photoUrl} alt={nameKey} style={{ width:"48px", height:"48px", borderRadius:"50%", objectFit:"cover", flexShrink:0 }} />
@@ -311,7 +313,7 @@ function Tabs(props) {
           </div>
         )}
         <div style={{ display:"flex", flexDirection:"column", gap:"8px" }}>
-          {cur.body.map(function(line, i) { return renderLine(line, i, props.photos); })}
+          {(function() { var used = new Set(); return cur.body.map(function(line, i) { return renderLine(line, i, props.photos, used); }); })()}
         </div>
         <div style={{ display:"flex", gap:"10px", marginTop:"8px" }}>
           {tab > 0 && (
@@ -335,7 +337,7 @@ function Tabs(props) {
             <div key={si} style={{ marginBottom:"24px", pageBreakInside:"avoid" }}>
               <div style={{ fontWeight:700, fontSize:"14px", textTransform:"uppercase", paddingBottom:"8px", borderBottom:"1px solid #ccc", marginBottom:"12px" }}>{sec.heading}</div>
               <div style={{ display:"flex", flexDirection:"column", gap:"6px" }}>
-                {sec.body.map(function(line, i) { return renderLine(line, i, props.photos); })}
+                {(function() { var used = new Set(); return sec.body.map(function(line, i) { return renderLine(line, i, props.photos, used); }); })()}
               </div>
             </div>
           );
