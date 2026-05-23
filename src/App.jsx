@@ -417,7 +417,7 @@ export default function App() {
 
   const cur = STEPS[step];
   const fullAddr = [addr.street, addr.city, addr.state, addr.zip].filter(function(v) { return v && v.trim(); }).join(", ");
-  const allRated = ISSUES.every(function(i) { return priorities[i.id] !== undefined; });
+  const allRated = true; // Issue selection removed - all issues shown by default
   const canContinue = addr.street.trim() && addr.city.trim() && addr.state.length === 2 && addr.zip.length === 5;
 
   function go(n) {
@@ -426,9 +426,7 @@ export default function App() {
   }
 
   function buildPrompt(members, stateLeg, voteData, localElections, dwData, dwStateUrls) {
-    const sorted = ISSUES.map(function(i) { return { id:i.id, label:i.label, score: priorities[i.id] || 0 }; }).sort(function(a,b) { return b.score - a.score; });
-    const top3 = sorted.slice(0,3).map(function(i) { return i.label; }).join(", ");
-    const issueList = sorted.map(function(i) { return "- " + i.label + " (" + PL[i.score] + ")"; }).join("\n");
+    const issueList = ISSUES.map(function(i) { return "- " + i.label; }).join("\n");
 
     const membersStr = members && members.length
       ? members.map(function(m) { return "- " + m.name + " (" + m.partyName + ", " + (m.chamber||"Congress") + (m.district ? ", District " + m.district : "") + ")"; }).join("\n")
