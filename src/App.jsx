@@ -332,14 +332,24 @@ function Tabs(props) {
       </div>
       {/* Print view: all sections expanded */}
       <div className="print-only">
-        <div style={{ textAlign:"center", marginBottom:"20px", paddingBottom:"16px", borderBottom:"2px solid #000" }}>
-          <img src="/blkgrn-logo.png" alt="BLK + GRN" className="print-logo" style={{ height:"44px" }} />
-          <div style={{ fontSize:"11px", color:"#666", marginTop:"6px" }}>Civic Match — Your Personalized Voter Guide</div>
+        <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", marginBottom:"16px", paddingBottom:"16px", borderBottom:"3px solid #445B3E" }}>
+          <div>
+            <div style={{ fontFamily:"Arial Black, Arial, sans-serif", fontSize:"22px", fontWeight:"900", letterSpacing:"2px", color:"#000", marginBottom:"6px" }}>CIVIC MATCH</div>
+            <div style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:"#444", marginBottom:"10px" }}>Powered by BLK + GRN &nbsp;|&nbsp; blkgrn.com</div>
+            <div style={{ fontFamily:"Arial, sans-serif", fontSize:"12px", color:"#333", lineHeight:"1.6", maxWidth:"500px" }}>
+              Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads. Below is your personalized breakdown of how your elected officials have actually voted on the issues that matter.
+            </div>
+          </div>
+          <div style={{ textAlign:"right", fontSize:"11px", color:"#666", whiteSpace:"nowrap", paddingLeft:"20px" }}>
+            <div style={{ fontWeight:"bold", color:"#000", marginBottom:"4px" }}>{[addr && addr.city, addr && addr.state].filter(Boolean).join(", ")}</div>
+            <div>Civic Match Voter Guide</div>
+          </div>
         </div>
         {secs.map(function(sec, si) {
+          var isContact = sec.heading === "Contact Your Representatives";
           return (
-            <div key={si} style={{ marginBottom:"24px", pageBreakInside:"avoid" }}>
-              <div style={{ fontWeight:700, fontSize:"14px", textTransform:"uppercase", paddingBottom:"8px", borderBottom:"1px solid #ccc", marginBottom:"12px" }}>{sec.heading}</div>
+            <div key={si} style={{ marginBottom:"24px", pageBreakInside:"avoid", border: isContact ? "2px solid #445B3E" : "none", borderRadius: isContact ? "6px" : "0", padding: isContact ? "12px 16px" : "0" }}>
+              <div style={{ fontWeight:700, fontSize:"14px", textTransform:"uppercase", paddingBottom:"8px", borderBottom: isContact ? "2px solid #445B3E" : "1px solid #ccc", marginBottom:"12px", color: isContact ? "#445B3E" : "#000" }}>{sec.heading}</div>
               <div style={{ display:"flex", flexDirection:"column", gap:"6px" }}>
                 {(function() { var used = new Set(); return sec.body.map(function(line, i) { return renderLine(line, i, props.photos, used); }); })()}
               </div>
@@ -730,8 +740,7 @@ export default function App() {
           body{background:#fff!important;color:#000!important;font-size:12px!important;margin:0;padding:20px;}
           button{display:none!important;}
           *{color:#000!important;background:#fff!important;border-color:#ddd!important;box-shadow:none!important;}
-          img{border-radius:50%!important;object-fit:cover!important;}
-          img.print-logo{border-radius:0!important;height:40px!important;width:auto!important;}
+          img{border-radius:50%!important;object-fit:cover!important;max-width:44px!important;max-height:44px!important;}
           h2{font-size:20px!important;margin-bottom:6px!important;}
           .candidate-block{page-break-inside:avoid!important;break-inside:avoid!important;}
           .print-disclaimer{display:none!important;}
