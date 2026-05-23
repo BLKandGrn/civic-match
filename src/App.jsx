@@ -746,7 +746,7 @@ export default function App() {
               </h1>
               <p style={{ fontSize:"17px", lineHeight:1.7, color:"#aaa" }}>Get a personalized guide showing how your actual representatives have voted at every level of government — federal, state, and local.</p>
               <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"10px" }}>
-                {["Voting records","District identification","Voting records","Local election coverage"].map(function(f) {
+                {["Voting records","District identification","Contact info","Local election coverage"].map(function(f) {
                   return <div key={f} style={{ display:"flex", alignItems:"center", gap:"10px", fontSize:"14px", color:"#ccc", fontFamily:FF_SYNE }}><span style={{ width:"6px", height:"6px", borderRadius:"50%", background:"#445B3E", flexShrink:0, display:"block" }} />{f}</div>;
                 })}
               </div>
