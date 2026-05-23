@@ -796,7 +796,7 @@ export default function App() {
                     onChange={function(e) { const v = e.target.value.replace(/\D/g,""); setAddr(function(a) { return { street:a.street, city:a.city, state:a.state, zip:v }; }); }} />
                 </div>
               </div>
-              <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} disabled={addr.zip.length < 5} onClick={function() { go(3); }}>Continue</button>
+              <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} disabled={addr.zip.length < 5} onClick={function() { go(2); }}>Continue</button>
             </div>
           )}
 
