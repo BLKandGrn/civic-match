@@ -341,7 +341,7 @@ function Tabs(props) {
             </div>
           </div>
           <div style={{ textAlign:"right", fontSize:"11px", color:"#666", whiteSpace:"nowrap", paddingLeft:"20px" }}>
-            <div style={{ fontWeight:"bold", color:"#000", marginBottom:"4px" }}>{[addr && addr.city, addr && addr.state].filter(Boolean).join(", ")}</div>
+            <div style={{ fontWeight:"bold", color:"#000", marginBottom:"4px" }}>{props.location || ""}</div>
             <div>Civic Match Voter Guide</div>
           </div>
         </div>
@@ -958,7 +958,7 @@ export default function App() {
                 AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
               </div>
 
-              <Tabs sections={parseSections(results)} photos={photos} />
+              <Tabs sections={parseSections(results)} photos={photos} location={[addr.city, addr.state].filter(Boolean).join(", ")} />
 
               <div className="screen-only" style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"20px 22px", display:"flex", flexDirection:"column", gap:"14px" }}>
                 <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"12px", letterSpacing:".12em", color:"#888", textTransform:"uppercase" }}>Explore Further</div>
