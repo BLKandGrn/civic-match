@@ -671,7 +671,7 @@ export default function App() {
       }));
       setPhotos(newPhotoMap);
 
-      go(4);
+      go(3);
     } catch(e) {
       console.error(e);
       setError(e.message);
