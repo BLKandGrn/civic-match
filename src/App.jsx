@@ -999,8 +999,6 @@ export default function App() {
 
         </div>
       </div>
-    </div>
-
       <footer style={{ textAlign:"center", padding:"24px 16px", borderTop:"1px solid #1a1a1a", marginTop:"16px" }}>
         <a href="https://blkgrn.com" target="_blank" rel="noopener noreferrer">
           <img src="/blkgrn-logo.png" alt="BLK + GRN" style={{ height:"28px", marginBottom:"10px", opacity:0.85 }} />
@@ -1011,5 +1009,6 @@ export default function App() {
           <br />&copy; {new Date().getFullYear()} BLK + GRN. For informational purposes only. Always verify with official sources.
         </div>
       </footer>
+    </div>
   );
 }
