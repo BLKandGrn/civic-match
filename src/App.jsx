@@ -913,15 +913,11 @@ export default function App() {
                           { label:"Candidate Match", msg:"Searching voting records in your area..." },
                         ].map(function(s, i, arr) {
                           const msgs = arr.map(function(x) { return x.msg; });
-                          const msgToStep = {
-                            "Finding your representatives...": 0,
-                            "Finding your state legislators...": 1,
-                            "Finding local elections...": 2,
-                            "Fetching verified election dates...": 2,
-                            "Analyzing voting records...": 3,
-                            "Searching voting records in your area...": 3,
-                          };
-                          const curIdx = loadMsg in msgToStep ? msgToStep[loadMsg] : (loadMsg ? msgs.length : 0);
+                          const curIdx = loadMsg === "Finding your representatives..." ? 0
+                            : loadMsg === "Finding your state legislators..." ? 1
+                            : loadMsg === "Finding local elections..." || loadMsg === "Fetching verified election dates..." ? 2
+                            : loadMsg === "Analyzing voting records..." || loadMsg === "Searching voting records in your area..." ? 3
+                            : loadMsg ? 4 : 0;
                           const done = i < curIdx;
                           const active = i === curIdx;
 return (
