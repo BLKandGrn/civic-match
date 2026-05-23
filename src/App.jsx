@@ -905,23 +905,17 @@ export default function App() {
                     <div style={{ display:"flex", flexDirection:"column", gap:"16px" }}>
                       <div style={{ display:"flex", gap:"12px", alignItems:"center" }}>
                         {[
-                          { label:"Representatives" },
-                          { label:"State Legislators" },
-                          { label:"Voting Records" },
-                          { label:"Candidate Match" },
-                        ].map(function(s, i) {
-                          const active = (
-                            (i === 0 && loadMsg === "Finding your representatives...") ||
-                            (i === 1 && loadMsg === "Finding your state legislators...") ||
-                            (i === 2 && loadMsg === "Analyzing voting records...") ||
-                            (i === 3 && loadMsg === "Matching your priorities to candidates...")
-                          );
-                          const done = (
-                            (i === 0 && loadMsg !== "Finding your representatives...") ||
-                            (i === 1 && (loadMsg === "Analyzing voting records..." || loadMsg === "Matching your priorities to candidates...")) ||
-                            (i === 2 && loadMsg === "Matching your priorities to candidates...")
-                          );
-                          return (
+                         [
+                          { label:"Representatives", msg:"Finding your representatives..." },
+                          { label:"State Legislators", msg:"Finding your state legislators..." },
+                          { label:"Voting Records", msg:"Searching voting records in your area..." },
+                          { label:"Candidate Match", msg:"Matching candidates..." },
+                        ].map(function(s, i, arr) {
+                          const msgs = arr.map(function(x) { return x.msg; });
+                          const curIdx = msgs.indexOf(loadMsg) >= 0 ? msgs.indexOf(loadMsg) : msgs.length;
+                          const done = i < curIdx;
+                          const active = i === curIdx;
+return (
                             <div key={i} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:"6px", flex:1 }}>
                               <div style={{ position:"relative", width:"40px", height:"40px" }}>
                                 <svg width="40" height="40" viewBox="0 0 40 40">
