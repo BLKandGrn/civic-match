@@ -333,7 +333,7 @@ function Tabs(props) {
       {/* Print view: all sections expanded */}
       <div className="print-only">
         <div style={{ textAlign:"center", marginBottom:"20px", paddingBottom:"16px", borderBottom:"2px solid #000" }}>
-          <img src="/blkgrn-logo.png" alt="BLK + GRN" style={{ height:"32px" }} />
+          <img src="/blkgrn-logo.png" alt="BLK + GRN" className="print-logo" style={{ height:"44px" }} />
           <div style={{ fontSize:"11px", color:"#666", marginTop:"6px" }}>Civic Match — Your Personalized Voter Guide</div>
         </div>
         {secs.map(function(sec, si) {
@@ -641,7 +641,7 @@ export default function App() {
     }));
     setPhotos(photoMap);
 
-    setLoadMsg("Matching your priorities to candidates...");
+    setLoadMsg("Searching voting records in your area...");
       const ANTH_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY || ""; const resp = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
         headers: { "Content-Type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": ANTH_KEY, "anthropic-dangerous-direct-browser-access": "true" },
@@ -727,12 +727,15 @@ export default function App() {
         @media print{
           .screen-only{display:none!important;}
           .print-only{display:block!important;}
-          body{background:#fff!important;color:#000!important;font-size:11px!important;}
+          body{background:#fff!important;color:#000!important;font-size:12px!important;margin:0;padding:20px;}
           button{display:none!important;}
-          *{color:#000!important;background:#fff!important;border-color:#ccc!important;box-shadow:none!important;}
-          img{width:36px!important;height:36px!important;border-radius:50%!important;}
-          h2{font-size:20px!important;}
-          div[style*="gap"]{gap:4px!important;}
+          *{color:#000!important;background:#fff!important;border-color:#ddd!important;box-shadow:none!important;}
+          img{border-radius:50%!important;object-fit:cover!important;}
+          img.print-logo{border-radius:0!important;height:40px!important;width:auto!important;}
+          h2{font-size:20px!important;margin-bottom:6px!important;}
+          .candidate-block{page-break-inside:avoid!important;break-inside:avoid!important;}
+          .print-disclaimer{display:none!important;}
+        }
         }
         input:focus{outline:none;border-color:#445B3E!important;}
         a{color:#445B3E;}
@@ -831,8 +834,8 @@ export default function App() {
           {cur === "registration" && (
             <div style={{ display:"flex", flexDirection:"column", gap:"24px" }}>
               <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#445B3E", textTransform:"uppercase" }}>Step 2 of 2</div>
-              <h2 style={{ fontFamily:FF_SYNE, fontSize:"clamp(26px,5vw,42px)", fontWeight:700, lineHeight:1.1, color:"#f8f8f8" }}>Voter registration</h2>
-              <p style={{ fontSize:"17px", lineHeight:1.7, color:"#aaa" }}>Where are you with your registration?</p>
+              <h2 style={{ fontFamily:FF_SYNE, fontSize:"clamp(26px,5vw,42px)", fontWeight:700, lineHeight:1.1, color:"#f8f8f8" }}>Almost there</h2>
+              <p style={{ fontSize:"17px", lineHeight:1.7, color:"#aaa" }}>One last step before we pull your voter guide.</p>
 
               {!regStatus && (
                 <div style={{ display:"flex", flexDirection:"column", gap:"12px" }}>
@@ -942,7 +945,7 @@ export default function App() {
                 {[addr.city, addr.state].filter(Boolean).join(", ")}
               </div>
 
-              <div style={{ background:"#1a1a1a", border:"1px solid #333", borderRadius:"6px", padding:"12px 16px", fontSize:"12px", color:"#999", lineHeight:1.6, marginTop:"4px" }}>
+              <div className="print-disclaimer screen-only" style={{ background:"#1a1a1a", border:"1px solid #333", borderRadius:"6px", padding:"12px 16px", fontSize:"12px", color:"#999", lineHeight:1.6, marginTop:"4px" }}>
                 AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
               </div>
 
