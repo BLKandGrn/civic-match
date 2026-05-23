@@ -532,6 +532,19 @@ export default function App() {
     } catch(e) { return null; }
   }
 
+  async function fetchWithTimeout(url, timeout) {
+    const controller = new AbortController();
+    const id = setTimeout(function() { controller.abort(); }, timeout || 8000);
+    try {
+      const res = await fetch(url, { signal: controller.signal });
+      clearTimeout(id);
+      return res;
+    } catch(e) {
+      clearTimeout(id);
+      throw e;
+    }
+  }
+
   async function run() {
     setLoading(true);
     setError(null);
@@ -542,7 +555,7 @@ export default function App() {
 
     try {
       setLoadMsg("Finding your representatives...");
-      const r1 = await fetch(PROXY + "?endpoint=congress-members&state=" + addr.state.toUpperCase());
+      const r1 = await fetchWithTimeout(PROXY + "?endpoint=congress-members&state=" + addr.state.toUpperCase());
       if (r1.ok) {
         const d = await r1.json();
         members = (d.members || []).filter(function(m) {
@@ -562,7 +575,7 @@ export default function App() {
 
     try {
       setLoadMsg("Finding your state legislators...");
-      const r2 = await fetch(PROXY + "?endpoint=state-legislators&address=" + encodeURIComponent(fullAddr));
+      const r2 = await fetchWithTimeout(PROXY + "?endpoint=state-legislators&address=" + encodeURIComponent(fullAddr));
       if (r2.ok) {
         const d = await r2.json();
         stateLeg = (d.results || []).slice(0, 6);
@@ -571,7 +584,7 @@ export default function App() {
 
     try {
       setLoadMsg("Finding local elections...");
-      const rr = await fetch(PROXY + "?endpoint=representatives&address=" + encodeURIComponent(fullAddr));
+      const rr = await fetchWithTimeout(PROXY + "?endpoint=representatives&address=" + encodeURIComponent(fullAddr));
       if (rr.ok) {
         const dr = await rr.json();
         const offices = dr.offices || [];
@@ -607,7 +620,7 @@ export default function App() {
       setLoadMsg("Analyzing voting records...");
       for (let i = 0; i < Math.min(members.length, 3); i++) {
         const m = members[i];
-        const r3 = await fetch(PROXY + "?endpoint=member-votes&memberId=" + m.bioguideId);
+        const r3 = await fetchWithTimeout(PROXY + "?endpoint=member-votes&memberId=" + m.bioguideId);
         if (r3.ok) {
           const d = await r3.json();
           voteData[m.name] = scoreVotes(d.votes || [], priorities);
@@ -676,7 +689,9 @@ export default function App() {
       go(3);
     } catch(e) {
       console.error(e);
-      setError(e.message);
+      setError(e.name === "AbortError"
+        ? "Request timed out. Please check your connection and try again."
+        : "Something went wrong loading your voter guide. Please try again.");
     } finally {
       setLoading(false);
     }
