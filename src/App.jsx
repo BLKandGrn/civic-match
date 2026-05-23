@@ -909,11 +909,19 @@ export default function App() {
                          [
                           { label:"Representatives", msg:"Finding your representatives..." },
                           { label:"State Legislators", msg:"Finding your state legislators..." },
-                          { label:"Voting Records", msg:"Searching voting records in your area..." },
-                          { label:"Candidate Match", msg:"Matching candidates..." },
+                          { label:"Voting Records", msg:"Finding local elections..." },
+                          { label:"Candidate Match", msg:"Searching voting records in your area..." },
                         ].map(function(s, i, arr) {
                           const msgs = arr.map(function(x) { return x.msg; });
-                          const curIdx = msgs.indexOf(loadMsg) >= 0 ? msgs.indexOf(loadMsg) : msgs.length;
+                          const msgToStep = {
+                            "Finding your representatives...": 0,
+                            "Finding your state legislators...": 1,
+                            "Finding local elections...": 2,
+                            "Fetching verified election dates...": 2,
+                            "Analyzing voting records...": 3,
+                            "Searching voting records in your area...": 3,
+                          };
+                          const curIdx = loadMsg in msgToStep ? msgToStep[loadMsg] : (loadMsg ? msgs.length : 0);
                           const done = i < curIdx;
                           const active = i === curIdx;
 return (
