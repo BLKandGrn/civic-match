@@ -188,6 +188,18 @@ function renderLine(line, i, photos) {
   }
 
   // Style inline citations — anything in parentheses that looks like a citation
+  function billUrl(inner) {
+    var hrMatch = inner.match(/H\.?R\.?\s*(\d+)/i);
+    var sMatch = inner.match(/(?:^|[^A-Z])S\.\s*(\d+)/i);
+    var sbMatch = inner.match(/SB\s*(\d+)/i);
+    var hbMatch = inner.match(/HB\s*(\d+)/i);
+    if (hrMatch) return "https://www.congress.gov/search?q=" + encodeURIComponent("H.R." + hrMatch[1]);
+    if (sMatch) return "https://www.congress.gov/search?q=" + encodeURIComponent("S." + sMatch[1]);
+    if (sbMatch) return "https://openstates.org/search/?query=" + encodeURIComponent("SB " + sbMatch[1]);
+    if (hbMatch) return "https://openstates.org/search/?query=" + encodeURIComponent("HB " + hbMatch[1]);
+    return null;
+  }
+
   function styleCitations(text) {
     return text
       .replace(/(https?:\/\/[^\s<)]+)/g, function(url) {
@@ -195,9 +207,12 @@ function renderLine(line, i, photos) {
         return '<a href="' + url + '" target="_blank" rel="noopener noreferrer" style="color:#C8F97A;text-decoration:underline;word-break:break-all;">' + display + '</a>';
       })
       .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-      .replace(/\(([^)]{10,})\)/g, function(match, inner) {
-        // Only style if it looks like a citation (has a year, bill number, or source name)
-        if (/\d{4}|HR |S\.|HB |SB |Act|Bill|vote|voted|statement|report|Survey|Journal|Times|Post|Sun|News/i.test(inner)) {
+      .replace(/\(([^)]{5,})\)/g, function(match, inner) {
+        if (/\d{4}|H\.?R\.|SB |HB |Act|Bill|vote|voted|statement|report|Executive|County|Office|Board|policy|initiative|law/i.test(inner)) {
+          var url = billUrl(inner);
+          if (url) {
+            return '<a href="' + url + '" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#C8F97A;font-family:\'Syne\',sans-serif;background:#1a1a1a;padding:1px 6px;border-radius:3px;white-space:nowrap;text-decoration:underline;">(' + inner + ')</a>';
+          }
           return '<span style="font-size:11px;color:#666;font-family:\'Syne\',sans-serif;background:#1a1a1a;padding:1px 6px;border-radius:3px;white-space:nowrap;">(' + inner + ')</span>';
         }
         return match;
