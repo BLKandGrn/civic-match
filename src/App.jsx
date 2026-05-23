@@ -687,9 +687,10 @@ export default function App() {
           }
         });
         const newPhotoMap = Object.assign({}, photoMap);
+        const skipNames = new Set(["Ballotpedia","Congress.gov","OpenStates","Vote411","BallotReady","USA.gov","NAACP","Democracy Docket","Black Voters Matter","Instagram","Website","Contact"]);
         await Promise.all(boldNames.map(async function(name) {
           try {
-            if (!newPhotoMap[name]) {
+            if (!newPhotoMap[name] && !skipNames.has(name)) {
               const p = await fetchWikiPhoto(name);
               if (p) newPhotoMap[name] = p;
             }
