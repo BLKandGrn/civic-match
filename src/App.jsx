@@ -422,6 +422,8 @@ export default function App() {
 
   function go(n) {
     setAnim(false);
+    window.scrollTo({ top: 0, behavior: "instant" });
+    window.parent.postMessage({ type: "civic-match-scroll-top" }, "*");
     setTimeout(function() { setStep(n); setAnim(true); }, 200);
   }
 
