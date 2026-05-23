@@ -1002,7 +1002,9 @@ export default function App() {
     </div>
 
       <footer style={{ textAlign:"center", padding:"24px 16px", borderTop:"1px solid #1a1a1a", marginTop:"16px" }}>
-        <div style={{ fontFamily:FF_SYNE, fontSize:"13px", fontWeight:700, color:"#C8F97A", letterSpacing:".1em", marginBottom:"6px" }}>BLK + GRN</div>
+        <a href="https://blkgrn.com" target="_blank" rel="noopener noreferrer">
+          <img src="/blkgrn-logo.png" alt="BLK + GRN" style={{ height:"28px", marginBottom:"10px", opacity:0.85 }} />
+        </a>
         <div style={{ fontSize:"11px", color:"#555", lineHeight:1.6 }}>
           Civic Match is a BLK + GRN initiative &nbsp;&bull;&nbsp;
           <a href="https://blkgrn.com" target="_blank" rel="noopener noreferrer" style={{ color:"#666", textDecoration:"underline" }}>blkgrn.com</a>
