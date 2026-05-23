@@ -731,9 +731,9 @@ export default function App() {
               <h1 style={{ fontFamily:FF_SYNE, fontSize:"clamp(36px,7vw,64px)", fontWeight:800, lineHeight:1.05, color:"#f8f8f8" }}>
                 Find candidates<br /><em style={{ fontStyle:"italic", fontWeight:300 }}>who match what you believe.</em>
               </h1>
-              <p style={{ fontSize:"17px", lineHeight:1.7, color:"#aaa" }}>Rate the issues that matter to you. Get a personalized guide to your real candidates at every level of government, matched to your priorities.</p>
+              <p style={{ fontSize:"17px", lineHeight:1.7, color:"#aaa" }}>Select the issues that matter to you. Get a personalized guide showing how your actual representatives have voted at every level of government — federal, state, and local.</p>
               <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"10px" }}>
-                {["Issue priority matching","District identification","Real voting records","Local election coverage"].map(function(f) {
+                {["Issue-based voting records","District identification","Real voting records","Local election coverage"].map(function(f) {
                   return <div key={f} style={{ display:"flex", alignItems:"center", gap:"10px", fontSize:"14px", color:"#ccc", fontFamily:FF_SYNE }}><span style={{ width:"6px", height:"6px", borderRadius:"50%", background:"#C8F97A", flexShrink:0, display:"block" }} />{f}</div>;
                 })}
               </div>
@@ -744,9 +744,9 @@ export default function App() {
           {cur === "issues" && (
             <div style={{ display:"flex", flexDirection:"column", gap:"24px" }}>
               <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#C8F97A", textTransform:"uppercase" }}>Step 1 of 3</div>
-              <h2 style={{ fontFamily:FF_SYNE, fontSize:"clamp(26px,5vw,42px)", fontWeight:700, lineHeight:1.1, color:"#f8f8f8" }}>What matters most to you?</h2>
-              <p style={{ fontSize:"15px", lineHeight:1.8, color:"#aaa", marginBottom:"8px" }}>Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads. We believe voters deserve to know how their elected officials have actually voted, not just what they promise on the campaign trail. Rate the issues below and we'll match you to your representatives' real records.</p>
-              <p style={{ fontSize:"13px", lineHeight:1.7, color:"#666" }}>Rate each issue — your priorities shape your personalized guide.</p>
+              <h2 style={{ fontFamily:FF_SYNE, fontSize:"clamp(26px,5vw,42px)", fontWeight:700, lineHeight:1.1, color:"#f8f8f8" }}>What issues matter to you?</h2>
+              <p style={{ fontSize:"15px", lineHeight:1.8, color:"#aaa", marginBottom:"8px" }}>Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads. We believe voters deserve to know how their elected officials have actually voted, not just what they promise on the campaign trail. Select the issues below and we will pull your representatives' actual voting history on each one.</p>
+              <p style={{ fontSize:"13px", lineHeight:1.7, color:"#666" }}>Select the issues you want to see your representatives' voting records on.</p>
               <div style={{ display:"flex", flexDirection:"column", gap:"10px" }}>
                 {ISSUES.map(function(issue) {
                   const val = priorities[issue.id];
@@ -762,7 +762,7 @@ export default function App() {
                             <button key={lv} className="pBtn"
                               style={{ width:"36px", height:"36px", borderRadius:"4px", fontFamily:FF_SYNE, fontWeight:700, fontSize:"11px", background: val === lv ? PC[lv] : "#1e1e1e", color: val === lv ? "#0e0e0e" : "#888" }}
                               onClick={function() { setPriorities(function(p) { const n = {}; Object.assign(n, p); n[issue.id] = lv; return n; }); }}>
-                              {lv===3?"!!!":lv===2?"!!":lv===1?"!":"-"}
+                              {lv===3?"+++":lv===2?"++":lv===1?"+":"-"}
                             </button>
                           );
                         })}
@@ -772,11 +772,11 @@ export default function App() {
                 })}
               </div>
               <div style={{ display:"flex", gap:"16px", flexWrap:"wrap" }}>
-                {[[3,"Top Priority"],[2,"Matters to Me"],[1,"Somewhat Important"],[0,"Not a Focus"]].map(function(item) {
+                {[[3,"Very Important"],[2,"Important"],[1,"Somewhat Important"],[0,"Not a Focus"]].map(function(item) {
                   return <div key={item[0]} style={{ display:"flex", alignItems:"center", gap:"6px", fontSize:"12px", color:"#777", fontFamily:FF_SYNE }}><div style={{ width:"8px", height:"8px", borderRadius:"50%", background: PC[item[0]] }} />{item[1]}</div>;
                 })}
               </div>
-              {!allRated && <p style={{ fontSize:"12px", color:"#555", fontStyle:"italic", fontFamily:FF_SYNE }}>Rate all issues to continue</p>}
+              {!allRated && <p style={{ fontSize:"12px", color:"#555", fontStyle:"italic", fontFamily:FF_SYNE }}>Select all issues to continue</p>}
               <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} disabled={!allRated} onClick={function() { go(2); }}>Continue</button>
             </div>
           )}
