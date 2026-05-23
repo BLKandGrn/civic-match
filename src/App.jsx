@@ -20,7 +20,7 @@ const ISSUES = [
 ];
 
 const PL = { 3: "Top Priority", 2: "Matters to Me", 1: "Somewhat Important", 0: "Not a Focus" };
-const PC = { 3: "#C8F97A", 2: "#7AC8F9", 1: "#F9C87A", 0: "#3a3a3a" };
+const PC = { 3: "#445B3E", 2: "#7AC8F9", 1: "#F9C87A", 0: "#3a3a3a" };
 const STEPS = ["welcome", "address", "registration", "results"];
 const PROXY = "https://civic-match-proxy.vercel.app/api/civic";
 
@@ -185,7 +185,7 @@ function renderLine(line, i, photos, usedPhotoUrls) {
   if (!t) return <br key={i} />;
   if (t.indexOf("Note:") === 0 || t.indexOf("Note (") === 0) return null;
   if (t.indexOf("### ") === 0) {
-    return <div key={i} style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#C8F97A", marginTop:"8px", marginBottom:"4px" }}>{t.slice(4)}</div>;
+    return <div key={i} style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E", marginTop:"8px", marginBottom:"4px" }}>{t.slice(4)}</div>;
   }
 
   // Style inline citations — anything in parentheses that looks like a citation
@@ -205,14 +205,14 @@ function renderLine(line, i, photos, usedPhotoUrls) {
     return text
       .replace(/(https?:\/\/[^\s<)]+)/g, function(url) {
         const display = url.replace(/^https?:\/\//, "").replace(/\/$/, "");
-        return '<a href="' + url + '" target="_blank" rel="noopener noreferrer" style="color:#C8F97A;text-decoration:underline;word-break:break-all;">' + display + '</a>';
+        return '<a href="' + url + '" target="_blank" rel="noopener noreferrer" style="color:#445B3E;text-decoration:underline;word-break:break-all;">' + display + '</a>';
       })
       .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
       .replace(/\(([^)]{5,})\)/g, function(match, inner) {
         if (/\d{4}|H\.?R\.|SB |HB |Act|Bill|vote|voted|statement|report|Executive|County|Office|Board|policy|initiative|law/i.test(inner)) {
           var url = billUrl(inner);
           if (url) {
-            return '<a href="' + url + '" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#C8F97A;font-family:\'Syne\',sans-serif;background:#1a1a1a;padding:1px 6px;border-radius:3px;white-space:nowrap;text-decoration:underline;">(' + inner + ')</a>';
+            return '<a href="' + url + '" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#445B3E;font-family:\'Syne\',sans-serif;background:#1a1a1a;padding:1px 6px;border-radius:3px;white-space:nowrap;text-decoration:underline;">(' + inner + ')</a>';
           }
           return '<span style="font-size:11px;color:#666;font-family:\'Syne\',sans-serif;background:#1a1a1a;padding:1px 6px;border-radius:3px;white-space:nowrap;">(' + inner + ')</span>';
         }
@@ -244,7 +244,7 @@ function renderLine(line, i, photos, usedPhotoUrls) {
   if (strong || partial || low) {
     const photoUrl2 = photoUrl;
     const badge = strong ? "Strong Match" : partial ? "Partial Match" : "Low Match";
-    const color = strong ? "#C8F97A" : partial ? "#F9C87A" : "#ff8080";
+    const color = strong ? "#445B3E" : partial ? "#F9C87A" : "#ff8080";
     const rest = t.replace("**" + badge + "**", "").trim();
     return (
       <div key={i} style={{ display:"flex", alignItems:"flex-start", gap:"10px", flexWrap:"wrap", marginBottom:"4px" }}>
@@ -257,7 +257,7 @@ function renderLine(line, i, photos, usedPhotoUrls) {
   if (t.indexOf("- ") === 0 || t.indexOf("* ") === 0) {
     return (
       <div key={i} style={{ display:"flex", gap:"10px", fontSize:"15px", lineHeight:1.65, color:"#ccc" }}>
-        <span style={{ color:"#C8F97A", flexShrink:0, marginTop:"2px", fontSize:"11px" }}>&#9672;</span>
+        <span style={{ color:"#445B3E", flexShrink:0, marginTop:"2px", fontSize:"11px" }}>&#9672;</span>
         <span dangerouslySetInnerHTML={{ __html: styleCitations(t.slice(2)) }} />
       </div>
     );
@@ -287,7 +287,7 @@ function Tabs(props) {
         {secs.map(function(sec, i) {
           return (
             <button key={i}
-              style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"11px", letterSpacing:".06em", padding:"6px 12px", borderRadius:"4px", background: tab === i ? "#C8F97A" : "#1a1a1a", color: tab === i ? "#0e0e0e" : "#666", border: tab === i ? "1px solid #C8F97A" : "1px solid #2a2a2a", cursor:"pointer" }}
+              style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"11px", letterSpacing:".06em", padding:"6px 12px", borderRadius:"4px", background: tab === i ? "#445B3E" : "#1a1a1a", color: tab === i ? "#0e0e0e" : "#666", border: tab === i ? "1px solid #445B3E" : "1px solid #2a2a2a", cursor:"pointer" }}
               onClick={function() { changeTab(i); }}>
               {(function() {
               const nameKey = Object.keys(props.photos || {}).find(function(k) { return sec.heading.indexOf(k) >= 0; });
@@ -303,10 +303,10 @@ function Tabs(props) {
       </div>
       {/* Screen view: single active tab */}
       <div className="screen-only" style={{ background:"#141414", border:"1px solid #222", borderRadius:"6px", padding:"22px", display:"flex", flexDirection:"column", gap:"14px", marginTop:"0" }}>
-        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", letterSpacing:".08em", color:"#C8F97A", textTransform:"uppercase", paddingBottom:"10px", borderBottom:"1px solid #1e1e1e" }}>{cur.heading}</div>
+        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", letterSpacing:".08em", color:"#445B3E", textTransform:"uppercase", paddingBottom:"10px", borderBottom:"1px solid #1e1e1e" }}>{cur.heading}</div>
         {cur.heading === "Questions to Ask" && (
           <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"14px 18px", marginBottom:"4px" }}>
-            <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#C8F97A", marginBottom:"6px" }}>Make your voice heard in person</div>
+            <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E", marginBottom:"6px" }}>Make your voice heard in person</div>
             <div style={{ fontSize:"13px", color:"#aaa", lineHeight:1.7 }}>
               The most powerful way to create change is to show up and make noise. Research shows it only takes five calls to get a representative's attention — your representatives' phone numbers are listed in the Contact section below. Check their Instagram to find out when in-person meetings are being held. Bring this personalized question guide to your next town hall and hold your officials accountable to their actual voting record.
             </div>
@@ -317,13 +317,13 @@ function Tabs(props) {
         </div>
         <div style={{ display:"flex", gap:"10px", marginTop:"8px" }}>
           {tab > 0 && (
-            <button style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", padding:"10px 20px", borderRadius:"4px", background:"#1e1e1e", color:"#C8F97A", border:"none", cursor:"pointer" }}
+            <button style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", padding:"10px 20px", borderRadius:"4px", background:"#1e1e1e", color:"#445B3E", border:"none", cursor:"pointer" }}
               onClick={function() { changeTab(tab - 1); }}>
               Prev
             </button>
           )}
           {tab < secs.length - 1 && (
-            <button style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", padding:"10px 20px", borderRadius:"4px", background:"#C8F97A", color:"#0e0e0e", border:"none", cursor:"pointer", marginLeft:"auto" }}
+            <button style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", padding:"10px 20px", borderRadius:"4px", background:"#445B3E", color:"#0e0e0e", border:"none", cursor:"pointer", marginLeft:"auto" }}
               onClick={function() { changeTab(tab + 1); }}>
               Next
             </button>
@@ -357,19 +357,19 @@ function RegCheckPanel(props) {
   return (
     <div style={{ display:"flex", flexDirection:"column", gap:"16px" }}>
       <div style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"20px 22px", display:"flex", flexDirection:"column", gap:"12px" }}>
-        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#C8F97A", letterSpacing:".06em" }}>Check Your {props.state || "State"} Registration</div>
+        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E", letterSpacing:".06em" }}>Check Your {props.state || "State"} Registration</div>
         <p style={{ fontSize:"14px", color:"#aaa", lineHeight:1.6 }}>Use your state's official voter lookup tool to confirm your registration is active at your current address.</p>
-        <a href={checkUrl} target="_blank" rel="noopener noreferrer" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", textDecoration:"none", alignSelf:"flex-start" }}>
+        <a href={checkUrl} target="_blank" rel="noopener noreferrer" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", textDecoration:"none", alignSelf:"flex-start" }}>
           Check Registration Status
         </a>
         <p style={{ fontSize:"12px", color:"#555", lineHeight:1.6 }}>After checking, confirm your status below so we can include the right resources in your guide.</p>
       </div>
       <div style={{ display:"flex", gap:"10px", flexWrap:"wrap" }}>
-        <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px" }}
+        <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px" }}
           onClick={function() { props.setRegistered(true); props.setRegStatus("confirmed"); }}>
           I am registered
         </button>
-        <button className="cta" style={{ background:"#1e1e1e", color:"#C8F97A", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", border:"1px solid #2a2a2a" }}
+        <button className="cta" style={{ background:"#1e1e1e", color:"#445B3E", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", border:"1px solid #2a2a2a" }}
           onClick={function() { props.setRegistered(false); props.setRegStatus("need-to-register"); }}>
           I need to register
         </button>
@@ -383,7 +383,7 @@ function RegRegisterPanel(props) {
   const regUrl = stateInfo.register || REGS[props.state.toUpperCase()] || "https://vote.org/register-to-vote/";
   return (
     <div style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"20px 22px", display:"flex", flexDirection:"column", gap:"14px" }}>
-      <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#C8F97A", letterSpacing:".06em" }}>How to Register in {props.state || "Your State"}</div>
+      <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E", letterSpacing:".06em" }}>How to Register in {props.state || "Your State"}</div>
       <div style={{ display:"flex", flexDirection:"column", gap:"10px" }}>
         <div style={{ display:"flex", gap:"12px" }}>
           <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"11px", color:"#555", textTransform:"uppercase", width:"80px", flexShrink:0, paddingTop:"2px" }}>How</div>
@@ -394,7 +394,7 @@ function RegRegisterPanel(props) {
           <div style={{ fontSize:"14px", color:"#ccc", lineHeight:1.6 }}>{stateInfo.deadline}</div>
         </div>
       </div>
-      <a href={regUrl} target="_blank" rel="noopener noreferrer" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", textDecoration:"none", alignSelf:"flex-start" }}>
+      <a href={regUrl} target="_blank" rel="noopener noreferrer" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", textDecoration:"none", alignSelf:"flex-start" }}>
         {"Register to Vote in " + (props.state || "Your State")}
       </a>
     </div>
@@ -696,9 +696,9 @@ export default function App() {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Newsreader:ital,wght@0,300;0,400;1,300&display=swap');
         *{box-sizing:border-box;margin:0;padding:0;}html,body{margin:0;padding:0;overflow-x:hidden;width:100%;}
-        ::selection{background:#C8F97A;color:#0e0e0e;}
+        ::selection{background:#445B3E;color:#0e0e0e;}
         ::-webkit-scrollbar{width:4px;}
-        ::-webkit-scrollbar-thumb{background:#C8F97A;border-radius:2px;}
+        ::-webkit-scrollbar-thumb{background:#445B3E;border-radius:2px;}
         .sIn{animation:sIn .3s ease forwards;}
         .sOut{animation:sOut .2s ease forwards;}
         @keyframes sIn{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
@@ -717,20 +717,20 @@ export default function App() {
           h2{font-size:20px!important;}
           div[style*="gap"]{gap:4px!important;}
         }
-        input:focus{outline:none;border-color:#C8F97A!important;}
-        a{color:#C8F97A;}
+        input:focus{outline:none;border-color:#445B3E!important;}
+        a{color:#445B3E;}
         .regBtn{transition:border-color .15s ease;}
-        .regBtn:hover{border-color:#C8F97A!important;}
-        .regBtn.sel{border-color:#C8F97A!important;background:rgba(200,249,122,.08)!important;}
+        .regBtn:hover{border-color:#445B3E!important;}
+        .regBtn.sel{border-color:#445B3E!important;background:rgba(200,249,122,.08)!important;}
         .pBtn{transition:all .15s ease;cursor:pointer;border:none;}
         .pBtn:hover{filter:brightness(1.15);}
         @keyframes spin{from{stroke-dashoffset:107;}to{stroke-dashoffset:-107;}}
       `}</style>
 
       <div style={{ display:"flex", alignItems:"center", gap:"16px", padding:"20px 32px", borderBottom:"1px solid #1e1e1e", position:"sticky", top:0, background:"#0e0e0e", zIndex:10 }}>
-        <div style={{ fontFamily:FF_SYNE, fontWeight:800, fontSize:"14px", letterSpacing:".15em", color:"#C8F97A", whiteSpace:"nowrap" }}>CIVIC MATCH</div>
+        <div style={{ fontFamily:FF_SYNE, fontWeight:800, fontSize:"14px", letterSpacing:".15em", color:"#445B3E", whiteSpace:"nowrap" }}>CIVIC MATCH</div>
         <div style={{ flex:1, height:"2px", background:"#2a2a2a", borderRadius:"1px", overflow:"hidden" }}>
-          <div style={{ height:"100%", background:"#C8F97A", borderRadius:"1px", transition:"width .4s ease", width: (step/(STEPS.length-1)*100)+"%" }} />
+          <div style={{ height:"100%", background:"#445B3E", borderRadius:"1px", transition:"width .4s ease", width: (step/(STEPS.length-1)*100)+"%" }} />
         </div>
         <div style={{ fontFamily:FF_SYNE, fontSize:"11px", color:"#555", whiteSpace:"nowrap" }}>{step+1} / {STEPS.length}</div>
       </div>
@@ -740,28 +740,28 @@ export default function App() {
 
           {cur === "welcome" && (
             <div style={{ display:"flex", flexDirection:"column", gap:"24px" }}>
-              <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#C8F97A", textTransform:"uppercase" }}>Your Voice. Your Vote.</div>
+              <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#445B3E", textTransform:"uppercase" }}>Your Voice. Your Vote.</div>
               <h1 style={{ fontFamily:FF_SYNE, fontSize:"clamp(36px,7vw,64px)", fontWeight:800, lineHeight:1.05, color:"#f8f8f8" }}>
                 Find candidates<br /><em style={{ fontStyle:"italic", fontWeight:300 }}>who match what you believe.</em>
               </h1>
               <p style={{ fontSize:"17px", lineHeight:1.7, color:"#aaa" }}>Get a personalized guide showing how your actual representatives have voted at every level of government — federal, state, and local.</p>
               <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"10px" }}>
                 {["Real voting records","District identification","Real voting records","Local election coverage"].map(function(f) {
-                  return <div key={f} style={{ display:"flex", alignItems:"center", gap:"10px", fontSize:"14px", color:"#ccc", fontFamily:FF_SYNE }}><span style={{ width:"6px", height:"6px", borderRadius:"50%", background:"#C8F97A", flexShrink:0, display:"block" }} />{f}</div>;
+                  return <div key={f} style={{ display:"flex", alignItems:"center", gap:"10px", fontSize:"14px", color:"#ccc", fontFamily:FF_SYNE }}><span style={{ width:"6px", height:"6px", borderRadius:"50%", background:"#445B3E", flexShrink:0, display:"block" }} />{f}</div>;
                 })}
               </div>
-              <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} onClick={function() { go(1); }}>Get Started</button>
+              <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} onClick={function() { go(1); }}>Get Started</button>
             </div>
           )}
 
           {cur === "address" && (
             <div style={{ display:"flex", flexDirection:"column", gap:"24px" }}>
-              <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#C8F97A", textTransform:"uppercase" }}>Step 1 of 2</div>
+              <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#445B3E", textTransform:"uppercase" }}>Step 1 of 2</div>
               <h2 style={{ fontFamily:FF_SYNE, fontSize:"clamp(26px,5vw,42px)", fontWeight:700, lineHeight:1.1, color:"#f8f8f8" }}>Where do you vote?</h2>
               <p style={{ fontSize:"17px", lineHeight:1.7, color:"#aaa" }}>Your ZIP code is enough to identify your federal and state representatives. No data is stored.</p>
 
               <div style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"16px 18px", display:"flex", flexDirection:"column", gap:"6px" }}>
-                <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"12px", color:"#C8F97A", letterSpacing:".08em" }}>Why add your full address?</div>
+                <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"12px", color:"#445B3E", letterSpacing:".08em" }}>Why add your full address?</div>
                 <p style={{ fontSize:"13px", color:"#777", lineHeight:1.6 }}>
                   ZIP code covers federal and state races. A full street address improves accuracy for city council wards, school board districts, and hyper-local races — which often split within the same ZIP code. Full address support for local elections is coming soon via an upcoming data integration.
                 </p>
@@ -800,20 +800,20 @@ export default function App() {
                 <div style={{ display:"flex", flexDirection:"column", gap:"8px", flex:2 }}>
                   <div style={{ display:"flex", alignItems:"center", gap:"8px" }}>
                     <label style={{ fontFamily:FF_SYNE, fontSize:"12px", fontWeight:600, letterSpacing:".12em", color:"#888", textTransform:"uppercase" }}>ZIP Code</label>
-                    <span style={{ fontFamily:FF_SYNE, fontSize:"10px", color:"#C8F97A", background:"rgba(200,249,122,.1)", padding:"2px 8px", borderRadius:"20px" }}>Required</span>
+                    <span style={{ fontFamily:FF_SYNE, fontSize:"10px", color:"#445B3E", background:"rgba(200,249,122,.1)", padding:"2px 8px", borderRadius:"20px" }}>Required</span>
                   </div>
                   <input style={{ background:"#141414", border:"1px solid #2a2a2a", borderRadius:"4px", padding:"14px 16px", fontSize:"16px", color:"#f0f0f0", fontFamily:FF_NEWS2, width:"100%" }}
                     autoComplete="postal-code" placeholder="21201" maxLength={5} value={addr.zip}
                     onChange={function(e) { const v = e.target.value.replace(/\D/g,""); setAddr(function(a) { return { street:a.street, city:a.city, state:a.state, zip:v }; }); }} />
                 </div>
               </div>
-              <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} disabled={addr.zip.length < 5} onClick={function() { go(2); }}>Continue</button>
+              <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} disabled={addr.zip.length < 5} onClick={function() { go(2); }}>Continue</button>
             </div>
           )}
 
           {cur === "registration" && (
             <div style={{ display:"flex", flexDirection:"column", gap:"24px" }}>
-              <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#C8F97A", textTransform:"uppercase" }}>Step 2 of 2</div>
+              <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#445B3E", textTransform:"uppercase" }}>Step 2 of 2</div>
               <h2 style={{ fontFamily:FF_SYNE, fontSize:"clamp(26px,5vw,42px)", fontWeight:700, lineHeight:1.1, color:"#f8f8f8" }}>Voter registration</h2>
               <p style={{ fontSize:"17px", lineHeight:1.7, color:"#aaa" }}>Where are you with your registration?</p>
 
@@ -853,9 +853,9 @@ export default function App() {
 
               {error === "RATE_LIMIT" && (
                 <div style={{ background:"rgba(200,249,122,.06)", border:"1px solid rgba(200,249,122,.25)", borderRadius:"6px", padding:"18px 20px", display:"flex", flexDirection:"column", gap:"8px" }}>
-                  <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#C8F97A" }}>We are experiencing high demand right now</div>
+                  <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#445B3E" }}>We are experiencing high demand right now</div>
                   <div style={{ fontSize:"13px", color:"#aaa", lineHeight:1.6 }}>Our servers are busy helping other voters. Please wait a few minutes and try again. Your selections have been saved.</div>
-                  <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", padding:"10px 24px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"4px" }}
+                  <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", padding:"10px 24px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"4px" }}
                     onClick={function() { setError(null); run(); }}>Try Again</button>
                 </div>
               )}
@@ -865,7 +865,7 @@ export default function App() {
 
               {(regStatus === "confirmed" || regStatus === "need-to-register") && (
                 <div style={{ display:"flex", flexDirection:"column", gap:"12px" }}>
-                  <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start" }} disabled={loading} onClick={run}>
+                  <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start" }} disabled={loading} onClick={run}>
                     {loading ? ("◌ " + loadMsg + "...") : "Generate My Voter Guide"}
                   </button>
                   {loading && (
@@ -893,14 +893,14 @@ export default function App() {
                               <div style={{ position:"relative", width:"40px", height:"40px" }}>
                                 <svg width="40" height="40" viewBox="0 0 40 40">
                                   <circle cx="20" cy="20" r="17" fill="none" stroke="#2a2a2a" strokeWidth="3" />
-                                  {done && <circle cx="20" cy="20" r="17" fill="none" stroke="#C8F97A" strokeWidth="3" strokeDasharray="107" strokeDashoffset="0" strokeLinecap="round" transform="rotate(-90 20 20)" />}
-                                  {active && <circle cx="20" cy="20" r="17" fill="none" stroke="#C8F97A" strokeWidth="3" strokeDasharray="107" strokeDashoffset="54" strokeLinecap="round" transform="rotate(-90 20 20)" style={{ animation:"spin 1.5s linear infinite" }} />}
+                                  {done && <circle cx="20" cy="20" r="17" fill="none" stroke="#445B3E" strokeWidth="3" strokeDasharray="107" strokeDashoffset="0" strokeLinecap="round" transform="rotate(-90 20 20)" />}
+                                  {active && <circle cx="20" cy="20" r="17" fill="none" stroke="#445B3E" strokeWidth="3" strokeDasharray="107" strokeDashoffset="54" strokeLinecap="round" transform="rotate(-90 20 20)" style={{ animation:"spin 1.5s linear infinite" }} />}
                                 </svg>
                                 <div style={{ position:"absolute", inset:0, display:"flex", alignItems:"center", justifyContent:"center", fontSize:"13px" }}>
                                   {done ? "✓" : active ? "" : <span style={{ color:"#333", fontSize:"12px" }}>{i+1}</span>}
                                 </div>
                               </div>
-                              <div style={{ fontFamily:FF_SYNE, fontSize:"10px", color: done ? "#C8F97A" : active ? "#aaa" : "#444", textAlign:"center", lineHeight:1.3 }}>{s.label}</div>
+                              <div style={{ fontFamily:FF_SYNE, fontSize:"10px", color: done ? "#445B3E" : active ? "#aaa" : "#444", textAlign:"center", lineHeight:1.3 }}>{s.label}</div>
                             </div>
                           );
                         })}
@@ -918,7 +918,7 @@ export default function App() {
 
           {cur === "results" && results && (
             <div style={{ display:"flex", flexDirection:"column", gap:"24px" }}>
-              <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#C8F97A", textTransform:"uppercase" }}>Your Civic Match</div>
+              <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#445B3E", textTransform:"uppercase" }}>Your Civic Match</div>
               <h2 style={{ fontFamily:FF_SYNE, fontSize:"clamp(26px,5vw,42px)", fontWeight:700, lineHeight:1.1, color:"#f8f8f8" }}>Your personalized<br />voter guide</h2>
 
               <div style={{ fontFamily:FF_SYNE, fontSize:"15px", color:"#aaa" }}>
@@ -926,7 +926,7 @@ export default function App() {
               </div>
 
               <div style={{ background:"#1a1a1a", border:"1px solid #333", borderRadius:"6px", padding:"12px 16px", fontSize:"12px", color:"#999", lineHeight:1.6, marginTop:"4px" }}>
-                AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#C8F97A", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
+                AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
               </div>
 
               <Tabs sections={parseSections(results)} photos={photos} />
@@ -945,7 +945,7 @@ export default function App() {
                     return (
                       <a key={src.url} href={src.url} target="_blank" rel="noopener noreferrer"
                         style={{ display:"flex", flexDirection:"column", gap:"2px", textDecoration:"none", padding:"10px 12px", background:"#1a1a1a", borderRadius:"4px", border:"1px solid #252525" }}>
-                        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#C8F97A" }}>{src.label}</div>
+                        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E" }}>{src.label}</div>
                         <div style={{ fontSize:"12px", color:"#666", lineHeight:1.5 }}>{src.desc}</div>
                       </a>
                     );
@@ -959,20 +959,20 @@ export default function App() {
 
               {!registered && regUrl && (
                 <div style={{ background:"rgba(200,249,122,.06)", border:"1px solid rgba(200,249,122,.3)", borderRadius:"6px", padding:"20px 22px", display:"flex", flexDirection:"column", gap:"10px" }}>
-                  <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#C8F97A" }}>Check or Complete Your Registration</div>
+                  <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#445B3E" }}>Check or Complete Your Registration</div>
                   <p style={{ fontSize:"14px", color:"#aaa", lineHeight:1.6 }}>Use your state's official voter registration portal to confirm or complete your registration before the deadline.</p>
-                  <a href={regUrl} target="_blank" rel="noopener noreferrer" style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#C8F97A", textDecoration:"none" }}>
+                  <a href={regUrl} target="_blank" rel="noopener noreferrer" style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E", textDecoration:"none" }}>
                     {"Go to " + addr.state + " Voter Registration"}
                   </a>
                 </div>
               )}
 
               <div style={{ display:"flex", gap:"12px", flexWrap:"wrap" }}>
-                <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px" }}
+                <button className="cta" style={{ background:"#445B3E", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px" }}
                   onClick={function() { window.print(); }}>
                   Print Voter Guide
                 </button>
-                <button className="cta" style={{ background:"#2a2a2a", color:"#C8F97A", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px" }}
+                <button className="cta" style={{ background:"#2a2a2a", color:"#445B3E", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px" }}
                 onClick={function() { setStep(0); setPriorities({}); setAddr({street:"",city:"",state:"",zip:""}); setRegistered(null); setRegStatus(null); setResults(null); setRegUrl(null); setError(null); go(0); }}>
                 Start Over
               </button>
