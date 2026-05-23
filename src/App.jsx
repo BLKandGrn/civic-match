@@ -737,7 +737,7 @@ export default function App() {
                   return <div key={f} style={{ display:"flex", alignItems:"center", gap:"10px", fontSize:"14px", color:"#ccc", fontFamily:FF_SYNE }}><span style={{ width:"6px", height:"6px", borderRadius:"50%", background:"#C8F97A", flexShrink:0, display:"block" }} />{f}</div>;
                 })}
               </div>
-              <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} onClick={function() { go(2); }}>Get Started</button>
+              <button className="cta" style={{ background:"#C8F97A", color:"#0e0e0e", fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".08em", padding:"16px 36px", borderRadius:"4px", alignSelf:"flex-start", marginTop:"8px" }} onClick={function() { go(1); }}>Get Started</button>
             </div>
           )}
 
