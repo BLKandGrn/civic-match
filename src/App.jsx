@@ -302,6 +302,14 @@ function Tabs(props) {
       {/* Screen view: single active tab */}
       <div className="screen-only" style={{ background:"#141414", border:"1px solid #222", borderRadius:"6px", padding:"22px", display:"flex", flexDirection:"column", gap:"14px", marginTop:"0" }}>
         <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", letterSpacing:".08em", color:"#C8F97A", textTransform:"uppercase", paddingBottom:"10px", borderBottom:"1px solid #1e1e1e" }}>{cur.heading}</div>
+        {cur.heading === "Questions to Ask" && (
+          <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"14px 18px", marginBottom:"4px" }}>
+            <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#C8F97A", marginBottom:"6px" }}>Make your voice heard in person</div>
+            <div style={{ fontSize:"13px", color:"#aaa", lineHeight:1.7 }}>
+              The most powerful way to create change is to show up. Town halls, community meetings, and constituent offices give you direct access to your representatives. Below is your personalized question guide — bring these to your next town hall and hold your officials accountable to their actual voting record.
+            </div>
+          </div>
+        )}
         <div style={{ display:"flex", flexDirection:"column", gap:"8px" }}>
           {cur.body.map(function(line, i) { return renderLine(line, i, props.photos); })}
         </div>
