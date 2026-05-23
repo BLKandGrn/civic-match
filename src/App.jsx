@@ -735,7 +735,8 @@ export default function App() {
             <div style={{ display:"flex", flexDirection:"column", gap:"24px" }}>
               <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#C8F97A", textTransform:"uppercase" }}>Step 1 of 3</div>
               <h2 style={{ fontFamily:FF_SYNE, fontSize:"clamp(26px,5vw,42px)", fontWeight:700, lineHeight:1.1, color:"#f8f8f8" }}>What matters most to you?</h2>
-              <p style={{ fontSize:"17px", lineHeight:1.7, color:"#aaa" }}>Rate each issue. Your top priorities shape your candidate recommendations.</p>
+              <p style={{ fontSize:"15px", lineHeight:1.8, color:"#aaa", marginBottom:"8px" }}>Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads. We believe voters deserve to know how their elected officials have actually voted, not just what they promise on the campaign trail. Rate the issues below and we'll match you to your representatives' real records.</p>
+              <p style={{ fontSize:"13px", lineHeight:1.7, color:"#666" }}>Rate each issue — your priorities shape your personalized guide.</p>
               <div style={{ display:"flex", flexDirection:"column", gap:"10px" }}>
                 {ISSUES.map(function(issue) {
                   const val = priorities[issue.id];
@@ -999,5 +1000,14 @@ export default function App() {
         </div>
       </div>
     </div>
+
+      <footer style={{ textAlign:"center", padding:"24px 16px", borderTop:"1px solid #1a1a1a", marginTop:"16px" }}>
+        <div style={{ fontFamily:FF_SYNE, fontSize:"13px", fontWeight:700, color:"#C8F97A", letterSpacing:".1em", marginBottom:"6px" }}>BLK + GRN</div>
+        <div style={{ fontSize:"11px", color:"#555", lineHeight:1.6 }}>
+          Civic Match is a BLK + GRN initiative &nbsp;&bull;&nbsp;
+          <a href="https://blkgrn.com" target="_blank" rel="noopener noreferrer" style={{ color:"#666", textDecoration:"underline" }}>blkgrn.com</a>
+          <br />&copy; {new Date().getFullYear()} BLK + GRN. For informational purposes only. Always verify with official sources.
+        </div>
+      </footer>
   );
 }
