@@ -337,7 +337,7 @@ function Tabs(props) {
             <div style={{ fontFamily:"Arial Black, Arial, sans-serif", fontSize:"22px", fontWeight:"900", letterSpacing:"2px", color:"#000", marginBottom:"6px" }}>CIVIC MATCH</div>
             <div style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:"#444", marginBottom:"10px" }}>Powered by BLK + GRN &nbsp;|&nbsp; blkgrn.com</div>
             <div style={{ fontFamily:"Arial, sans-serif", fontSize:"12px", color:"#333", lineHeight:"1.6", maxWidth:"500px" }}>
-              Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads. Below is your personalized breakdown of how your elected officials have actually voted on the issues that matter.
+              Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads. Below is a factual record of how your elected officials have actually voted on the issues that matter to you.
             </div>
           </div>
           <div style={{ textAlign:"right", fontSize:"11px", color:"#666", whiteSpace:"nowrap", paddingLeft:"20px" }}>
