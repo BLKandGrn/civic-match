@@ -179,8 +179,9 @@ const STATE_ELECTION_SITES = {
   return sections.filter(function(s) { return s.heading; });
 }
 
-function renderLine(line, i, photos, usedPhotoUrls) {
+function renderLine(line, i, photos, usedPhotoUrls, sectionHeading) {
   if (!usedPhotoUrls) usedPhotoUrls = new Set();
+  const noPhotosSection = sectionHeading === "Explore Further";
   const t = line.trim();
   if (!t) return <br key={i} />;
   if (t.indexOf("Note:") === 0 || t.indexOf("Note (") === 0) return null;
@@ -232,7 +233,31 @@ function renderLine(line, i, photos, usedPhotoUrls) {
   });
   const photoUrl = nameKey ? photos[nameKey] : null;
   const isCandidateHeader = t.indexOf("**") === 0 && t.indexOf(" — ") >= 0;
-  if (photoUrl && !strong && !partial && !low && isCandidateHeader && !usedPhotoUrls.has(photoUrl)) {
+  // Show favicon for Explore Further section
+  if (noPhotosSection && isCandidateHeader) {
+    const nameOnly = t.replace(/\*\*/g, "").split(" — ")[0].trim();
+    // Try to extract domain from the next line or use org name
+    const domains = {
+      "NAACP Legal Defense Fund": "naacpldf.org",
+      "Democracy Docket": "democracydocket.com",
+      "Black Voters Matter": "blackvotersmatterfund.org",
+      "Congress.gov": "congress.gov",
+      "OpenStates": "openstates.org",
+      "Ballotpedia": "ballotpedia.org",
+      "Vote411": "vote411.org",
+      "BallotReady": "ballotready.org",
+      "USA.gov Elected Officials": "usa.gov",
+    };
+    const domain = domains[nameOnly];
+    const faviconUrl = domain ? "https://www.google.com/s2/favicons?domain=" + domain + "&sz=32" : null;
+    return (
+      <div key={i} style={{ display:"flex", alignItems:"center", gap:"10px", marginTop:"14px", marginBottom:"2px" }}>
+        {faviconUrl && <img src={faviconUrl} alt={nameOnly} style={{ width:"20px", height:"20px", borderRadius:"4px", objectFit:"contain", flexShrink:0 }} />}
+        <div dangerouslySetInnerHTML={{ __html: styleCitations(t) }} />
+      </div>
+    );
+  }
+  if (photoUrl && !strong && !partial && !low && isCandidateHeader && !usedPhotoUrls.has(photoUrl) && !noPhotosSection) {
     usedPhotoUrls.add(photoUrl);
     return (
       <div key={i} style={{ display:"flex", alignItems:"center", gap:"12px", marginTop:"16px", marginBottom:"4px" }}>
@@ -313,7 +338,7 @@ function Tabs(props) {
           </div>
         )}
         <div style={{ display:"flex", flexDirection:"column", gap:"8px" }}>
-          {(function() { var used = new Set(); return cur.body.map(function(line, i) { return renderLine(line, i, props.photos, used); }); })()}
+          {(function() { var used = new Set(); return cur.body.map(function(line, i) { return renderLine(line, i, props.photos, used, cur.heading); }); })()}
         </div>
         <div style={{ display:"flex", gap:"10px", marginTop:"8px" }}>
           {tab > 0 && (
@@ -351,7 +376,7 @@ function Tabs(props) {
             <div key={si} style={{ marginBottom:"24px", pageBreakInside:"avoid", border: isContact ? "2px solid #445B3E" : "none", borderRadius: isContact ? "6px" : "0", padding: isContact ? "12px 16px" : "0" }}>
               <div style={{ fontWeight:700, fontSize:"14px", textTransform:"uppercase", paddingBottom:"8px", borderBottom: isContact ? "2px solid #445B3E" : "1px solid #ccc", marginBottom:"12px", color: isContact ? "#445B3E" : "#000" }}>{sec.heading}</div>
               <div style={{ display:"flex", flexDirection:"column", gap:"6px" }}>
-                {(function() { var used = new Set(); return sec.body.map(function(line, i) { return renderLine(line, i, props.photos, used); }); })()}
+                {(function() { var used = new Set(); return sec.body.map(function(line, i) { return renderLine(line, i, props.photos, used, sec.heading); }); })()}
               </div>
             </div>
           );
