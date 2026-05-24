@@ -537,15 +537,38 @@ export default function App() {
     setTimeout(function() { setStep(n); setAnim(true); }, 200);
   }
 
-  function buildPrompt(members, stateLeg, voteData, localElections, dwData, dwStateUrls) {
+  function buildPrompt(members, stateLeg, voteData, localElections, dwData, dwStateUrls, staticReps) {
     const issueList = ISSUES.map(function(i) { return "- " + i.label; }).join("\n");
 
+    // Build static enriched context if available
+    const staticFederalMap = {};
+    const staticStateMap = {};
+    if (staticReps) {
+      (staticReps.federal || []).forEach(function(r) { staticFederalMap[r.name] = r; });
+      (staticReps.state_legislators || []).forEach(function(r) { staticStateMap[r.name] = r; });
+    }
+
+    function formatPositions(rep) {
+      if (!rep || !rep.positions || !Object.keys(rep.positions).length) return "";
+      return "\n  Known positions:\n" + Object.entries(rep.positions).map(function(e) { return "  - " + e[0] + ": " + e[1]; }).join("\n");
+    }
+
     const membersStr = members && members.length
-      ? members.map(function(m) { return "- " + m.name + " (" + (m.partyName==="Democrat"||m.partyName==="Democratic"?"D":m.partyName==="Republican"?"R":"N") + ", " + (m.chamber||"Congress") + (m.district ? ", District " + m.district : "") + ")"; }).join("\n")
+      ? members.map(function(m) {
+          const party = m.partyName==="Democrat"||m.partyName==="Democratic"?"D":m.partyName==="Republican"?"R":"N";
+          const staticData = staticFederalMap[m.name] || {};
+          const contact = [staticData.phone, staticData.website, staticData.twitter ? "@"+staticData.twitter : null].filter(Boolean).join(" | ");
+          return "- " + m.name + " (" + party + ", " + (m.chamber||"Congress") + (m.district ? ", District " + m.district : "") + ")" + (contact ? " — " + contact : "") + formatPositions(staticData);
+        }).join("\n")
       : "No federal member data retrieved.";
 
     const stateStr = stateLeg && stateLeg.length
-      ? stateLeg.map(function(l) { return "- " + l.name + " (" + (l.party==="Democrat"||l.party==="Democratic"?"D":l.party==="Republican"?"R":l.party?"N":"N") + ", " + (l.current_role&&l.current_role.chamber?l.current_role.chamber:"State Legislature") + ", District " + (l.current_role&&l.current_role.district?l.current_role.district:"?") + ")"; }).join("\n")
+      ? stateLeg.map(function(l) {
+          const party = l.party==="Democrat"||l.party==="Democratic"?"D":l.party==="Republican"?"R":l.party?"N":"N";
+          const staticData = staticStateMap[l.name] || {};
+          const contact = [staticData.phone, staticData.website].filter(Boolean).join(" | ");
+          return "- " + l.name + " (" + party + ", " + (l.current_role&&l.current_role.chamber?l.current_role.chamber:"State Legislature") + ", District " + (l.current_role&&l.current_role.district?l.current_role.district:"?") + ")" + (contact ? " — " + contact : "") + formatPositions(staticData);
+        }).join("\n")
       : "No state legislator data retrieved.";
 
     // Format Democracy Works election data
@@ -668,35 +691,59 @@ export default function App() {
     setRegUrl(REGS[addr.state.toUpperCase()] || "https://vote.org/register-to-vote/");
 
     let members = [], stateLeg = [], voteData = {}, localElections = [], dwData = null, dwStateUrls = null;
+    let staticReps = null;
 
+    // ── Load pre-generated static data (federal + state) ──
     try {
-      setLoadMsg("Finding your representatives...");
-      const r1 = await fetchWithTimeout(PROXY + "?endpoint=congress-members&state=" + addr.state.toUpperCase());
-      if (r1.ok) {
-        const d = await r1.json();
-        members = (d.members || []).filter(function(m) {
-          if (!m.state || m.state.toUpperCase() !== addr.state.toUpperCase()) return false;
-          if (m.terms && m.terms.item) {
-            const terms = Array.isArray(m.terms.item) ? m.terms.item : [m.terms.item];
-            const lastTerm = terms[terms.length - 1];
-            if (lastTerm && lastTerm.endYear) {
-              const endYear = parseInt(lastTerm.endYear);
-              if (endYear < 2026) return false; // Exclude members whose term ended before current year
+      setLoadMsg("Loading representative data...");
+      const stateCode = addr.state.toUpperCase();
+      const staticRes = await fetch("/data/reps-" + stateCode + ".json");
+      if (staticRes.ok) {
+        staticReps = await staticRes.json();
+        console.log("Static data loaded for", stateCode, "— generated:", staticReps.generated);
+        // Convert static format back to members/stateLeg arrays for downstream use
+        members = (staticReps.federal || []).map(function(r) {
+          return { name: r.name, partyName: r.party === "D" ? "Democrat" : r.party === "R" ? "Republican" : "Independent", chamber: r.chamber, district: r.district, bioguideId: r.bioguideId || null };
+        });
+        stateLeg = (staticReps.state_legislators || []).map(function(r) {
+          return { name: r.name, party: r.party === "D" ? "Democrat" : r.party === "R" ? "Republican" : "Independent", current_role: { chamber: r.chamber, district: r.district } };
+        });
+      } else {
+        console.warn("No static data for", stateCode, "— falling back to live API");
+      }
+    } catch(e) { console.warn("Static data load failed:", e.message); }
+
+    // ── Fall back to live API if no static data ──
+    if (!staticReps) {
+      try {
+        setLoadMsg("Finding your representatives...");
+        const r1 = await fetchWithTimeout(PROXY + "?endpoint=congress-members&state=" + addr.state.toUpperCase());
+        if (r1.ok) {
+          const d = await r1.json();
+          members = (d.members || []).filter(function(m) {
+            if (!m.state || m.state.toUpperCase() !== addr.state.toUpperCase()) return false;
+            if (m.terms && m.terms.item) {
+              const terms = Array.isArray(m.terms.item) ? m.terms.item : [m.terms.item];
+              const lastTerm = terms[terms.length - 1];
+              if (lastTerm && lastTerm.endYear) {
+                const endYear = parseInt(lastTerm.endYear);
+                if (endYear < 2026) return false;
+              }
             }
-          }
-          return true;
-        }).slice(0, 6);
-      }
-    } catch(e) { console.warn("Congress:", e.message); }
+            return true;
+          }).slice(0, 6);
+        }
+      } catch(e) { console.warn("Congress:", e.message); }
 
-    try {
-      setLoadMsg("Finding your state legislators...");
-      const r2 = await fetchWithTimeout(PROXY + "?endpoint=state-legislators&address=" + encodeURIComponent(fullAddr));
-      if (r2.ok) {
-        const d = await r2.json();
-        stateLeg = (d.results || []).slice(0, 6);
-      }
-    } catch(e) { console.warn("OpenStates:", e.message); }
+      try {
+        setLoadMsg("Finding your state legislators...");
+        const r2 = await fetchWithTimeout(PROXY + "?endpoint=state-legislators&address=" + encodeURIComponent(fullAddr));
+        if (r2.ok) {
+          const d = await r2.json();
+          stateLeg = (d.results || []).slice(0, 6);
+        }
+      } catch(e) { console.warn("OpenStates:", e.message); }
+    }
 
     try {
       setLoadMsg("Finding local elections...");
@@ -761,7 +808,7 @@ export default function App() {
       const ANTH_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY || ""; const resp = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
         headers: { "Content-Type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": ANTH_KEY, "anthropic-dangerous-direct-browser-access": "true" },
-        body: JSON.stringify({ model: "claude-sonnet-4-5-20251022", max_tokens: 8000, messages: [{ role: "user", content: buildPrompt(members, stateLeg, voteData, localElections, dwData, dwStateUrls) }] }),
+        body: JSON.stringify({ model: "claude-sonnet-4-5-20251022", max_tokens: 8000, messages: [{ role: "user", content: buildPrompt(members, stateLeg, voteData, localElections, dwData, dwStateUrls, staticReps) }] }),
       });
 
       if (!resp.ok) {
@@ -807,6 +854,10 @@ export default function App() {
         console.warn("Photo section error:", photoSectionErr);
       }
 
+      // Show static data freshness if available
+      if (staticReps && staticReps.generated) {
+        setLoadMsg("Data current as of " + staticReps.generated);
+      }
       go(3);
     } catch(e) {
       console.error(e);
