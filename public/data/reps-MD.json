@@ -15,7 +15,7 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection measures as part of District 18 delegation priorities.",
+          "summary": "Supports environmental legislation and climate action initiatives in the Maryland General Assembly.",
           "voted_for": [],
           "voted_against": []
         }
@@ -33,7 +33,7 @@
       "positions": {
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Has advocated for criminal justice reform measures in Prince George's County delegation.",
+          "summary": "Has advocated for criminal justice reform measures in the Maryland legislature.",
           "voted_for": [],
           "voted_against": []
         }
@@ -45,27 +45,27 @@
       "chamber": "House",
       "district": "10",
       "phone": "410-841-3391",
-      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/jones01",
+      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/jones01",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "As House Speaker, has championed Blueprint for Maryland's Future education funding reforms.",
+          "summary": "As Speaker of the House, has supported increased funding for public education including Blueprint for Maryland's Future.",
           "voted_for": [
-            "Blueprint for Maryland's Future implementation and funding (Maryland General Assembly, 2020-2024)"
+            "Blueprint for Maryland's Future implementation funding (Maryland General Assembly, 2020-2024)"
           ],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Has supported environmental protection legislation during her tenure as Speaker.",
+          "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Has supported various criminal justice reform measures as Speaker.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supported progressive tax measures to fund education and infrastructure.",
+          "summary": "Has supported various criminal justice reform measures as a legislative leader.",
           "voted_for": [],
           "voted_against": []
         }
@@ -81,9 +81,9 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Reproductive Health Rights": {
+        "Progressive Taxation": {
           "stance": "support",
-          "summary": "Has supported reproductive health access measures in the Maryland legislature.",
+          "summary": "Has expressed support for progressive tax policies in the Maryland General Assembly.",
           "voted_for": [],
           "voted_against": []
         }
@@ -92,16 +92,22 @@
     {
       "name": "Alonzo Washington",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "22",
-      "phone": null,
-      "website": null,
+      "phone": "410-841-3656",
+      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/washington02",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform initiatives in Prince George's County.",
+          "summary": "Has supported criminal justice reform legislation in the Maryland Senate.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Has supported public education funding initiatives.",
           "voted_for": [],
           "voted_against": []
         }
@@ -117,9 +123,9 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Has supported education funding measures in the Maryland General Assembly.",
+          "summary": "Has supported criminal justice reform measures in the Maryland House.",
           "voted_for": [],
           "voted_against": []
         }
@@ -130,14 +136,20 @@
       "party": "D",
       "chamber": "House",
       "district": "24",
-      "phone": null,
-      "website": null,
+      "phone": "410-841-3370",
+      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/harrison",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports education funding and equity measures.",
+          "summary": "Has supported public education funding and Blueprint implementation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Has supported reproductive health rights legislation.",
           "voted_for": [],
           "voted_against": []
         }
@@ -155,7 +167,7 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Has supported environmental protection measures in Anne Arundel County.",
+          "summary": "Has supported environmental protection measures in the Maryland House.",
           "voted_for": [],
           "voted_against": []
         }
@@ -166,14 +178,20 @@
       "party": "D",
       "chamber": "House",
       "district": "22",
-      "phone": null,
-      "website": null,
+      "phone": "410-841-3912",
+      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/healey",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding and resources.",
+          "summary": "Has supported increased funding for public schools and Blueprint initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Has supported environmental protection legislation.",
           "voted_for": [],
           "voted_against": []
         }
@@ -184,39 +202,34 @@
       "party": "D",
       "chamber": "House",
       "district": "14",
-      "phone": "301-858-3085",
-      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/kaiser",
+      "phone": "410-841-3036",
+      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/kaiser",
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Long-standing advocate for environmental protection and climate change legislation.",
-          "voted_for": [
-            "Clean Energy Jobs Act (Maryland General Assembly, 2019)",
-            "Climate Solutions Now Act (Maryland General Assembly, 2022)"
-          ],
-          "voted_against": []
-        },
-        "Cannabis Policy": {
-          "stance": "support",
-          "summary": "Supported cannabis legalization and regulation in Maryland.",
-          "voted_for": [
-            "Cannabis legalization referendum (Maryland General Assembly, 2022)"
-          ],
-          "voted_against": []
-        },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Strong supporter of Blueprint for Maryland's Future education funding.",
+          "summary": "Long-time supporter of public education funding and Blueprint for Maryland's Future.",
           "voted_for": [
             "Blueprint for Maryland's Future (Maryland General Assembly, 2020)"
           ],
           "voted_against": []
         },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Has supported progressive tax policies throughout her legislative career.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ rights and anti-discrimination measures.",
+          "summary": "Has been a strong advocate for LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Has consistently supported reproductive health rights legislation.",
           "voted_for": [],
           "voted_against": []
         }
@@ -227,20 +240,20 @@
       "party": "D",
       "chamber": "Senate",
       "district": "26",
-      "phone": "410-841-3642",
-      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/muse",
+      "phone": "410-841-3092",
+      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/muse",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Criminal Justice Reform": {
-          "stance": "mixed",
-          "summary": "Has taken varied positions on criminal justice reform measures.",
+          "stance": "support",
+          "summary": "Has supported criminal justice reform measures in the Maryland Senate.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports education funding for Prince George's County schools.",
+          "summary": "Has supported public education funding initiatives.",
           "voted_for": [],
           "voted_against": []
         }
