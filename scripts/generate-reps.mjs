@@ -174,7 +174,7 @@ Return ONLY valid JSON in this exact shape, no markdown, no explanation:
     },
     body: JSON.stringify({
       model: "claude-sonnet-4-5-20251022",
-      max_tokens: 4000,
+      max_tokens: 8000,
       messages: [{ role: "user", content: prompt }]
     })
   });
@@ -187,7 +187,14 @@ Return ONLY valid JSON in this exact shape, no markdown, no explanation:
   const data = await res.json();
   const text = data.content.find(b => b.type === "text")?.text || "";
   const clean = text.replace(/```json|```/g, "").trim();
-  return JSON.parse(clean);
+  try {
+    return JSON.parse(clean);
+  } catch(parseErr) {
+    console.error(`  JSON parse failed. Response length: ${clean.length}`);
+    console.error(`  First 500 chars: ${clean.slice(0, 500)}`);
+    console.error(`  Last 200 chars: ${clean.slice(-200)}`);
+    throw new Error(`JSON parse failed: ${parseErr.message}`);
+  }
 }
 
 async function generateState(state) {
@@ -229,7 +236,11 @@ async function main() {
   }
 
   console.log(`\nDone. Success: ${results.success.join(", ")}`);
-  if (results.failed.length) console.log(`Failed: ${results.failed.join(", ")} — rerun with: node generate-reps.mjs ${results.failed.join(" ")}`);
+  if (results.failed.length) {
+    console.error(`\nFAILED STATES: ${results.failed.join(", ")}`);
+    console.error(`Rerun with: node generate-reps.mjs ${results.failed.join(" ")}`);
+    process.exit(1);
+  }
 }
 
 main();
