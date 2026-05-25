@@ -810,11 +810,11 @@ export default function App() {
     setPhotos(photoMap);
 
     setLoadMsg("Searching voting records in your area...");
-      const ANTH_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY || ""; const resp = await fetch("https://api.anthropic.com/v1/messages", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": ANTH_KEY, "anthropic-dangerous-direct-browser-access": "true" },
-        body: JSON.stringify({ model: "claude-sonnet-4-5", max_tokens: 8000, messages: [{ role: "user", content: buildPrompt(members, stateLeg, voteData, localElections, dwData, dwStateUrls, staticReps) }] }),
-      });
+      const resp = await fetch(PROXY + "?endpoint=generate-guide", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ prompt: buildPrompt(members, stateLeg, voteData) })
+});
 
       if (!resp.ok) {
         if (resp.status === 429) { setError("RATE_LIMIT"); setLoading(false); return; }
