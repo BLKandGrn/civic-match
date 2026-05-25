@@ -156,20 +156,28 @@ async function getCongressMembers(state) {
       console.warn("  No CONGRESS_API_KEY — skipping direct Congress.gov fetch");
       return [];
     }
-    // Call Congress.gov directly — more reliable than geocoded proxy for state-level lookup
-    // Fetch all current members (limit=250) and filter client-side — stateCode param doesn't reliably filter
-    const url = `https://api.congress.gov/v3/member?api_key=${CONGRESS_KEY}&limit=250&currentMember=true`;
-    console.log(`  Congress.gov URL: ${url.replace(CONGRESS_KEY, "***")}`);
-    const rawRes = await fetch(url, { signal: AbortSignal.timeout(20000) });
-    console.log(`  Congress.gov status: ${rawRes.status}`);
-    const d = await rawRes.json();
-    console.log(`  Congress.gov members returned: ${(d.members || []).length}`);
-    if (d.members && d.members[0]) console.log(`  First member fields: ${Object.keys(d.members[0]).join(", ")}`);
-    if (d.members && d.members[0]) console.log(`  First member: ${JSON.stringify(d.members[0]).slice(0, 300)}`);
-    if (d.error) console.error(`  Congress.gov error:`, JSON.stringify(d.error));
-    const filtered = (d.members || []).filter(m => {
-      // Congress.gov returns full state name in m.state field
-      const expectedStateName = STATE_NAMES[state] || state;
+    const expectedStateName = STATE_NAMES[state] || state;
+    let allMembers = [];
+    let offset = 0;
+    const limit = 250;
+    while (true) {
+      const url = `https://api.congress.gov/v3/member?api_key=${CONGRESS_KEY}&limit=${limit}&offset=${offset}&currentMember=true`;
+      const rawRes = await fetch(url, { signal: AbortSignal.timeout(20000) });
+      if (!rawRes.ok) {
+        const err = await rawRes.json().catch(() => ({}));
+        console.error(`  Congress.gov error: ${JSON.stringify(err)}`);
+        break;
+      }
+      const d = await rawRes.json();
+      const page = d.members || [];
+      allMembers = allMembers.concat(page);
+      console.log(`  Congress.gov page offset=${offset}: ${page.length} members`);
+      if (page.length < limit) break;
+      offset += limit;
+      await sleep(300);
+    }
+    console.log(`  Congress.gov total fetched: ${allMembers.length}`);
+    const filtered = allMembers.filter(m => {
       const memberState = (m.state || "").trim();
       if (memberState && memberState !== expectedStateName) return false;
       if (m.terms && m.terms.item) {
@@ -179,7 +187,7 @@ async function getCongressMembers(state) {
       }
       return true;
     });
-    console.log(`  After state filter: ${filtered.length} members for ${state}`);
+    console.log(`  After state filter: ${filtered.length} members for ${state} (${expectedStateName})`);
     return filtered.slice(0, 12);
   } catch(e) {
     console.warn(`  Congress fetch failed for ${state}:`, e.message);
