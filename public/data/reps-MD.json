@@ -1,0 +1,67 @@
+{
+  "state": "MD",
+  "generated": "2026-05-25",
+  "federal": [],
+  "state_legislators": [
+    {
+      "name": "Chris West",
+      "party": "R",
+      "chamber": "House",
+      "district": "42B",
+      "phone": null,
+      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/west02",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Has supported some criminal justice reforms while maintaining law enforcement priorities.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "unclear",
+          "summary": "Limited public record on specific police accountability legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Has generally supported education funding in Carroll County delegation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Josh Stonko",
+      "party": "R",
+      "chamber": "House",
+      "district": "42C",
+      "phone": null,
+      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/stonko",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Generally opposes progressive tax increases consistent with Republican fiscal policy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Has supported education funding as member of Carroll County delegation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Has advocated for small business support and reduced regulations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
