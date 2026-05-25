@@ -32,6 +32,22 @@ const ISSUES = [
   "Small Business Funding","Reproductive Health Rights","LGBTQ+ Rights","Public School Funding"
 ];
 
+// Officials whose terms have ended — filtered out of generated JSON to prevent stale data.
+// Format: { name, reason }
+const EXPIRED_OFFICIALS = [
+  { name: "Monica Goldson", reason: "PGCPS CEO term ended June 2024" },
+];
+
+function removeExpired(enriched) {
+  const expiredNames = new Set(EXPIRED_OFFICIALS.map(o => o.name.toLowerCase()));
+  const filter = arr => (arr || []).filter(r => !expiredNames.has((r.name || "").toLowerCase()));
+  return {
+    ...enriched,
+    federal: filter(enriched.federal),
+    state_legislators: filter(enriched.state_legislators),
+  };
+}
+
 async function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
@@ -166,7 +182,8 @@ async function generateState(state) {
   ]);
   console.log(`[${state}] ${members.length} federal, ${stateLeg.length} state legislators`);
   console.log(`[${state}] Calling Claude...`);
-  const enriched = await enrichWithClaude(state, members, stateLeg);
+  const rawEnriched = await enrichWithClaude(state, members, stateLeg);
+  const enriched = removeExpired(rawEnriched);
   const outPath = path.join(OUT_DIR, `reps-${state}.json`);
   fs.writeFileSync(outPath, JSON.stringify(enriched, null, 2));
   console.log(`[${state}] Saved to ${outPath}`);
