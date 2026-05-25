@@ -555,7 +555,16 @@ export default function App() {
 
     function formatPositions(rep) {
       if (!rep || !rep.positions || !Object.keys(rep.positions).length) return "";
-      return "\n  Known positions:\n" + Object.entries(rep.positions).map(function(e) { return "  - " + e[0] + ": " + e[1]; }).join("\n");
+      return "\n  Known positions:\n" + Object.entries(rep.positions).map(function(entry) {
+        const issue = entry[0];
+        const pos = entry[1];
+        // Handle both old string format and new structured format
+        if (typeof pos === "string") return "  - " + issue + ": " + pos;
+        const parts = ["  - " + issue + " (" + (pos.stance || "unclear") + "): " + (pos.summary || "")];
+        if (pos.voted_for && pos.voted_for.length) parts.push("    Voted FOR: " + pos.voted_for.join("; "));
+        if (pos.voted_against && pos.voted_against.length) parts.push("    Voted AGAINST: " + pos.voted_against.join("; "));
+        return parts.join("\n");
+      }).join("\n");
     }
 
     const membersStr = members && members.length
