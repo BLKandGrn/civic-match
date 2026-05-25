@@ -110,7 +110,14 @@ ${stateStr}
 
 Issues to cover: ${ISSUES.join(", ")}
 
-For EACH representative listed above, generate a JSON object with their known positions and voting record on the issues above. Use only verified public information — voting records, bill sponsorships, official statements. If no position is known for an issue, omit that issue entirely.
+For EACH representative listed above, generate a JSON object with their known positions and voting record on the issues above. Use only verified public information — voting records, bill sponsorships, official statements.
+
+For each issue where you have verified data:
+- Set "stance" to support, oppose, mixed, or unclear
+- Populate "voted_for" with specific bills/actions they supported (with source and date)
+- Populate "voted_against" with specific bills/actions they actively opposed or voted against (with source and date)
+- Use empty arrays [] when no verified data exists for that direction
+- Omit the issue entirely only if you have zero verified information on it
 
 Return ONLY valid JSON in this exact shape, no markdown, no explanation:
 {
@@ -127,8 +134,12 @@ Return ONLY valid JSON in this exact shape, no markdown, no explanation:
       "twitter": "handle or null",
       "instagram": "handle or null",
       "positions": {
-        "Environmental Protection": "Brief factual position with citation (Source, date)",
-        "Criminal Justice Reform": "Brief factual position with citation (Source, date)"
+        "Environmental Protection": {
+          "stance": "support|oppose|mixed|unclear",
+          "summary": "One sentence factual summary of their position",
+          "voted_for": ["Bill or action they supported, with citation (Source, date)"],
+          "voted_against": ["Bill or action they opposed, with citation (Source, date)"]
+        }
       }
     }
   ],
@@ -142,7 +153,14 @@ Return ONLY valid JSON in this exact shape, no markdown, no explanation:
       "website": "official website or null",
       "twitter": "handle or null",
       "instagram": "handle or null",
-      "positions": {}
+      "positions": {
+        "Public School Funding": {
+          "stance": "support|oppose|mixed|unclear",
+          "summary": "One sentence factual summary",
+          "voted_for": ["Bill or action they supported, with citation (Source, date)"],
+          "voted_against": ["Bill or action they opposed, with citation (Source, date)"]
+        }
+      }
     }
   ]
 }`;
