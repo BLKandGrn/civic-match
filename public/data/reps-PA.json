@@ -1,0 +1,875 @@
+{
+  "state": "PA",
+  "generated": "2026-05-25",
+  "federal": [
+    {
+      "name": "Brendan F. Boyle",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-6111",
+      "website": "https://boyle.house.gov",
+      "twitter": "RepBrendanBoyle",
+      "instagram": "repbrendanboyle",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Consistently supports climate action legislation and environmental regulations.",
+          "voted_for": [
+            "H.R. 1512 Climate Action Now Act (House.gov, June 2019)",
+            "Inflation Reduction Act climate provisions (House.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Advocates for higher taxes on wealthy individuals and corporations.",
+          "voted_for": [
+            "Build Back Better Act tax provisions (House.gov, November 2021)",
+            "American Rescue Plan Act (House.gov, March 2021)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (House.gov, December 2017)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion access and contraception rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, September 2021)",
+            "Right to Contraception Act (House.gov, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Equality Act (House.gov, February 2021)",
+            "Respect for Marriage Act (House.gov, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal education funding.",
+          "voted_for": [
+            "American Rescue Plan education funding (House.gov, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "David McCormick",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6324",
+      "website": "https://www.mccormick.senate.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "unclear",
+          "summary": "Recently elected with limited voting record on environmental issues.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports pro-business tax policy.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "John Fetterman",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4254",
+      "website": "https://www.fetterman.senate.gov",
+      "twitter": "SenFettermanPA",
+      "instagram": "senatorjohnfetterman",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental justice initiatives.",
+          "voted_for": [
+            "Inflation Reduction Act (Senate.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Strong advocate for criminal justice reform and clemency as former Lt. Governor.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Long-time advocate for marijuana legalization.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports taxing wealthy individuals and corporations.",
+          "voted_for": [
+            "Inflation Reduction Act corporate minimum tax (Senate.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion access and reproductive rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate.gov, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ryan Mackenzie",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-6411",
+      "website": "https://mackenzie.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation efforts while opposing strict climate regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower tax rates.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access with limited exceptions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Robert P. Bresnahan",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-6511",
+      "website": "https://bresnahan.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "unclear",
+          "summary": "Recently elected with limited voting record.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports lower taxes and opposes increased taxation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Summer L. Lee",
+      "party": "D",
+      "chamber": "House",
+      "district": "12",
+      "phone": "202-225-2135",
+      "website": "https://summerlee.house.gov",
+      "twitter": "RepSummerLee",
+      "instagram": "repsummerlee",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for environmental justice and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocates for police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House.gov, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Progressive advocate for criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and wealth taxes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports marijuana legalization and decriminalization.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports comprehensive LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Christopher R. Deluzio",
+      "party": "D",
+      "chamber": "House",
+      "district": "17",
+      "phone": "202-225-2301",
+      "website": "https://deluzio.house.gov",
+      "twitter": "RepDeluzio",
+      "instagram": "repdeluzio",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and clean energy initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports fair taxation and closing corporate tax loopholes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to abortion.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education investment.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Mary Gay Scanlon",
+      "party": "D",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-2011",
+      "website": "https://scanlon.house.gov",
+      "twitter": "RepMGS",
+      "instagram": "repmgs",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protection legislation.",
+          "voted_for": [
+            "Climate Action Now Act (House.gov, May 2019)",
+            "Inflation Reduction Act (House.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House.gov, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform initiatives.",
+          "voted_for": [
+            "EQUAL Act (House.gov, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies.",
+          "voted_for": [
+            "Build Back Better Act (House.gov, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality legislation.",
+          "voted_for": [
+            "Equality Act (House.gov, February 2021)",
+            "Respect for Marriage Act (House.gov, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for robust public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Guy Reschenthaler",
+      "party": "R",
+      "chamber": "House",
+      "district": "14",
+      "phone": "202-225-2065",
+      "website": "https://reschenthaler.house.gov",
+      "twitter": "GReschenthaler",
+      "instagram": "guy.reschenthaler",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House.gov, May 2019)",
+            "Inflation Reduction Act (House.gov, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower tax rates.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (House.gov, November 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ rights expansion legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House.gov, February 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "John Joyce",
+      "party": "R",
+      "chamber": "House",
+      "district": "13",
+      "phone": "202-225-2431",
+      "website": "https://johnjoyce.house.gov",
+      "twitter": "RepJohnJoyce",
+      "instagram": "repjohnjoyce",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict climate regulations favoring energy independence.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House.gov, May 2019)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports pro-growth tax policy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access with pro-life stance.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ rights expansion legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House.gov, February 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Daniel Meuser",
+      "party": "R",
+      "chamber": "House",
+      "district": "9",
+      "phone": "202-225-6511",
+      "website": "https://meuser.house.gov",
+      "twitter": "RepMeuser",
+      "instagram": "repmeuser",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations and climate mandates.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House.gov, May 2019)",
+            "Inflation Reduction Act (House.gov, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports lower taxes and opposes progressive tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access with pro-life position.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business assistance and tax relief.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Chrissy Houlahan",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-4315",
+      "website": "https://houlahan.house.gov",
+      "twitter": "RepHoulahan",
+      "instagram": "rephoulahan",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and clean energy initiatives.",
+          "voted_for": [
+            "Climate Action Now Act (House.gov, May 2019)",
+            "Inflation Reduction Act (House.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports fair taxation and closing tax loopholes.",
+          "voted_for": [
+            "American Rescue Plan Act (House.gov, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [
+            "Equality Act (House.gov, February 2021)",
+            "Respect for Marriage Act (House.gov, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and resources.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aaron Bernstine",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "717-787-3785",
+      "website": "https://www.repbernstine.com",
+      "twitter": "RepBernstine",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations affecting energy sector.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access with pro-life stance.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Abby Major",
+      "party": "R",
+      "chamber": "House",
+      "district": "60",
+      "phone": "717-260-6161",
+      "website": "https://www.repmajor.com",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports fiscally conservative tax policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding while emphasizing accountability.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Abigail Salisbury",
+      "party": "D",
+      "chamber": "House",
+      "district": "34",
+      "phone": "717-783-4088",
+      "website": "https://www.pahouse.com/Salisbury",
+      "twitter": "RepSalisbury",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and sustainability initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Aerion Abney",
+      "party": "D",
+      "chamber": "House",
+      "district": "19",
+      "phone": "717-787-9471",
+      "website": "https://www.pahouse.com/Abney",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and community accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Al Schmidt",
+      "party": "R",
+      "chamber": "House",
+      "district": null,
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Alec Ryncavage",
+      "party": "R",
+      "chamber": "House",
+      "district": "119",
+      "phone": "717-260-6142",
+      "website": "https://www.repryncavage.com",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business assistance programs.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amanda Cappelletti",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "17",
+      "phone": "717-787-5300",
+      "website": "https://www.senatorcappelletti.com",
+      "twitter": "SenCappelletti",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for environmental protection and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports comprehensive LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amen Brown",
+      "party": "D",
+      "chamber": "House",
+      "district": "10",
+      "phone": "717-787-9434",
+      "website": "https://www.pahouse.com/Brown",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability and reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ana Tiburcio",
+      "party": "D",
+      "chamber": "House",
+      "district": "22",
+      "phone": "717-705-7164",
+      "website": "https://www.pahouse.com/Tiburcio",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andre Carroll",
+      "party": "D",
+      "chamber": "House",
+      "district": "201",
+      "phone": "717-783-4088",
+      "website": "https://www.pahouse.com/Carroll",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrea Verobish",
+      "party": "R",
+      "chamber": "House",
+      "district": "79",
+      "phone": "717-260-6433",
+      "website": "https://www.repverobish.com",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports fiscally conservative policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on efficiency.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Kuzma",
+      "party": "R",
+      "chamber": "House",
+      "district": "39",
+      "phone": "717-260-6161",
+      "website": "https://www.repkuzma.com",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports limited government spending.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and assistance.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

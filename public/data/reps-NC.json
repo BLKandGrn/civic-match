@@ -1,0 +1,688 @@
+{
+  "state": "NC",
+  "generated": "2026-05-25",
+  "federal": [
+    {
+      "name": "Thom Tillis",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6342",
+      "website": "https://www.tillis.senate.gov",
+      "twitter": "@SenThomTillis",
+      "instagram": "@senthomtillis",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Tillis has consistently opposed major climate regulations and voted against environmental protection measures.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate roll call, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Tillis co-sponsored bipartisan criminal justice reform legislation.",
+          "voted_for": [
+            "First Step Act (Senate passage, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Tillis has consistently voted for abortion restrictions and against federal protections for reproductive rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "mixed",
+          "summary": "Tillis supported workplace protections but opposed other LGBTQ+ rights measures.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate passage, November 2022)"
+          ],
+          "voted_against": [
+            "Equality Act (opposed in statements, 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ted Budd",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3154",
+      "website": "https://www.budd.senate.gov",
+      "twitter": "@SenatorTedBudd",
+      "instagram": "@senatorbudd",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Budd has opposed climate regulations and environmental restrictions during his time in Congress.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (House vote as Representative, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Budd has consistently opposed abortion access and supported restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House votes as Representative, 2021-2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Budd opposed LGBTQ+ protections during his House tenure.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House vote as Representative, February 2021)",
+            "Respect for Marriage Act (House vote as Representative, July 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Budd has supported tax cuts and opposed progressive tax increases.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote as Representative, December 2017)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Addison McDowell",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-3065",
+      "website": "https://mcdowell.house.gov",
+      "twitter": "@RepMcDowell",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "McDowell has indicated support for abortion restrictions in campaign statements.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "McDowell has expressed support for education funding in public statements.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Tim Moore",
+      "party": "R",
+      "chamber": "House",
+      "district": "14",
+      "phone": "202-225-2576",
+      "website": "https://timmoore.house.gov",
+      "twitter": "@RepTimMoore",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "As NC House Speaker, Moore led passage of abortion restrictions before joining Congress.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Moore supported HB2 bathroom bill as NC House Speaker.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Moore supported education budgets while also backing school choice expansion as NC Speaker.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brad Knott",
+      "party": "R",
+      "chamber": "House",
+      "district": "13",
+      "phone": "202-225-3032",
+      "website": "https://knott.house.gov",
+      "twitter": "@RepBradKnott",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Knott's background as a prosecutor informs his criminal justice positions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Mark Harris",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-3715",
+      "website": "https://markharris.house.gov",
+      "twitter": "@RepMarkHarris",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Harris has expressed strong opposition to abortion access in campaign statements.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Harris has opposed LGBTQ+ rights protections based on his pastoral background and public statements.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Pat Harrigan",
+      "party": "R",
+      "chamber": "House",
+      "district": "10",
+      "phone": "202-225-2576",
+      "website": "https://harrigan.house.gov",
+      "twitter": "@RepHarrigan",
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Harrigan has emphasized small business support based on his business background.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Harrigan has opposed climate regulations in campaign positions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Valerie Foushee",
+      "party": "D",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-1784",
+      "website": "https://foushee.house.gov",
+      "twitter": "@RepFoushee",
+      "instagram": "@repfoushee",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Foushee has supported climate action and environmental protections.",
+          "voted_for": [
+            "Inflation Reduction Act climate provisions (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Foushee has consistently supported abortion access and reproductive rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House votes, 2022-2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Foushee has supported LGBTQ+ protections and equality measures.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Foushee has advocated for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Chuck Edwards",
+      "party": "R",
+      "chamber": "House",
+      "district": "11",
+      "phone": "202-225-6401",
+      "website": "https://edwards.house.gov",
+      "twitter": "@RepEdwards",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Edwards has opposed federal environmental regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Edwards has supported abortion restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Edwards has emphasized small business support based on his business background.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Don Davis",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-3101",
+      "website": "https://dondavis.house.gov",
+      "twitter": "@RepDonDavis",
+      "instagram": "@repdondavis",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Davis has supported environmental protections and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Davis has supported reproductive rights protections.",
+          "voted_for": [
+            "Women's Health Protection Act (House votes, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Davis has advocated for public education investment.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Davis has supported rural food access initiatives for his district.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Richard Hudson",
+      "party": "R",
+      "chamber": "House",
+      "district": "9",
+      "phone": "202-225-3715",
+      "website": "https://hudson.house.gov",
+      "twitter": "@RepRichHudson",
+      "instagram": "@reprichhudson",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Hudson has opposed major climate regulations and environmental restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Hudson has supported tax cuts and opposed tax increases.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Hudson has consistently opposed abortion access legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House votes, 2021-2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Hudson has opposed LGBTQ+ protections in legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House vote, February 2021)",
+            "Respect for Marriage Act (House vote, July 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Deborah Ross",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-3032",
+      "website": "https://ross.house.gov",
+      "twitter": "@RepDeborahRoss",
+      "instagram": "@repdeborahross",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Ross has consistently supported environmental protections and climate action.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Ross has advocated for criminal justice reform based on her ACLU background.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Ross has supported police accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Ross has strongly supported reproductive rights protections.",
+          "voted_for": [
+            "Women's Health Protection Act (House votes, 2021-2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Ross has consistently supported LGBTQ+ equality measures.",
+          "voted_for": [
+            "Equality Act (House vote, February 2021)",
+            "Respect for Marriage Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Ross has advocated for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Abe Jones",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "38",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Jones has supported public education funding as a Democratic state senator.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Aisha Dew",
+      "party": "D",
+      "chamber": "House",
+      "district": "107",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Dew has advocated for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Dew has supported reproductive rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alan Branson",
+      "party": "R",
+      "chamber": "House",
+      "district": "59",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Branson has supported education budgets while backing school choice expansion.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Allen Buansi",
+      "party": "D",
+      "chamber": "House",
+      "district": "56",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Buansi has advocated for public education investment.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Buansi has supported environmental protections in the NC House.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Allen Chesser",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "25",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Chesser has supported small business initiatives as a Republican state senator.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Allison Dahle",
+      "party": "D",
+      "chamber": "House",
+      "district": "11",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Dahle has supported public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Dahle has supported reproductive rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amanda Cook",
+      "party": "D",
+      "chamber": "House",
+      "district": "60",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Cook has advocated for public education investment.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amber Baker",
+      "party": "D",
+      "chamber": "House",
+      "district": "72",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Baker has supported public education funding as a Democratic representative.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amos Quick",
+      "party": "D",
+      "chamber": "House",
+      "district": "58",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Quick has supported public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Quick has advocated for criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Galey",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "25",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Galey has supported education budgets while backing school choice expansion.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anna Ferguson",
+      "party": "R",
+      "chamber": "House",
+      "district": "119",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Ferguson has supported small business initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Becky Carney",
+      "party": "D",
+      "chamber": "House",
+      "district": "102",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Carney has been a long-time advocate for public education funding in the NC House.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Carney has supported reproductive rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Carney has supported LGBTQ+ equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

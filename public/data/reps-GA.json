@@ -1,0 +1,820 @@
+{
+  "state": "GA",
+  "generated": "2026-05-25",
+  "federal": [
+    {
+      "name": "Raphael G. Warnock",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3643",
+      "website": "https://www.warnock.senate.gov",
+      "twitter": "@SenatorWarnock",
+      "instagram": "@senatorwarnock",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports clean energy investment and environmental justice initiatives.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for sentencing reform and rehabilitation programs.",
+          "voted_for": [
+            "First Step Act implementation funding (Senate vote, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports tax fairness and corporate minimum tax.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion access and reproductive healthcare rights.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports marriage equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased federal education funding and teacher pay.",
+          "voted_for": [
+            "American Rescue Plan with education funding (Senate vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jon Ossoff",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3521",
+      "website": "https://www.ossoff.senate.gov",
+      "twitter": "@SenOssoff",
+      "instagram": "@senossoff",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and clean energy infrastructure.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and police accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (cosponsored, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax reform and closing loopholes.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and access to reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and student debt relief.",
+          "voted_for": [
+            "American Rescue Plan with education funding (Senate vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Earl L. \"Buddy\" Carter",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-5831",
+      "website": "https://buddycarter.house.gov",
+      "twitter": "@RepBuddyCarter",
+      "instagram": "@repbuddycarter",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes major federal climate regulations and supports energy independence.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act climate provisions (House vote, November 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and pro-life policies.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business tax relief and regulatory relief.",
+          "voted_for": [
+            "Paycheck Protection Program funding (House votes, 2020-2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brian Jack",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-5901",
+      "website": "https://brianjack.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Nikema Williams",
+      "party": "D",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-3801",
+      "website": "https://williams.house.gov",
+      "twitter": "@RepNikema",
+      "instagram": "@repnikema",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental justice and climate action legislation.",
+          "voted_for": [
+            "Build Back Better Act (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocates for police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and sentencing reform.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and corporate accountability.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding and teacher support.",
+          "voted_for": [
+            "American Rescue Plan with education funding (House vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Lucy McBath",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-4501",
+      "website": "https://mcbath.house.gov",
+      "twitter": "@RepLucyMcBath",
+      "instagram": "@replucymcbath",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and clean energy investments.",
+          "voted_for": [
+            "Build Back Better Act (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocates for police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports gun violence prevention and criminal justice reform.",
+          "voted_for": [
+            "Bipartisan Background Checks Act (House vote, March 2021)",
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports tax fairness and corporate accountability.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased education funding and school safety.",
+          "voted_for": [
+            "American Rescue Plan with education funding (House vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Richard McCormick",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-2931",
+      "website": "https://mccormick.house.gov",
+      "twitter": "@RepMcCormick",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes expansive climate regulations and supports traditional energy.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and corporate minimum tax.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Andrew S. Clyde",
+      "party": "R",
+      "chamber": "House",
+      "district": "9",
+      "phone": "202-225-9893",
+      "website": "https://clyde.house.gov",
+      "twitter": "@Rep_Clyde",
+      "instagram": "@rep_clyde",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes major climate regulations and supports energy independence.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police reform legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports limited government.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and pro-life policies.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business relief and tax cuts.",
+          "voted_for": [
+            "Paycheck Protection Program funding (House votes, 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Mike Collins",
+      "party": "R",
+      "chamber": "House",
+      "district": "10",
+      "phone": "202-225-9893",
+      "website": "https://mikecollins.house.gov",
+      "twitter": "@RepMikeCollins",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations that impact traditional energy sectors.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports conservative fiscal policy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business relief and reducing regulatory burden.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barry Loudermilk",
+      "party": "R",
+      "chamber": "House",
+      "district": "11",
+      "phone": "202-225-2931",
+      "website": "https://loudermilk.house.gov",
+      "twitter": "@RepLoudermilk",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes expansive climate regulations and supports energy independence.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax reform.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and pro-life policies.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business tax relief and regulatory reform.",
+          "voted_for": [
+            "Paycheck Protection Program funding (House votes, 2020-2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Rick W. Allen",
+      "party": "R",
+      "chamber": "House",
+      "district": "12",
+      "phone": "202-225-2823",
+      "website": "https://allen.house.gov",
+      "twitter": "@RepRickAllen",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations that impact agriculture and energy sectors.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports pro-growth tax policy.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and pro-life legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business relief and agricultural support.",
+          "voted_for": [
+            "Paycheck Protection Program funding (House votes, 2020-2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Clay Fuller",
+      "party": "R",
+      "chamber": "House",
+      "district": "14",
+      "phone": "202-225-5211",
+      "website": "https://fuller.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Ben Watson",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "1",
+      "phone": "404-463-1221",
+      "website": "https://www.senate.ga.gov/senators/en-US/member.aspx?Member=961",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supported restrictive abortion legislation in Georgia.",
+          "voted_for": [
+            "HB 481 - Living Infants Fairness and Equality (LIFE) Act (Georgia Senate, 2019)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding within conservative budget priorities.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alan Powell",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "33",
+      "phone": "404-656-5109",
+      "website": "https://www.senate.ga.gov/senators/en-US/member.aspx?Member=31",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding and rural school initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Cowsert",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "46",
+      "phone": "404-463-1366",
+      "website": "https://www.senate.ga.gov/senators/en-US/member.aspx?Member=102",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supported abortion restrictions in Georgia legislature.",
+          "voted_for": [
+            "HB 481 - LIFE Act (Georgia Senate, 2019)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding and QBE formula adjustments.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Betsy Holland",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "54",
+      "phone": "404-463-5263",
+      "website": "https://www.senate.ga.gov/senators/en-US/member.aspx?Member=967",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding and teacher pay.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposes abortion restrictions and supports reproductive rights.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 481 - LIFE Act (Georgia Senate, 2019)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Angela Moore",
+      "party": "D",
+      "chamber": "House",
+      "district": "91",
+      "phone": "404-656-0202",
+      "website": "http://www.house.ga.gov/Representatives/en-US/member.aspx?Member=4970",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and teacher resources.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Arlene Beckles",
+      "party": "D",
+      "chamber": "House",
+      "district": "96",
+      "phone": "404-656-0202",
+      "website": "http://www.house.ga.gov/Representatives/en-US/member.aspx?Member=4971",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public school funding and equity.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Akbar Ali",
+      "party": "D",
+      "chamber": "House",
+      "district": "106",
+      "phone": "404-656-0202",
+      "website": "http://www.house.ga.gov/Representatives/en-US/member.aspx?Member=5084",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and school resources.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice and sentencing reform.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Beth Camp",
+      "party": "R",
+      "chamber": "House",
+      "district": "135",
+      "phone": "404-463-2246",
+      "website": "http://www.house.ga.gov/Representatives/en-US/member.aspx?Member=5029",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding within fiscal conservative framework.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bethany Ballard",
+      "party": "R",
+      "chamber": "House",
+      "district": "147",
+      "phone": "404-463-3793",
+      "website": "http://www.house.ga.gov/Representatives/en-US/member.aspx?Member=4978",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding and local control of schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anne Westbrook",
+      "party": "D",
+      "chamber": "House",
+      "district": "163",
+      "phone": "404-656-0202",
+      "website": "http://www.house.ga.gov/Representatives/en-US/member.aspx?Member=5072",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding and equity.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access and opposes restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Al Williams",
+      "party": "D",
+      "chamber": "House",
+      "district": "168",
+      "phone": "404-656-7859",
+      "website": "http://www.house.ga.gov/Representatives/en-US/member.aspx?Member=795",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Long-time supporter of increased education funding and teacher pay.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and police accountability.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angie O'Steen",
+      "party": "R",
+      "chamber": "House",
+      "district": "169",
+      "phone": "404-463-3793",
+      "website": "http://www.house.ga.gov/Representatives/en-US/member.aspx?Member=5077",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding and school choice initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
