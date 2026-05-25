@@ -158,18 +158,11 @@ async function enrichWithClaude(state, members, stateLeg) {
   const prompt = `You are a nonpartisan civic data generator. Today is May 2026.
 
 PARTY FORMAT RULE: Always use (D), (R), or (N) — never spell out party names.
-DATA ACCURACY — CRITICAL: The input lists above may contain stale or incorrect data. You must independently verify each official against your knowledge before including them.
+DATA ACCURACY: The federal members below come directly from the Congress.gov API with currentMember=true — treat them as confirmed current. Include ALL federal members listed. For state legislators, apply normal verification.
 
-INCLUSION RULES — include an official only if ALL of the following are true:
-1. They are confirmed to be currently serving in the listed role as of ${new Date().toISOString().slice(0,7)} (year-month).
-2. Their most recent term began on or before today and has not yet ended.
-3. They hold the specific role listed (Senate, House, State Legislature) — not a role they previously held.
-
-EXCLUSION RULES — omit an official if ANY of the following are true:
-- Their term ended or they resigned before the current date, regardless of whether the API listed them.
-- They were appointed or elected to a different role and no longer hold this one.
-- You have any uncertainty about whether they are currently serving — when in doubt, leave them out.
-- They are a local/county/school-board official — this list covers only federal and state legislators.
+EXCLUSION RULES — omit only if you have strong specific knowledge that:
+- The person died, resigned, or was expelled after the API data was pulled.
+- They are a local/county/school-board official (not federal or state legislature).
 
 Do not add any official not present in the input lists above.
 
