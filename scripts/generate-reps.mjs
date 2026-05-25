@@ -99,22 +99,22 @@ async function fetchJSON(url) {
 
 async function getCongressMembers(state) {
   try {
-    const d = await fetchJSON(`${PROXY}?endpoint=congress-members&state=${state}`);
-    // Congress.gov returns state as full name (e.g. "Maryland") not abbreviation
-    // Use stateCode field if available, otherwise skip state filter (API already filters by stateCode in URL)
+    const CONGRESS_KEY = process.env.CONGRESS_API_KEY || process.env.VITE_CONGRESS_API_KEY;
+    if (!CONGRESS_KEY) {
+      console.warn("  No CONGRESS_API_KEY — skipping direct Congress.gov fetch");
+      return [];
+    }
+    // Call Congress.gov directly — more reliable than geocoded proxy for state-level lookup
+    const url = `https://api.congress.gov/v3/member?api_key=${CONGRESS_KEY}&limit=20&currentMember=true&stateCode=${state}`;
+    const d = await fetchJSON(url);
     return (d.members || []).filter(m => {
-      const memberState = (m.stateCode || m.state || "").toUpperCase();
-      if (memberState && memberState !== state && memberState !== state.toUpperCase()) {
-        // Only filter out if stateCode is a 2-letter code and doesn't match
-        if (memberState.length === 2) return false;
-      }
       if (m.terms && m.terms.item) {
         const terms = Array.isArray(m.terms.item) ? m.terms.item : [m.terms.item];
         const last = terms[terms.length - 1];
         if (last && last.endYear && parseInt(last.endYear) < 2026) return false;
       }
       return true;
-    }).slice(0, 8);
+    }).slice(0, 12);
   } catch(e) {
     console.warn(`  Congress fetch failed for ${state}:`, e.message);
     return [];
@@ -123,9 +123,16 @@ async function getCongressMembers(state) {
 
 async function getStateLeg(state) {
   try {
-    const addr = STATE_CAPITALS[state] || `${state}, USA`;
-    const d = await fetchJSON(`${PROXY}?endpoint=state-legislators&address=${encodeURIComponent(addr)}`);
-    return (d.results || []).slice(0, 10);
+    const OPEN_STATES_KEY = process.env.OPEN_STATES_API_KEY || process.env.VITE_OPEN_STATES_KEY;
+    if (!OPEN_STATES_KEY) {
+      console.warn("  No OPEN_STATES_API_KEY — skipping OpenStates fetch");
+      return [];
+    }
+    // Call OpenStates directly by jurisdiction — more reliable than geocoded address lookup
+    const jurisdiction = `ocd-jurisdiction/country:us/state:${state.toLowerCase()}/government`;
+    const url = `https://v3.openstates.org/people?jurisdiction=${encodeURIComponent(jurisdiction)}&per_page=20&apikey=${OPEN_STATES_KEY}`;
+    const d = await fetchJSON(url);
+    return (d.results || []).slice(0, 12);
   } catch(e) {
     console.warn(`  OpenStates fetch failed for ${state}:`, e.message);
     return [];
