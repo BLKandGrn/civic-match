@@ -7,11 +7,26 @@
       "party": "D",
       "chamber": "House",
       "district": "30",
-      "phone": null,
-      "website": null,
-      "twitter": null,
-      "instagram": null,
-      "positions": {}
+      "phone": "202-225-4176",
+      "website": "https://friedman.house.gov",
+      "twitter": "RepFriedman",
+      "instagram": "repfriedman",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for climate action and environmental protections with legislative focus on clean energy.",
+          "voted_for": [
+            "H.R. 1 - Lower Energy Costs Act opposition, supporting clean energy alternatives (House.gov, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports federal protections for reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Matt Van Epps",
@@ -31,42 +46,31 @@
       "district": null,
       "phone": "202-224-3224",
       "website": "https://www.booker.senate.gov",
-      "twitter": "@SenBooker",
-      "instagram": "@senatorbook",
+      "twitter": "SenBooker",
+      "instagram": "senatorbooker",
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Strong advocate for climate action and environmental justice legislation.",
-          "voted_for": [
-            "Inflation Reduction Act climate provisions (Senate vote, August 2022)",
-            "Environmental Justice for All Act co-sponsor (2021)"
-          ],
-          "voted_against": []
-        },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Leading proponent of criminal justice reform including sentencing reform and police accountability.",
+          "summary": "Leading advocate for criminal justice reform including sentencing reform and police accountability measures.",
           "voted_for": [
-            "First Step Act (Senate vote, December 2018)",
-            "George Floyd Justice in Policing Act co-sponsor (2020-2021)"
+            "First Step Act (Senate.gov, 2018)",
+            "George Floyd Justice in Policing Act co-sponsor (Congress.gov, 2021)"
           ],
           "voted_against": []
         },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supports federal cannabis legalization and expungement of marijuana convictions.",
+          "summary": "Supports federal cannabis legalization and expungement of prior convictions.",
           "voted_for": [
-            "Cannabis Administration and Opportunity Act lead sponsor (2022)",
-            "MORE Act support (2020)"
+            "Cannabis Administration and Opportunity Act lead sponsor (Senate.gov, 2022)"
           ],
           "voted_against": []
         },
-        "LGBTQ+ Rights": {
+        "Environmental Protection": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ equality legislation.",
+          "summary": "Advocates for aggressive climate action and environmental justice.",
           "voted_for": [
-            "Respect for Marriage Act (Senate vote, November 2022)",
-            "Equality Act co-sponsor (2021)"
+            "Inflation Reduction Act (Senate.gov, 2022)"
           ],
           "voted_against": []
         }
@@ -77,33 +81,22 @@
       "party": "D",
       "chamber": "Senate",
       "district": null,
-      "phone": null,
-      "website": null,
-      "twitter": "@SenAdamSchiff",
-      "instagram": null,
+      "phone": "202-224-3553",
+      "website": "https://www.schiff.senate.gov",
+      "twitter": "SenAdamSchiff",
+      "instagram": "senatorschiff",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Long-standing environmental advocate with focus on climate action and conservation.",
-          "voted_for": [
-            "Inflation Reduction Act (as Representative, House vote, August 2022)"
-          ],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Strong supporter of reproductive rights and access to abortion services.",
-          "voted_for": [
-            "Women's Health Protection Act (as Representative, House vote, 2021-2022)"
-          ],
+          "summary": "Long-standing supporter of environmental protections and climate change legislation.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
           "summary": "Consistent supporter of LGBTQ+ equality and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (as Representative, House vote, 2022)",
-            "Equality Act (as Representative, House vote, 2021)"
+            "Respect for Marriage Act (Congress.gov, 2022)"
           ],
           "voted_against": []
         }
@@ -149,40 +142,22 @@
       "district": "20",
       "phone": "202-225-3236",
       "website": "https://castro.house.gov",
-      "twitter": "@JoaquinCastrotx",
-      "instagram": "@joaquincastrotx",
+      "twitter": "JoaquinCastrotx",
+      "instagram": "joaquincastrotx",
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Supports climate action and environmental justice initiatives.",
-          "voted_for": [
-            "Inflation Reduction Act (House vote, August 2022)",
-            "Climate Action Now Act (House vote, 2019)"
-          ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Advocates for police reform and accountability measures.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House vote, 2020-2021)"
-          ],
-          "voted_against": []
-        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of reproductive rights and abortion access.",
+          "summary": "Strong supporter of reproductive rights and access to healthcare.",
           "voted_for": [
-            "Women's Health Protection Act (House vote, 2021-2022)"
+            "Women's Health Protection Act (House.gov, 2021)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent advocate for LGBTQ+ equality and protections.",
+          "summary": "Advocate for LGBTQ+ equality and anti-discrimination legislation.",
           "voted_for": [
-            "Equality Act (House vote, 2021)",
-            "Respect for Marriage Act (House vote, 2022)"
+            "Equality Act (House.gov, 2021)"
           ],
           "voted_against": []
         }
@@ -206,40 +181,23 @@
       "district": "6",
       "phone": "202-225-7882",
       "website": "https://crow.house.gov",
-      "twitter": "@RepJasonCrow",
-      "instagram": "@repjasoncrow",
+      "twitter": "RepJasonCrow",
+      "instagram": "repjasoncrow",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports climate legislation and clean energy initiatives.",
+          "summary": "Supports climate action and clean energy investment.",
           "voted_for": [
-            "Inflation Reduction Act (House vote, August 2022)",
-            "Climate Action Now Act (House vote, 2019)"
-          ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Supports police reform and accountability legislation.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House vote, 2020-2021)"
-          ],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Supporter of reproductive rights and healthcare access.",
-          "voted_for": [
-            "Women's Health Protection Act (House vote, 2021-2022)"
+            "Inflation Reduction Act (House.gov, 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination measures.",
+          "summary": "Supports LGBTQ+ equality and protections.",
           "voted_for": [
-            "Equality Act (House vote, 2021)",
-            "Respect for Marriage Act (House vote, 2022)"
+            "Equality Act (House.gov, 2021)",
+            "Respect for Marriage Act (House.gov, 2022)"
           ],
           "voted_against": []
         }
@@ -250,9 +208,9 @@
       "party": "N",
       "chamber": "House",
       "district": "3",
-      "phone": null,
-      "website": null,
-      "twitter": null,
+      "phone": "202-225-2523",
+      "website": "https://kiley.house.gov",
+      "twitter": "RepKiley",
       "instagram": null,
       "positions": {}
     },
@@ -263,42 +221,19 @@
       "district": "2",
       "phone": "202-225-6111",
       "website": "https://boyle.house.gov",
-      "twitter": "@RepBrendanBoyle",
-      "instagram": "@repbrendanboyle",
+      "twitter": "RepBrendanBoyle",
+      "instagram": "repbrendanboyle",
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Supports environmental protection and climate action legislation.",
-          "voted_for": [
-            "Inflation Reduction Act (House vote, August 2022)",
-            "Climate Action Now Act (House vote, 2019)"
-          ],
-          "voted_against": []
-        },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Advocates for progressive taxation and closing corporate tax loopholes.",
-          "voted_for": [
-            "Inflation Reduction Act tax provisions (House vote, August 2022)",
-            "Build Back Better Act tax provisions (House vote, 2021)"
-          ],
+          "summary": "Supports progressive tax policies and closing loopholes for wealthy individuals.",
+          "voted_for": [],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Supports reproductive rights and healthcare access.",
-          "voted_for": [
-            "Women's Health Protection Act (House vote, 2021-2022)"
-          ],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Supports LGBTQ+ equality legislation.",
-          "voted_for": [
-            "Equality Act (House vote, 2021)",
-            "Respect for Marriage Act (House vote, 2022)"
-          ],
+          "summary": "Advocates for increased federal investment in public education.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -310,8 +245,8 @@
       "party": "D",
       "chamber": "House",
       "district": "18",
-      "phone": null,
-      "website": null,
+      "phone": "410-841-3575",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/kaufman01",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -321,8 +256,8 @@
       "party": "D",
       "chamber": "House",
       "district": "23",
-      "phone": null,
-      "website": null,
+      "phone": "410-841-3602",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/boafo01",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -333,32 +268,22 @@
       "chamber": "House",
       "district": "10",
       "phone": "410-841-3391",
-      "website": "https://mgahouse.maryland.gov/mgawebsite/Members/Details/jones01",
-      "twitter": "@SpeakerAJones",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/jones01",
+      "twitter": "SpeakerAJones",
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "As Speaker, has supported criminal justice reform measures in Maryland.",
-          "voted_for": [
-            "Juvenile Restoration Act (Maryland House, 2021)"
-          ],
-          "voted_against": []
-        },
-        "Cannabis Policy": {
-          "stance": "support",
-          "summary": "Supported cannabis legalization in Maryland.",
-          "voted_for": [
-            "Cannabis legalization referendum legislation (Maryland House, 2022)"
-          ],
-          "voted_against": []
-        },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Strong supporter of Blueprint for Maryland's Future education funding.",
+          "summary": "As Speaker, championed Blueprint for Maryland's Future education funding reforms.",
           "voted_for": [
-            "Blueprint for Maryland's Future implementation (Maryland House, 2021-2023)"
+            "Blueprint for Maryland's Future implementation (Maryland General Assembly, 2021)"
           ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures and accountability.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -368,8 +293,8 @@
       "party": "D",
       "chamber": "House",
       "district": "44B",
-      "phone": null,
-      "website": null,
+      "phone": "410-841-3486",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/mccaskill01",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -377,38 +302,21 @@
     {
       "name": "Alonzo Washington",
       "party": "D",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": "22",
-      "phone": "410-841-3656",
-      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/washington02",
+      "phone": "410-841-3652",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/washington04",
       "twitter": null,
       "instagram": null,
-      "positions": {
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Advocates for criminal justice reform and rehabilitation programs.",
-          "voted_for": [
-            "Juvenile Restoration Act (Maryland Senate, 2021)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports increased education funding through Blueprint for Maryland's Future.",
-          "voted_for": [
-            "Blueprint for Maryland's Future (Maryland Senate, 2020-2021)"
-          ],
-          "voted_against": []
-        }
-      }
+      "positions": {}
     },
     {
       "name": "Andre Johnson",
       "party": "D",
       "chamber": "House",
       "district": "34A",
-      "phone": null,
-      "website": null,
+      "phone": "410-841-3350",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/johnson03",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -418,8 +326,8 @@
       "party": "D",
       "chamber": "House",
       "district": "24",
-      "phone": null,
-      "website": null,
+      "phone": "410-841-3329",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/harrison02",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -427,10 +335,10 @@
     {
       "name": "Andrew Pruski",
       "party": "D",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": "33A",
-      "phone": null,
-      "website": null,
+      "phone": "410-841-3502",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/pruski01",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -440,28 +348,11 @@
       "party": "D",
       "chamber": "House",
       "district": "22",
-      "phone": "410-841-3212",
-      "website": "https://mgahouse.maryland.gov/mgawebsite/Members/Details/healey",
+      "phone": "410-841-3668",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/healey01",
       "twitter": null,
       "instagram": null,
-      "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Supports environmental protection and climate legislation in Maryland.",
-          "voted_for": [
-            "Climate Solutions Now Act (Maryland House, 2022)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports Blueprint for Maryland's Future education reforms.",
-          "voted_for": [
-            "Blueprint for Maryland's Future (Maryland House, 2020-2021)"
-          ],
-          "voted_against": []
-        }
-      }
+      "positions": {}
     },
     {
       "name": "Anne Kaiser",
@@ -469,58 +360,22 @@
       "chamber": "House",
       "district": "14",
       "phone": "410-841-3036",
-      "website": "https://mgahouse.maryland.gov/mgawebsite/Members/Details/kaiser",
-      "twitter": "@DelegateKaiser",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/kaiser01",
+      "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Long-time advocate for environmental protection and climate action in Maryland.",
-          "voted_for": [
-            "Climate Solutions Now Act (Maryland House, 2022)",
-            "Clean Energy Jobs Act (Maryland House, 2019)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports progressive tax policies and closing corporate loopholes.",
-          "voted_for": [
-            "Combined reporting tax reform (Maryland House, 2018)"
-          ],
-          "voted_against": []
-        },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supported medical and recreational cannabis legalization.",
+          "summary": "Long-time supporter of cannabis legalization and regulation in Maryland.",
           "voted_for": [
-            "Cannabis legalization legislation (Maryland House, 2022)"
-          ],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Strong advocate for reproductive rights and access to abortion.",
-          "voted_for": [
-            "Abortion Care Access Act (Maryland House, 2022)"
-          ],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ equality and anti-discrimination protections.",
-          "voted_for": [
-            "Fairness for All Marylanders Act (Maryland House, 2014)",
-            "Trans Health Equity Act (Maryland House, 2021)"
+            "Cannabis legalization legislation (Maryland General Assembly, 2023)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Strong advocate for increased education funding and Blueprint implementation.",
-          "voted_for": [
-            "Blueprint for Maryland's Future (Maryland House, 2020-2021)"
-          ],
+          "summary": "Supports increased education funding and Blueprint implementation.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -528,7 +383,7 @@
     {
       "name": "Anthony G. Brown",
       "party": "D",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": null,
       "phone": null,
       "website": null,
@@ -542,19 +397,10 @@
       "chamber": "Senate",
       "district": "26",
       "phone": "410-841-3092",
-      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/muse",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/muse01",
       "twitter": null,
       "instagram": null,
-      "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports education funding and Blueprint for Maryland's Future.",
-          "voted_for": [
-            "Blueprint for Maryland's Future (Maryland Senate, 2020-2021)"
-          ],
-          "voted_against": []
-        }
-      }
+      "positions": {}
     }
   ]
 }
