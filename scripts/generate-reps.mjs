@@ -157,7 +157,8 @@ async function getCongressMembers(state) {
       return [];
     }
     // Call Congress.gov directly — more reliable than geocoded proxy for state-level lookup
-    const url = `https://api.congress.gov/v3/member?api_key=${CONGRESS_KEY}&limit=20&currentMember=true&stateCode=${state}`;
+    // Fetch all current members (limit=250) and filter client-side — stateCode param doesn't reliably filter
+    const url = `https://api.congress.gov/v3/member?api_key=${CONGRESS_KEY}&limit=250&currentMember=true`;
     console.log(`  Congress.gov URL: ${url.replace(CONGRESS_KEY, "***")}`);
     const rawRes = await fetch(url, { signal: AbortSignal.timeout(20000) });
     console.log(`  Congress.gov status: ${rawRes.status}`);
