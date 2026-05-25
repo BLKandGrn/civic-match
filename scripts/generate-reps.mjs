@@ -85,6 +85,58 @@ const STATE_CAPITALS = {
   "WY": "200 W 24th St, Cheyenne, WY",
 };
 
+const STATE_NAMES = {
+  "AL": "Alabama",
+  "AK": "Alaska",
+  "AZ": "Arizona",
+  "AR": "Arkansas",
+  "CA": "California",
+  "CO": "Colorado",
+  "CT": "Connecticut",
+  "DE": "Delaware",
+  "FL": "Florida",
+  "GA": "Georgia",
+  "HI": "Hawaii",
+  "ID": "Idaho",
+  "IL": "Illinois",
+  "IN": "Indiana",
+  "IA": "Iowa",
+  "KS": "Kansas",
+  "KY": "Kentucky",
+  "LA": "Louisiana",
+  "ME": "Maine",
+  "MD": "Maryland",
+  "MA": "Massachusetts",
+  "MI": "Michigan",
+  "MN": "Minnesota",
+  "MS": "Mississippi",
+  "MO": "Missouri",
+  "MT": "Montana",
+  "NE": "Nebraska",
+  "NV": "Nevada",
+  "NH": "New Hampshire",
+  "NJ": "New Jersey",
+  "NM": "New Mexico",
+  "NY": "New York",
+  "NC": "North Carolina",
+  "ND": "North Dakota",
+  "OH": "Ohio",
+  "OK": "Oklahoma",
+  "OR": "Oregon",
+  "PA": "Pennsylvania",
+  "RI": "Rhode Island",
+  "SC": "South Carolina",
+  "SD": "South Dakota",
+  "TN": "Tennessee",
+  "TX": "Texas",
+  "UT": "Utah",
+  "VT": "Vermont",
+  "VA": "Virginia",
+  "WA": "Washington",
+  "WV": "West Virginia",
+  "WI": "Wisconsin",
+  "WY": "Wyoming",
+};
 
 
 async function sleep(ms) {
@@ -92,7 +144,7 @@ async function sleep(ms) {
 }
 
 async function fetchJSON(url) {
-  const res = await fetch(url, { signal: AbortSignal.timeout(12000) });
+  const res = await fetch(url, { signal: AbortSignal.timeout(20000) });
   if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
   return res.json();
 }
@@ -107,7 +159,7 @@ async function getCongressMembers(state) {
     // Call Congress.gov directly — more reliable than geocoded proxy for state-level lookup
     const url = `https://api.congress.gov/v3/member?api_key=${CONGRESS_KEY}&limit=20&currentMember=true&stateCode=${state}`;
     console.log(`  Congress.gov URL: ${url.replace(CONGRESS_KEY, "***")}`);
-    const rawRes = await fetch(url, { signal: AbortSignal.timeout(12000) });
+    const rawRes = await fetch(url, { signal: AbortSignal.timeout(20000) });
     console.log(`  Congress.gov status: ${rawRes.status}`);
     const d = await rawRes.json();
     console.log(`  Congress.gov members returned: ${(d.members || []).length}`);
@@ -115,9 +167,10 @@ async function getCongressMembers(state) {
     if (d.members && d.members[0]) console.log(`  First member: ${JSON.stringify(d.members[0]).slice(0, 300)}`);
     if (d.error) console.error(`  Congress.gov error:`, JSON.stringify(d.error));
     const filtered = (d.members || []).filter(m => {
-      // Filter by stateCode field in response
-      const memberState = (m.stateCode || "").toUpperCase();
-      if (memberState && memberState !== state) return false;
+      // Congress.gov returns full state name in m.state field
+      const expectedStateName = STATE_NAMES[state] || state;
+      const memberState = (m.state || "").trim();
+      if (memberState && memberState !== expectedStateName) return false;
       if (m.terms && m.terms.item) {
         const terms = Array.isArray(m.terms.item) ? m.terms.item : [m.terms.item];
         const last = terms[terms.length - 1];
