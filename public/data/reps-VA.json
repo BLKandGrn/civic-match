@@ -1,0 +1,860 @@
+{
+  "state": "VA",
+  "generated": "2026-05-25",
+  "federal": [
+    {
+      "name": "Mark R. Warner",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2023",
+      "website": "https://www.warner.senate.gov",
+      "twitter": "@MarkWarner",
+      "instagram": "@mark_r_warner",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Warner has consistently supported climate action and clean energy legislation including the Inflation Reduction Act.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy funding (Senate vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Warner has supported bipartisan criminal justice reform efforts including sentencing reform.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Warner supports abortion rights and voted for federal protections.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Warner has supported LGBTQ+ rights legislation including marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Tim Kaine",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4024",
+      "website": "https://www.kaine.senate.gov",
+      "twitter": "@timkaine",
+      "instagram": "@timkaine",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Kaine has strongly supported environmental protection and climate change legislation.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Kaine has supported criminal justice reform including the First Step Act.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Kaine has supported progressive tax measures and opposed tax cuts for the wealthy.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Kaine supports abortion rights and has voted for federal protections.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Kaine supports LGBTQ+ rights and marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ben Cline",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-5431",
+      "website": "https://cline.house.gov",
+      "twitter": "@RepBenCline",
+      "instagram": "@repbencline",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Cline has opposed major climate legislation and EPA regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Cline has consistently opposed abortion rights and supported restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Cline has opposed LGBTQ+ rights legislation including marriage equality.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Eugene Simon Vindman",
+      "party": "D",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-6561",
+      "website": "https://vindman.house.gov",
+      "twitter": "@RepVindman",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Vindman has expressed support for environmental protection and clean energy initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Vindman campaigned on protecting reproductive rights and has supported abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Vindman has expressed support for LGBTQ+ rights and equality.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Suhas Subramanyam",
+      "party": "D",
+      "chamber": "House",
+      "district": "10",
+      "phone": "202-225-1492",
+      "website": "https://subramanyam.house.gov",
+      "twitter": "@RepSubramanyam",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Subramanyam has supported environmental protection measures including in the Virginia General Assembly.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Subramanyam supported criminal justice reform measures in the Virginia legislature.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Subramanyam has been a strong supporter of reproductive rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Subramanyam has supported LGBTQ+ rights and anti-discrimination measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "John J. McGuire",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-4711",
+      "website": "https://mcguire.house.gov",
+      "twitter": "@RepMcGuire",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "McGuire has opposed federal climate regulations and supported fossil fuel industry.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "McGuire has opposed abortion rights and supported restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jennifer L. McClellan",
+      "party": "D",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-6365",
+      "website": "https://mcclellan.house.gov",
+      "twitter": "@RepMcClellan",
+      "instagram": "@repmcclellan",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "McClellan has strongly supported environmental protection including Virginia's clean energy transition.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "McClellan has been a leader on criminal justice reform in Virginia.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "McClellan has been a vocal advocate for reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "McClellan has strongly supported LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jennifer A. Kiggans",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-4215",
+      "website": "https://kiggans.house.gov",
+      "twitter": "@RepKiggans",
+      "instagram": "@repkiggans",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Kiggans has supported some environmental measures for coastal protection but opposed major climate legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Kiggans has opposed federal abortion rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "James R. Walkinshaw",
+      "party": "D",
+      "chamber": "House",
+      "district": "11",
+      "phone": "202-225-1203",
+      "website": "https://walkinshaw.house.gov",
+      "twitter": "@RepWalkinshaw",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Walkinshaw has supported environmental protection and clean energy policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Walkinshaw has supported reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Walkinshaw has supported LGBTQ+ rights and equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Donald S. Beyer",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-4376",
+      "website": "https://beyer.house.gov",
+      "twitter": "@RepDonBeyer",
+      "instagram": "@repdonbeyer",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Beyer has been a strong advocate for climate action and environmental protection.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)",
+            "Climate Action Now Act (House vote, May 2019)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Beyer has supported criminal justice reform including the George Floyd Justice in Policing Act.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Beyer has supported progressive taxation including carbon taxes and wealth taxes.",
+          "voted_for": [
+            "Build Back Better Act with tax increases on wealthy (House vote, November 2021)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Beyer has consistently supported reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Beyer has strongly supported LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Robert J. Wittman",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-4261",
+      "website": "https://wittman.house.gov",
+      "twitter": "@RobWittman",
+      "instagram": "@reprobwittman",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Wittman has supported Chesapeake Bay conservation but opposed major climate legislation.",
+          "voted_for": [
+            "Chesapeake Bay restoration funding (multiple appropriations bills)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Wittman has opposed abortion rights and supported restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Wittman has opposed LGBTQ+ rights legislation including marriage equality.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, July 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "H. Morgan Griffith",
+      "party": "R",
+      "chamber": "House",
+      "district": "9",
+      "phone": "202-225-3861",
+      "website": "https://morgangriffith.house.gov",
+      "twitter": "@RepMGriffith",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Griffith has opposed EPA regulations and climate legislation, supporting coal industry interests.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)",
+            "Climate Action Now Act (House vote, May 2019)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Griffith has consistently opposed abortion rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Griffith has opposed LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
+          ]
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aaron Rouse",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "22",
+      "phone": "804-698-7522",
+      "website": "https://virginiageneralassembly.gov/senate/members/members.php?id=S0422",
+      "twitter": "@SenAaronRouse",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Rouse has supported criminal justice reform measures in the Virginia Senate.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Rouse has supported protecting reproductive rights in Virginia.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Rouse has supported increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adele McClure",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "2",
+      "phone": "804-698-7502",
+      "website": "https://virginiageneralassembly.gov/senate/members/members.php?id=S0402",
+      "twitter": "@SenMcClure",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "McClure has supported environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "McClure has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "McClure has supported increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Askew",
+      "party": "D",
+      "chamber": "House",
+      "district": "95",
+      "phone": "804-698-1095",
+      "website": "https://virginiageneralassembly.gov/house/members/members.php?id=H0795",
+      "twitter": "@AlexAskewVA",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Askew has supported environmental protection and coastal resilience measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Askew has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Askew has supported LGBTQ+ rights and equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Askew has supported increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alfonso Lopez",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "3",
+      "phone": "804-698-7503",
+      "website": "https://virginiageneralassembly.gov/senate/members/members.php?id=S0403",
+      "twitter": "@SenAlfonsoLopez",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Lopez has been a strong supporter of environmental protection and clean energy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Lopez has supported criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Lopez has supported cannabis legalization and reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Lopez has strongly supported reproductive rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Lopez has been a strong advocate for LGBTQ+ rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Lopez has supported increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Laufer",
+      "party": "D",
+      "chamber": "House",
+      "district": "55",
+      "phone": "804-698-1055",
+      "website": "https://virginiageneralassembly.gov/house/members/members.php?id=H0755",
+      "twitter": "@DelAmyLaufer",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Laufer has supported environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Laufer has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Laufer has supported increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Rice",
+      "party": "R",
+      "chamber": "House",
+      "district": "98",
+      "phone": "804-698-1098",
+      "website": "https://virginiageneralassembly.gov/house/members/members.php?id=H0798",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Rice has supported abortion restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Rice has supported education funding measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angelia Graves",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "21",
+      "phone": "804-698-7521",
+      "website": "https://virginiageneralassembly.gov/senate/members/members.php?id=S0421",
+      "twitter": "@SenGraves",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Graves has supported criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Graves has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Graves has supported increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anne Ferrell Tata",
+      "party": "R",
+      "chamber": "House",
+      "district": "99",
+      "phone": "804-698-1099",
+      "website": "https://virginiageneralassembly.gov/house/members/members.php?id=H0399",
+      "twitter": "@DelTata",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Tata has supported abortion restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Tata has supported education funding measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Atoosa Reaser",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "27",
+      "phone": "804-698-7527",
+      "website": "https://virginiageneralassembly.gov/senate/members/members.php?id=S0427",
+      "twitter": "@SenReaser",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Reaser has supported environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Reaser has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Reaser has supported increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barbara Favola",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "40",
+      "phone": "804-698-7531",
+      "website": "https://virginiageneralassembly.gov/senate/members/members.php?id=S0031",
+      "twitter": "@BarbaraFavola",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Favola has been a strong supporter of environmental protection and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Favola has supported police accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Favola has supported progressive tax measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Favola has strongly supported reproductive rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Favola has been a strong advocate for LGBTQ+ rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Favola has supported increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Betsy Carr",
+      "party": "D",
+      "chamber": "House",
+      "district": "78",
+      "phone": "804-698-1078",
+      "website": "https://virginiageneralassembly.gov/house/members/members.php?id=H0178",
+      "twitter": "@BetsyCarrVA",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Carr has supported environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Carr has supported criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Carr has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Carr has supported LGBTQ+ rights and equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Carr has been a strong supporter of public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill DeSteph",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "20",
+      "phone": "804-698-7508",
+      "website": "https://virginiageneralassembly.gov/senate/members/members.php?id=S0020",
+      "twitter": "@SenBillDeSteph",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "DeSteph has supported abortion restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "DeSteph has opposed some LGBTQ+ rights measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "DeSteph has supported education funding measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
