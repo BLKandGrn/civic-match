@@ -663,7 +663,9 @@ if (d.thumbnail && d.thumbnail.source && isPersonPage(d) && isPolitician) return
         const rs = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent((name + suffix).replace(/ /g, "_")));
         if (rs.ok) {
           const ds = await rs.json();
-          if (ds.thumbnail && ds.thumbnail.source && isPersonPage(ds)) return ds.thumbnail.source;
+const descLower = (d.description || "").toLowerCase();
+const isPolitician = descLower.includes("council") || descLower.includes("politician") || descLower.includes("representative") || descLower.includes("senator") || descLower.includes("mayor") || descLower.includes("assembly") || descLower.includes("commissioner") || descLower.includes("delegate") || descLower.includes("board");
+if (d.thumbnail && d.thumbnail.source && isPersonPage(d) && isPolitician) return d.thumbnail.source;
         }
       }
       const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(name + " politician") + "&format=json&origin=*&srlimit=1");
