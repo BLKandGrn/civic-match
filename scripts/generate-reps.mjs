@@ -111,6 +111,8 @@ async function getCongressMembers(state) {
     console.log(`  Congress.gov status: ${rawRes.status}`);
     const d = await rawRes.json();
     console.log(`  Congress.gov members returned: ${(d.members || []).length}`);
+    if (d.members && d.members[0]) console.log(`  First member fields: ${Object.keys(d.members[0]).join(", ")}`);
+    if (d.members && d.members[0]) console.log(`  First member: ${JSON.stringify(d.members[0]).slice(0, 300)}`);
     if (d.error) console.error(`  Congress.gov error:`, JSON.stringify(d.error));
     const filtered = (d.members || []).filter(m => {
       // Filter by stateCode field in response
