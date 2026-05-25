@@ -31,6 +31,8 @@ jobs:
         env:
           VITE_ANTHROPIC_API_KEY: ${{ secrets.VITE_ANTHROPIC_API_KEY }}
           VITE_PROXY_URL: ${{ secrets.VITE_PROXY_URL }}
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          OPEN_STATES_API_KEY: ${{ secrets.OPEN_STATES_API_KEY }}
         run: |
           STATES="${{ github.event.inputs.states }}"
           if [ -n "$STATES" ]; then
