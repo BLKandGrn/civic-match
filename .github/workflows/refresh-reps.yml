@@ -1,6 +1,8 @@
 name: Refresh Representative Data
 
 on:
+permissions:
+  contents: write
   schedule:
     - cron: '0 12 15 11 *'
   workflow_dispatch:
