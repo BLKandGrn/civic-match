@@ -1,7 +1,324 @@
 {
   "state": "MD",
   "generated": "2026-05-25",
-  "federal": [],
+  "federal": [
+    {
+      "name": "Laura Friedman",
+      "party": "D",
+      "chamber": "House",
+      "district": "30",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Matt Van Epps",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Cory A. Booker",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3224",
+      "website": "https://www.booker.senate.gov",
+      "twitter": "@CoryBooker",
+      "instagram": "@corybooker",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Booker has consistently supported environmental legislation including climate action and clean energy initiatives.",
+          "voted_for": [
+            "Environmental Justice For All Act co-sponsor (Congress.gov, 2023)",
+            "Inflation Reduction Act climate provisions (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Booker has been a leading advocate for criminal justice reform including sentencing reform and policing accountability.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)",
+            "George Floyd Justice in Policing Act co-sponsor (Congress.gov, 2020-2021)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Booker has championed federal cannabis legalization and expungement of cannabis convictions.",
+          "voted_for": [
+            "Cannabis Administration and Opportunity Act lead sponsor (Congress.gov, 2022)",
+            "MORE Act support (Congressional record, 2020)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Booker supports federal protections for reproductive rights and access to abortion services.",
+          "voted_for": [
+            "Women's Health Protection Act co-sponsor (Congress.gov, 2021-2022)",
+            "Right to Contraception Act (Senate vote, June 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Booker has consistently supported LGBTQ+ rights legislation and equality measures.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)",
+            "Equality Act co-sponsor (Congress.gov, 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam B. Schiff",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": null,
+      "website": null,
+      "twitter": "@SenAdamSchiff",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Schiff has supported climate action and environmental protections during his House tenure.",
+          "voted_for": [
+            "Inflation Reduction Act climate provisions (House vote, August 2022)",
+            "Clean Energy and Jobs Innovation Act support (Congressional record, 2020)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Schiff has been a strong supporter of reproductive rights and access to abortion.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Ensuring Access to Abortion Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Schiff has consistently voted for LGBTQ+ equality and anti-discrimination measures.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alan Armstrong",
+      "party": "R",
+      "chamber": "House",
+      "district": null,
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Analilia Mejia",
+      "party": "D",
+      "chamber": "House",
+      "district": "11",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Clay Fuller",
+      "party": "R",
+      "chamber": "House",
+      "district": "14",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Joaquin Castro",
+      "party": "D",
+      "chamber": "House",
+      "district": "20",
+      "phone": "202-225-3236",
+      "website": "https://castro.house.gov",
+      "twitter": "@JoaquinCastrotx",
+      "instagram": "@joaquincastrotx",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Castro has supported climate action and environmental justice legislation.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)",
+            "Environmental Justice For All Act co-sponsor (Congress.gov, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Castro has supported police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)",
+            "Police accountability provisions support (Congressional record, 2020)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Castro supports reproductive rights and access to abortion services.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Ensuring Access to Abortion Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Castro has consistently supported LGBTQ+ equality legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Kristen McDonald Rivet",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Jason Crow",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-7882",
+      "website": "https://crow.house.gov",
+      "twitter": "@RepJasonCrow",
+      "instagram": "@repjasoncrow",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Crow has supported climate action and clean energy legislation.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)",
+            "Climate Action Now Act (House vote, May 2019)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Crow has supported police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Crow supports reproductive rights and access to abortion.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Ensuring Access to Abortion Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Crow has voted for LGBTQ+ equality and anti-discrimination legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Kevin Kiley",
+      "party": "N",
+      "chamber": "House",
+      "district": "3",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Brendan F. Boyle",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-6111",
+      "website": "https://boyle.house.gov",
+      "twitter": "@RepBrendanBoyle",
+      "instagram": "@repbrendanboyle",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Boyle has supported environmental protections and climate legislation.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)",
+            "Climate Action Now Act (House vote, May 2019)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Boyle has supported criminal justice reform measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)",
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Boyle supports reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Ensuring Access to Abortion Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Boyle has consistently voted for LGBTQ+ equality legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
   "state_legislators": [
     {
       "name": "Aaron Kaufman",
@@ -31,23 +348,31 @@
       "chamber": "House",
       "district": "10",
       "phone": "410-841-3391",
-      "website": "https://mgahouse.maryland.gov/mga/mdmanual/06hse/html/msa12229.html",
+      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/jones01",
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
+        "Cannabis Policy": {
           "stance": "support",
-          "summary": "As Speaker, has supported criminal justice reform initiatives including juvenile justice reforms.",
+          "summary": "As House Speaker, Jones supported cannabis legalization in Maryland.",
           "voted_for": [
-            "HB1180 Juvenile Justice Reform Act (Maryland General Assembly, 2022)"
+            "Cannabis Legalization and Regulation HB1 (Maryland General Assembly, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Jones has supported reproductive health protections and abortion access in Maryland.",
+          "voted_for": [
+            "Abortion Care Access Act HB937 (Maryland General Assembly, 2022)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supported the Blueprint for Maryland's Future education funding plan.",
+          "summary": "Jones supported the Blueprint for Maryland's Future education funding reforms.",
           "voted_for": [
-            "Blueprint for Maryland's Future implementation bills (Maryland General Assembly, 2021)"
+            "Blueprint for Maryland's Future implementation (Maryland General Assembly, 2021)"
           ],
           "voted_against": []
         }
@@ -67,7 +392,7 @@
     {
       "name": "Alonzo Washington",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "22",
       "phone": null,
       "website": null,
@@ -124,24 +449,32 @@
       "party": "D",
       "chamber": "House",
       "district": "14",
-      "phone": "410-841-3036",
-      "website": "https://mgahouse.maryland.gov/mga/mdmanual/06hse/html/msa12388.html",
+      "phone": "301-858-3205",
+      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/kaiser",
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Cannabis Policy": {
+        "Environmental Protection": {
           "stance": "support",
-          "summary": "Has supported cannabis legalization and regulation efforts in Maryland.",
+          "summary": "Kaiser has championed environmental legislation including climate action measures.",
           "voted_for": [
-            "HB1 Cannabis Reform Act (Maryland General Assembly, 2023)"
+            "Climate Solutions Now Act SB528 (Maryland General Assembly, 2022)"
           ],
           "voted_against": []
         },
-        "Environmental Protection": {
+        "Cannabis Policy": {
           "stance": "support",
-          "summary": "Long-standing advocate for environmental protection and climate initiatives.",
+          "summary": "Kaiser supported cannabis legalization and regulation in Maryland.",
           "voted_for": [
-            "Climate Solutions Now Act of 2022 (Maryland General Assembly, 2022)"
+            "Cannabis Legalization and Regulation HB1 (Maryland General Assembly, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Kaiser has been a strong supporter of increased education funding.",
+          "voted_for": [
+            "Blueprint for Maryland's Future implementation (Maryland General Assembly, 2021)"
           ],
           "voted_against": []
         }
@@ -167,7 +500,16 @@
       "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/muse",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Muse has supported various criminal justice reform measures in the Maryland Senate.",
+          "voted_for": [
+            "Juvenile Justice Reform Act (Maryland General Assembly, 2022)"
+          ],
+          "voted_against": []
+        }
+      }
     }
   ]
 }
