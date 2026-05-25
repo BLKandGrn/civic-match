@@ -158,13 +158,9 @@ async function enrichWithClaude(state, members, stateLeg) {
   const prompt = `You are a nonpartisan civic data generator. Today is May 2026.
 
 PARTY FORMAT RULE: Always use (D), (R), or (N) — never spell out party names.
-DATA ACCURACY: The federal members below come directly from the Congress.gov API with currentMember=true — treat them as confirmed current. Include ALL federal members listed. For state legislators, apply normal verification.
+CRITICAL INSTRUCTION: You are a data formatter, not a fact-checker. Your job is to take the lists below and output them as structured JSON with positions data added. Do NOT omit, filter, or verify the members listed — they have already been verified by the APIs. Every person listed under "Federal Representatives" MUST appear in the "federal" array. Every person listed under "State Legislators" MUST appear in the "state_legislators" array. Omitting anyone is an error.
 
-EXCLUSION RULES — omit only if you have strong specific knowledge that:
-- The person died, resigned, or was expelled after the API data was pulled.
-- They are a local/county/school-board official (not federal or state legislature).
-
-Do not add any official not present in the input lists above.
+The only exception: omit someone if you have certainty they died or resigned within the last 30 days.
 
 State: ${state}
 
