@@ -1,0 +1,43 @@
+name: Refresh Representative Data
+
+on:
+  schedule:
+    - cron: '0 12 15 11 *'
+  workflow_dispatch:
+    inputs:
+      states:
+        description: 'States to refresh (space-separated, e.g. PA MD VA) — leave blank for all 50'
+        required: false
+        default: ''
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run generation script
+        env:
+          VITE_ANTHROPIC_API_KEY: ${{ secrets.VITE_ANTHROPIC_API_KEY }}
+          VITE_PROXY_URL: ${{ secrets.VITE_PROXY_URL }}
+        run: |
+          STATES="${{ github.event.inputs.states }}"
+          if [ -n "$STATES" ]; then
+            node scripts/generate-reps.mjs $STATES
+          else
+            node scripts/generate-reps.mjs
+          fi
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/
+          git diff --staged --quiet || git commit -m "chore: refresh representative data $(date +'%Y-%m-%d')"
+          git push
