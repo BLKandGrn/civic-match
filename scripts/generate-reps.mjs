@@ -173,7 +173,7 @@ Return ONLY valid JSON in this exact shape, no markdown, no explanation:
       "x-api-key": ANTH_KEY
     },
     body: JSON.stringify({
-      model: "claude-sonnet-4-5-20251022",
+      model: "claude-sonnet-4-5",
       max_tokens: 8000,
       messages: [{ role: "user", content: prompt }]
     })
