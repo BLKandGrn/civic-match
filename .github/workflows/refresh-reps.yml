@@ -1,8 +1,6 @@
 name: Refresh Representative Data
 
 on:
-permissions:
-  contents: write
   schedule:
     - cron: '0 12 15 11 *'
   workflow_dispatch:
@@ -12,12 +10,17 @@ permissions:
         required: false
         default: ''
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
