@@ -112,14 +112,19 @@ async function getCongressMembers(state) {
     const d = await rawRes.json();
     console.log(`  Congress.gov members returned: ${(d.members || []).length}`);
     if (d.error) console.error(`  Congress.gov error:`, JSON.stringify(d.error));
-    return (d.members || []).filter(m => {
+    const filtered = (d.members || []).filter(m => {
+      // Filter by stateCode field in response
+      const memberState = (m.stateCode || "").toUpperCase();
+      if (memberState && memberState !== state) return false;
       if (m.terms && m.terms.item) {
         const terms = Array.isArray(m.terms.item) ? m.terms.item : [m.terms.item];
         const last = terms[terms.length - 1];
         if (last && last.endYear && parseInt(last.endYear) < 2026) return false;
       }
       return true;
-    }).slice(0, 12);
+    });
+    console.log(`  After state filter: ${filtered.length} members for ${state}`);
+    return filtered.slice(0, 12);
   } catch(e) {
     console.warn(`  Congress fetch failed for ${state}:`, e.message);
     return [];
