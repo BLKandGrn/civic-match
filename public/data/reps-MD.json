@@ -10,57 +10,48 @@
       "phone": "202-224-4654",
       "website": "https://www.vanhollen.senate.gov",
       "twitter": "@ChrisVanHollen",
-      "instagram": "@senatorchrisvanhollen",
+      "instagram": "@senatorvanhollen",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Consistent supporter of climate action and environmental protection legislation including clean energy investments.",
+          "summary": "Strong advocate for climate action, clean energy, and Chesapeake Bay restoration.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate roll call vote, August 2022)",
-            "Infrastructure Investment and Jobs Act with environmental provisions (Senate roll call vote, August 2021)"
+            "Inflation Reduction Act with climate investments (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with environmental provisions (Senate vote, August 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform including sentencing reform and police accountability measures.",
+          "summary": "Supports sentencing reform and police accountability measures.",
           "voted_for": [
-            "First Step Act (Senate roll call vote, December 2018)"
+            "First Step Act (Senate vote, December 2018)"
           ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Advocates for progressive taxation including higher taxes on wealthy individuals and corporations.",
+          "summary": "Advocates for higher taxes on wealthy individuals and corporations.",
           "voted_for": [
-            "Inflation Reduction Act with corporate minimum tax (Senate roll call vote, August 2022)"
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
           ],
           "voted_against": [
-            "Tax Cuts and Jobs Act of 2017 (Senate roll call vote, December 2017)"
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of abortion rights and reproductive health access.",
+          "summary": "Strong supporter of abortion rights and access to reproductive healthcare.",
           "voted_for": [
-            "Women's Health Protection Act (Senate vote, February 2022)",
-            "Women's Health Protection Act (Senate vote, May 2022)"
+            "Women's Health Protection Act (Senate vote, February 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ rights and anti-discrimination protections.",
+          "summary": "Consistent supporter of LGBTQ+ equality and protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate roll call vote, November 2022)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports increased federal funding for public education.",
-          "voted_for": [
-            "American Rescue Plan Act with education funding (Senate roll call vote, March 2021)"
+            "Respect for Marriage Act (Senate vote, November 2022)"
           ],
           "voted_against": []
         }
@@ -78,37 +69,25 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "As Prince George's County Executive, championed environmental initiatives including climate action and clean energy.",
+          "summary": "Advocated for environmental justice as Prince George's County Executive.",
           "voted_for": [],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "As County Executive, implemented police reform measures and accountability initiatives in Prince George's County.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Advocated for criminal justice reform and alternatives to incarceration as County Executive.",
+          "summary": "Implemented police reforms as County Executive and supports federal accountability measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong advocate for reproductive rights and abortion access.",
+          "summary": "Strong advocate for abortion rights and reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Prioritized education funding and school improvements as County Executive.",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -120,31 +99,19 @@
       "chamber": "House",
       "district": "2",
       "phone": "202-225-3061",
-      "website": "https://olszewski.house.gov",
+      "website": "https://www.olszewski.house.gov",
       "twitter": "@RepOlszewski",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "As Baltimore County Executive, supported environmental protection and Chesapeake Bay cleanup efforts.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supported criminal justice reform initiatives as County Executive.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Supports abortion rights and reproductive health access.",
+          "summary": "Supported environmental initiatives as Baltimore County Executive.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Prioritized education funding in Baltimore County budget as County Executive.",
+          "summary": "Advocated for increased education funding at county level.",
           "voted_for": [],
           "voted_against": []
         }
@@ -156,31 +123,19 @@
       "chamber": "House",
       "district": "6",
       "phone": "202-225-2721",
-      "website": "https://mcclaindelaney.house.gov",
+      "website": "https://www.mcclaindelaney.house.gov",
       "twitter": "@RepMcClainDelaney",
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Campaigned on climate action and environmental protection in 2024 election.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of reproductive rights and abortion access.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "summary": "Campaigned on protecting abortion rights and reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Advocated for small business support and economic development.",
+          "summary": "Advocates for small business support and economic development.",
           "voted_for": [],
           "voted_against": []
         }
@@ -192,45 +147,25 @@
       "chamber": "House",
       "district": "3",
       "phone": "202-225-4016",
-      "website": "https://elfreth.house.gov",
+      "website": "https://www.elfreth.house.gov",
       "twitter": "@RepElfreth",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "As Maryland State Senator, championed Chesapeake Bay protection and clean energy legislation.",
-          "voted_for": [
-            "Climate Solutions Now Act of 2022 as Maryland State Senator (Maryland General Assembly, April 2022)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supported criminal justice reform measures in Maryland State Senate.",
+          "summary": "Led Chesapeake Bay protection efforts in Maryland Senate.",
           "voted_for": [],
           "voted_against": []
         },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supported cannabis legalization and regulation in Maryland as State Senator.",
+          "summary": "Supported cannabis legalization measures in Maryland legislature.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of reproductive rights legislation in Maryland.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Supported LGBTQ+ rights legislation as State Senator.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supported education funding including Blueprint for Maryland's Future as State Senator.",
+          "summary": "Supported abortion rights protections in Maryland Senate.",
           "voted_for": [],
           "voted_against": []
         }
@@ -242,54 +177,645 @@
       "chamber": "House",
       "district": "4",
       "phone": "202-225-8699",
-      "website": "https://ivey.house.gov",
+      "website": "https://www.ivey.house.gov",
       "twitter": "@RepGlennIvey",
       "instagram": "@repglennivey",
       "positions": {
-        "Environmental Protection": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports climate action and environmental protection legislation.",
+          "summary": "Former prosecutor who supports criminal justice reforms and alternatives to incarceration.",
           "voted_for": [],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "As former State's Attorney, advocated for police accountability and criminal justice reform.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Strong advocate for criminal justice reform based on experience as prosecutor.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports progressive taxation and tax fairness.",
+          "summary": "Supports police reform measures while emphasizing community safety.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and reproductive health access.",
+          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Kweisi Mfume",
+      "party": "D",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-4741",
+      "website": "https://www.mfume.house.gov",
+      "twitter": "@RepKweisiMfume",
+      "instagram": "@repkweisimfume",
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Long-time advocate for criminal justice reform and equity.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability and reform measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and increased taxes on wealthy.",
           "voted_for": [],
           "voted_against": []
         },
-        "LGBTQ+ Rights": {
+        "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
-          "voted_for": [],
+          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased federal funding for public education.",
+          "summary": "Strong advocate for increased federal education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jamie Raskin",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-5341",
+      "website": "https://www.raskin.house.gov",
+      "twitter": "@RepRaskin",
+      "instagram": "@repraskin",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of climate action and environmental regulations.",
+          "voted_for": [
+            "Build Back Better Act with climate provisions (House vote, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform and ending mass incarceration.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Strong supporter of police accountability and reform measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Advocates for progressive taxation and wealth taxes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports federal cannabis legalization and decriminalization.",
+          "voted_for": [
+            "Marijuana Opportunity Reinvestment and Expungement Act (House vote, April 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for abortion rights and reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ rights and equality.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andy Harris",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-5311",
+      "website": "https://www.harris.house.gov",
+      "twitter": "@RepAndyHarrisMD",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports Chesapeake Bay restoration but opposes many federal climate regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (House vote, November 2021)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supported First Step Act but opposes many progressive reform measures.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police reform legislation, supports local law enforcement.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases, supports lower taxes and reduced regulations.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposes federal cannabis legalization and state legalization efforts.",
+          "voted_for": [],
+          "voted_against": [
+            "Marijuana Opportunity Reinvestment and Expungement Act (House vote, April 2022)",
+            "Medical marijuana in DC (House amendment, 2014)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions on reproductive healthcare.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal LGBTQ+ protections and marriage equality legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Steny H. Hoyer",
+      "party": "D",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-4131",
+      "website": "https://www.hoyer.house.gov",
+      "twitter": "@LeaderHoyer",
+      "instagram": "@leaderhoyer",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Long-time supporter of environmental protection and Chesapeake Bay restoration.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act (House vote, November 2021)",
+            "Build Back Better Act (House vote, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and sentencing reforms.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)",
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability measures and reforms.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and opposed Trump tax cuts.",
+          "voted_for": [],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis decriminalization and reform measures.",
+          "voted_for": [
+            "Marijuana Opportunity Reinvestment and Expungement Act (House vote, April 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Long-time supporter of LGBTQ+ rights and equality.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Consistent advocate for federal education funding increases.",
           "voted_for": [],
           "voted_against": []
         }
       }
     }
   ],
-  "state_legislators": []
+  "state_legislators": [
+    {
+      "name": "Aaron Kaufman",
+      "party": "D",
+      "chamber": "House",
+      "district": "18",
+      "phone": null,
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/kaufman01",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection measures in Montgomery County delegation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and increased revenue for services.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adrian Boafo",
+      "party": "D",
+      "chamber": "House",
+      "district": "23",
+      "phone": null,
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/boafo01",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform and equity.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and Blueprint implementation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adrienne Jones",
+      "party": "D",
+      "chamber": "House",
+      "district": "10",
+      "phone": "410-841-3391",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/jones01",
+      "twitter": "@SpeakerAJones",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "As House Speaker, has supported criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supported police accountability legislation in Maryland.",
+          "voted_for": [
+            "Maryland Police Accountability Act of 2021 (House vote, April 2021)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported cannabis legalization in Maryland.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and reproductive healthcare protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for Blueprint for Maryland's Future education funding.",
+          "voted_for": [
+            "Blueprint for Maryland's Future (House vote, 2020)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Aletheia McCaskill",
+      "party": "D",
+      "chamber": "House",
+      "district": "44B",
+      "phone": null,
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/mccaskill01",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocates for police reform and accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding for Baltimore area schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alonzo Washington",
+      "party": "D",
+      "chamber": "House",
+      "district": "22",
+      "phone": null,
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/washington02",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and rehabilitation programs.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased education funding in Prince George's County.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andre Johnson",
+      "party": "D",
+      "chamber": "House",
+      "district": "34A",
+      "phone": null,
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/johnson06",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding increases for Baltimore area.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrea Harrison",
+      "party": "D",
+      "chamber": "House",
+      "district": "24",
+      "phone": null,
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/harrison02",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and Blueprint implementation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Pruski",
+      "party": "D",
+      "chamber": "House",
+      "district": "33A",
+      "phone": null,
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/pruski01",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection for Anne Arundel County.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for education funding increases.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anne Healey",
+      "party": "D",
+      "chamber": "House",
+      "district": "22",
+      "phone": "301-858-3913",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/healey",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for education funding in Prince George's County.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anne Kaiser",
+      "party": "D",
+      "chamber": "House",
+      "district": "14",
+      "phone": "301-858-3205",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/kaiser",
+      "twitter": "@AnneKaiserMD",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Long-time advocate for environmental protection and clean energy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supported police accountability reforms in Maryland.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and revenue for public services.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported cannabis legalization efforts in Maryland.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for abortion rights and reproductive healthcare.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Long-time supporter of LGBTQ+ rights and equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for education funding and Blueprint implementation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anthony G. Brown",
+      "party": "D",
+      "chamber": "House",
+      "district": null,
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported criminal justice reforms as Lieutenant Governor.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocated for education funding increases.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anthony Muse",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "26",
+      "phone": "410-841-3092",
+      "website": "http://mgaleg.maryland.gov/mgawebsite/Members/Details/muse",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform and community programs.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding for Prince George's County schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
 }
