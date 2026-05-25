@@ -1,64 +1,174 @@
 {
   "state": "MD",
   "generated": "2026-05-25",
-  "federal": [],
+  "federal": [
+    {
+      "name": "Chris Van Hollen",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4654",
+      "website": "https://www.vanhollen.senate.gov",
+      "twitter": "@ChrisVanHollen",
+      "instagram": "@senatorvanhollen",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for climate action and environmental protection legislation.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate, 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy provisions (Senate, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports sentencing reform and criminal justice system improvements.",
+          "voted_for": [
+            "First Step Act (Senate, 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Advocates for higher taxes on wealthy individuals and corporations.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate, 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (Senate, 2017)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of reproductive rights and access to abortion services.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased federal investment in public education.",
+          "voted_for": [
+            "American Rescue Plan Act with education funding (Senate, 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
   "state_legislators": [
     {
-      "name": "Chris West",
-      "party": "R",
-      "chamber": "House",
-      "district": "42B",
-      "phone": null,
-      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/west02",
-      "twitter": null,
+      "name": "Angela Alsobrooks",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4524",
+      "website": "https://www.alsobrooks.senate.gov",
+      "twitter": "@SenAlsobrooks",
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
-          "stance": "mixed",
-          "summary": "Has supported some criminal justice reforms while maintaining law enforcement priorities.",
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "As former Prince George's County Executive, implemented police reform measures and accountability programs.",
           "voted_for": [],
           "voted_against": []
         },
-        "Police Accountability": {
-          "stance": "unclear",
-          "summary": "Limited public record on specific police accountability legislation.",
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocated for criminal justice reform initiatives during county executive tenure.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and access.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Has generally supported education funding in Carroll County delegation.",
+          "summary": "Prioritized education funding as county executive.",
           "voted_for": [],
           "voted_against": []
         }
       }
     },
     {
-      "name": "Josh Stonko",
-      "party": "R",
+      "name": "Sarah Elfreth",
+      "party": "D",
       "chamber": "House",
-      "district": "42C",
+      "district": "3",
+      "phone": "202-225-4016",
+      "website": "https://elfreth.house.gov",
+      "twitter": "@RepElfreth",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "As Maryland State Senator, championed environmental legislation including clean energy and Chesapeake Bay protection.",
+          "voted_for": [
+            "Climate Solutions Now Act (Maryland Senate, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported cannabis legalization in Maryland.",
+          "voted_for": [
+            "Cannabis legalization measure (Maryland Senate, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Voted for education funding increases in Maryland legislature.",
+          "voted_for": [
+            "Blueprint for Maryland's Future education funding (Maryland Senate, 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Shaneka Henson",
+      "party": "D",
+      "chamber": "House",
+      "district": "30",
       "phone": null,
-      "website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/stonko",
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Generally opposes progressive tax increases consistent with Republican fiscal policy.",
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supported environmental protection measures in Maryland House of Delegates.",
+          "voted_for": [
+            "Climate Solutions Now Act (Maryland House, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocated for criminal justice reforms in the Maryland legislature.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Has supported education funding as member of Carroll County delegation.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Has advocated for small business support and reduced regulations.",
-          "voted_for": [],
+          "summary": "Supported increased education funding.",
+          "voted_for": [
+            "Blueprint for Maryland's Future (Maryland House, 2021)"
+          ],
           "voted_against": []
         }
       }
