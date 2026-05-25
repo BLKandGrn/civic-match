@@ -654,7 +654,9 @@ export default function App() {
       const r = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + q);
       if (r.ok) {
         const d = await r.json();
-        if (d.thumbnail && d.thumbnail.source && isPersonPage(d)) return d.thumbnail.source;
+       const descLower = (d.description || "").toLowerCase();
+const isPolitician = descLower.includes("council") || descLower.includes("politician") || descLower.includes("representative") || descLower.includes("senator") || descLower.includes("mayor") || descLower.includes("assembly") || descLower.includes("commissioner") || descLower.includes("delegate") || descLower.includes("board");
+if (d.thumbnail && d.thumbnail.source && isPersonPage(d) && isPolitician) return d.thumbnail.source;
       }
       // Try with disambiguation terms
       for (const suffix of [" politician"]) {
