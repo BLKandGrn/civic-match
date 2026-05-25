@@ -10,7 +10,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.join(__dirname, "..", "public", "data");
-const PROXY = process.env.VITE_PROXY_URL || "https://civic-match-proxy.vercel.app/api/proxy";
+const PROXY = process.env.VITE_PROXY_URL || "https://civic-match-proxy.vercel.app/api/civic";
 const ANTH_KEY = process.env.VITE_ANTHROPIC_API_KEY;
 
 if (!ANTH_KEY) {
@@ -221,7 +221,7 @@ async function main() {
       await generateState(state);
       results.success.push(state);
       // Rate limit — 1 call per 2 seconds
-      if (statesToRun.indexOf(state) < statesToRun.length - 1) await sleep(2000);
+      if (statesToRun.indexOf(state) < statesToRun.length - 1) await sleep(3000);
     } catch(e) {
       console.error(`[${state}] FAILED:`, e.message);
       results.failed.push(state);
