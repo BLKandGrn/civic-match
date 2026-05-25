@@ -643,7 +643,7 @@ export default function App() {
     if (bornMatch && parseInt(bornMatch[1]) < 1930) return false;
     // Reject if the thumbnail URL looks like architecture/landscape (contains common non-portrait signals)
     const thumb = (d.thumbnail && d.thumbnail.source) ? d.thumbnail.source.toLowerCase() : "";
-    const nonPortraitPatterns = ["building", "courthouse", "capitol", "skyline", "aerial", "campus", "stadium", "hospital", "bridge", "church", "map", "flag", "seal", "logo", "coat_of_arms"];
+    const nonPortraitPatterns = ["building", "courthouse", "capitol", "skyline", "aerial", "campus", "stadium", "hospital", "bridge", "church", "map", "flag", "seal", "logo", "coat_of_arms", "school"];
     if (nonPortraitPatterns.some(function(p) { return thumb.includes(p); })) return false;
     return true;
   }
