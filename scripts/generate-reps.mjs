@@ -32,6 +32,60 @@ const ISSUES = [
   "Small Business Funding","Reproductive Health Rights","LGBTQ+ Rights","Public School Funding"
 ];
 
+const STATE_CAPITALS = {
+  "AL": "600 Dexter Ave, Montgomery, AL",
+  "AK": "120 4th St, Juneau, AK",
+  "AZ": "1700 W Washington St, Phoenix, AZ",
+  "AR": "500 Woodlane St, Little Rock, AR",
+  "CA": "1315 10th St, Sacramento, CA",
+  "CO": "200 E Colfax Ave, Denver, CO",
+  "CT": "210 Capitol Ave, Hartford, CT",
+  "DE": "411 Legislative Ave, Dover, DE",
+  "FL": "400 S Monroe St, Tallahassee, FL",
+  "GA": "206 Washington St SW, Atlanta, GA",
+  "HI": "415 S Beretania St, Honolulu, HI",
+  "ID": "700 W Jefferson St, Boise, ID",
+  "IL": "401 S 2nd St, Springfield, IL",
+  "IN": "200 W Washington St, Indianapolis, IN",
+  "IA": "1007 E Grand Ave, Des Moines, IA",
+  "KS": "300 SW 10th Ave, Topeka, KS",
+  "KY": "700 Capitol Ave, Frankfort, KY",
+  "LA": "900 N 3rd St, Baton Rouge, LA",
+  "ME": "210 State St, Augusta, ME",
+  "MD": "100 State Cir, Annapolis, MD",
+  "MA": "24 Beacon St, Boston, MA",
+  "MI": "100 N Capitol Ave, Lansing, MI",
+  "MN": "75 Rev Dr Martin Luther King Jr Blvd, Saint Paul, MN",
+  "MS": "400 High St, Jackson, MS",
+  "MO": "201 W Capitol Ave, Jefferson City, MO",
+  "MT": "1301 E 6th Ave, Helena, MT",
+  "NE": "1445 K St, Lincoln, NE",
+  "NV": "101 N Carson St, Carson City, NV",
+  "NH": "107 N Main St, Concord, NH",
+  "NJ": "125 W State St, Trenton, NJ",
+  "NM": "490 Old Santa Fe Trail, Santa Fe, NM",
+  "NY": "State St, Albany, NY",
+  "NC": "16 W Jones St, Raleigh, NC",
+  "ND": "600 E Boulevard Ave, Bismarck, ND",
+  "OH": "1 Capitol Square, Columbus, OH",
+  "OK": "2300 N Lincoln Blvd, Oklahoma City, OK",
+  "OR": "900 Court St NE, Salem, OR",
+  "PA": "501 N 3rd St, Harrisburg, PA",
+  "RI": "82 Smith St, Providence, RI",
+  "SC": "1100 Gervais St, Columbia, SC",
+  "SD": "500 E Capitol Ave, Pierre, SD",
+  "TN": "600 Dr Martin L King Jr Blvd, Nashville, TN",
+  "TX": "1100 Congress Ave, Austin, TX",
+  "UT": "350 N State St, Salt Lake City, UT",
+  "VT": "115 State St, Montpelier, VT",
+  "VA": "1000 Bank St, Richmond, VA",
+  "WA": "416 Sid Snyder Ave SW, Olympia, WA",
+  "WV": "1900 Kanawha Blvd E, Charleston, WV",
+  "WI": "2 E Main St, Madison, WI",
+  "WY": "200 W 24th St, Cheyenne, WY",
+};
+
+
 
 async function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
@@ -46,8 +100,14 @@ async function fetchJSON(url) {
 async function getCongressMembers(state) {
   try {
     const d = await fetchJSON(`${PROXY}?endpoint=congress-members&state=${state}`);
+    // Congress.gov returns state as full name (e.g. "Maryland") not abbreviation
+    // Use stateCode field if available, otherwise skip state filter (API already filters by stateCode in URL)
     return (d.members || []).filter(m => {
-      if (!m.state || m.state.toUpperCase() !== state) return false;
+      const memberState = (m.stateCode || m.state || "").toUpperCase();
+      if (memberState && memberState !== state && memberState !== state.toUpperCase()) {
+        // Only filter out if stateCode is a 2-letter code and doesn't match
+        if (memberState.length === 2) return false;
+      }
       if (m.terms && m.terms.item) {
         const terms = Array.isArray(m.terms.item) ? m.terms.item : [m.terms.item];
         const last = terms[terms.length - 1];
@@ -63,7 +123,8 @@ async function getCongressMembers(state) {
 
 async function getStateLeg(state) {
   try {
-    const d = await fetchJSON(`${PROXY}?endpoint=state-legislators&address=${encodeURIComponent(`${state}, USA`)}`);
+    const addr = STATE_CAPITALS[state] || `${state}, USA`;
+    const d = await fetchJSON(`${PROXY}?endpoint=state-legislators&address=${encodeURIComponent(addr)}`);
     return (d.results || []).slice(0, 10);
   } catch(e) {
     console.warn(`  OpenStates fetch failed for ${state}:`, e.message);
