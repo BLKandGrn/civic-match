@@ -1,6 +1,295 @@
 {
   "state": "MD",
   "generated": "2026-05-25",
-  "federal": [],
+  "federal": [
+    {
+      "name": "Chris Van Hollen",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4654",
+      "website": "https://www.vanhollen.senate.gov",
+      "twitter": "@ChrisVanHollen",
+      "instagram": "@senatorchrisvanhollen",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Consistent supporter of climate action and environmental protection legislation including clean energy investments.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate roll call vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with environmental provisions (Senate roll call vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform including sentencing reform and police accountability measures.",
+          "voted_for": [
+            "First Step Act (Senate roll call vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Advocates for progressive taxation including higher taxes on wealthy individuals and corporations.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate roll call vote, August 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act of 2017 (Senate roll call vote, December 2017)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of abortion rights and reproductive health access.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate roll call vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal funding for public education.",
+          "voted_for": [
+            "American Rescue Plan Act with education funding (Senate roll call vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela D. Alsobrooks",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4524",
+      "website": "https://www.alsobrooks.senate.gov",
+      "twitter": "@SenAlsobrooks",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "As Prince George's County Executive, championed environmental initiatives including climate action and clean energy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "As County Executive, implemented police reform measures and accountability initiatives in Prince George's County.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocated for criminal justice reform and alternatives to incarceration as County Executive.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Prioritized education funding and school improvements as County Executive.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Johnny Olszewski",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-3061",
+      "website": "https://olszewski.house.gov",
+      "twitter": "@RepOlszewski",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "As Baltimore County Executive, supported environmental protection and Chesapeake Bay cleanup efforts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported criminal justice reform initiatives as County Executive.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and reproductive health access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Prioritized education funding in Baltimore County budget as County Executive.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "April McClain Delaney",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-2721",
+      "website": "https://mcclaindelaney.house.gov",
+      "twitter": "@RepMcClainDelaney",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Campaigned on climate action and environmental protection in 2024 election.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocated for small business support and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Sarah Elfreth",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-4016",
+      "website": "https://elfreth.house.gov",
+      "twitter": "@RepElfreth",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "As Maryland State Senator, championed Chesapeake Bay protection and clean energy legislation.",
+          "voted_for": [
+            "Climate Solutions Now Act of 2022 as Maryland State Senator (Maryland General Assembly, April 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported criminal justice reform measures in Maryland State Senate.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported cannabis legalization and regulation in Maryland as State Senator.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights legislation in Maryland.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supported LGBTQ+ rights legislation as State Senator.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding including Blueprint for Maryland's Future as State Senator.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Glenn Ivey",
+      "party": "D",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-8699",
+      "website": "https://ivey.house.gov",
+      "twitter": "@RepGlennIvey",
+      "instagram": "@repglennivey",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protection legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "As former State's Attorney, advocated for police accountability and criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Strong advocate for criminal justice reform based on experience as prosecutor.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and tax fairness.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and reproductive health access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
   "state_legislators": []
 }
