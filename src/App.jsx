@@ -191,14 +191,19 @@ function renderLine(line, i, photos, usedPhotoUrls, sectionHeading) {
 
   // Style inline citations — anything in parentheses that looks like a citation
   function billUrl(inner) {
+    // Federal bills
     var hrMatch = inner.match(/H\.?R\.?\s*(\d+)/i);
-    var sMatch = inner.match(/(?:^|[^A-Z])S\.\s*(\d+)/i);
+    var sMatch = inner.match(/(?:^|\s)S\.\s*(\d+)/i);
     var sbMatch = inner.match(/SB\s*(\d+)/i);
     var hbMatch = inner.match(/HB\s*(\d+)/i);
+    var execMatch = inner.match(/Executive Order/i);
+    var resMatch = inner.match(/(?:Resolution|Res\.)\s*([A-Z]{0,3}-?\d+)/i);
     if (hrMatch) return "https://www.congress.gov/search?q=" + encodeURIComponent("H.R." + hrMatch[1]);
     if (sMatch) return "https://www.congress.gov/search?q=" + encodeURIComponent("S." + sMatch[1]);
     if (sbMatch) return "https://openstates.org/search/?query=" + encodeURIComponent("SB " + sbMatch[1]);
     if (hbMatch) return "https://openstates.org/search/?query=" + encodeURIComponent("HB " + hbMatch[1]);
+    if (resMatch) return "https://openstates.org/search/?query=" + encodeURIComponent(resMatch[0]);
+    if (execMatch) return "https://www.federalregister.gov/presidential-documents/executive-orders";
     return null;
   }
 
@@ -215,7 +220,7 @@ function renderLine(line, i, photos, usedPhotoUrls, sectionHeading) {
           if (url) {
             return '<a href="' + url + '" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#445B3E;font-family:\'Syne\',sans-serif;background:#1a1a1a;padding:1px 6px;border-radius:3px;white-space:nowrap;text-decoration:underline;">(' + inner + ')</a>';
           }
-          return '<span style="font-size:11px;color:#666;font-family:\'Syne\',sans-serif;background:#1a1a1a;padding:1px 6px;border-radius:3px;white-space:nowrap;">(' + inner + ')</span>';
+          return '<a href="https://www.congress.gov/search?q=' + encodeURIComponent(inner) + '" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#888;font-family:\'Syne\',sans-serif;background:#1a1a1a;padding:1px 6px;border-radius:3px;white-space:nowrap;text-decoration:underline;">(' + inner + ')</a>';
         }
         return match;
       });
@@ -808,7 +813,7 @@ export default function App() {
       const ANTH_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY || ""; const resp = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
         headers: { "Content-Type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": ANTH_KEY, "anthropic-dangerous-direct-browser-access": "true" },
-        body: JSON.stringify({ model: "claude-sonnet-4-5-20251022", max_tokens: 8000, messages: [{ role: "user", content: buildPrompt(members, stateLeg, voteData, localElections, dwData, dwStateUrls, staticReps) }] }),
+        body: JSON.stringify({ model: "claude-sonnet-4-5", max_tokens: 8000, messages: [{ role: "user", content: buildPrompt(members, stateLeg, voteData, localElections, dwData, dwStateUrls, staticReps) }] }),
       });
 
       if (!resp.ok) {
