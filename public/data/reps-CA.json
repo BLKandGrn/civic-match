@@ -1,0 +1,828 @@
+{
+  "state": "CA",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Laura Friedman",
+      "party": "D",
+      "chamber": "House",
+      "district": "30",
+      "phone": "202-225-4176",
+      "website": "https://friedman.house.gov",
+      "twitter": "RepLauraFriedman",
+      "instagram": "replaurafriendman",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for climate action and environmental regulations from her state legislative career and early congressional record.",
+          "voted_for": [
+            "CA AB 1279 (100% clean energy goal, California State Assembly, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Advocate for LGBTQ+ protections and equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam B. Schiff",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3553",
+      "website": "https://www.schiff.senate.gov",
+      "twitter": "SenAdamSchiff",
+      "instagram": "senadamschiff",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Long-standing supporter of climate action and environmental protections during House tenure.",
+          "voted_for": [
+            "Inflation Reduction Act climate provisions (House vote, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported criminal justice reform measures during House service.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of reproductive rights and access.",
+          "voted_for": [
+            "Women's Health Protection Act (House, 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for LGBTQ+ equality and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House, 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Kevin Kiley",
+      "party": "N",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-2523",
+      "website": "https://kiley.house.gov",
+      "twitter": "RepKiley",
+      "instagram": "repkevinkiley",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Critical of California environmental regulations and federal climate mandates.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax reduction policies.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Padilla",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3553",
+      "website": "https://www.padilla.senate.gov",
+      "twitter": "SenAlexPadilla",
+      "instagram": "senalexpadilla",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong climate advocate who has championed clean energy and environmental justice.",
+          "voted_for": [
+            "Inflation Reduction Act (Senate, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and police accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for reproductive freedom and access to healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ equality legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate, 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jim Costa",
+      "party": "D",
+      "chamber": "House",
+      "district": "21",
+      "phone": "202-225-3341",
+      "website": "https://costa.house.gov",
+      "twitter": "RepJimCosta",
+      "instagram": "repjimcosta",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports environmental protection while balancing agricultural interests in Central Valley district.",
+          "voted_for": [
+            "Inflation Reduction Act (House, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Champion of agricultural policy and food security given his Central Valley constituency.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business assistance and agricultural business support.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Maxine Waters",
+      "party": "D",
+      "chamber": "House",
+      "district": "43",
+      "phone": "202-225-2201",
+      "website": "https://waters.house.gov",
+      "twitter": "RepMaxineWaters",
+      "instagram": "repmaxinewaters",
+      "positions": {
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Leading advocate for police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House, 2020, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Long-time advocate for criminal justice reform and ending mass incarceration.",
+          "voted_for": [
+            "First Step Act (House, 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports higher taxes on wealthy individuals and corporations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "As Financial Services Committee leader, has championed small business access to capital.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights throughout her career.",
+          "voted_for": [
+            "Women's Health Protection Act (House, 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent advocate for LGBTQ+ equality.",
+          "voted_for": [
+            "Respect for Marriage Act (House, 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Nancy Pelosi",
+      "party": "D",
+      "chamber": "House",
+      "district": "11",
+      "phone": "202-225-4965",
+      "website": "https://pelosi.house.gov",
+      "twitter": "NancyPelosi",
+      "instagram": "nancypelosi",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Leading advocate for climate action and environmental protection throughout her career.",
+          "voted_for": [
+            "Inflation Reduction Act (House, 2022)",
+            "American Clean Energy and Security Act (House, 2009)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Championed police reform legislation as Speaker.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House, 2020, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported criminal justice reform measures.",
+          "voted_for": [
+            "First Step Act (House, 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and higher rates on wealthy individuals.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Lifelong champion of reproductive rights and healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House, 2021, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for LGBTQ+ equality representing San Francisco.",
+          "voted_for": [
+            "Respect for Marriage Act (House, 2022)",
+            "Equality Act (House, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Consistent supporter of increased federal education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "George Whitesides",
+      "party": "D",
+      "chamber": "House",
+      "district": "27",
+      "phone": "202-225-1956",
+      "website": "https://whitesides.house.gov",
+      "twitter": "RepWhitesides",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Campaigned on climate action and clean energy transition.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Vince Fong",
+      "party": "R",
+      "chamber": "House",
+      "district": "20",
+      "phone": "202-225-2915",
+      "website": "https://fong.house.gov",
+      "twitter": "RepVinceFong",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Critical of state and federal environmental regulations affecting Central Valley agriculture and energy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower tax policies.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Gilbert Ray Cisneros",
+      "party": "D",
+      "chamber": "House",
+      "district": "31",
+      "phone": "202-225-5464",
+      "website": "https://cisneros.house.gov",
+      "twitter": "RepGilCisneros",
+      "instagram": "repgilcisneros",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supporter of reproductive rights and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Education advocate who has focused on public school support.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Kevin Mullin",
+      "party": "D",
+      "chamber": "House",
+      "district": "15",
+      "phone": "202-225-3531",
+      "website": "https://mullin.house.gov",
+      "twitter": "RepKevinMullin",
+      "instagram": "repkevinmullin",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong environmental advocate from state legislative career and congressional record.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Advocate for LGBTQ+ equality and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Sydney Kamlager-Dove",
+      "party": "D",
+      "chamber": "House",
+      "district": "37",
+      "phone": "202-225-7084",
+      "website": "https://kamlager-dove.house.gov",
+      "twitter": "RepSydneyKD",
+      "instagram": "repsydneykd",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Climate and environmental justice advocate from state legislative record.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Strong advocate for police reform and accountability from state legislative career.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Champion of criminal justice reform and reducing incarceration.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Advocate for LGBTQ+ equality and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aisha Wahab",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "10",
+      "phone": "916-651-4010",
+      "website": "https://sd10.senate.ca.gov",
+      "twitter": "AishaWahab",
+      "instagram": "aishawahab",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental justice measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocate for criminal justice reform and rehabilitation programs.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of LGBTQ+ equality and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Akilah Weber",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "39",
+      "phone": "916-651-4039",
+      "website": "https://sd39.senate.ca.gov",
+      "twitter": "DrAkilahWeber",
+      "instagram": "drakilahweber",
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "As a physician, strong advocate for reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Healthcare advocate focused on nutrition and community health.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and resources.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Al Muratsuchi",
+      "party": "D",
+      "chamber": "House",
+      "district": "66",
+      "phone": "916-319-2066",
+      "website": "https://a66.asmdc.org",
+      "twitter": "Muratsuchi",
+      "instagram": "almuratsuchi",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong environmental advocate, particularly on coastal protection and clean energy.",
+          "voted_for": [
+            "SB 100 (100% clean energy by 2045, California Assembly, 2018)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Education advocate supporting increased school funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supporter of LGBTQ+ equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Lee",
+      "party": "D",
+      "chamber": "House",
+      "district": "24",
+      "phone": "916-319-2024",
+      "website": "https://a24.asmdc.org",
+      "twitter": "alex_lee",
+      "instagram": "alexleeca",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong climate advocate supporting aggressive environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Leading advocate for wealth taxes and progressive tax reform.",
+          "voted_for": [
+            "AB 2088 (wealth tax proposal, California Assembly, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis legalization and industry regulation reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Vocal advocate for LGBTQ+ equality as youngest openly bisexual legislator.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and resources.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ali Macedo",
+      "party": "R",
+      "chamber": "House",
+      "district": "33",
+      "phone": "916-319-2033",
+      "website": "https://ad33.cssrc.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Balances environmental concerns with economic development priorities.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports business-friendly tax policies.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anamarie Avila Farias",
+      "party": "D",
+      "chamber": "House",
+      "district": "15",
+      "phone": "916-319-2015",
+      "website": "https://a15.asmdc.org",
+      "twitter": "AnamarieAvilaF",
+      "instagram": "anamarieavilafarias",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Education advocate supporting increased school resources.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angelique Ashby",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "8",
+      "phone": "916-651-4008",
+      "website": "https://sd08.senate.ca.gov",
+      "twitter": "Angelique_Ashby",
+      "instagram": "angeliqueashby",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and climate initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocate for small business support and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anna Caballero",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "14",
+      "phone": "916-651-4014",
+      "website": "https://sd14.senate.ca.gov",
+      "twitter": "SenCaballero",
+      "instagram": "senatorcaballero",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Balances environmental protection with agricultural and water interests.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for small business support and agricultural businesses.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Supports agricultural and food security initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ash Kalra",
+      "party": "D",
+      "chamber": "House",
+      "district": "25",
+      "phone": "916-319-2025",
+      "website": "https://a25.asmdc.org",
+      "twitter": "Ash_Kalra",
+      "instagram": "ashkalra",
+      "positions": {
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Leading advocate for police reform and accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Champion of criminal justice reform, drug decriminalization, and rehabilitation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Strong supporter of cannabis legalization and industry reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Advocate for LGBTQ+ equality and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Avelino Valencia",
+      "party": "D",
+      "chamber": "House",
+      "district": "68",
+      "phone": "916-319-2068",
+      "website": "https://a68.asmdc.org",
+      "twitter": "AsmAvelino",
+      "instagram": "asmavelino",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Education advocate supporting increased school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ben Allen",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "24",
+      "phone": "916-651-4024",
+      "website": "https://sd24.senate.ca.gov",
+      "twitter": "BenAllenCA",
+      "instagram": "senbenallen",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Leading environmental advocate, particularly on plastics reduction and coastal protection.",
+          "voted_for": [
+            "SB 54 (plastic pollution reduction, California Senate, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Former educator and strong advocate for education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supporter of LGBTQ+ equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Blanca Pacheco",
+      "party": "D",
+      "chamber": "House",
+      "district": "64",
+      "phone": "916-319-2064",
+      "website": "https://a64.asmdc.org",
+      "twitter": "AsmPacheco",
+      "instagram": "asmpacheco",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and clean energy initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocate for small business support and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and resources.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

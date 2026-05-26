@@ -1,0 +1,311 @@
+{
+  "state": "DE",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Christopher A. Coons",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5042",
+      "website": "https://www.coons.senate.gov",
+      "twitter": "@ChrisCoons",
+      "instagram": "@senatorchriscooons",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Consistently supports climate action legislation and environmental protection measures.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act with clean energy provisions (Senate vote, November 2021)",
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports bipartisan criminal justice reform including sentencing reform.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and voted to codify Roe v. Wade protections.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, May 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights legislation including marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Lisa Blunt Rochester",
+      "party": "D",
+      "chamber": "House",
+      "district": "At-Large",
+      "phone": "202-225-4165",
+      "website": "https://bluntrochester.house.gov",
+      "twitter": "@RepLBR",
+      "instagram": "@replbr",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action legislation.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability measures and criminal justice reform.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and voted to protect abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal funding for public education.",
+          "voted_for": [
+            "American Rescue Plan with education funding (House vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Sarah McBride",
+      "party": "D",
+      "chamber": "House",
+      "district": "At-Large",
+      "phone": "202-225-4165",
+      "website": "https://mcbride.house.gov",
+      "twitter": "@RepMcBride",
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for LGBTQ+ rights as the first openly transgender member of Congress.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights based on campaign platform and Delaware legislative record.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding based on legislative record.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Alonna Berry",
+      "party": "D",
+      "chamber": "House",
+      "district": "20",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Bill Bush",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "29",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported cannabis legalization legislation in Delaware.",
+          "voted_for": [
+            "HB 1 Adult Use Cannabis Bill (Delaware Senate, April 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Carson",
+      "party": "D",
+      "chamber": "House",
+      "district": "28",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Brian Pettyjohn",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "19",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Voted against adult-use cannabis legalization.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 1 Adult Use Cannabis Bill (Delaware Senate, April 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bryan Shupe",
+      "party": "R",
+      "chamber": "House",
+      "district": "36",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Bryan Townsend",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "11",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported cannabis legalization and regulation in Delaware.",
+          "voted_for": [
+            "HB 1 Adult Use Cannabis Bill (Delaware Senate, April 2023)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Has supported criminal justice reform measures in the Delaware Senate.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bryant Richardson",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "21",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Voted against adult-use cannabis legalization legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 1 Adult Use Cannabis Bill (Delaware Senate, April 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Charles Postles",
+      "party": "R",
+      "chamber": "House",
+      "district": "33",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Claire Snyder-Hall",
+      "party": "D",
+      "chamber": "House",
+      "district": "14",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Cyndie Romer",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "25",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Dan Cruce",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Danny Short",
+      "party": "R",
+      "chamber": "House",
+      "district": "39",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    }
+  ]
+}

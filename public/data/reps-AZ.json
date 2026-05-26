@@ -1,0 +1,748 @@
+{
+  "state": "AZ",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Mark Kelly",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2235",
+      "website": "https://www.kelly.senate.gov",
+      "twitter": "@SenMarkKelly",
+      "instagram": "@senmarkkelly",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports clean energy investments and climate action legislation.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion access and voted to codify Roe v. Wade protections.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Right to Contraception Act (Senate vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ protections and marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports tax provisions targeting wealthy individuals and corporations.",
+          "voted_for": [
+            "Inflation Reduction Act including corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal education funding.",
+          "voted_for": [
+            "American Rescue Plan with education funding (Senate vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ruben Gallego",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4521",
+      "website": "https://www.gallego.senate.gov",
+      "twitter": "@SenRubenGallego",
+      "instagram": "@senrubengallego",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supported clean energy and climate legislation during House tenure.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistently supported abortion access and reproductive rights in the House.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supported LGBTQ+ equality legislation throughout House career.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported criminal justice reform measures in the House.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported increased education funding during House tenure.",
+          "voted_for": [
+            "American Rescue Plan (House vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adelita S. Grijalva",
+      "party": "D",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-2435",
+      "website": "https://grijalva.house.gov",
+      "twitter": "@RepAGrijalva",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Follows progressive environmental protection policies as successor to Raúl Grijalva's district.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Elijah Crane",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-2542",
+      "website": "https://crane.house.gov",
+      "twitter": "@RepEliCrane",
+      "instagram": "@repelijahcrane",
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports conservative tax policy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Generally opposes Biden administration climate regulations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Juan Ciscomani",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-2542",
+      "website": "https://ciscomani.house.gov",
+      "twitter": "@RepCiscomani",
+      "instagram": "@repciscomani",
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business tax relief and funding initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports business tax relief.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Greg Stanton",
+      "party": "D",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-9888",
+      "website": "https://stanton.house.gov",
+      "twitter": "@RepGregStanton",
+      "instagram": "@repgregstanton",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and clean energy investments.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion access and reproductive rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal education funding as former Phoenix mayor.",
+          "voted_for": [
+            "American Rescue Plan (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports police reform and criminal justice reform measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "David Schweikert",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-2190",
+      "website": "https://schweikert.house.gov",
+      "twitter": "@RepDavid",
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and serves on House Ways and Means Committee advocating for tax reform.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ equality legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ]
+        },
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations and voted against clean energy legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Paul A. Gosar",
+      "party": "R",
+      "chamber": "House",
+      "district": "9",
+      "phone": "202-225-2315",
+      "website": "https://gosar.house.gov",
+      "twitter": "@RepGosar",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations and environmental restrictions on energy development.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ equality legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "Opposes police reform legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports conservative fiscal policy.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Andy Biggs",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-2635",
+      "website": "https://biggs.house.gov",
+      "twitter": "@RepAndyBiggsAZ",
+      "instagram": "@repandybiggsaz",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations and clean energy mandates.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ equality legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "Opposes police reform legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports reduced federal spending.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Abraham J. Hamadeh",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-4576",
+      "website": "https://hamadeh.house.gov",
+      "twitter": "@RepHamadeh",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports pro-life policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports conservative fiscal policy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "Former prosecutor who emphasizes law enforcement support over reform.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Yassamin Ansari",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-4065",
+      "website": "https://ansari.house.gov",
+      "twitter": "@RepAnsari",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protection as former Phoenix councilmember focused on sustainability.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion access and reproductive rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Advocated for food access initiatives during tenure on Phoenix City Council.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aaron Marquez",
+      "party": "D",
+      "chamber": "House",
+      "district": "5",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adrian Fontes",
+      "party": "D",
+      "chamber": "House",
+      "district": null,
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Kolodin",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": null,
+      "website": null,
+      "twitter": "@alexkolodin",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports school choice and education reform with focus on parental rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alma Hernández",
+      "party": "D",
+      "chamber": "House",
+      "district": "20",
+      "phone": null,
+      "website": null,
+      "twitter": "@AlmaForArizona",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Analise Ortiz",
+      "party": "D",
+      "chamber": "House",
+      "district": "24",
+      "phone": null,
+      "website": null,
+      "twitter": "@AnaliseOrtiz",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public schools.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anna Abeytia",
+      "party": "D",
+      "chamber": "House",
+      "district": "24",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public education funding increases.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Betty Villegas",
+      "party": "D",
+      "chamber": "House",
+      "district": "20",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Beverly Pingerelli",
+      "party": "R",
+      "chamber": "House",
+      "district": "28",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports school choice initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brian Fernandez",
+      "party": "D",
+      "chamber": "House",
+      "district": "23",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brian Garcia",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Carine Werner",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education reform with emphasis on school choice.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Catherine Miranda",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "11",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Long-time supporter of public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

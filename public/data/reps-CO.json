@@ -1,0 +1,630 @@
+{
+  "state": "CO",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Jason Crow",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-7882",
+      "website": "https://crow.house.gov",
+      "twitter": "RepJasonCrow",
+      "instagram": "repjasoncrow",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Consistently supports clean energy legislation and environmental protection measures.",
+          "voted_for": [
+            "H.R. 1 For the People Act (House Vote, March 2021)",
+            "Inflation Reduction Act climate provisions (House Vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House Vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health access and abortion rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House Vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House Vote, December 2022)",
+            "Equality Act (House Vote, February 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "John W. Hickenlooper",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5941",
+      "website": "https://www.hickenlooper.senate.gov",
+      "twitter": "SenatorHick",
+      "instagram": "senatorhick",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports clean energy transition and climate action while balancing energy sector interests.",
+          "voted_for": [
+            "Inflation Reduction Act (Senate Vote, August 2022)",
+            "Infrastructure Investment and Jobs Act environmental provisions (Senate Vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to abortion care.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate Vote, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ protections and marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate Vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business assistance and entrepreneurship programs.",
+          "voted_for": [
+            "Paycheck Protection Program extensions (Senate Vote, 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Michael F. Bennet",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5852",
+      "website": "https://www.bennet.senate.gov",
+      "twitter": "SenatorBennet",
+      "instagram": "senatorbennet",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for climate action and public lands protection.",
+          "voted_for": [
+            "Inflation Reduction Act (Senate Vote, August 2022)",
+            "CORE Act for Colorado public lands (Senate Sponsor, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for public education funding and expanded child tax credit.",
+          "voted_for": [
+            "American Rescue Plan education funding (Senate Vote, March 2021)",
+            "Child Tax Credit expansion (Senate Vote, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate Vote, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistently supports LGBTQ+ equality measures.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate Vote, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Gabe Evans",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-4676",
+      "website": "https://evans.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "As former police officer, opposes federal police reform mandates, supports law enforcement funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jeff Crank",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-4422",
+      "website": "https://crank.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Advocates for lower taxes and limited government spending.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Lauren Boebert",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-4761",
+      "website": "https://boebert.house.gov",
+      "twitter": "RepBoebert",
+      "instagram": "repboebert",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations and supports traditional energy development.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House Vote, August 2022)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police reform efforts and supports law enforcement.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House Vote, March 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ protections legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House Vote, December 2022)",
+            "Equality Act (House Vote, February 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Brittany Pettersen",
+      "party": "D",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-2645",
+      "website": "https://pettersen.house.gov",
+      "twitter": "RepPettersen",
+      "instagram": "reppettersen",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for reproductive rights and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Joe Neguse",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-2161",
+      "website": "https://neguse.house.gov",
+      "twitter": "RepJoeNeguse",
+      "instagram": "repjoeneguse",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for environmental protection and public lands conservation.",
+          "voted_for": [
+            "Inflation Reduction Act (House Vote, August 2022)",
+            "CORE Act (House Sponsor, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House Vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access and abortion rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House Vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of LGBTQ+ equality and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House Vote, December 2022)",
+            "Equality Act (House Vote, February 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jeff Hurd",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-4761",
+      "website": "https://hurd.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports public lands access while promoting traditional energy development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Diana DeGette",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-4431",
+      "website": "https://degette.house.gov",
+      "twitter": "RepDianaDeGette",
+      "instagram": "repdianadegette",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Long-time advocate for environmental protection and clean energy.",
+          "voted_for": [
+            "Inflation Reduction Act (House Vote, August 2022)",
+            "H.R. 1 For the People Act (House Vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and accountability.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House Vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Long-standing champion of reproductive rights and healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House Vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ equality.",
+          "voted_for": [
+            "Respect for Marriage Act (House Vote, December 2022)",
+            "Equality Act (House Vote, February 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Adrienne Benavidez",
+      "party": "D",
+      "chamber": "House",
+      "district": "21",
+      "phone": "303-866-2911",
+      "website": "https://leg.colorado.gov/legislators/adrienne-benavidez",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures and alternatives to incarceration.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Valdez",
+      "party": "D",
+      "chamber": "House",
+      "district": "5",
+      "phone": "303-866-2911",
+      "website": "https://leg.colorado.gov/legislators/alex-valdez",
+      "twitter": "AlexValdezCO",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for renewable energy and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis industry regulation and equity programs.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Paschal",
+      "party": "D",
+      "chamber": "House",
+      "district": "18",
+      "phone": "303-866-2911",
+      "website": "https://leg.colorado.gov/legislators/amy-paschal",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andy Boesenecker",
+      "party": "D",
+      "chamber": "House",
+      "district": "53",
+      "phone": "303-866-2911",
+      "website": "https://leg.colorado.gov/legislators/andy-boesenecker",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ava Flanell",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "14",
+      "phone": "303-866-4853",
+      "website": "https://leg.colorado.gov/legislators/ava-flanell",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education funding with emphasis on parental choice and accountability.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barbara Kirkmeyer",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "23",
+      "phone": "303-866-4853",
+      "website": "https://leg.colorado.gov/legislators/barbara-kirkmeyer",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations, supports energy development.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports limited government spending.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bob Marshall",
+      "party": "D",
+      "chamber": "House",
+      "district": "43",
+      "phone": "303-866-2911",
+      "website": "https://leg.colorado.gov/legislators/bob-marshall",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and teacher support.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brandi Bradley",
+      "party": "R",
+      "chamber": "House",
+      "district": "39",
+      "phone": "303-866-2911",
+      "website": "https://leg.colorado.gov/legislators/brandi-bradley",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and advocates for fiscal restraint.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brianna Titone",
+      "party": "D",
+      "chamber": "House",
+      "district": "27",
+      "phone": "303-866-2911",
+      "website": "https://leg.colorado.gov/legislators/brianna-titone",
+      "twitter": "BriannaRTitone",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for environmental protection and renewable energy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "First openly transgender legislator in Colorado, strong LGBTQ+ advocate.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access and rights.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Byron Pelton",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "1",
+      "phone": "303-866-4853",
+      "website": "https://leg.colorado.gov/legislators/byron-pelton",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations affecting agriculture and energy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports rural economic interests.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Carlos Barron",
+      "party": "R",
+      "chamber": "House",
+      "district": "48",
+      "phone": "303-866-2911",
+      "website": "https://leg.colorado.gov/legislators/carlos-barron",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and reduced regulations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Cathy Kipp",
+      "party": "D",
+      "chamber": "House",
+      "district": "14",
+      "phone": "303-866-2911",
+      "website": "https://leg.colorado.gov/legislators/cathy-kipp",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Former educator and strong advocate for public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protection.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

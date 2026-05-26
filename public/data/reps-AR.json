@@ -1,0 +1,630 @@
+{
+  "state": "AR",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Tom Cotton",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2353",
+      "website": "https://www.cotton.senate.gov",
+      "twitter": "@SenTomCotton",
+      "instagram": "@sentomcotton",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Cotton has consistently opposed climate regulations and voted against environmental protection measures.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "EPA carbon emission standards support (Senate statements, 2023)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Cotton supported the First Step Act but has generally taken tough-on-crime positions.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Cotton has opposed tax increases on high earners and supported tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Cotton has opposed federal cannabis legalization efforts.",
+          "voted_for": [],
+          "voted_against": [
+            "MORE Act federal decriminalization (Senate statements, 2020-2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Cotton has consistently opposed abortion rights and supported restrictions.",
+          "voted_for": [
+            "20-week abortion ban support (Senate co-sponsorship, 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Cotton has opposed LGBTQ+ rights legislation and protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "John Boozman",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4843",
+      "website": "https://www.boozman.senate.gov",
+      "twitter": "@JohnBoozman",
+      "instagram": "@senatorjohnboozman",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Boozman has generally opposed climate regulations while supporting some conservation measures.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Boozman supported bipartisan criminal justice reform through the First Step Act.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Boozman has consistently supported tax cuts and opposed tax increases.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Boozman has consistently opposed abortion rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "mixed",
+          "summary": "Boozman opposed same-sex marriage protections but has not been as outspoken on other LGBTQ+ issues.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Boozman has supported agriculture and rural school funding measures.",
+          "voted_for": [
+            "Agriculture appropriations with rural school funding (Senate votes, 2021-2024)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Eric A. \"Rick\" Crawford",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-4076",
+      "website": "https://crawford.house.gov",
+      "twitter": "@RepRickCrawford",
+      "instagram": "@reprickcrawford",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Crawford has opposed climate regulations while supporting agricultural conservation programs.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act climate provisions (House vote, November 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Crawford has opposed tax increases and supported tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Crawford has consistently voted for abortion restrictions.",
+          "voted_for": [
+            "20-week abortion ban (House vote, October 2017)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Crawford has supported small business funding and relief measures.",
+          "voted_for": [
+            "Paycheck Protection Program (House votes, 2020)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bruce Westerman",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-3772",
+      "website": "https://westerman.house.gov",
+      "twitter": "@RepWesterman",
+      "instagram": "@repwesterman",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Westerman supports forestry management and some conservation but opposes climate regulations.",
+          "voted_for": [
+            "Trillion Trees Act (House sponsorship, 2021)"
+          ],
+          "voted_against": [
+            "Build Back Better Act climate provisions (House vote, November 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Westerman has opposed tax increases and supported tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Westerman has consistently voted against abortion rights legislation.",
+          "voted_for": [
+            "20-week abortion ban (House vote, October 2017)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Westerman has supported small business relief and funding programs.",
+          "voted_for": [
+            "Paycheck Protection Program (House votes, 2020)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "J. French Hill",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-2506",
+      "website": "https://hill.house.gov",
+      "twitter": "@RepFrenchHill",
+      "instagram": "@repfrenchhill",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Hill has opposed major climate legislation and carbon regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act climate provisions (House vote, November 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Hill has consistently opposed tax increases and supported tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Hill has voted for abortion restrictions and against abortion rights legislation.",
+          "voted_for": [
+            "20-week abortion ban (House vote, October 2017)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Hill has strongly supported small business relief and financial services access.",
+          "voted_for": [
+            "Paycheck Protection Program (House votes, 2020)",
+            "Small business COVID relief (House votes, 2020-2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Steve Womack",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-4301",
+      "website": "https://womack.house.gov",
+      "twitter": "@rep_stevewomack",
+      "instagram": "@rep_stevewomack",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Womack has opposed climate regulations and carbon pricing measures.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act climate provisions (House vote, November 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Womack has opposed tax increases and supported tax cuts and fiscal restraint.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Womack has consistently voted for abortion restrictions.",
+          "voted_for": [
+            "20-week abortion ban (House vote, October 2017)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Womack has supported education funding through appropriations as a senior appropriator.",
+          "voted_for": [
+            "Education appropriations bills (House votes, 2019-2024)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aaron Pilkington",
+      "party": "R",
+      "chamber": "House",
+      "district": "45",
+      "phone": "501-682-6211",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Pilkington has supported abortion restrictions in the Arkansas legislature.",
+          "voted_for": [
+            "Arkansas abortion restriction bills (House votes, 2021-2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alan Clark",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "501-682-6211",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Clark has sponsored and supported bills restricting transgender rights and LGBTQ+ protections.",
+          "voted_for": [
+            "Arkansas transgender youth healthcare restrictions (House votes, 2021)",
+            "Religious freedom bills (House votes, 2021-2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Clark has consistently supported abortion restrictions and pro-life legislation.",
+          "voted_for": [
+            "Arkansas abortion restriction bills (House votes, 2021-2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Holladay",
+      "party": "D",
+      "chamber": "House",
+      "district": "70",
+      "phone": "501-682-6211",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Holladay has supported increased public education funding measures.",
+          "voted_for": [
+            "Education funding bills (House votes, 2023-2025)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Holladay has opposed abortion restrictions and supported reproductive rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Arkansas abortion restriction bills (House votes, 2023-2025)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Alyssa Brown",
+      "party": "R",
+      "chamber": "House",
+      "district": "41",
+      "phone": "501-682-6211",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Brown has supported education funding and teacher pay increases.",
+          "voted_for": [
+            "Teacher pay increase legislation (House votes, 2023-2024)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Collins",
+      "party": "D",
+      "chamber": "House",
+      "district": "73",
+      "phone": "501-682-6211",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Collins has supported increased education funding and opposed voucher programs.",
+          "voted_for": [
+            "Public school funding increases (House votes, 2023-2025)"
+          ],
+          "voted_against": [
+            "School voucher programs (House votes, 2023-2024)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Collins has supported criminal justice reform measures.",
+          "voted_for": [
+            "Criminal justice reform bills (House votes, 2023-2025)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ashley Hudson",
+      "party": "D",
+      "chamber": "House",
+      "district": "75",
+      "phone": "501-682-6211",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": "@AshleyforAR",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Hudson has been a vocal advocate for increased public education funding.",
+          "voted_for": [
+            "Public school funding increases (House votes, 2021-2025)"
+          ],
+          "voted_against": [
+            "School voucher and privatization measures (House votes, 2023-2024)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Hudson has consistently opposed abortion restrictions and supported reproductive rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Arkansas abortion restriction bills (House votes, 2021-2025)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Hudson has opposed bills restricting LGBTQ+ rights and supported anti-discrimination measures.",
+          "voted_for": [],
+          "voted_against": [
+            "Transgender youth healthcare restrictions (House vote, 2021)",
+            "LGBTQ+ restriction bills (House votes, 2021-2025)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Hudson has supported cannabis reform and medical marijuana access.",
+          "voted_for": [
+            "Medical marijuana access expansion (House votes, 2021-2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Austin McCollum",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "501-682-6211",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "McCollum has supported education funding measures.",
+          "voted_for": [
+            "Education funding bills (House votes, 2023-2025)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bart Hester",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "33",
+      "phone": "501-682-2313",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Hester has sponsored and supported legislation restricting LGBTQ+ rights.",
+          "voted_for": [
+            "Transgender youth healthcare ban (Senate sponsorship, 2021)",
+            "Religious freedom legislation (Senate votes, 2021-2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Hester has consistently supported abortion restrictions.",
+          "voted_for": [
+            "Arkansas abortion restriction bills (Senate votes, 2021-2025)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Hester has supported some education funding while also backing school choice initiatives.",
+          "voted_for": [
+            "School choice legislation (Senate votes, 2023-2024)",
+            "Education funding bills (Senate votes, 2021-2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bart Schulz",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "28",
+      "phone": "501-682-2313",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Schulz has supported education funding measures in the state senate.",
+          "voted_for": [
+            "Education funding bills (Senate votes, 2023-2025)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ben Gilmore",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "1",
+      "phone": "501-682-2313",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Gilmore has supported abortion restrictions in the Arkansas Senate.",
+          "voted_for": [
+            "Arkansas abortion restriction bills (Senate votes, 2021-2025)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Blake Johnson",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "21",
+      "phone": "501-682-2313",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Johnson has supported education funding legislation.",
+          "voted_for": [
+            "Education funding bills (Senate votes, 2023-2025)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brad Hall",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "24",
+      "phone": "501-682-2313",
+      "website": "https://www.arkleg.state.ar.us",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Hall has supported education funding measures in the state senate.",
+          "voted_for": [
+            "Education funding bills (Senate votes, 2023-2025)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
