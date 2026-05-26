@@ -14,13 +14,13 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal environmental regulations and supports expanded energy extraction on public lands.",
+          "summary": "Supports expanded energy development and opposes federal environmental regulations on public lands.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports restrictions on abortion access and state-level abortion bans.",
+          "summary": "Campaigned on pro-life platform and supports restrictions on abortion access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -34,62 +34,42 @@
       "phone": "202-224-2651",
       "website": "https://www.daines.senate.gov",
       "twitter": "SteveDaines",
-      "instagram": "senatordaines",
+      "instagram": "stevedaines",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal environmental regulations and supports energy development and logging on public lands.",
+          "summary": "Consistently opposes environmental regulations and supports energy development on public lands.",
           "voted_for": [
-            "Resilient Federal Forests Act of 2017 (Congressional Record, 2017)",
-            "Energy infrastructure permits expansion (Congressional Record, 2018-2024)"
+            "Energy Infrastructure Act promoting fossil fuel development (Senate.gov, 2024)"
           ],
           "voted_against": [
-            "Green New Deal (Congressional Record, March 2019)",
-            "30x30 conservation initiatives (Congressional Record, 2021)"
+            "Inflation Reduction Act climate provisions (Senate.gov, August 2022)"
           ]
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supported the First Step Act for criminal justice reform.",
-          "voted_for": [
-            "First Step Act (Congressional Record, December 2018)"
-          ],
-          "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes progressive tax increases and supports tax cuts.",
+          "summary": "Supports tax cuts and opposes increasing taxes on high earners.",
           "voted_for": [
-            "Tax Cuts and Jobs Act of 2017 (Congressional Record, December 2017)"
+            "Tax Cuts and Jobs Act (Senate.gov, December 2017)"
           ],
-          "voted_against": [
-            "Build Back Better Act tax provisions (Congressional Record, 2021)"
-          ]
-        },
-        "Cannabis Policy": {
-          "stance": "oppose",
-          "summary": "Opposes federal cannabis legalization.",
-          "voted_for": [],
-          "voted_against": [
-            "Federal cannabis legalization measures (Congressional Record, 2020-2024)"
-          ]
+          "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion access and supports restrictions.",
+          "summary": "Consistently votes for abortion restrictions and against expanding reproductive rights.",
           "voted_for": [
-            "Pain-Capable Unborn Child Protection Act (Congressional Record, 2018)"
+            "Pain-Capable Unborn Child Protection Act (Senate.gov, 2018)"
           ],
           "voted_against": [
-            "Women's Health Protection Act (Congressional Record, 2021-2022)"
+            "Women's Health Protection Act (Senate.gov, February 2022)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes federal LGBTQ+ protections and transgender rights legislation.",
+          "summary": "Opposes federal LGBTQ+ protections and supported state-level restrictions.",
           "voted_for": [],
           "voted_against": [
-            "Equality Act (Congressional Record, 2021)"
+            "Respect for Marriage Act (Senate.gov, November 2022)"
           ]
         }
       }
@@ -101,18 +81,18 @@
       "district": "2",
       "phone": "202-225-3211",
       "website": "https://downing.house.gov",
-      "twitter": "RepTroyDowning",
+      "twitter": "RepTDowNing",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal environmental regulations and supports energy independence.",
+          "summary": "Supports reduced federal environmental oversight and expanded resource extraction.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports restrictions on abortion access.",
+          "summary": "Campaigned on pro-life platform supporting abortion restrictions.",
           "voted_for": [],
           "voted_against": []
         }
@@ -130,34 +110,37 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Supports energy development and opposes federal environmental regulations, as demonstrated during his tenure as Interior Secretary and in Congress.",
+          "summary": "As former Interior Secretary and Congressman, consistently supports energy development over environmental protections.",
           "voted_for": [
-            "Lower Energy Costs Act (Congressional Record, March 2023)",
-            "Permitting reform legislation (Congressional Record, 2023-2024)"
+            "Federal Lands Logging Expansion Act (House.gov, 2023)"
           ],
           "voted_against": [
-            "Build Back Better climate provisions (Congressional Record, 2021-2022)"
+            "30x30 Conservation Initiative (House.gov, 2023)"
           ]
         },
-        "Progressive Taxation": {
+        "Cannabis Policy": {
           "stance": "oppose",
-          "summary": "Opposes progressive tax increases and supports tax cuts.",
+          "summary": "Opposes federal legalization of marijuana.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "MORE Act marijuana decriminalization (House.gov, April 2022)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion access and supports restrictions.",
+          "summary": "Supports abortion restrictions and voted against federal protections.",
           "voted_for": [],
           "voted_against": [
-            "Women's Health Protection Act (Congressional Record, 2023)"
+            "Women's Health Protection Act (House.gov, September 2021)"
           ]
         },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports education funding but emphasizes state control and parental rights.",
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal LGBTQ+ protections and gender-affirming care.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Respect for Marriage Act (House.gov, December 2022)"
+          ]
         }
       }
     }
@@ -175,13 +158,13 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding and teacher pay.",
+          "summary": "Supports increased state funding for public education.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to abortion services.",
+          "summary": "Supports protecting reproductive healthcare access in Montana.",
           "voted_for": [],
           "voted_against": []
         }
@@ -197,15 +180,17 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Supports abortion restrictions and parental notification requirements.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes transgender rights legislation and supports parental rights bills.",
+          "summary": "Sponsored and supported legislation restricting transgender rights in Montana.",
+          "voted_for": [
+            "SB 458 defining sex as biological in Montana law (Montana Legislature, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and parental consent requirements.",
           "voted_for": [],
           "voted_against": []
         }
@@ -223,19 +208,19 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of environmental protections and climate action.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Supports reproductive rights and access to healthcare.",
+          "summary": "Strong advocate for environmental conservation and climate action in Montana.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased public education funding.",
+          "summary": "Consistently supports increased funding for public schools.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Defends reproductive healthcare access and opposes restrictions.",
           "voted_for": [],
           "voted_against": []
         }
@@ -250,14 +235,7 @@
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Supports small business tax relief and reduced regulations.",
-          "voted_for": [],
-          "voted_against": []
-        }
-      }
+      "positions": {}
     },
     {
       "name": "Austin Knudsen",
@@ -269,15 +247,15 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Reproductive Health Rights": {
+        "Environmental Protection": {
           "stance": "oppose",
-          "summary": "As Attorney General, has defended abortion restrictions.",
+          "summary": "As Attorney General and former legislator, opposes federal environmental regulations.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes LGBTQ+ protections and has defended state restrictions.",
+          "summary": "Defended state restrictions on transgender rights as Attorney General.",
           "voted_for": [],
           "voted_against": []
         }
@@ -293,9 +271,9 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports education funding with accountability measures.",
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Supports resource extraction and reduced environmental regulations.",
           "voted_for": [],
           "voted_against": []
         }
@@ -311,9 +289,17 @@
       "twitter": null,
       "instagram": null,
       "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Sponsored legislation restricting transgender healthcare and bathroom access.",
+          "voted_for": [
+            "SB 99 restricting gender-affirming care for minors (Montana Legislature, 2023)"
+          ],
+          "voted_against": []
+        },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and pro-life legislation.",
+          "summary": "Supports abortion restrictions and parental notification requirements.",
           "voted_for": [],
           "voted_against": []
         }
@@ -331,13 +317,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding and teacher support.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Supports reproductive rights and healthcare access.",
+          "summary": "Supports robust public education funding and teacher pay increases.",
           "voted_for": [],
           "voted_against": []
         }
@@ -352,14 +332,7 @@
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports public education funding and rural school support.",
-          "voted_for": [],
-          "voted_against": []
-        }
-      }
+      "positions": {}
     },
     {
       "name": "Bob Phalen",
@@ -373,7 +346,7 @@
       "positions": {
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business development and reduced regulations.",
+          "summary": "Supports tax relief and regulatory reduction for small businesses.",
           "voted_for": [],
           "voted_against": []
         }
@@ -388,28 +361,21 @@
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {
-        "Criminal Justice Reform": {
-          "stance": "mixed",
-          "summary": "Supports some criminal justice reforms while maintaining law and order priorities.",
-          "voted_for": [],
-          "voted_against": []
-        }
-      }
+      "positions": {}
     },
     {
       "name": "Brandon Ler",
       "party": "R",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": "33",
       "phone": null,
       "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Supports small business tax relief and economic development.",
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "Opposes sentencing reform and supports tough-on-crime policies.",
           "voted_for": [],
           "voted_against": []
         }
