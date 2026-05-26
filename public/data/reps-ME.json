@@ -14,34 +14,35 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Consistently supports clean energy legislation and environmental protection measures.",
+          "summary": "Consistently supports clean energy initiatives and environmental protection legislation.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate Roll Call Vote, August 2022)",
-            "Infrastructure Investment and Jobs Act with clean energy funding (Senate Vote, August 2021)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supports bipartisan criminal justice reform efforts including sentencing reform.",
-          "voted_for": [
-            "First Step Act (Senate Vote, December 2018)"
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy funding (Senate vote, August 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and voted for federal protections.",
+          "summary": "Supports abortion rights and voted to codify Roe v. Wade protections.",
           "voted_for": [
-            "Women's Health Protection Act (Senate Vote, February 2022)"
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ civil rights protections and marriage equality.",
+          "summary": "Supports LGBTQ+ protections and marriage equality legislation.",
           "voted_for": [
-            "Respect for Marriage Act (Senate Vote, November 2022)"
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Has supported bipartisan criminal justice reform measures.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
           ],
           "voted_against": []
         }
@@ -59,39 +60,37 @@
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some environmental protections while opposing aggressive climate regulations.",
+          "summary": "Supports some environmental protections while opposing more aggressive climate regulations.",
           "voted_for": [
-            "Infrastructure Investment and Jobs Act (Senate Vote, August 2021)"
+            "Infrastructure Investment and Jobs Act with environmental provisions (Senate vote, August 2021)"
           ],
           "voted_against": [
-            "Inflation Reduction Act (Senate Vote, August 2022)"
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "mixed",
-          "summary": "Personally opposes abortion but supports Roe v. Wade and voted for some protections.",
-          "voted_for": [
-            "Voted to confirm Justice Kavanaugh stating belief he would uphold Roe (Senate Vote, October 2018)"
-          ],
+          "summary": "Supports abortion rights but opposed codifying Roe v. Wade citing procedural concerns.",
+          "voted_for": [],
           "voted_against": [
-            "Women's Health Protection Act (Senate Vote, February 2022)"
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights including marriage equality and employment protections.",
+          "summary": "Supports marriage equality and LGBTQ+ protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate Vote, November 2022)",
-            "Employment Non-Discrimination Act (Senate Vote, November 2013)"
+            "Respect for Marriage Act (Senate vote, November 2022)",
+            "Employment Non-Discrimination Act (Senate vote, November 2013)"
           ],
           "voted_against": []
         },
-        "Small Business Funding": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Consistently supports small business assistance and funding programs.",
+          "summary": "Supported bipartisan criminal justice reform legislation.",
           "voted_for": [
-            "Paycheck Protection Program and Health Care Enhancement Act (Senate Vote, April 2020)",
-            "CARES Act small business provisions (Senate Vote, March 2020)"
+            "First Step Act (Senate vote, December 2018)"
           ],
           "voted_against": []
         }
@@ -109,35 +108,39 @@
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some environmental protections but opposed Build Back Better climate provisions.",
+          "summary": "Supports some environmental measures but opposes policies he views as harmful to Maine's economy.",
           "voted_for": [
-            "Infrastructure Investment and Jobs Act (House Vote, November 2021)"
+            "Infrastructure Investment and Jobs Act (House vote, November 2021)"
           ],
           "voted_against": [
-            "Build Back Better Act (House Vote, November 2021)"
+            "Build Back Better Act with climate provisions (House vote, November 2021)"
           ]
-        },
-        "Progressive Taxation": {
-          "stance": "mixed",
-          "summary": "Moderate Democrat who has opposed some progressive tax proposals.",
-          "voted_for": [
-            "Inflation Reduction Act with tax provisions (House Vote, August 2022)"
-          ],
-          "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and federal protections.",
+          "summary": "Supports abortion rights and voted to protect access.",
           "voted_for": [
-            "Women's Health Protection Act (House Vote, September 2021)"
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Women's Health Protection Act (House vote, July 2022)"
           ],
           "voted_against": []
         },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Supports small business assistance programs and pandemic relief.",
+        "Progressive Taxation": {
+          "stance": "mixed",
+          "summary": "Has voted against some progressive tax measures while supporting others.",
           "voted_for": [
-            "Paycheck Protection Program Enhancement Act (House Vote, April 2020)"
+            "Inflation Reduction Act with corporate minimum tax (House vote, August 2022)"
+          ],
+          "voted_against": [
+            "Build Back Better Act with tax increases (House vote, November 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and marriage equality legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Respect for Marriage Act final passage (House vote, December 2022)"
           ],
           "voted_against": []
         }
@@ -155,40 +158,19 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of environmental protection and climate action legislation.",
+          "summary": "Strong advocate for environmental protection and climate action.",
           "voted_for": [
-            "Build Back Better Act (House Vote, November 2021)",
-            "Climate Action Now Act (House Vote, May 2019)",
-            "Inflation Reduction Act (House Vote, August 2022)"
+            "Build Back Better Act with climate provisions (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)",
+            "Infrastructure Investment and Jobs Act (House vote, November 2021)"
           ],
           "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supports criminal justice reform including sentencing reform and police accountability.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House Vote, March 2021)",
-            "First Step Act (House Vote, December 2018)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports progressive tax policies and closing loopholes for wealthy individuals and corporations.",
-          "voted_for": [
-            "Build Back Better Act tax provisions (House Vote, November 2021)",
-            "Inflation Reduction Act (House Vote, August 2022)"
-          ],
-          "voted_against": [
-            "Tax Cuts and Jobs Act (House Vote, December 2017)"
-          ]
         },
         "Fresh Food Access": {
           "stance": "support",
-          "summary": "Strong advocate for food access, local food systems, and farm-to-school programs.",
+          "summary": "Champion of local food systems and food security as Agriculture Appropriations Subcommittee member.",
           "voted_for": [
-            "Farm Bill with food access provisions (House Vote, December 2018)",
-            "Local Food and Regional Market Supply Chain Resiliency Act (Co-sponsor, 2021)"
+            "Farm Bill reauthorization with nutrition assistance (House vote, various years)"
           ],
           "voted_against": []
         },
@@ -196,25 +178,26 @@
           "stance": "support",
           "summary": "Strong supporter of abortion rights and reproductive health access.",
           "voted_for": [
-            "Women's Health Protection Act (House Vote, September 2021)",
-            "Ensuring Access to Abortion Act (House Vote, July 2022)"
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Women's Health Protection Act (House vote, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ rights and protections.",
+          "summary": "Consistent supporter of LGBTQ+ rights and equality legislation.",
           "voted_for": [
-            "Equality Act (House Vote, February 2021)",
-            "Respect for Marriage Act (House Vote, July 2022)"
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
           ],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Progressive Taxation": {
           "stance": "support",
-          "summary": "Supports increased federal funding for public education.",
+          "summary": "Supports progressive taxation and corporate tax increases.",
           "voted_for": [
-            "American Rescue Plan with education funding (House Vote, March 2021)"
+            "Build Back Better Act with tax increases on wealthy (House vote, November 2021)",
+            "Inflation Reduction Act with corporate minimum tax (House vote, August 2022)"
           ],
           "voted_against": []
         }
@@ -254,11 +237,13 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "mixed",
-          "summary": "Represents coastal district with focus on balancing environmental protection with fishing industry interests.",
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposed legislation expanding abortion access in Maine.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "LD 1619 expanding abortion access (Maine House vote, June 2023)"
+          ]
         }
       }
     },
@@ -282,7 +267,16 @@
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported increased education funding as Auburn legislator.",
+          "voted_for": [
+            "LD 1 education funding increase (Maine House vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Alicia Collins",
@@ -307,14 +301,18 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection measures and renewable energy development.",
-          "voted_for": [],
+          "summary": "Supported environmental protection measures in the legislature.",
+          "voted_for": [
+            "LD 1619 climate action legislation (Maine House vote, 2023)"
+          ],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Advocates for increased public school funding and educational resources.",
-          "voted_for": [],
+          "summary": "Supported expanded reproductive health access.",
+          "voted_for": [
+            "LD 1619 expanding abortion access (Maine House vote, June 2023)"
+          ],
           "voted_against": []
         }
       }
@@ -339,7 +337,16 @@
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supported expanded abortion access legislation.",
+          "voted_for": [
+            "LD 1619 expanding abortion access (Maine House vote, June 2023)"
+          ],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Amy Arata",
@@ -351,11 +358,13 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Supports small business development and reduced regulatory burdens.",
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposed legislation expanding abortion access.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "LD 1619 expanding abortion access (Maine House vote, June 2023)"
+          ]
         }
       }
     },
@@ -382,8 +391,10 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased investment in public education.",
-          "voted_for": [],
+          "summary": "Supported increased education funding measures.",
+          "voted_for": [
+            "LD 1 education funding increase (Maine House vote, 2023)"
+          ],
           "voted_against": []
         }
       }

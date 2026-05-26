@@ -9,25 +9,31 @@
       "district": "8",
       "phone": "202-225-4872",
       "website": "https://mcdonaldrivet.house.gov",
-      "twitter": null,
+      "twitter": "RepMcDRivet",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports clean energy initiatives and environmental protection measures based on campaign platform.",
-          "voted_for": [],
+          "summary": "Supports clean energy initiatives and environmental protection measures as reflected in her state legislative record.",
+          "voted_for": [
+            "Michigan Clean Energy and Jobs Act while in state senate (Michigan Legislature, 2023)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Campaigned on protecting reproductive rights and abortion access.",
-          "voted_for": [],
+          "summary": "Strong supporter of reproductive rights with consistent voting record in state legislature.",
+          "voted_for": [
+            "Reproductive Health Act in Michigan State Senate (Michigan Legislature, 2023)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocated for increased public education funding during campaign.",
-          "voted_for": [],
+          "summary": "Advocated for increased public education funding during state senate tenure.",
+          "voted_for": [
+            "Michigan education budget increases (Michigan Legislature, 2024)"
+          ],
           "voted_against": []
         }
       }
@@ -44,25 +50,34 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supported clean energy legislation and environmental protection during House tenure.",
+          "summary": "Supported clean energy and environmental protection legislation during House tenure.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (House vote, August 2022)"
+            "Inflation Reduction Act with climate provisions (House Vote, 2022)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Consistently voted to protect reproductive rights and abortion access.",
+          "summary": "Consistent supporter of reproductive rights and access to healthcare.",
           "voted_for": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Women's Health Protection Act (House Vote, 2021)",
+            "Women's Health Protection Act (House Vote, 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supported LGBTQ+ rights legislation during House service.",
+          "summary": "Voted for LGBTQ+ equality and anti-discrimination measures.",
           "voted_for": [
-            "Respect for Marriage Act (House vote, December 2022)"
+            "Respect for Marriage Act (House Vote, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported federal education funding increases.",
+          "voted_for": [
+            "American Rescue Plan Act with education funding (House Vote, 2021)"
           ],
           "voted_against": []
         }
@@ -80,32 +95,33 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and clean energy initiatives.",
+          "summary": "Long-standing supporter of Great Lakes protection and clean energy.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+            "Inflation Reduction Act with climate provisions (Senate Vote, 2022)",
+            "Great Lakes Restoration Initiative funding (Senate Appropriations, 2023)"
           ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Supported police reform efforts following George Floyd protests.",
-          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Voted to protect reproductive rights and abortion access.",
+          "summary": "Strong advocate for reproductive rights and healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (Senate vote, February 2022)"
+            "Women's Health Protection Act (Senate Vote, 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistently voted for LGBTQ+ rights protections.",
+          "summary": "Consistent supporter of LGBTQ+ equality legislation.",
           "voted_for": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
+            "Respect for Marriage Act (Senate Vote, 2022)"
           ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis banking reform and decriminalization efforts.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -117,26 +133,28 @@
       "district": "7",
       "phone": "202-225-2806",
       "website": "https://barrett.house.gov",
-      "twitter": "RepBarrett",
-      "instagram": "repbarrett",
+      "twitter": "RepTomBarrett",
+      "instagram": "reptombarrett",
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some environmental measures while opposing regulations viewed as burdensome to agriculture.",
+          "summary": "Supports some conservation measures while opposing stringent climate regulations.",
           "voted_for": [],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Advocates for small business support and reduced regulatory burdens.",
+          "summary": "Advocates for small business tax relief and reduced regulations.",
           "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supported education funding during state senate tenure.",
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal protections for abortion rights.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Women's Health Protection Act (House Vote, 2023)"
+          ]
         }
       }
     },
@@ -152,25 +170,25 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate action.",
+          "summary": "Supports environmental justice and clean energy initiatives.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Supports progressive tax policies and higher taxes on wealthy individuals.",
+          "summary": "Advocates for higher taxes on wealthy individuals and corporations.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strongly supports reproductive rights and abortion access.",
+          "summary": "Strong supporter of reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights protections.",
+          "summary": "Consistent advocate for LGBTQ+ equality and protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -188,25 +206,25 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and clean water initiatives.",
+          "summary": "Supports Great Lakes protection and clean energy development.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and abortion access.",
+          "summary": "Advocates for reproductive rights and healthcare access.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights protections.",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased public education funding.",
+          "summary": "Advocates for increased federal education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -224,19 +242,19 @@
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some conservation efforts while opposing strict climate regulations.",
+          "summary": "Supports some conservation efforts while opposing aggressive climate regulations.",
           "voted_for": [],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Strongly supports small business initiatives as former business owner.",
+          "summary": "Strong advocate for small business growth and reduced regulation.",
           "voted_for": [],
           "voted_against": []
         },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Expressed support for certain criminal justice reforms.",
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
           "voted_for": [],
           "voted_against": []
         }
@@ -254,7 +272,7 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes strict environmental regulations viewed as harmful to business.",
+          "summary": "Opposes stringent environmental regulations, citing economic concerns.",
           "voted_for": [],
           "voted_against": []
         },
@@ -264,15 +282,15 @@
           "voted_for": [],
           "voted_against": []
         },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Advocates for small business support and reduced regulations.",
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal protections for abortion access.",
           "voted_for": [],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Holds pro-life position opposing abortion rights.",
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support and deregulation.",
           "voted_for": [],
           "voted_against": []
         }
@@ -290,61 +308,56 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of environmental justice and climate action.",
+          "summary": "Strong advocate for environmental justice and Green New Deal policies.",
           "voted_for": [
-            "Inflation Reduction Act climate provisions (House vote, August 2022)"
+            "Inflation Reduction Act (House Vote, 2022)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Strong advocate for police accountability and reform measures.",
+          "summary": "Leading advocate for police reform and accountability measures.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
+            "George Floyd Justice in Policing Act (House Vote, 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Advocates for comprehensive criminal justice reform and ending cash bail.",
+          "summary": "Strong supporter of criminal justice reform and ending mass incarceration.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Strong supporter of progressive taxation and wealth taxes.",
+          "summary": "Advocates for wealth taxes and progressive tax reform.",
           "voted_for": [],
-          "voted_against": []
-        },
-        "Cannabis Policy": {
-          "stance": "support",
-          "summary": "Supports cannabis legalization and criminal record expungement.",
-          "voted_for": [
-            "MORE Act (House vote, April 2022)"
-          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of reproductive rights and abortion access.",
+          "summary": "Unwavering supporter of reproductive rights and healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Women's Health Protection Act (House Vote, 2021)",
+            "Women's Health Protection Act (House Vote, 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Strong supporter of LGBTQ+ rights and protections.",
+          "summary": "Strong advocate for LGBTQ+ equality and protections.",
           "voted_for": [
-            "Respect for Marriage Act (House vote, December 2022)",
-            "Equality Act (House vote, February 2021)"
+            "Respect for Marriage Act (House Vote, 2022)",
+            "Equality Act (House Vote, 2021)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased public school funding and free college.",
-          "voted_for": [],
+          "summary": "Advocates for robust public education funding.",
+          "voted_for": [
+            "American Rescue Plan Act (House Vote, 2021)"
+          ],
           "voted_against": []
         }
       }
@@ -361,41 +374,37 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection while balancing auto industry interests.",
+          "summary": "Long-time champion of Great Lakes protection and clean energy.",
           "voted_for": [
-            "Inflation Reduction Act climate provisions (House vote, August 2022)"
-          ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Supported police reform legislation.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
+            "Inflation Reduction Act (House Vote, 2022)",
+            "Great Lakes Restoration Initiative funding bills"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Consistently supports reproductive rights and abortion access.",
+          "summary": "Consistent supporter of reproductive healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Women's Health Protection Act (House Vote, 2021)",
+            "Women's Health Protection Act (House Vote, 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights protections.",
+          "summary": "Strong advocate for LGBTQ+ equality legislation.",
           "voted_for": [
-            "Respect for Marriage Act (House vote, December 2022)",
-            "Equality Act (House vote, February 2021)"
+            "Respect for Marriage Act (House Vote, 2022)",
+            "Equality Act (House Vote, 2021)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased public education funding.",
-          "voted_for": [],
+          "summary": "Supports increased federal education funding.",
+          "voted_for": [
+            "American Rescue Plan Act (House Vote, 2021)"
+          ],
           "voted_against": []
         }
       }
@@ -408,41 +417,35 @@
       "phone": "202-225-3561",
       "website": "https://moolenaar.house.gov",
       "twitter": "RepMoolenaar",
-      "instagram": "repmoolenaar",
+      "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some conservation efforts while opposing strict climate regulations.",
+          "summary": "Supports some conservation but opposes aggressive climate regulations.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act climate provisions (House vote, August 2022)"
+            "Inflation Reduction Act (House Vote, 2022)"
           ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports lower taxes.",
+          "summary": "Opposes tax increases and supports tax relief.",
           "voted_for": [],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business funding and reduced regulations.",
+          "summary": "Advocates for small business support and economic development.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Holds pro-life position opposing abortion rights.",
+          "summary": "Opposes federal abortion protections.",
           "voted_for": [],
           "voted_against": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Women's Health Protection Act (House Vote, 2021)"
           ]
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supported education funding during state legislature tenure.",
-          "voted_for": [],
-          "voted_against": []
         }
       }
     },
@@ -454,34 +457,36 @@
       "phone": "202-225-4401",
       "website": "https://huizenga.house.gov",
       "twitter": "RepHuizenga",
-      "instagram": "rephuizenga",
+      "instagram": null,
       "positions": {
         "Environmental Protection": {
-          "stance": "oppose",
-          "summary": "Opposes strict environmental regulations viewed as harmful to business.",
-          "voted_for": [],
+          "stance": "mixed",
+          "summary": "Supports Great Lakes protection but opposes strict environmental regulations.",
+          "voted_for": [
+            "Great Lakes funding measures"
+          ],
           "voted_against": [
-            "Inflation Reduction Act climate provisions (House vote, August 2022)"
+            "Inflation Reduction Act (House Vote, 2022)"
           ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports lower taxes.",
+          "summary": "Opposes tax increases and advocates for lower taxes.",
           "voted_for": [],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Strong supporter of small business initiatives and deregulation.",
+          "summary": "Strong supporter of small business and financial deregulation.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Holds pro-life position opposing abortion rights.",
+          "summary": "Opposes federal abortion rights protections.",
           "voted_for": [],
           "voted_against": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Women's Health Protection Act (House Vote, 2021)"
           ]
         }
       }
@@ -500,19 +505,13 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection measures.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Supports reproductive rights protections.",
+          "summary": "Supports clean energy and environmental protection measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "Advocates for increased public education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -530,13 +529,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports education funding while emphasizing parental rights.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Supports small business initiatives.",
+          "summary": "Supports education funding with focus on local control.",
           "voted_for": [],
           "voted_against": []
         }
@@ -554,7 +547,7 @@
       "positions": {
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform measures.",
+          "summary": "Advocates for criminal justice reform and rehabilitation programs.",
           "voted_for": [],
           "voted_against": []
         },
@@ -578,13 +571,7 @@
       "positions": {
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Holds pro-life position opposing abortion rights.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Supports small business support measures.",
+          "summary": "Opposes abortion rights expansion.",
           "voted_for": [],
           "voted_against": []
         }
@@ -602,19 +589,23 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and clean energy.",
-          "voted_for": [],
+          "summary": "Supports environmental protection and clean energy initiatives.",
+          "voted_for": [
+            "Michigan Clean Energy and Jobs Act (Michigan House, 2023)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights protections.",
-          "voted_for": [],
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [
+            "Reproductive Health Act (Michigan House, 2023)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "Advocates for robust public education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -632,13 +623,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supported education funding during legislative tenure.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Supports small business initiatives.",
+          "summary": "Supports education funding with emphasis on accountability.",
           "voted_for": [],
           "voted_against": []
         }
@@ -651,24 +636,18 @@
       "district": "20",
       "phone": null,
       "website": null,
-      "twitter": null,
+      "twitter": "aricnesbitt",
       "instagram": null,
       "positions": {
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports lower taxes.",
+          "summary": "Opposes tax increases and supports tax relief measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business support and deregulation.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supported education funding during legislative tenure.",
+          "summary": "Advocates for small business support and reduced regulation.",
           "voted_for": [],
           "voted_against": []
         }
@@ -686,25 +665,23 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of environmental protection and Great Lakes conservation.",
-          "voted_for": [],
+          "summary": "Strong supporter of environmental protection and clean water initiatives.",
+          "voted_for": [
+            "Michigan Clean Energy and Jobs Act (Michigan House, 2023)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights protections.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Supports LGBTQ+ rights protections.",
-          "voted_for": [],
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [
+            "Reproductive Health Act (Michigan House, 2023)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "Advocates for increased public education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -722,19 +699,13 @@
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some conservation while opposing strict regulations.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Opposes tax increases based on previous record as Attorney General.",
+          "summary": "Supports some conservation but opposes restrictive environmental regulations.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Holds pro-life position based on previous record.",
+          "summary": "Historically opposed abortion rights as Attorney General and in current role.",
           "voted_for": [],
           "voted_against": []
         }
@@ -750,15 +721,9 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Supports small business initiatives.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports education funding.",
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases.",
           "voted_for": [],
           "voted_against": []
         }
@@ -774,15 +739,9 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Opposes tax increases.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business support measures.",
+          "summary": "Supports small business development and reduced regulation.",
           "voted_for": [],
           "voted_against": []
         }
@@ -804,16 +763,18 @@
           "voted_for": [],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Supports reproductive rights protections.",
+          "summary": "Advocates for increased public education funding.",
           "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports increased public education funding.",
-          "voted_for": [],
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [
+            "Reproductive Health Act (Michigan House, 2023)"
+          ],
           "voted_against": []
         }
       }
