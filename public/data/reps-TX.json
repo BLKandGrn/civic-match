@@ -1,0 +1,1162 @@
+{
+  "state": "TX",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Joaquin Castro",
+      "party": "D",
+      "chamber": "House",
+      "district": "20",
+      "phone": "202-225-3236",
+      "website": "https://castro.house.gov",
+      "twitter": "@JoaquinCastrotx",
+      "instagram": "@joaquincastrotx",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Consistently supports environmental protection legislation and climate action initiatives.",
+          "voted_for": [
+            "H.R. 1 For The People Act including environmental justice provisions (House Roll Call, March 2021)",
+            "Build Back Better Act with climate provisions (House Vote, November 2021)",
+            "Inflation Reduction Act with climate investments (House Vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocates for police accountability measures and criminal justice reforms.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House Vote, March 2021)",
+            "George Floyd Justice in Policing Act reintroduction (House Vote, June 2020)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform legislation and sentencing reforms.",
+          "voted_for": [
+            "First Step Act (House Vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and increased taxes on wealthy individuals and corporations.",
+          "voted_for": [
+            "Build Back Better Act with tax increases on high earners (House Vote, November 2021)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act of 2017 (House Vote, December 2017)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis decriminalization and legalization efforts.",
+          "voted_for": [
+            "MORE Act to decriminalize cannabis (House Vote, December 2020)",
+            "MORE Act reintroduction (House Vote, April 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive health rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House Vote, September 2021)",
+            "Women's Health Protection Act reintroduction (House Vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ rights and anti-discrimination legislation.",
+          "voted_for": [
+            "Equality Act (House Vote, February 2021)",
+            "Respect for Marriage Act (House Vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal funding for public education.",
+          "voted_for": [
+            "American Rescue Plan with education funding (House Vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ted Cruz",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5922",
+      "website": "https://www.cruz.senate.gov",
+      "twitter": "@SenTedCruz",
+      "instagram": "@sentedcruz",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes most environmental regulations and climate change legislation, supports fossil fuel industry.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate Vote, August 2022)",
+            "Resolution to block EPA methane rule (Senate Vote, September 2023)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police accountability legislation, supports law enforcement without additional oversight.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act procedural vote (Senate Vote, June 2020)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported the First Step Act for criminal justice reform.",
+          "voted_for": [
+            "First Step Act (Senate Vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and supports tax cuts across income levels.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act of 2017 (Senate Vote, December 2017)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act with corporate minimum tax (Senate Vote, August 2022)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposes federal cannabis legalization and decriminalization efforts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions on reproductive healthcare.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (Senate Vote, January 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate Vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes most LGBTQ+ rights legislation including marriage equality and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate Vote, November 2022)",
+            "Equality Act procedural vote (Senate Vote, June 2019)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports school choice and education funding with emphasis on parental control and local authority.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "John Cornyn",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2934",
+      "website": "https://www.cornyn.senate.gov",
+      "twitter": "@JohnCornyn",
+      "instagram": "@johncornyn",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Takes moderate approach on environmental issues, supports some conservation efforts while opposing strict climate regulations.",
+          "voted_for": [
+            "Great American Outdoors Act (Senate Vote, June 2020)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate Vote, August 2022)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police accountability mandates, attempted to negotiate compromise legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act procedural vote (Senate Vote, June 2020)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Co-sponsored and supported the First Step Act for criminal justice reform.",
+          "voted_for": [
+            "First Step Act (Senate Vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases and supports lower corporate and individual tax rates.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act of 2017 (Senate Vote, December 2017)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act with corporate minimum tax (Senate Vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions on reproductive healthcare access.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (Senate Vote, January 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate Vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "mixed",
+          "summary": "Historically opposed LGBTQ+ rights legislation but voted for marriage equality protection in 2022.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate Vote, November 2022)"
+          ],
+          "voted_against": [
+            "Employment Non-Discrimination Act (Senate Vote, November 2013)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on school safety and local control.",
+          "voted_for": [
+            "American Rescue Plan education provisions (Senate Vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Christian D. Menefee",
+      "party": "D",
+      "chamber": "House",
+      "district": "18",
+      "phone": "202-225-3816",
+      "website": "https://menefee.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocates for police accountability and criminal justice reform from background as county attorney.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Dan Crenshaw",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-6565",
+      "website": "https://crenshaw.house.gov",
+      "twitter": "@RepDanCrenshaw",
+      "instagram": "@repdancrenshaw",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations and climate legislation, supports energy independence.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (House Vote, August 2022)",
+            "Build Back Better Act (House Vote, November 2021)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police accountability mandates, supports law enforcement without additional restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House Vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases and supports lower taxes.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act of 2017 (House Vote, December 2017)"
+          ],
+          "voted_against": [
+            "Build Back Better Act with tax increases (House Vote, November 2021)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "mixed",
+          "summary": "Has expressed openness to cannabis reform but has not actively supported legalization bills.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions on reproductive healthcare.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes most LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House Vote, February 2021)",
+            "Respect for Marriage Act (House Vote, July 2022)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on parental choice and local control.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Julie Johnson",
+      "party": "D",
+      "chamber": "House",
+      "district": "32",
+      "phone": "202-225-6605",
+      "website": "https://johnson.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability measures and criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and tax fairness measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive health rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "First openly LGBTQ+ member of Congress from Texas, strong advocate for LGBTQ+ rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding and teacher support.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brandon Gill",
+      "party": "R",
+      "chamber": "House",
+      "district": "26",
+      "phone": "202-225-7772",
+      "website": "https://gill.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations that restrict business and energy production.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and supports lower taxes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports pro-life policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports school choice and education funding with parental control emphasis.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Craig A. Goldman",
+      "party": "R",
+      "chamber": "House",
+      "district": "12",
+      "phone": "202-225-5071",
+      "website": "https://goldman.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations, supports energy industry.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business funding and reduced regulatory burden from state legislative record.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on school choice from state legislative background.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Keith Self",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-4201",
+      "website": "https://self.house.gov",
+      "twitter": "@RepKeithSelf",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (House Vote, August 2022)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police accountability mandates.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with tax provisions (House Vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Nathaniel Moran",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-3035",
+      "website": "https://moran.house.gov",
+      "twitter": "@RepNateMoran",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations, supports energy independence.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports pro-life policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on local control and school choice.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Morgan Luttrell",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-4901",
+      "website": "https://luttrell.house.gov",
+      "twitter": "@RepLuttrell",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations that restrict energy production.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police accountability mandates, supports law enforcement.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Wesley Hunt",
+      "party": "R",
+      "chamber": "House",
+      "district": "38",
+      "phone": "202-225-2571",
+      "website": "https://hunt.house.gov",
+      "twitter": "@RepWesleyHunt",
+      "instagram": "@repwesleyhunt",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations, supports energy industry.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police accountability mandates.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports pro-life policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on school choice and parental rights.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "A.J. Louderback",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "30",
+      "phone": "512-463-0130",
+      "website": "https://senate.texas.gov/member.php?d=30",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations that restrict business and energy production.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and supports low-tax policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports pro-life legislation and abortion restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on school choice and local control.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam Hinojosa",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "27",
+      "phone": "512-463-0127",
+      "website": "https://senate.texas.gov/member.php?d=27",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Takes measured approach to environmental policy balancing industry and conservation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding and teacher pay raises.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Aicha Davis",
+      "party": "D",
+      "chamber": "House",
+      "district": "109",
+      "phone": "512-463-0109",
+      "website": "https://house.texas.gov/members/member-page/?district=109",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability reforms and criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and tax fairness measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights and opposes abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "SB 8 abortion ban (Texas House, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of increased public school funding and teacher support.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alan Schoolcraft",
+      "party": "R",
+      "chamber": "House",
+      "district": "44",
+      "phone": "512-463-0844",
+      "website": "https://house.texas.gov/members/member-page/?district=44",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and supports low-tax policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports pro-life legislation and abortion restrictions.",
+          "voted_for": [
+            "SB 8 abortion ban (Texas House, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on school choice.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alma Allen",
+      "party": "D",
+      "chamber": "House",
+      "district": "131",
+      "phone": "512-463-0733",
+      "website": "https://house.texas.gov/members/member-page/?district=131",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and environmental justice initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability and criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Long-time advocate for criminal justice reform and rehabilitation programs.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and tax fairness.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights and opposes abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "SB 8 abortion ban (Texas House, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased public school funding and equity in education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ana Hernandez",
+      "party": "D",
+      "chamber": "House",
+      "district": "143",
+      "phone": "512-463-0614",
+      "website": "https://house.texas.gov/members/member-page/?district=143",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and environmental justice measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability and criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and tax fairness measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights and opposes abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "SB 8 abortion ban (Texas House, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of increased public school funding and education equity.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ana-Maria Rodriguez Ramos",
+      "party": "D",
+      "chamber": "House",
+      "district": "102",
+      "phone": "512-463-0102",
+      "website": "https://house.texas.gov/members/member-page/?district=102",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability and criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and tax fairness.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights and access to healthcare.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andy Hopper",
+      "party": "R",
+      "chamber": "House",
+      "district": "64",
+      "phone": "512-463-0464",
+      "website": "https://house.texas.gov/members/member-page/?district=64",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports pro-life legislation and abortion restrictions.",
+          "voted_for": [
+            "SB 8 abortion ban (Texas House, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on school choice.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Paxton",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "8",
+      "phone": "512-463-0108",
+      "website": "https://senate.texas.gov/member.php?d=8",
+      "twitter": "@AngelaPaxtonTX",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Takes balanced approach to environmental policy considering economic impact.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports pro-life legislation and abortion restrictions.",
+          "voted_for": [
+            "SB 8 abortion ban (Texas Senate, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ rights expansion legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on accountability and school choice.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angelia Orr",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "13",
+      "phone": "512-463-0113",
+      "website": "https://senate.texas.gov/member.php?d=13",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations that impact business.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports pro-life legislation and abortion restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on school choice.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angie Button",
+      "party": "R",
+      "chamber": "House",
+      "district": "112",
+      "phone": "512-463-0486",
+      "website": "https://house.texas.gov/members/member-page/?district=112",
+      "twitter": "@angiebutton",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Takes moderate approach balancing environmental concerns with business interests.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and pro-life policies.",
+          "voted_for": [
+            "SB 8 abortion ban (Texas House, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding and teacher compensation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ann Johnson",
+      "party": "D",
+      "chamber": "House",
+      "district": "134",
+      "phone": "512-463-0134",
+      "website": "https://house.texas.gov/members/member-page/?district=134",
+      "twitter": "@RepAnnJohnson",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability reforms and criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and tax fairness measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive health rights and opposes abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "SB 8 abortion ban (Texas House, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased public school funding and education equity.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
