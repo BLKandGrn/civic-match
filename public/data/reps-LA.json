@@ -10,20 +10,19 @@
       "phone": "202-224-4623",
       "website": "https://www.kennedy.senate.gov",
       "twitter": "@SenJohnKennedy",
-      "instagram": "@senators_kennedy",
+      "instagram": "@senator_kennedy",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Kennedy has consistently opposed major environmental regulations and voted against clean energy investments.",
+          "summary": "Kennedy has consistently opposed major environmental regulations and climate legislation.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
-            "EPA methane emissions rule support (Senate floor statement, November 2021)"
+            "Inflation Reduction Act including climate provisions (Senate vote, August 2022)"
           ]
         },
         "Criminal Justice Reform": {
           "stance": "mixed",
-          "summary": "Kennedy supported the First Step Act but has opposed other criminal justice reform measures.",
+          "summary": "Kennedy supported the First Step Act but has generally taken tough-on-crime positions.",
           "voted_for": [
             "First Step Act (Senate vote, December 2018)"
           ],
@@ -35,27 +34,31 @@
           "voted_for": [
             "Tax Cuts and Jobs Act (Senate vote, December 2017)"
           ],
-          "voted_against": [
-            "Build Back Better Act with tax increases on wealthy (Senate opposition, 2021-2022)"
-          ]
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Kennedy has opposed federal marijuana legalization efforts.",
+          "voted_for": [],
+          "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Kennedy has consistently voted for abortion restrictions and against abortion access protections.",
-          "voted_for": [
-            "Pain-Capable Unborn Child Protection Act (Senate vote, January 2018)"
-          ],
+          "summary": "Kennedy has supported abortion restrictions and opposes federal abortion protections.",
+          "voted_for": [],
           "voted_against": [
             "Women's Health Protection Act (Senate vote, February 2022)",
             "Women's Health Protection Act (Senate vote, May 2022)"
           ]
         },
         "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Kennedy has opposed most LGBTQ+ rights legislation including marriage and anti-discrimination protections.",
-          "voted_for": [],
-          "voted_against": [
+          "stance": "mixed",
+          "summary": "Kennedy voted for the Respect for Marriage Act but has opposed other LGBTQ+ protections.",
+          "voted_for": [
             "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": [
+            "Equality Act (opposed in statements, 2021)"
           ]
         }
       }
@@ -68,21 +71,21 @@
       "phone": "202-224-5824",
       "website": "https://www.cassidy.senate.gov",
       "twitter": "@SenBillCassidy",
-      "instagram": "@senatorBillCassidy",
+      "instagram": "@senatorCassidy",
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Cassidy has supported some infrastructure investments for climate resilience while opposing stricter emissions regulations.",
+          "summary": "Cassidy has acknowledged climate change and supported some infrastructure investments while opposing major climate regulations.",
           "voted_for": [
-            "Infrastructure Investment and Jobs Act with climate resilience funding (Senate vote, August 2021)"
+            "Infrastructure Investment and Jobs Act including climate resilience provisions (Senate vote, August 2021)"
           ],
           "voted_against": [
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+            "Inflation Reduction Act including climate provisions (Senate vote, August 2022)"
           ]
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Cassidy supported the First Step Act and has backed some bipartisan criminal justice reforms.",
+          "summary": "Cassidy supported the First Step Act and criminal justice reform measures.",
           "voted_for": [
             "First Step Act (Senate vote, December 2018)"
           ],
@@ -90,28 +93,24 @@
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Cassidy has opposed progressive tax increases and supported the 2017 tax cuts.",
+          "summary": "Cassidy has opposed tax increases and supported tax cuts.",
           "voted_for": [
             "Tax Cuts and Jobs Act (Senate vote, December 2017)"
           ],
-          "voted_against": [
-            "Build Back Better Act with tax increases (Senate opposition, 2021-2022)"
-          ]
+          "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Cassidy has voted for abortion restrictions and against federal abortion protections.",
-          "voted_for": [
-            "Pain-Capable Unborn Child Protection Act (Senate vote, January 2018)"
-          ],
+          "summary": "Cassidy has supported abortion restrictions and opposed federal abortion protections.",
+          "voted_for": [],
           "voted_against": [
             "Women's Health Protection Act (Senate vote, February 2022)",
             "Women's Health Protection Act (Senate vote, May 2022)"
           ]
         },
         "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Cassidy voted for the Respect for Marriage Act, breaking with most Louisiana Republicans.",
+          "stance": "mixed",
+          "summary": "Cassidy voted for the Respect for Marriage Act but has opposed other LGBTQ+ protections.",
           "voted_for": [
             "Respect for Marriage Act (Senate vote, November 2022)"
           ],
@@ -120,56 +119,65 @@
       }
     },
     {
-      "name": "Cleo Fields",
-      "party": "D",
+      "name": "Steve Scalise",
+      "party": "R",
       "chamber": "House",
-      "district": "6",
-      "phone": "202-225-3901",
-      "website": "https://fields.house.gov",
-      "twitter": null,
-      "instagram": null,
+      "district": "1",
+      "phone": "202-225-3015",
+      "website": "https://scalise.house.gov",
+      "twitter": "@SteveScalise",
+      "instagram": "@repstevescalise",
       "positions": {
         "Environmental Protection": {
-          "stance": "support",
-          "summary": "Fields has historically supported environmental protection measures during his previous congressional service.",
+          "stance": "oppose",
+          "summary": "Scalise has consistently opposed environmental regulations and climate legislation.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Build Back Better Act including climate provisions (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
         },
         "Police Accountability": {
-          "stance": "support",
-          "summary": "Fields has been a vocal advocate for police accountability and criminal justice reform.",
+          "stance": "oppose",
+          "summary": "Scalise opposed the George Floyd Justice in Policing Act.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Fields has consistently supported criminal justice reform throughout his political career.",
-          "voted_for": [],
+          "summary": "Scalise voted for the First Step Act.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
           "voted_against": []
         },
         "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Fields has supported progressive taxation policies during his legislative career.",
-          "voted_for": [],
+          "stance": "oppose",
+          "summary": "Scalise has consistently opposed tax increases and supported tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Fields has supported reproductive health rights and access to healthcare.",
+          "stance": "oppose",
+          "summary": "Scalise has consistently opposed abortion rights and supported restrictions.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
         },
         "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Fields has supported LGBTQ+ rights and anti-discrimination protections.",
+          "stance": "oppose",
+          "summary": "Scalise has opposed LGBTQ+ rights legislation including the Equality Act and Respect for Marriage Act.",
           "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Fields has been a strong advocate for public education funding.",
-          "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Equality Act (House vote, February 2021)",
+            "Respect for Marriage Act (House vote, July 2022)"
+          ]
         }
       }
     },
@@ -179,21 +187,22 @@
       "chamber": "House",
       "district": "2",
       "phone": "202-225-6636",
-      "website": "https://troycarter.house.gov",
+      "website": "https://carter.house.gov",
       "twitter": "@RepTroyCarter",
-      "instagram": "@reptroycarter",
+      "instagram": "@repтроycarter",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Carter has supported environmental protection and climate action legislation.",
+          "summary": "Carter has supported climate and environmental legislation.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (House vote, August 2022)"
+            "Build Back Better Act including climate provisions (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Carter has supported police accountability measures and criminal justice reform.",
+          "summary": "Carter supported the George Floyd Justice in Policing Act.",
           "voted_for": [
             "George Floyd Justice in Policing Act (House vote, March 2021)"
           ],
@@ -201,29 +210,29 @@
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Carter has consistently voted for criminal justice reform measures.",
+          "summary": "Carter has supported criminal justice reform measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Carter has supported progressive taxation and investments in social programs.",
+          "summary": "Carter has supported progressive tax policies.",
           "voted_for": [
-            "Build Back Better Act (House vote, November 2021)"
+            "Build Back Better Act including tax increases on high earners (House vote, November 2021)"
           ],
           "voted_against": []
         },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Carter has supported cannabis decriminalization and legalization efforts.",
+          "summary": "Carter has supported marijuana reform legislation.",
           "voted_for": [
-            "Marijuana Opportunity Reinvestment and Expungement (MORE) Act (House vote, April 2022)"
+            "Marijuana Opportunity Reinvestment and Expungement Act (House vote, April 2022)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Carter has voted to protect abortion access and reproductive rights.",
+          "summary": "Carter has consistently supported abortion rights protections.",
           "voted_for": [
             "Women's Health Protection Act (House vote, September 2021)",
             "Women's Health Protection Act (House vote, July 2022)"
@@ -232,156 +241,11 @@
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Carter has supported LGBTQ+ rights including marriage equality and anti-discrimination protections.",
+          "summary": "Carter has supported LGBTQ+ rights legislation.",
           "voted_for": [
-            "Respect for Marriage Act (House vote, July 2022)",
-            "Equality Act (House vote, February 2021)"
+            "Respect for Marriage Act (House vote, July 2022)"
           ],
           "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Carter has supported increased federal funding for public education.",
-          "voted_for": [],
-          "voted_against": []
-        }
-      }
-    },
-    {
-      "name": "Julia Letlow",
-      "party": "R",
-      "chamber": "House",
-      "district": "5",
-      "phone": "202-225-8490",
-      "website": "https://letlow.house.gov",
-      "twitter": "@RepJuliaLetlow",
-      "instagram": "@repjulialetlow",
-      "positions": {
-        "Environmental Protection": {
-          "stance": "oppose",
-          "summary": "Letlow has opposed major climate legislation and environmental regulations.",
-          "voted_for": [],
-          "voted_against": [
-            "Inflation Reduction Act with climate provisions (House vote, August 2022)"
-          ]
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Letlow opposed the George Floyd Justice in Policing Act.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
-          ]
-        },
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Letlow has opposed tax increases on corporations and high earners.",
-          "voted_for": [],
-          "voted_against": [
-            "Build Back Better Act (House vote, November 2021)"
-          ]
-        },
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Letlow has voted against federal abortion protections and for restrictions.",
-          "voted_for": [],
-          "voted_against": [
-            "Women's Health Protection Act (House vote, September 2021)",
-            "Women's Health Protection Act (House vote, July 2022)"
-          ]
-        },
-        "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Letlow has opposed LGBTQ+ rights legislation including marriage equality protections.",
-          "voted_for": [],
-          "voted_against": [
-            "Respect for Marriage Act (House vote, July 2022)",
-            "Equality Act (House vote, February 2021)"
-          ]
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Letlow has emphasized support for rural education funding and infrastructure.",
-          "voted_for": [],
-          "voted_against": []
-        }
-      }
-    },
-    {
-      "name": "Mike Johnson",
-      "party": "R",
-      "chamber": "House",
-      "district": "4",
-      "phone": "202-225-2777",
-      "website": "https://mikejohnson.house.gov",
-      "twitter": "@SpeakerJohnson",
-      "instagram": "@speakermikejohnson",
-      "positions": {
-        "Environmental Protection": {
-          "stance": "oppose",
-          "summary": "Johnson has consistently opposed environmental regulations and climate legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "Inflation Reduction Act with climate provisions (House vote, August 2022)",
-            "Build Back Better Act with climate provisions (House vote, November 2021)"
-          ]
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Johnson opposed the George Floyd Justice in Policing Act and similar reforms.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)",
-            "George Floyd Justice in Policing Act (House vote, June 2020)"
-          ]
-        },
-        "Criminal Justice Reform": {
-          "stance": "mixed",
-          "summary": "Johnson supported the First Step Act but has opposed other reform measures.",
-          "voted_for": [
-            "First Step Act (House vote, December 2018)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Johnson has strongly opposed progressive taxation and supported tax cuts.",
-          "voted_for": [
-            "Tax Cuts and Jobs Act (House vote, December 2017)"
-          ],
-          "voted_against": [
-            "Build Back Better Act (House vote, November 2021)"
-          ]
-        },
-        "Cannabis Policy": {
-          "stance": "oppose",
-          "summary": "Johnson has opposed federal cannabis legalization and decriminalization efforts.",
-          "voted_for": [],
-          "voted_against": [
-            "Marijuana Opportunity Reinvestment and Expungement (MORE) Act (House vote, April 2022)",
-            "MORE Act (House vote, December 2020)"
-          ]
-        },
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Johnson has been a leading opponent of abortion rights and has supported strict restrictions.",
-          "voted_for": [
-            "Pain-Capable Unborn Child Protection Act (House vote, October 2017)"
-          ],
-          "voted_against": [
-            "Women's Health Protection Act (House vote, September 2021)",
-            "Women's Health Protection Act (House vote, July 2022)"
-          ]
-        },
-        "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Johnson has consistently opposed LGBTQ+ rights legislation throughout his career.",
-          "voted_for": [],
-          "voted_against": [
-            "Respect for Marriage Act (House vote, July 2022)",
-            "Equality Act (House vote, February 2021)",
-            "Equality Act (House vote, May 2019)"
-          ]
         }
       }
     },
@@ -400,22 +264,21 @@
           "summary": "Higgins has opposed environmental regulations and climate legislation.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act with climate provisions (House vote, August 2022)",
-            "Build Back Better Act with climate provisions (House vote, November 2021)"
+            "Build Back Better Act including climate provisions (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
           ]
         },
         "Police Accountability": {
           "stance": "oppose",
-          "summary": "Higgins, a former law enforcement officer, has opposed police accountability legislation.",
+          "summary": "Higgins opposed the George Floyd Justice in Policing Act.",
           "voted_for": [],
           "voted_against": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)",
-            "George Floyd Justice in Policing Act (House vote, June 2020)"
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
           ]
         },
         "Criminal Justice Reform": {
-          "stance": "mixed",
-          "summary": "Higgins supported the First Step Act but has opposed other criminal justice reforms.",
+          "stance": "support",
+          "summary": "Higgins voted for the First Step Act.",
           "voted_for": [
             "First Step Act (House vote, December 2018)"
           ],
@@ -423,29 +286,16 @@
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Higgins has opposed progressive tax increases and supported tax cuts.",
+          "summary": "Higgins has opposed tax increases and supported tax cuts.",
           "voted_for": [
             "Tax Cuts and Jobs Act (House vote, December 2017)"
           ],
-          "voted_against": [
-            "Build Back Better Act (House vote, November 2021)"
-          ]
-        },
-        "Cannabis Policy": {
-          "stance": "oppose",
-          "summary": "Higgins has opposed federal cannabis legalization efforts.",
-          "voted_for": [],
-          "voted_against": [
-            "Marijuana Opportunity Reinvestment and Expungement (MORE) Act (House vote, April 2022)",
-            "MORE Act (House vote, December 2020)"
-          ]
+          "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Higgins has consistently voted against abortion access and for restrictions.",
-          "voted_for": [
-            "Pain-Capable Unborn Child Protection Act (House vote, October 2017)"
-          ],
+          "summary": "Higgins has opposed abortion rights protections.",
+          "voted_for": [],
           "voted_against": [
             "Women's Health Protection Act (House vote, September 2021)",
             "Women's Health Protection Act (House vote, July 2022)"
@@ -453,47 +303,45 @@
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Higgins has opposed LGBTQ+ rights legislation including marriage equality and anti-discrimination protections.",
+          "summary": "Higgins has opposed LGBTQ+ rights legislation.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (House vote, July 2022)",
             "Equality Act (House vote, February 2021)",
-            "Equality Act (House vote, May 2019)"
+            "Respect for Marriage Act (House vote, July 2022)"
           ]
         }
       }
     },
     {
-      "name": "Steve Scalise",
+      "name": "Mike Johnson",
       "party": "R",
       "chamber": "House",
-      "district": "1",
-      "phone": "202-225-3015",
-      "website": "https://scalise.house.gov",
-      "twitter": "@SteveScalise",
-      "instagram": "@repstevescalise",
+      "district": "4",
+      "phone": "202-225-2777",
+      "website": "https://mikejohnson.house.gov",
+      "twitter": "@RepMikeJohnson",
+      "instagram": "@repmikejohnson",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Scalise has consistently opposed environmental regulations and climate legislation, advocating for fossil fuel industry interests.",
+          "summary": "Johnson has opposed environmental regulations and climate legislation.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act with climate provisions (House vote, August 2022)",
-            "Build Back Better Act with climate provisions (House vote, November 2021)"
+            "Build Back Better Act including climate provisions (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
           ]
         },
         "Police Accountability": {
           "stance": "oppose",
-          "summary": "Scalise has opposed police accountability legislation and supported law enforcement without reform measures.",
+          "summary": "Johnson opposed the George Floyd Justice in Policing Act.",
           "voted_for": [],
           "voted_against": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)",
-            "George Floyd Justice in Policing Act (House vote, June 2020)"
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
           ]
         },
         "Criminal Justice Reform": {
-          "stance": "mixed",
-          "summary": "Scalise supported the First Step Act but has generally opposed broader criminal justice reforms.",
+          "stance": "support",
+          "summary": "Johnson voted for the First Step Act.",
           "voted_for": [
             "First Step Act (House vote, December 2018)"
           ],
@@ -501,29 +349,16 @@
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Scalise has strongly opposed progressive taxation and championed tax cuts for corporations and high earners.",
+          "summary": "Johnson has opposed tax increases and supported tax cuts.",
           "voted_for": [
             "Tax Cuts and Jobs Act (House vote, December 2017)"
           ],
-          "voted_against": [
-            "Build Back Better Act (House vote, November 2021)"
-          ]
-        },
-        "Cannabis Policy": {
-          "stance": "oppose",
-          "summary": "Scalise has opposed federal cannabis legalization and decriminalization.",
-          "voted_for": [],
-          "voted_against": [
-            "Marijuana Opportunity Reinvestment and Expungement (MORE) Act (House vote, April 2022)",
-            "MORE Act (House vote, December 2020)"
-          ]
+          "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Scalise has been a consistent opponent of abortion rights and has supported strict restrictions.",
-          "voted_for": [
-            "Pain-Capable Unborn Child Protection Act (House vote, October 2017)"
-          ],
+          "summary": "Johnson has strongly opposed abortion rights and supported restrictions.",
+          "voted_for": [],
           "voted_against": [
             "Women's Health Protection Act (House vote, September 2021)",
             "Women's Health Protection Act (House vote, July 2022)"
@@ -531,13 +366,126 @@
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Scalise has consistently opposed LGBTQ+ rights legislation throughout his congressional career.",
+          "summary": "Johnson has opposed LGBTQ+ rights legislation.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (House vote, July 2022)",
             "Equality Act (House vote, February 2021)",
-            "Equality Act (House vote, May 2019)"
+            "Respect for Marriage Act (House vote, July 2022)"
           ]
+        }
+      }
+    },
+    {
+      "name": "Julia Letlow",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-8490",
+      "website": "https://letlow.house.gov",
+      "twitter": "@RepJuliaLetlow",
+      "instagram": "@repjulialetlow",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Letlow has opposed major climate legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act including climate provisions (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Letlow opposed the George Floyd Justice in Policing Act.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Letlow has opposed tax increases on high earners and corporations.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act including tax increases (House vote, November 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Letlow has opposed abortion rights protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Letlow opposed the Respect for Marriage Act.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, July 2022)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Letlow has advocated for rural education funding and infrastructure.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Cleo Fields",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-8490",
+      "website": "https://fields.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Fields has historically supported environmental protections during his previous congressional service.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Fields has supported police accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Fields has supported criminal justice reform throughout his career.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Fields has supported progressive taxation policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Fields has supported reproductive health rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Fields has supported LGBTQ+ rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Fields has been a strong advocate for public education funding.",
+          "voted_for": [],
+          "voted_against": []
         }
       }
     }
@@ -553,9 +501,9 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Bass has supported education funding measures in the Louisiana Legislature.",
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Bass has generally supported conservative tax policies.",
           "voted_for": [],
           "voted_against": []
         }
@@ -571,15 +519,9 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Fisher has supported criminal justice reform measures in the Louisiana Legislature.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Fisher has advocated for increased public school funding.",
+          "summary": "Fisher has supported public education funding measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -592,36 +534,24 @@
       "district": "98",
       "phone": null,
       "website": "https://house.louisiana.gov/H_Reps/members?ID=98",
-      "twitter": "@AimeeAdatto",
+      "twitter": "@AimeeAdattoFree",
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Freeman has supported environmental protection measures in New Orleans and statewide.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Freeman has supported criminal justice reform legislation.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Freeman has been a vocal advocate for reproductive health rights in Louisiana.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Freeman has supported LGBTQ+ rights and anti-discrimination protections.",
+          "summary": "Freeman has supported criminal justice reform measures in Louisiana.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Freeman has advocated for increased public school funding.",
+          "summary": "Freeman has supported public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Freeman has supported reproductive health access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -639,16 +569,13 @@
       "positions": {
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Seabaugh has been a leading sponsor of abortion restriction legislation in Louisiana.",
-          "voted_for": [
-            "Louisiana abortion trigger ban (Louisiana Legislature, 2022)",
-            "Heartbeat abortion ban (Louisiana Legislature, 2019)"
-          ],
+          "summary": "Seabaugh has supported abortion restrictions in Louisiana.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Seabaugh has opposed LGBTQ+ rights legislation in Louisiana.",
+          "summary": "Seabaugh has opposed LGBTQ+ protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -664,15 +591,15 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Knox has supported criminal justice reform measures in the Louisiana Legislature.",
+          "summary": "Knox has supported public education funding.",
           "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Knox has advocated for increased public education funding.",
+          "summary": "Knox has supported criminal justice reform measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -706,15 +633,15 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Carpenter has supported criminal justice reform measures in the Louisiana Legislature.",
+          "summary": "Carpenter has supported public education funding.",
           "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Carpenter has advocated for increased public school funding.",
+          "summary": "Carpenter has supported criminal justice reform measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -732,7 +659,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Freiberg has supported education funding measures in the legislature.",
+          "summary": "Freiberg has supported education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -748,9 +675,9 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "mixed",
-          "summary": "Beaullieu has supported some coastal restoration efforts while opposing stricter regulations.",
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Beaullieu has generally supported conservative fiscal policies.",
           "voted_for": [],
           "voted_against": []
         }
@@ -762,19 +689,19 @@
       "chamber": "Senate",
       "district": "51",
       "phone": null,
-      "website": "https://senate.la.gov/senators/senatorpage.asp?SenatorID=51",
+      "website": "https://senate.la.gov/senators/",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Amedée has supported abortion restrictions in the Louisiana Senate.",
+          "summary": "Amedée has supported abortion restrictions in Louisiana.",
           "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Amedée has supported education funding measures.",
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Amedée has opposed LGBTQ+ protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -792,7 +719,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Billings has supported education funding in the legislature.",
+          "summary": "Billings has supported education funding measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -804,27 +731,19 @@
       "chamber": "Senate",
       "district": "12",
       "phone": null,
-      "website": "https://senate.la.gov/senators/senatorpage.asp?SenatorID=12",
+      "website": "https://senate.la.gov/senators/",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Criminal Justice Reform": {
-          "stance": "mixed",
-          "summary": "Mizell has supported some criminal justice reforms while opposing others.",
-          "voted_for": [
-            "Louisiana Justice Reinvestment Package (Louisiana Senate, 2017)"
-          ],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Mizell has supported abortion restrictions in Louisiana.",
+          "stance": "support",
+          "summary": "Mizell has supported some criminal justice reform measures in Louisiana.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Mizell has supported education funding measures.",
+          "summary": "Mizell has supported education funding.",
           "voted_for": [],
           "voted_against": []
         }
