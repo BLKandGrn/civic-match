@@ -1,0 +1,444 @@
+{
+  "state": "NM",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Ben Ray Luján",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6621",
+      "website": "https://www.lujan.senate.gov",
+      "twitter": "@SenatorLujan",
+      "instagram": "@senatorlujan",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports clean energy initiatives and has consistently voted for environmental protection measures.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy funding (Senate.gov, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports protecting reproductive rights and access to abortion services.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate.gov, February 2022)",
+            "Right to Contraception Act (Senate.gov, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate.gov, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis reform and decriminalization efforts.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Martin Heinrich",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5521",
+      "website": "https://www.heinrich.senate.gov",
+      "twitter": "@MartinHeinrich",
+      "instagram": "@martinheinrich",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of environmental protection, renewable energy, and public lands conservation.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate.gov, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to abortion services.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate.gov, February 2022)",
+            "Right to Contraception Act (Senate.gov, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate.gov, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures including sentencing reform.",
+          "voted_for": [
+            "First Step Act (Senate.gov, December 2018)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Gabe Vasquez",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-2365",
+      "website": "https://vasquez.house.gov",
+      "twitter": "@RepGabeVasquez",
+      "instagram": "@repgabevasquez",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to abortion services.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Melanie A. Stansbury",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-6316",
+      "website": "https://stansbury.house.gov",
+      "twitter": "@Rep_Stansbury",
+      "instagram": "@rep_stansbury",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of environmental protection and climate action with background in water policy.",
+          "voted_for": [
+            "Inflation Reduction Act (House.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to abortion services.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal funding for public schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Teresa Leger Fernandez",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-6190",
+      "website": "https://legerfernandez.house.gov",
+      "twitter": "@RepTeresaLF",
+      "instagram": "@repteresalf",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and addressing climate change.",
+          "voted_for": [
+            "Inflation Reduction Act (House.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to abortion services.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Supports initiatives to improve food access in rural and underserved communities.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Alan Martinez",
+      "party": "R",
+      "chamber": "House",
+      "district": "23",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Andi Reeb",
+      "party": "R",
+      "chamber": "House",
+      "district": "64",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Andrea Romero",
+      "party": "D",
+      "chamber": "House",
+      "district": "46",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public education in New Mexico.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to reproductive healthcare.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrés Romero",
+      "party": "D",
+      "chamber": "House",
+      "district": "10",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and alternatives to incarceration.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported legalization of recreational cannabis in New Mexico.",
+          "voted_for": [
+            "Cannabis Regulation Act (NMLEGIS.gov, 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angel Charley",
+      "party": "D",
+      "chamber": "House",
+      "district": "30",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angelica Rubio",
+      "party": "D",
+      "chamber": "House",
+      "district": "35",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to healthcare.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angelita Mejia",
+      "party": "R",
+      "chamber": "House",
+      "district": "58",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Anita Gonzales",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "70",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ant Thornton",
+      "party": "R",
+      "chamber": "House",
+      "district": "19",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Antoinette Sedillo Lopez",
+      "party": "D",
+      "chamber": "House",
+      "district": "16",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and sentencing reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to abortion services.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Art De La Cruz",
+      "party": "D",
+      "chamber": "House",
+      "district": "12",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Benny Shendo",
+      "party": "D",
+      "chamber": "House",
+      "district": "22",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

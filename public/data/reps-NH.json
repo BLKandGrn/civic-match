@@ -1,0 +1,239 @@
+{
+  "state": "NH",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Jeanne Shaheen",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2841",
+      "website": "https://www.shaheen.senate.gov",
+      "twitter": "@SenatorShaheen",
+      "instagram": "@senatorshaheen",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Consistently supports climate action legislation and environmental protection measures.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate roll call vote 325, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy funding (Senate roll call vote 204, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of abortion rights and access to reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Freedom to Travel for Health Care Act of 2022 (Co-sponsor, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ equality legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate roll call vote 373, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis reform and banking access for cannabis businesses.",
+          "voted_for": [
+            "Co-sponsored SAFE Banking Act (S.910, multiple sessions)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports closing tax loopholes and ensuring corporations pay fair share.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate roll call vote 325, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business access to capital and pandemic relief.",
+          "voted_for": [
+            "Paycheck Protection Program and Health Care Enhancement Act (Senate voice vote, April 2020)",
+            "American Rescue Plan Act with small business provisions (Senate roll call vote 110, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Margaret Wood Hassan",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3324",
+      "website": "https://www.hassan.senate.gov",
+      "twitter": "@SenatorHassan",
+      "instagram": "@senatorhassan",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports clean energy investments and climate change mitigation efforts.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate roll call vote 325, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate roll call vote 204, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Advocates for protecting abortion access and reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports federal protections for LGBTQ+ individuals.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate roll call vote 373, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis banking reform and state legalization rights.",
+          "voted_for": [
+            "Co-sponsored SAFE Banking Act (S.910, 117th Congress)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports tax reforms targeting corporations and wealthy individuals.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate roll call vote 325, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Prioritizes small business relief and economic support programs.",
+          "voted_for": [
+            "American Rescue Plan Act (Senate roll call vote 110, March 2021)",
+            "Paycheck Protection Program expansion (April 2020)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Maggie Goodlander",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-5206",
+      "website": "https://goodlander.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Campaigned on climate action and environmental protection as central issues.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports comprehensive LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Advocates for tax fairness and corporate accountability.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Chris Pappas",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-5456",
+      "website": "https://pappas.house.gov",
+      "twitter": "@ChrisPappasNH",
+      "instagram": "@chrispappasnh",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports clean energy development and climate action measures.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (House roll call vote 455, August 2022)",
+            "Infrastructure Investment and Jobs Act (House roll call vote 369, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports protecting abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House roll call vote 224, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Advocates for LGBTQ+ equality as first openly gay congressman from New Hampshire.",
+          "voted_for": [
+            "Respect for Marriage Act (House roll call vote 403, July 2022)",
+            "Equality Act (House roll call vote 39, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform measures while emphasizing community safety.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House roll call vote 60, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports closing tax loopholes and ensuring corporations pay fair share.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (House roll call vote 455, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Prioritizes small business support as former small business owner.",
+          "voted_for": [
+            "American Rescue Plan Act with small business provisions (House roll call vote 72, March 2021)",
+            "Restaurant Revitalization Fund (Co-sponsor, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased federal education funding.",
+          "voted_for": [
+            "American Rescue Plan Act with education funding (House roll call vote 72, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": []
+}

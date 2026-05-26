@@ -1,0 +1,462 @@
+{
+  "state": "NE",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Pete Ricketts",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4224",
+      "website": "https://www.ricketts.senate.gov",
+      "twitter": "@SenatorRicketts",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and supports fossil fuel development.",
+          "voted_for": [],
+          "voted_against": [
+            "Infrastructure Investment and Jobs Act environmental provisions (Senate vote, 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive tax policies and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Strongly opposed cannabis legalization as Governor and Senator.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposed LGBTQ+ rights protections as Governor.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Deb Fischer",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6551",
+      "website": "https://www.fischer.senate.gov",
+      "twitter": "@SenatorFischer",
+      "instagram": "@senatorfischer",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes major environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes progressive taxation increases.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Voted against LGBTQ+ rights protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mike Flood",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-4806",
+      "website": "https://flood.house.gov",
+      "twitter": "@RepMikeFlood",
+      "instagram": "@repmikeflood",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes progressive tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education funding but favors local control and school choice.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Don Bacon",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-4155",
+      "website": "https://bacon.house.gov",
+      "twitter": "@RepDonBacon",
+      "instagram": "@repdonbacon",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation efforts while opposing aggressive climate regulations.",
+          "voted_for": [
+            "Great American Outdoors Act (House vote, July 2020)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes major police reform legislation while supporting law enforcement funding.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive tax increases and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Generally opposes abortion rights with some exceptions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "mixed",
+          "summary": "Has taken mixed positions on LGBTQ+ rights legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adrian Smith",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-6435",
+      "website": "https://adriansmith.house.gov",
+      "twitter": "@RepAdrianSmith",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations that impact agriculture and energy production.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House vote, May 2019)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Strongly opposes progressive taxation and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business assistance and rural development funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ rights protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ]
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Ashlei Spivey",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "13",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=13",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and rehabilitation programs.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public school funding and resources.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barry DeKay",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "40",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=40",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "unclear",
+          "summary": "Limited public record on education funding positions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Beau Ballard",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "21",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=21",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "unclear",
+          "summary": "Limited public record on education funding positions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ben Hansen",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "16",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=16",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Has advocated for rural school funding and property tax relief.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development in rural areas.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bob Andersen",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "49",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=49",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "unclear",
+          "summary": "Limited public record on education funding positions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bob Hallstrom",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "1",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=1",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "unclear",
+          "summary": "Limited public record on education funding positions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brad von Gillern",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "4",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=4",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "unclear",
+          "summary": "Limited public record on education funding positions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brian Hardin",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "48",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=48",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "unclear",
+          "summary": "Limited public record on education funding positions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Carolyn Bosn",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "25",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=25",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public education funding and teacher resources.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Christy Armendariz",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "18",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=18",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for public education funding and early childhood education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Dan Lonowski",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "33",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=33",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "unclear",
+          "summary": "Limited public record on education funding positions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Dan Quick",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "35",
+      "phone": "402-471-2733",
+      "website": "https://nebraskalegislature.gov/senators/senator.php?ID=35",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public school funding and local control of education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

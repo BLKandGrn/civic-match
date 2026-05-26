@@ -1,0 +1,474 @@
+{
+  "state": "ND",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "John Hoeven",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2551",
+      "website": "https://www.hoeven.senate.gov",
+      "twitter": "@SenJohnHoeven",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Consistently opposes environmental regulations that restrict energy development and has voted against climate-focused legislation.",
+          "voted_for": [
+            "Keystone XL Pipeline approval (Senate vote, 2015)",
+            "Energy Infrastructure Act supporting fossil fuel projects (Senate vote, 2021)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act containing climate provisions (Senate vote, August 2022)",
+            "EPA methane regulations (Congressional Review Act resolution, 2023)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported bipartisan criminal justice reform focused on sentencing and prison reform.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on corporations and high earners, supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": [
+            "Build Back Better Act with tax increases on wealthy (Senate procedural votes, 2021-2022)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Has opposed federal legalization of marijuana.",
+          "voted_for": [],
+          "voted_against": [
+            "Cannabis Administration and Opportunity Act (Committee opposition, 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports restrictions on abortion access and has voted for anti-abortion legislation.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (Senate vote, 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act second vote (Senate vote, May 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kevin Cramer",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2043",
+      "website": "https://www.cramer.senate.gov",
+      "twitter": "@SenKevinCramer",
+      "instagram": "@senkevincramer",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations on energy sector and has voted against climate legislation.",
+          "voted_for": [
+            "Disapproval of EPA greenhouse gas regulations (Senate vote, 2023)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Voted for bipartisan sentencing reform legislation.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports maintaining lower tax rates.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act extension proposals (Senate votes, 2023-2024)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act with corporate tax provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Has opposed federal marijuana legalization efforts.",
+          "voted_for": [],
+          "voted_against": [
+            "Federal cannabis reform legislation (Committee statements, 2021-2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports restrictions on abortion and has voted against abortion rights legislation.",
+          "voted_for": [
+            "Born-Alive Abortion Survivors Protection Act (Senate vote, 2019)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act second vote (Senate vote, May 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Julie Fedorchak",
+      "party": "R",
+      "chamber": "House",
+      "district": "At-Large",
+      "phone": "202-225-2611",
+      "website": "https://fedorchak.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Advocates for energy development and opposes restrictive environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Has expressed support for education funding as former Public Service Commissioner and congressional candidate.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Alisa Mitskog",
+      "party": "D",
+      "chamber": "House",
+      "district": "25",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported increased education funding during legislative sessions.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposed restrictive abortion legislation in North Dakota.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 1354 abortion ban bill (ND House vote, 2023)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Opposed anti-LGBTQ legislation in the North Dakota House.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 1473 transgender youth healthcare restrictions (ND House vote, 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Andrew Marschall",
+      "party": "R",
+      "chamber": "House",
+      "district": "16",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Voted for education funding bills in recent legislative sessions.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supported abortion restrictions during legislative sessions.",
+          "voted_for": [
+            "HB 1354 abortion ban bill (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anna Novak",
+      "party": "R",
+      "chamber": "House",
+      "district": "33",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases in the legislature.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported legislation restricting transgender healthcare and accommodations.",
+          "voted_for": [
+            "HB 1473 transgender youth healthcare restrictions (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Austen Schauer",
+      "party": "R",
+      "chamber": "House",
+      "district": "13",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Voted for increased education appropriations.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Austin Foss",
+      "party": "D",
+      "chamber": "House",
+      "district": "44",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Consistently supported education funding increases.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposed abortion restrictions in the legislature.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 1354 abortion ban bill (ND House vote, 2023)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Opposed anti-LGBTQ legislation during legislative sessions.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 1473 transgender youth healthcare restrictions (ND House vote, 2023)",
+            "HB 1297 bathroom usage restrictions (ND House vote, 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ben Koppelman",
+      "party": "R",
+      "chamber": "House",
+      "district": "16",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding legislation in multiple sessions.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposed recreational marijuana legalization efforts.",
+          "voted_for": [],
+          "voted_against": [
+            "Recreational marijuana ballot measure support (Legislative statements, 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Sponsored and supported legislation restricting transgender rights.",
+          "voted_for": [
+            "HB 1473 transgender youth healthcare restrictions (ND House vote, 2023)",
+            "HB 1297 bathroom usage restrictions (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bernie Satrom",
+      "party": "R",
+      "chamber": "House",
+      "district": "12",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Voted for education funding appropriations.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supported small business assistance programs in the legislature.",
+          "voted_for": [
+            "Small business loan programs (ND House votes, 2021-2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bert Anderson",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases during legislative sessions.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Tveit",
+      "party": "R",
+      "chamber": "House",
+      "district": "33",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Voted for education funding bills in the legislature.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bob Martinson",
+      "party": "R",
+      "chamber": "House",
+      "district": "35",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding appropriations.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bob Paulson",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Voted for education funding increases.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supported small business development programs.",
+          "voted_for": [
+            "Small business assistance legislation (ND House votes, 2021-2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brad Bekkedahl",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases in legislative sessions.",
+          "voted_for": [
+            "HB 1500 education funding increase (ND House vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
