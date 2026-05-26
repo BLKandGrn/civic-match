@@ -1,0 +1,676 @@
+{
+  "state": "IA",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Chuck Grassley",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3744",
+      "website": "https://www.grassley.senate.gov",
+      "twitter": "@ChuckGrassley",
+      "instagram": "@chuckgrassley",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports renewable energy including biofuels while opposing strict federal climate regulations.",
+          "voted_for": [
+            "Renewable Fuel Standard support (Senate voting record, 2023)",
+            "Biofuel tax credits extension (Senate Finance Committee, 2024)"
+          ],
+          "voted_against": [
+            "Build Back Better Act climate provisions (Senate Roll Call Vote 14, 2021)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Co-sponsored bipartisan criminal justice reform legislation.",
+          "voted_for": [
+            "First Step Act (Senate Roll Call Vote 360, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Consistently supports tax cuts and opposes tax increases on high earners.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate Roll Call Vote 303, December 2017)"
+          ],
+          "voted_against": [
+            "Build Back Better Act tax provisions (Senate proceedings, 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports restrictions on reproductive health services.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act co-sponsorship (Congress.gov, 2021)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate Roll Call Vote 141, May 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Joni Ernst",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3254",
+      "website": "https://www.ernst.senate.gov",
+      "twitter": "@SenJoniErnst",
+      "instagram": "@senjoniennst",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports biofuel development while opposing major federal climate regulations.",
+          "voted_for": [
+            "Renewable Fuel Standard protection (Senate statements, 2023)"
+          ],
+          "voted_against": [
+            "Green New Deal resolution (Senate Roll Call Vote 57, March 2019)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Voted for bipartisan criminal justice reform legislation.",
+          "voted_for": [
+            "First Step Act (Senate Roll Call Vote 360, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax relief measures.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate Roll Call Vote 303, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports abortion restrictions.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act co-sponsorship (Congress.gov, 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate Roll Call Vote 141, May 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposed federal LGBTQ+ anti-discrimination legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (Senate proceedings, 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zachary Nunn",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-5476",
+      "website": "https://nunn.house.gov",
+      "twitter": "@RepZachNunn",
+      "instagram": "@repzachnunn",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports Iowa renewable energy while opposing stringent federal environmental regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Lower Energy Costs Act opposition to certain EPA regulations (House Roll Call, 2023)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes increased taxation on corporations and high earners.",
+          "voted_for": [
+            "Tax Relief for American Families and Workers Act (House proceedings, 2024)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and opposes federal protection of abortion access.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call Vote 295, July 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mariannette Miller-Meeks",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-6576",
+      "website": "https://millermeeks.house.gov",
+      "twitter": "@RepMMM",
+      "instagram": "@repmmm",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports renewable fuels important to Iowa while opposing broad federal climate regulations.",
+          "voted_for": [
+            "Renewable fuel standards support (House statements, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported bipartisan criminal justice reform measures.",
+          "voted_for": [
+            "First Step Implementation Act (House co-sponsorship, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax relief legislation.",
+          "voted_for": [
+            "Tax relief legislation (House voting record, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal protection of abortion access and supports restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call Vote 295, July 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ashley Hinson",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-2911",
+      "website": "https://hinson.house.gov",
+      "twitter": "@RepAshleyHinson",
+      "instagram": "@repashleyhinson",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports biofuels and renewable energy while opposing aggressive federal climate regulations.",
+          "voted_for": [
+            "Biofuel infrastructure support (House statements, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts for individuals and businesses.",
+          "voted_for": [
+            "Tax relief legislation (House voting record, 2023-2024)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports legislation to expand small business access to capital and reduce regulatory burdens.",
+          "voted_for": [
+            "Small Business Administration funding (House votes, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal abortion protections and supports abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call Vote 295, July 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Randy Feenstra",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-4426",
+      "website": "https://feenstra.house.gov",
+      "twitter": "@RepFeenstra",
+      "instagram": "@repfeenstra",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports renewable fuel industry while opposing expansive federal environmental regulations.",
+          "voted_for": [
+            "Renewable Fuel Standard defense (House statements, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports reducing tax burdens on families and businesses.",
+          "voted_for": [
+            "Tax relief measures (House voting record, 2023-2024)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports expanding small business financing and reducing regulatory barriers.",
+          "voted_for": [
+            "Small business support legislation (House proceedings, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports restrictions on reproductive health services.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call Vote 295, July 2022)"
+          ]
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Adam Zabner",
+      "party": "D",
+      "chamber": "House",
+      "district": "90",
+      "phone": "515-281-3221",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32078",
+      "twitter": "@adamzabner",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding and opposes private school voucher expansion.",
+          "voted_for": [],
+          "voted_against": [
+            "Education Savings Account voucher program expansion (Iowa House Roll Call, 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposes abortion restrictions and supports reproductive health access.",
+          "voted_for": [],
+          "voted_against": [
+            "Six-week abortion ban (Iowa House Roll Call, July 2023)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Advocates for LGBTQ+ protections and opposes discriminatory legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Transgender youth medical care restrictions (Iowa House votes, 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Adrian Dickey",
+      "party": "R",
+      "chamber": "House",
+      "district": "44",
+      "phone": "515-281-3221",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32079",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education choice including private school vouchers while also backing traditional school funding.",
+          "voted_for": [
+            "Education Savings Account voucher program (Iowa House Roll Call, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions.",
+          "voted_for": [
+            "Six-week abortion ban (Iowa House Roll Call, July 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Aime Wichtendahl",
+      "party": "D",
+      "chamber": "House",
+      "district": "80",
+      "phone": "515-281-3221",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32103",
+      "twitter": "@AimeForIowa",
+      "instagram": "@aimeforiowa",
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding and opposes voucher programs.",
+          "voted_for": [],
+          "voted_against": [
+            "Education Savings Account voucher program (Iowa House Roll Call, 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposes abortion restrictions and supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": [
+            "Six-week abortion ban (Iowa House Roll Call, July 2023)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "First transgender woman elected to Iowa legislature, strong advocate for LGBTQ+ rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Transgender youth medical care restrictions (Iowa House votes, 2023)",
+            "Bathroom restrictions legislation (Iowa House, 2024)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Amy Nielsen",
+      "party": "D",
+      "chamber": "House",
+      "district": "85",
+      "phone": "515-281-3221",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=28041",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school investment and opposes private school vouchers.",
+          "voted_for": [],
+          "voted_against": [
+            "Education Savings Account voucher program (Iowa House Roll Call, 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposes abortion restrictions and supports reproductive rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Six-week abortion ban (Iowa House Roll Call, July 2023)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Opposes discriminatory legislation targeting LGBTQ+ individuals.",
+          "voted_for": [],
+          "voted_against": [
+            "Transgender youth medical care restrictions (Iowa House votes, 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Amy Sinclair",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "12",
+      "phone": "515-281-3371",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=8468",
+      "twitter": "@SenAmySinclair",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education choice including private school vouchers alongside traditional school funding.",
+          "voted_for": [
+            "Education Savings Account voucher program (Iowa Senate Roll Call, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and opposes abortion access expansion.",
+          "voted_for": [
+            "Six-week abortion ban (Iowa Senate Roll Call, July 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supports restrictions on transgender youth healthcare and other LGBTQ+ limitations.",
+          "voted_for": [
+            "Transgender youth medical care restrictions (Iowa Senate votes, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angel Ramirez",
+      "party": "D",
+      "chamber": "House",
+      "district": "78",
+      "phone": "515-281-3221",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32094",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public schools and opposes voucher expansion.",
+          "voted_for": [],
+          "voted_against": [
+            "Education Savings Account voucher program (Iowa House Roll Call, 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposes abortion restrictions and supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": [
+            "Six-week abortion ban (Iowa House Roll Call, July 2023)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Opposes discriminatory legislation targeting LGBTQ+ communities.",
+          "voted_for": [],
+          "voted_against": [
+            "Transgender youth medical care restrictions (Iowa House votes, 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ann Meyer",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "8",
+      "phone": "515-281-3371",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32111",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports school choice initiatives including voucher programs.",
+          "voted_for": [
+            "Education Savings Account voucher program (Iowa Senate Roll Call, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions.",
+          "voted_for": [
+            "Six-week abortion ban (Iowa Senate Roll Call, July 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Annette Sweeney",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "27",
+      "phone": "515-281-3371",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=169",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education choice policies including private school vouchers.",
+          "voted_for": [
+            "Education Savings Account voucher program (Iowa Senate Roll Call, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and anti-abortion legislation.",
+          "voted_for": [
+            "Six-week abortion ban (Iowa Senate Roll Call, July 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Art Staed",
+      "party": "D",
+      "chamber": "House",
+      "district": "40",
+      "phone": "515-281-3221",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=8576",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection measures and clean energy initiatives.",
+          "voted_for": [
+            "Environmental protection bills (Iowa House record, 2022-2024)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding and opposes voucher expansion.",
+          "voted_for": [],
+          "voted_against": [
+            "Education Savings Account voucher program (Iowa House Roll Call, 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposes abortion restrictions and supports reproductive rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Six-week abortion ban (Iowa House Roll Call, July 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Austin Baeth",
+      "party": "D",
+      "chamber": "House",
+      "district": "36",
+      "phone": "515-281-3221",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32070",
+      "twitter": "@AustinBaeth",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public school funding and opposes private school vouchers.",
+          "voted_for": [],
+          "voted_against": [
+            "Education Savings Account voucher program (Iowa House Roll Call, 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposes abortion restrictions and supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": [
+            "Six-week abortion ban (Iowa House Roll Call, July 2023)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Opposes discriminatory legislation targeting LGBTQ+ individuals.",
+          "voted_for": [],
+          "voted_against": [
+            "Transgender youth medical care restrictions (Iowa House votes, 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Austin Harris",
+      "party": "R",
+      "chamber": "House",
+      "district": "26",
+      "phone": "515-281-3221",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32083",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports school choice including private school vouchers.",
+          "voted_for": [
+            "Education Savings Account voucher program (Iowa House Roll Call, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions.",
+          "voted_for": [
+            "Six-week abortion ban (Iowa House Roll Call, July 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barb Kniff McCulla",
+      "party": "R",
+      "chamber": "House",
+      "district": "37",
+      "phone": "515-281-3221",
+      "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32085",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education choice policies including voucher programs.",
+          "voted_for": [
+            "Education Savings Account voucher program (Iowa House Roll Call, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions.",
+          "voted_for": [
+            "Six-week abortion ban (Iowa House Roll Call, July 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

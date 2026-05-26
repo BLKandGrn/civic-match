@@ -1,0 +1,578 @@
+{
+  "state": "KS",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Jerry Moran",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6521",
+      "website": "https://www.moran.senate.gov",
+      "twitter": "@JerryMoran",
+      "instagram": "@senjerrymoran",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Consistently opposes federal environmental regulations and voted against climate-focused legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate Roll Call, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported bipartisan criminal justice reform focused on sentencing.",
+          "voted_for": [
+            "First Step Act (Senate Roll Call, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive tax increases and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate Roll Call, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "mixed",
+          "summary": "Supports hemp and some medical cannabis research while opposing broader legalization.",
+          "voted_for": [
+            "Agricultural Improvement Act/Farm Bill legalizing hemp (Senate Roll Call, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of small business assistance and SBA programs.",
+          "voted_for": [
+            "Paycheck Protection Program and Health Care Enhancement Act (Senate Roll Call, April 2020)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions on reproductive healthcare.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (Senate Roll Call, January 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate Roll Call, February 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Roger Marshall",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4774",
+      "website": "https://www.marshall.senate.gov",
+      "twitter": "@RogerMarshallMD",
+      "instagram": "@senatormarshall",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate Roll Call, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive tax increases and corporate tax hikes.",
+          "voted_for": [],
+          "voted_against": [
+            "American Rescue Plan Act (Senate Roll Call, March 2021)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposes federal marijuana legalization efforts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Strongly opposes abortion rights and supports federal restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate Roll Call, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes expansion of LGBTQ+ civil rights protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate Roll Call, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Derek Schmidt",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-6601",
+      "website": "https://schmidt.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "As Kansas Attorney General, joined lawsuits against EPA regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Defended Kansas abortion restrictions as Attorney General.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Tracey Mann",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-2715",
+      "website": "https://mann.house.gov",
+      "twitter": "@RepMann",
+      "instagram": "@repmann",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations affecting agriculture.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (House Roll Call, November 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports estate tax repeal.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (House Roll Call, November 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business and agricultural assistance programs.",
+          "voted_for": [
+            "Paycheck Protection Program Extension Act (House Roll Call, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and opposes federal protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call, September 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sharice Davids",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-2865",
+      "website": "https://davids.house.gov",
+      "twitter": "@RepDavids",
+      "instagram": "@repdavids",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports clean energy investments and environmental protections.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (House Roll Call, August 2022)",
+            "Build Back Better Act (House Roll Call, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform measures and accountability legislation.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and sentencing changes.",
+          "voted_for": [
+            "First Step Act (House Roll Call, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports tax increases on wealthy individuals and corporations.",
+          "voted_for": [
+            "Build Back Better Act (House Roll Call, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports federal marijuana decriminalization and banking access.",
+          "voted_for": [
+            "Marijuana Opportunity Reinvestment and Expungement Act (House Roll Call, April 2022)",
+            "SAFE Banking Act (House Roll Call, September 2019)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of small business assistance and grant programs.",
+          "voted_for": [
+            "Paycheck Protection Program Extension Act (House Roll Call, March 2021)",
+            "American Rescue Plan Act (House Roll Call, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and federal protections for reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (House Roll Call, September 2021)",
+            "Ensuring Access to Abortion Act (House Roll Call, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of LGBTQ+ civil rights and non-discrimination protections.",
+          "voted_for": [
+            "Equality Act (House Roll Call, February 2021)",
+            "Respect for Marriage Act (House Roll Call, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal funding for public education.",
+          "voted_for": [
+            "American Rescue Plan Act including education funding (House Roll Call, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ron Estes",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-6216",
+      "website": "https://estes.house.gov",
+      "twitter": "@RepRonEstes",
+      "instagram": "@repronestes",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal climate legislation and environmental regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (House Roll Call, November 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive tax increases and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House Roll Call, December 2017)"
+          ],
+          "voted_against": [
+            "Build Back Better Act (House Roll Call, November 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business tax relief and assistance programs.",
+          "voted_for": [
+            "Paycheck Protection Program Extension Act (House Roll Call, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports federal restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes expansion of LGBTQ+ civil rights protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House Roll Call, February 2021)",
+            "Respect for Marriage Act (House Roll Call, December 2022)"
+          ]
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Abi Boatman",
+      "party": "D",
+      "chamber": "House",
+      "district": "86",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for Kansas public schools.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access and opposed constitutional amendment restricting abortion.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam Smith",
+      "party": "R",
+      "chamber": "House",
+      "district": "120",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports school funding with emphasis on accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam Thomas",
+      "party": "R",
+      "chamber": "House",
+      "district": "23",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Voted for school funding increases while supporting accountability reforms.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam Turk",
+      "party": "R",
+      "chamber": "House",
+      "district": "117",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports tax relief and assistance programs for small businesses.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alexis Simmons",
+      "party": "D",
+      "chamber": "House",
+      "district": "58",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access and opposed abortion restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Allen Reavis",
+      "party": "R",
+      "chamber": "House",
+      "district": "63",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported school funding legislation in recent sessions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angel Roeser",
+      "party": "R",
+      "chamber": "House",
+      "district": "67",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with fiscal responsibility measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Martinez",
+      "party": "D",
+      "chamber": "House",
+      "district": "103",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public school funding and teacher pay.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ civil rights and non-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Stiens",
+      "party": "R",
+      "chamber": "House",
+      "district": "39",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Voted for school funding increases in recent legislative sessions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Avery Anderson",
+      "party": "R",
+      "chamber": "House",
+      "district": "72",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports flat tax proposals and opposes progressive tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barb Wasinger",
+      "party": "R",
+      "chamber": "House",
+      "district": "111",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported school funding legislation while advocating for local control.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barbara Ballard",
+      "party": "D",
+      "chamber": "House",
+      "district": "44",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Long-time advocate for increased public education funding in Kansas.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and renewable energy development.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access and opposed abortion restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

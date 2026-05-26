@@ -1,0 +1,828 @@
+{
+  "state": "IL",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Richard J. Durbin",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2152",
+      "website": "https://www.durbin.senate.gov",
+      "twitter": "@SenatorDurbin",
+      "instagram": "@sendurbin",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Consistent supporter of environmental legislation including clean energy and climate action.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy funding (Senate.gov, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Long-time advocate for criminal justice reform including sentencing reform.",
+          "voted_for": [
+            "First Step Act (Senate.gov, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and access to abortion services.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate.gov, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ rights legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate.gov, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Tammy Duckworth",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2854",
+      "website": "https://www.duckworth.senate.gov",
+      "twitter": "@SenDuckworth",
+      "instagram": "@senduckworth",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and clean energy initiatives.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate.gov, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate.gov, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate.gov, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Eric Sorensen",
+      "party": "D",
+      "chamber": "House",
+      "district": "17",
+      "phone": "202-225-5905",
+      "website": "https://sorensen.house.gov",
+      "twitter": "@RepEricSorensen",
+      "instagram": "@repericsorensen",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Former meteorologist who supports climate action and environmental protection.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "As an openly gay member of Congress, strongly supports LGBTQ+ rights.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Delia C. Ramirez",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-5701",
+      "website": "https://ramirez.house.gov",
+      "twitter": "@RepRamirez",
+      "instagram": "@repdeliaramirez",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental justice and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocate for criminal justice reform and reducing incarceration.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and tax fairness.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jonathan L. Jackson",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-0773",
+      "website": "https://jackson.house.gov",
+      "twitter": "@RepJonJackson",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and equity.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Nikki Budzinski",
+      "party": "D",
+      "chamber": "House",
+      "district": "13",
+      "phone": "202-225-2371",
+      "website": "https://budzinski.house.gov",
+      "twitter": "@RepBudzinski",
+      "instagram": "@repbudzinski",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and clean energy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Darin LaHood",
+      "party": "R",
+      "chamber": "House",
+      "district": "16",
+      "phone": "202-225-6201",
+      "website": "https://lahood.house.gov",
+      "twitter": "@RepLaHood",
+      "instagram": "@replahood",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation efforts but opposes strict climate regulations.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act (House.gov, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House.gov, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business funding and tax relief.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Mary E. Miller",
+      "party": "R",
+      "chamber": "House",
+      "district": "15",
+      "phone": "202-225-5271",
+      "website": "https://marymiller.house.gov",
+      "twitter": "@RepMaryMiller",
+      "instagram": "@repmary_miller",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes many environmental regulations, favors agricultural interests.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and increased taxes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes many LGBTQ+ rights measures.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House.gov, December 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jesús G. García",
+      "party": "D",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-8203",
+      "website": "https://chuygarcia.house.gov",
+      "twitter": "@RepChuyGarcia",
+      "instagram": "@repchuygarcia",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of environmental justice and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability and reform measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House.gov, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform and reducing incarceration.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and tax fairness.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and equality.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, December 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Lauren Underwood",
+      "party": "D",
+      "chamber": "House",
+      "district": "14",
+      "phone": "202-225-2976",
+      "website": "https://underwood.house.gov",
+      "twitter": "@RepUnderwood",
+      "instagram": "@repunderwood",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Registered nurse who strongly supports reproductive health rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and equality.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Sean Casten",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-4561",
+      "website": "https://casten.house.gov",
+      "twitter": "@RepCasten",
+      "instagram": "@repcasten",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Clean energy entrepreneur who strongly supports climate action and environmental protection.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and equality.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, December 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Raja Krishnamoorthi",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-3711",
+      "website": "https://krishnamoorthi.house.gov",
+      "twitter": "@CongressmanRaja",
+      "instagram": "@congressmanraja",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aarón Ortíz",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "773-440-8725",
+      "website": "https://www.ilga.gov/house/Rep.asp?MemberID=3160",
+      "twitter": "@RepAaronOrtiz",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights and access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Abdelnasser Rashid",
+      "party": "D",
+      "chamber": "House",
+      "district": "21",
+      "phone": "217-782-3167",
+      "website": "https://www.ilga.gov/house/Rep.asp?MemberID=3161",
+      "twitter": "@RepRashid",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam Niemerg",
+      "party": "R",
+      "chamber": "House",
+      "district": "102",
+      "phone": "217-782-0432",
+      "website": "https://repniemerg.com",
+      "twitter": "@RepNiemerg",
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adriane Johnson",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "30",
+      "phone": "217-782-0498",
+      "website": "https://www.senatoradrianebjohnson.com",
+      "twitter": "@SenAdriane",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis legalization and equity in cannabis industry.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights and access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public school funding increases.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Elik",
+      "party": "R",
+      "chamber": "House",
+      "district": "111",
+      "phone": "217-782-8108",
+      "website": "https://repelik.com",
+      "twitter": "@RepAmyElik",
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business funding and tax relief.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Grant",
+      "party": "R",
+      "chamber": "House",
+      "district": "47",
+      "phone": "217-782-8220",
+      "website": "https://repamygrant.com",
+      "twitter": "@RepAmyGrant",
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights expansion.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Chesney",
+      "party": "R",
+      "chamber": "House",
+      "district": "45",
+      "phone": "217-782-0455",
+      "website": "https://repchesney.com",
+      "twitter": "@RepChesney",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation but opposes strict regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angie Guerrero-Cuellar",
+      "party": "D",
+      "chamber": "House",
+      "district": "22",
+      "phone": "217-782-0167",
+      "website": "https://www.ilga.gov/house/Rep.asp?MemberID=3162",
+      "twitter": "@RepGuerreroCuel",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and equity.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ann Williams",
+      "party": "D",
+      "chamber": "House",
+      "district": "11",
+      "phone": "773-880-9082",
+      "website": "https://www.annmwilliams.com",
+      "twitter": "@RepAnnWilliams",
+      "instagram": "@repannwilliams",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of environmental protection and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis legalization and regulation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive health rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anna Moeller",
+      "party": "D",
+      "chamber": "House",
+      "district": "43",
+      "phone": "847-214-6908",
+      "website": "https://www.repmoeller.com",
+      "twitter": "@RepAnnaMoeller",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anne Stava-Murray",
+      "party": "D",
+      "chamber": "House",
+      "district": "81",
+      "phone": "630-474-0588",
+      "website": "https://repstavamurray.com",
+      "twitter": "@repstavamurray",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anthony DeLuca",
+      "party": "D",
+      "chamber": "House",
+      "district": "80",
+      "phone": "773-445-8128",
+      "website": "https://www.repdeluca.com",
+      "twitter": "@RepDeluca",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

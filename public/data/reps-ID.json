@@ -1,0 +1,519 @@
+{
+  "state": "ID",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "James E. Risch",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2752",
+      "website": "https://www.risch.senate.gov",
+      "twitter": "@SenatorRisch",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Consistently opposes federal environmental regulations and has voted against climate change legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Paris Climate Agreement ratification support (Senate, 2021)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported bipartisan criminal justice reform focused on sentencing.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts, particularly for businesses.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": [
+            "Build Back Better Act with tax increases on high earners (Senate, 2021-2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions on reproductive health access.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act cloture vote (Senate, January 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Has voted against LGBTQ+ rights legislation including same-sex marriage protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mike Crapo",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6142",
+      "website": "https://www.crapo.senate.gov",
+      "twitter": "@MikeCrapo",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes most federal environmental regulations and climate change legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Paris Climate Agreement support (Senate, 2021)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported bipartisan criminal justice reform legislation.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and consistently supports tax reduction policies.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictive legislation.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act cloture vote (Senate, January 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Has voted against LGBTQ+ rights protections including same-sex marriage.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Russ Fulcher",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-6611",
+      "website": "https://fulcher.house.gov",
+      "twitter": "@RepRussFulcher",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and climate change legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act with climate provisions (House vote, November 2021)",
+            "Inflation Reduction Act climate provisions (House vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported bipartisan criminal justice reform legislation.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictive legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Has voted against LGBTQ+ rights protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Michael K. Simpson",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-5531",
+      "website": "https://simpson.house.gov",
+      "twitter": "@CongMikeSimpson",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Has supported some environmental conservation efforts while opposing broader climate regulations.",
+          "voted_for": [
+            "Great American Outdoors Act (House vote, July 2020)"
+          ],
+          "voted_against": [
+            "Build Back Better Act with climate provisions (House vote, November 2021)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported bipartisan criminal justice reform efforts.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive taxation and supports tax reduction policies.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictive legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "mixed",
+          "summary": "Has voted against some LGBTQ+ rights legislation while supporting the Respect for Marriage Act.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, July 2022)"
+          ],
+          "voted_against": [
+            "Equality Act (House vote, February 2021)"
+          ]
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Ali Rabe",
+      "party": "D",
+      "chamber": "House",
+      "district": "16",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/?yr=2024",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Advocates for reproductive health access and has opposed strict abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Idaho abortion ban trigger law (House vote, 2020)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections in Idaho.",
+          "voted_for": [],
+          "voted_against": [
+            "Transgender sports ban legislation (House vote, 2020)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding and educator pay.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Annie Henderson Haws",
+      "party": "D",
+      "chamber": "House",
+      "district": "16B",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health rights and access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barbara Ehardt",
+      "party": "R",
+      "chamber": "House",
+      "district": "33A",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Sponsored legislation restricting transgender participation in sports.",
+          "voted_for": [
+            "H.B. 500 Fairness in Women's Sports Act (House vote, March 2020)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports restrictions on abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ben Adams",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "12",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding as member of Idaho Senate.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ben Fuhriman",
+      "party": "R",
+      "chamber": "House",
+      "district": "30B",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "unclear",
+          "summary": "Voting record on education funding varies.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ben Toews",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "4",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Generally supports education funding in the Idaho Senate.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brad Little",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "208-334-2100",
+      "website": "https://gov.idaho.gov",
+      "twitter": "@GovernorLittle",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Has supported water quality initiatives while opposing federal environmental regulations.",
+          "voted_for": [
+            "Water quality improvement initiatives (Governor's office, 2019-2024)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Signed restrictive abortion legislation into law.",
+          "voted_for": [
+            "Idaho abortion trigger ban (Signed into law, 2020)",
+            "Six-week abortion ban (Signed into law, 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Signed legislation restricting transgender rights.",
+          "voted_for": [
+            "H.B. 500 transgender sports ban (Signed into law, March 2020)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Has supported increased education funding as governor.",
+          "voted_for": [
+            "Teacher pay increase legislation (Governor's budget, 2021-2024)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Has signed tax cuts into law.",
+          "voted_for": [
+            "Income tax reduction legislation (Signed into law, 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brandon Mitchell",
+      "party": "R",
+      "chamber": "House",
+      "district": "6B",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Generally supports education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brandon Shippy",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "9",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding in the Idaho Senate.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brent Crane",
+      "party": "R",
+      "chamber": "House",
+      "district": "13A",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Has sponsored and supported restrictive abortion legislation.",
+          "voted_for": [
+            "Idaho abortion ban legislation (House votes, 2020-2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supports restrictions on LGBTQ+ rights.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brian Lenney",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "13",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "unclear",
+          "summary": "Voting record on education funding varies.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Britt Raybould",
+      "party": "R",
+      "chamber": "House",
+      "district": "34B",
+      "phone": null,
+      "website": "https://legislature.idaho.gov/legislators/membership/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Generally supports education funding initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

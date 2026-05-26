@@ -1,0 +1,714 @@
+{
+  "state": "FL",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Rick Scott",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5274",
+      "website": "https://www.rickscott.senate.gov",
+      "twitter": "@SenRickScott",
+      "instagram": "@senrickscott",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposed major climate legislation and environmental regulations while supporting offshore drilling expansion.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Consistently opposes tax increases on high earners and corporations.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and voted for federal limitations.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (Cosponsored, 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposed federal protections for same-sex marriage and LGBTQ+ employment protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ashley Moody",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3041",
+      "website": "https://www.moody.senate.gov",
+      "twitter": "@SenAshleyMoody",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "As Attorney General, opposed clemency expansions and certain sentencing reforms.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Defended Florida's abortion restrictions as Attorney General and supported overturning Roe v. Wade.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposed recreational marijuana amendments in Florida as Attorney General.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Maxwell Frost",
+      "party": "D",
+      "chamber": "House",
+      "district": "10",
+      "phone": "202-225-2176",
+      "website": "https://frost.house.gov",
+      "twitter": "@RepMaxwellFrost",
+      "instagram": "@repmaxwellfrost",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of climate action and environmental justice initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocates for police reform and accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform including sentencing reform and rehabilitation programs.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports increased taxation on wealthy individuals and corporations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for abortion access and reproductive healthcare.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased federal funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Neal P. Dunn",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-5235",
+      "website": "https://dunn.house.gov",
+      "twitter": "@DrNealDunnFL2",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposed major environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and federal limitations on reproductive healthcare.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on high earners and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Randy Fine",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-3671",
+      "website": "https://fine.house.gov",
+      "twitter": "@VoteRandyFine",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "As state legislator supported school choice and voucher programs while voting for some education funding increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supported abortion restrictions during tenure in Florida Legislature.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported restrictions on LGBTQ+ content in schools as Florida state legislator.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jimmy Patronis",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-4136",
+      "website": "https://patronis.house.gov",
+      "twitter": "@JimmyPatronis",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "As CFO focused on insurance issues related to climate while not prioritizing environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposed recreational marijuana legalization efforts in Florida.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Mike Haridopolos",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-3001",
+      "website": "https://haridopolos.house.gov",
+      "twitter": "@Haridopolos",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "As former Florida Senate President supported education funding while also backing school choice initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Historically opposed tax increases during state legislative tenure.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Scott Franklin",
+      "party": "R",
+      "chamber": "House",
+      "district": "18",
+      "phone": "202-225-1252",
+      "website": "https://franklin.house.gov",
+      "twitter": "@RepFranklin",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposed major climate legislation and environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and federal limitations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxes.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jared Moskowitz",
+      "party": "D",
+      "chamber": "House",
+      "district": "23",
+      "phone": "202-225-7931",
+      "website": "https://moskowitz.house.gov",
+      "twitter": "@RepMoskowitz",
+      "instagram": "@rejmoskowitz",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "As former Florida emergency management director and congressman, advocates for climate resilience and environmental protection.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion access and reproductive healthcare rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Cory Mills",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-2706",
+      "website": "https://mills.house.gov",
+      "twitter": "@RepCoryMills",
+      "instagram": "@repcorymills",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and pro-life policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on high earners and corporations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anna Paulina Luna",
+      "party": "R",
+      "chamber": "House",
+      "district": "13",
+      "phone": "202-225-5961",
+      "website": "https://luna.house.gov",
+      "twitter": "@RepLuna",
+      "instagram": "@repluna",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes major environmental regulations and climate initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and pro-life legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Laurel M. Lee",
+      "party": "R",
+      "chamber": "House",
+      "district": "15",
+      "phone": "202-225-1252",
+      "website": "https://laurellee.house.gov",
+      "twitter": "@RepLaurelLee",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on high earners.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Adam Anderson",
+      "party": "R",
+      "chamber": "House",
+      "district": "57",
+      "phone": "850-717-5057",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=5033",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education funding while also backing school choice programs.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam Botana",
+      "party": "R",
+      "chamber": "House",
+      "district": "80",
+      "phone": "850-717-5080",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4826",
+      "twitter": "@AdamBotana",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports water quality initiatives while opposing strict environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Andrade",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "850-717-5002",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4715",
+      "twitter": "@AlexandradeFLA",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Sponsored and supported abortion restrictions in Florida Legislature.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported legislation restricting LGBTQ+ content in schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Rizo",
+      "party": "R",
+      "chamber": "House",
+      "district": "112",
+      "phone": "850-717-5112",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4877",
+      "twitter": "@AlexRizoFL",
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support and reduced regulations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alexis Calatayud",
+      "party": "R",
+      "chamber": "House",
+      "district": "38",
+      "phone": "850-717-5038",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4883",
+      "twitter": "@AlexisforFLA",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education funding while backing school choice initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Allison Tant",
+      "party": "D",
+      "chamber": "House",
+      "district": "9",
+      "phone": "850-717-5009",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4779",
+      "twitter": "@AllisonTant",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposes abortion restrictions and supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ana Maria Rodriguez",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "40",
+      "phone": "850-487-5040",
+      "website": "https://www.flsenate.gov/Senators/S40",
+      "twitter": "@SenAnaRodriguez",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some environmental initiatives while opposing strict regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education funding while backing school choice programs.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angie Nixon",
+      "party": "D",
+      "chamber": "House",
+      "district": "13",
+      "phone": "850-717-5013",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4825",
+      "twitter": "@angie_nixon",
+      "instagram": "@angie_nixon",
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform and sentencing changes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Vocal advocate for LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anna Eskamani",
+      "party": "D",
+      "chamber": "House",
+      "district": "42",
+      "phone": "850-717-5042",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4748",
+      "twitter": "@AnnaForFlorida",
+      "instagram": "@annaforflorida",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for environmental protection and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Advocates for progressive tax policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Outspoken advocate for reproductive healthcare access and abortion rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anne Gerwig",
+      "party": "R",
+      "chamber": "House",
+      "district": "93",
+      "phone": "850-717-5093",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=5025",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports water quality initiatives while opposing strict environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ashley Gantt",
+      "party": "D",
+      "chamber": "House",
+      "district": "109",
+      "phone": "850-717-5109",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4878",
+      "twitter": "@AshleyVGantt",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and police accountability.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barbara Sharief",
+      "party": "D",
+      "chamber": "House",
+      "district": "35",
+      "phone": "850-717-5035",
+      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=5028",
+      "twitter": "@BarbaraSharief",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

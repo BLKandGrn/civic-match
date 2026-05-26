@@ -1,0 +1,459 @@
+{
+  "state": "HI",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Brian Schatz",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3934",
+      "website": "https://www.schatz.senate.gov",
+      "twitter": "@brianschatz",
+      "instagram": "@brianschatz",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of climate action and environmental protection legislation including ocean conservation.",
+          "voted_for": [
+            "Inflation Reduction Act with climate investments (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy provisions (Senate vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of reproductive health access and abortion rights protections.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Right to Contraception Act (Senate vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports higher taxes on wealthy individuals and corporations to fund social programs.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures including sentencing reform.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Mazie K. Hirono",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6361",
+      "website": "https://www.hirono.senate.gov",
+      "twitter": "@maziehirono",
+      "instagram": "@maziehirono",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Consistent advocate for climate action and environmental justice measures.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of abortion rights and reproductive health access.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Right to Contraception Act (Senate vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Vocal advocate for LGBTQ+ equality and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and sentencing changes.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and higher taxes on corporations.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jill N. Tokuda",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-4906",
+      "website": "https://tokuda.house.gov",
+      "twitter": "@RepTokuda",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate resilience measures as former state legislator and new member of Congress.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supporter of reproductive health rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "As former Chair of Hawaii Senate Education Committee, strong advocate for public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ed Case",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-2726",
+      "website": "https://case.house.gov",
+      "twitter": "@RepEdCase",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection measures including ocean conservation.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act (House vote, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and reproductive health access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "mixed",
+          "summary": "Moderate Democrat who supports some progressive tax measures but has shown fiscal conservatism.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Adrian Tam",
+      "party": "D",
+      "chamber": "House",
+      "district": "24",
+      "phone": "808-586-9460",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=tam",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "First openly gay member of Hawaii House and strong advocate for LGBTQ+ equality.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and decriminalization measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health access and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Perruso",
+      "party": "D",
+      "chamber": "House",
+      "district": "46",
+      "phone": "808-586-9490",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=perruso",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Former public school teacher and union leader, strong advocate for education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Progressive advocate for tax equity and funding social services.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Garrett",
+      "party": "D",
+      "chamber": "House",
+      "district": "22",
+      "phone": "808-586-9455",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=garrett",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental and sustainability measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angus McKelvey",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "808-586-9430",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=mckelvey",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Represents West Maui and supports environmental protection.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anne Lopez",
+      "party": "N",
+      "chamber": "House",
+      "district": null,
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Brandon Elefante",
+      "party": "D",
+      "chamber": "House",
+      "district": "16",
+      "phone": "808-586-9445",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=elefante",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Education Committee member supporting public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental and sustainability initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brenton Awa",
+      "party": "R",
+      "chamber": "House",
+      "district": "23",
+      "phone": "808-586-9465",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=awa",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Republican member supporting small business interests.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Carol Fukunaga",
+      "party": "D",
+      "chamber": "House",
+      "district": "11",
+      "phone": "808-586-6230",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=fukunaga",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Long-serving legislator supporting environmental measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding and public schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Chris Lee",
+      "party": "D",
+      "chamber": "House",
+      "district": "25",
+      "phone": "808-586-9470",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=lee",
+      "twitter": "@chris_lee_hi",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for environmental protection and renewable energy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Has supported cannabis legalization and decriminalization efforts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Data Center Regulation": {
+          "stance": "support",
+          "summary": "Tech-focused legislator who has addressed data privacy and technology regulation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Chris Muraoka",
+      "party": "R",
+      "chamber": "House",
+      "district": "45",
+      "phone": "808-586-9485",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=muraoka",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Republican member supporting business interests.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Chris Todd",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "808-586-9425",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=todd",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Represents Hilo and supports environmental measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Cory Chun",
+      "party": "D",
+      "chamber": "House",
+      "district": "35",
+      "phone": "808-586-8480",
+      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=chun",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

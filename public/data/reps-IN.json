@@ -1,0 +1,630 @@
+{
+  "state": "IN",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Todd Young",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5623",
+      "website": "https://www.young.senate.gov",
+      "twitter": "@SenToddYoung",
+      "instagram": "@sentoddyoung",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation measures while opposing major climate regulations and Clean Power Plan restrictions.",
+          "voted_for": [
+            "Great American Outdoors Act (S. 3422, 116th Congress) (Senate vote, June 2020)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Co-sponsored and voted for bipartisan criminal justice reform legislation.",
+          "voted_for": [
+            "First Step Act (S. 756, 115th Congress) (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Consistently votes against tax increases on corporations and high earners.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (H.R. 1, 115th Congress) (Senate vote, December 2017)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act corporate minimum tax provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Holds anti-abortion positions and votes against federal abortion protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (S. 4132, 117th Congress) (Senate vote, May 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jim Banks",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5623",
+      "website": "https://www.banks.senate.gov",
+      "twitter": "@SenatorBanks",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations and environmental restrictions on energy production.",
+          "voted_for": [],
+          "voted_against": [
+            "Paris Agreement re-entry efforts (House vote as Representative, April 2021)",
+            "Build Back Better Act environmental provisions (House vote, November 2021)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police reform legislation and accountability measures.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (H.R. 1280, 117th Congress) (House vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports permanent tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (H.R. 1, 115th Congress) (House vote, December 2017)"
+          ],
+          "voted_against": [
+            "Build Back Better Act tax provisions (House vote, November 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Consistently opposes abortion rights and federal protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (H.R. 3755, 117th Congress) (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal LGBTQ+ protections and transgender rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (H.R. 5, 117th Congress) (House vote, February 2021)",
+            "Respect for Marriage Act (H.R. 8404, 117th Congress) (House vote, December 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jefferson Shreve",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-2276",
+      "website": "https://shreve.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Mark B. Messmer",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-4636",
+      "website": "https://messmer.house.gov",
+      "twitter": "@RepMessmer",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations and climate initiatives based on state legislative record.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Marlin A. Stutzman",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-4436",
+      "website": "https://stutzman.house.gov",
+      "twitter": "@RepStutzman",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Previously opposed EPA regulations and climate legislation during prior House service.",
+          "voted_for": [],
+          "voted_against": [
+            "Cap and Trade legislation opposition (House votes, 2009-2013)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Consistently opposes tax increases and supports spending cuts.",
+          "voted_for": [],
+          "voted_against": [
+            "American Taxpayer Relief Act (H.R. 8, 112th Congress) (House vote, January 2013)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Erin Houchin",
+      "party": "R",
+      "chamber": "House",
+      "district": "9",
+      "phone": "202-225-5315",
+      "website": "https://houchin.house.gov",
+      "twitter": "@RepHouchin",
+      "instagram": "@rephouchin",
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions based on state legislative record and campaign positions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supported education funding in state legislature while also backing school choice expansion.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Rudy Yakym",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-3915",
+      "website": "https://yakym.house.gov",
+      "twitter": "@RepRudyYakym",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations that impact manufacturing and energy sectors.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Victoria Spartz",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-2276",
+      "website": "https://spartz.house.gov",
+      "twitter": "@RepSpartz",
+      "instagram": "@repspartz",
+      "positions": {
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Voted against federal police reform legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (H.R. 1280, 117th Congress) (House vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax relief measures.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (H.R. 5376, 117th Congress) (House vote, November 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal abortion protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (H.R. 3755, 117th Congress) (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Voted against LGBTQ+ protection legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (H.R. 8404, 117th Congress) (House vote, December 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Frank J. Mrvan",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-2461",
+      "website": "https://mrvan.house.gov",
+      "twitter": "@RepMrvan",
+      "instagram": "@repmrvan",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection while balancing industrial and labor interests.",
+          "voted_for": [
+            "Inflation Reduction Act climate provisions (H.R. 5376, 117th Congress) (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (H.R. 1280, 117th Congress) (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and closing corporate loopholes.",
+          "voted_for": [
+            "Build Back Better Act (H.R. 5376, 117th Congress) (House vote, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports federal protections for reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (H.R. 3755, 117th Congress) (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports federal LGBTQ+ protections and anti-discrimination measures.",
+          "voted_for": [
+            "Respect for Marriage Act (H.R. 8404, 117th Congress) (House vote, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal education funding and teacher support.",
+          "voted_for": [
+            "American Rescue Plan education funding (H.R. 1319, 117th Congress) (House vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "James R. Baird",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-5037",
+      "website": "https://baird.house.gov",
+      "twitter": "@RepJimBaird",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations impacting agriculture and energy.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act climate provisions (H.R. 5376, 117th Congress) (House vote, November 2021)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Voted against federal police reform legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (H.R. 1280, 117th Congress) (House vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on businesses and individuals.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act tax provisions (H.R. 5376, 117th Congress) (House vote, November 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal abortion protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (H.R. 3755, 117th Congress) (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Voted against LGBTQ+ protection legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (H.R. 5, 117th Congress) (House vote, February 2021)",
+            "Respect for Marriage Act (H.R. 8404, 117th Congress) (House vote, December 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "André Carson",
+      "party": "D",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-4011",
+      "website": "https://carson.house.gov",
+      "twitter": "@RepAndreCarson",
+      "instagram": "@repandrecarson",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strongly supports environmental protection and climate action legislation.",
+          "voted_for": [
+            "Inflation Reduction Act (H.R. 5376, 117th Congress) (House vote, August 2022)",
+            "Build Back Better Act (H.R. 5376, 117th Congress) (House vote, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Strongly supports police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (H.R. 1280, 117th Congress) (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports comprehensive criminal justice reform and sentencing reform.",
+          "voted_for": [
+            "First Step Act (H.R. 5682, 115th Congress) (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and closing tax loopholes for wealthy individuals and corporations.",
+          "voted_for": [
+            "Build Back Better Act (H.R. 5376, 117th Congress) (House vote, November 2021)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (H.R. 1, 115th Congress) (House vote, December 2017)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis decriminalization and legalization efforts.",
+          "voted_for": [
+            "Marijuana Opportunity Reinvestment and Expungement (MORE) Act (H.R. 3617, 117th Congress) (House vote, April 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strongly supports reproductive health rights and federal abortion protections.",
+          "voted_for": [
+            "Women's Health Protection Act (H.R. 3755, 117th Congress) (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strongly supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [
+            "Equality Act (H.R. 5, 117th Congress) (House vote, February 2021)",
+            "Respect for Marriage Act (H.R. 8404, 117th Congress) (House vote, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal funding for public schools and education programs.",
+          "voted_for": [
+            "American Rescue Plan education funding (H.R. 1319, 117th Congress) (House vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aaron Freeman",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "32",
+      "phone": "317-232-9984",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=SEN000294",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supported some sentencing reform while maintaining tough-on-crime positions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education funding but also strong advocate for school choice and voucher expansion.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alaina Shonkwiler",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "29",
+      "phone": "317-232-9400",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=SEN000324",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Alex Burton",
+      "party": "D",
+      "chamber": "House",
+      "district": "77",
+      "phone": "317-234-9082",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=REP000377",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Alex Zimmerman",
+      "party": "R",
+      "chamber": "House",
+      "district": "67",
+      "phone": "317-232-9600",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=REP000405",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Andrea Hunley",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "46",
+      "phone": "317-232-9400",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=SEN000328",
+      "twitter": "@senatorhunley",
+      "instagram": null,
+      "positions": {
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocates for police accountability and reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strongly opposes abortion restrictions and supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": [
+            "SB 1 abortion ban (Indiana Senate vote, August 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and opposes discriminatory legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Ireland",
+      "party": "R",
+      "chamber": "House",
+      "district": "90",
+      "phone": "317-232-9600",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=REP000406",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Beau Baird",
+      "party": "R",
+      "chamber": "House",
+      "district": "44",
+      "phone": "317-232-9600",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=REP000404",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Becky Cash",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "25",
+      "phone": "317-232-9400",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=SEN000323",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Ben Smaltz",
+      "party": "R",
+      "chamber": "House",
+      "district": "52",
+      "phone": "317-232-9815",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=REP000258",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and voted for strict abortion ban.",
+          "voted_for": [
+            "SB 1 abortion ban (Indiana House vote, August 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Blake Doriot",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "12",
+      "phone": "317-232-9400",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=SEN000302",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Blake Johnson",
+      "party": "D",
+      "chamber": "House",
+      "district": "100",
+      "phone": "317-232-9600",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=REP000391",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Bob Behning",
+      "party": "R",
+      "chamber": "House",
+      "district": "91",
+      "phone": "317-232-9677",
+      "website": "http://iga.in.gov/legislative/find-legislators/legislator/?id=REP000163",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "As Education Committee chair, supports education funding while also championing school choice expansion.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

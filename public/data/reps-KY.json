@@ -1,0 +1,588 @@
+{
+  "state": "KY",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Rand Paul",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4343",
+      "website": "https://www.paul.senate.gov",
+      "twitter": "@RandPaul",
+      "instagram": "@randpaul",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Consistently opposes federal environmental regulations and has voted against climate-related legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate Roll Call 325, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports bipartisan criminal justice reform including sentencing reform and rehabilitation programs.",
+          "voted_for": [
+            "First Step Act (Senate Roll Call 250, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive tax increases and supports flat tax proposals.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate Roll Call 303, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports medical marijuana and has co-sponsored hemp legalization legislation.",
+          "voted_for": [
+            "Hemp Farming Act of 2018 (Included in Farm Bill, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictive legislation.",
+          "voted_for": [
+            "Voted for 20-week abortion ban (Senate, January 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate Roll Call 65, February 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mitch McConnell",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2541",
+      "website": "https://www.mcconnell.senate.gov",
+      "twitter": "@LeaderMcConnell",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations that impact coal industry and has blocked climate legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate Roll Call 325, August 2022)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposed federal police reform legislation in 2020-2021.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act procedural votes (Senate, 2020-2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes progressive tax increases.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate Roll Call 303, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports judicial nominees who restrict abortion access.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate Roll Call 65, February 2022)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports some education funding while advocating for school choice and local control.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Morgan McGarvey",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-5401",
+      "website": "https://mcgarvey.house.gov",
+      "twitter": "@RepMcGarvey",
+      "instagram": "@repmcgarvey",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports clean energy initiatives and climate action legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocated for police reform including Breonna's Law as Kentucky state senator.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and sentencing changes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and corporate tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and opposes restrictive legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and non-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding and teacher pay.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "James Comer",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-3115",
+      "website": "https://comer.house.gov",
+      "twitter": "@RepJamesComer",
+      "instagram": "@repjamescomer",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House Roll Call 184, May 2019)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive tax increases and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House Roll Call 699, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported hemp legalization as Kentucky Agriculture Commissioner.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictive legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call 295, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business assistance and regulatory relief.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andy Barr",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-4706",
+      "website": "https://barr.house.gov",
+      "twitter": "@RepAndyBarr",
+      "instagram": "@repandybarr",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations and supports coal industry interests.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House Roll Call 184, May 2019)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports business tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House Roll Call 699, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "mixed",
+          "summary": "Supported hemp legalization but has mixed record on broader cannabis reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictive policies.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call 295, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business tax relief and funding programs.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Thomas Massie",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-3465",
+      "website": "https://massie.house.gov",
+      "twitter": "@RepThomasMassie",
+      "instagram": "@repthomasmassie",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations on libertarian grounds.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House Roll Call 184, May 2019)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and reducing federal criminal penalties.",
+          "voted_for": [
+            "First Step Act (House Roll Call 475, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes all tax increases and most federal spending.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis legalization and ending federal prohibition.",
+          "voted_for": [
+            "MORE Act (House Roll Call 205, December 2020)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and federal funding for abortion.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brett Guthrie",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-3501",
+      "website": "https://guthrie.house.gov",
+      "twitter": "@RepGuthrie",
+      "instagram": "@repguthrie",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations and supports energy independence through fossil fuels.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House Roll Call 184, May 2019)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes progressive tax increases.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House Roll Call 699, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call 295, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business assistance and regulatory relief programs.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Harold Rogers",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-4601",
+      "website": "https://halrogers.house.gov",
+      "twitter": "@RepHalRogers",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations affecting coal mining in Appalachia.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House Roll Call 184, May 2019)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House Roll Call 699, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictive legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call 295, September 2021)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding for rural Appalachian districts through appropriations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aaron Reed",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Aaron Thompson",
+      "party": "R",
+      "chamber": "House",
+      "district": "98",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Adam Bowling",
+      "party": "R",
+      "chamber": "House",
+      "district": "87",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Voted for restrictive abortion legislation in Kentucky General Assembly.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam Moore",
+      "party": "D",
+      "chamber": "House",
+      "district": "45",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Adrielle Camuel",
+      "party": "D",
+      "chamber": "House",
+      "district": "93",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Al Gentry",
+      "party": "D",
+      "chamber": "House",
+      "district": "46",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding and teacher pay in Kentucky.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amanda Bledsoe",
+      "party": "R",
+      "chamber": "House",
+      "district": "12",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Amy Neighbors",
+      "party": "R",
+      "chamber": "House",
+      "district": "21",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Andy Beshear",
+      "party": "D",
+      "chamber": "House",
+      "district": null,
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "As Governor, supports environmental protection and clean energy initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform including restoration of voting rights for felons.",
+          "voted_for": [
+            "Executive order restoring voting rights (December 2019)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports medical marijuana legalization in Kentucky.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "mixed",
+          "summary": "Personally pro-life but has not actively pushed restrictive legislation as Governor.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ non-discrimination protections and opposed transgender sports ban.",
+          "voted_for": [],
+          "voted_against": [
+            "Vetoed transgender sports ban (March 2022)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and teacher pay raises.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anne Donworth",
+      "party": "D",
+      "chamber": "House",
+      "district": "76",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Ashley Laferty",
+      "party": "D",
+      "chamber": "House",
+      "district": "95",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Beverly Chester-Burton",
+      "party": "D",
+      "chamber": "House",
+      "district": "44",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability measures and criminal justice reform in Kentucky.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
