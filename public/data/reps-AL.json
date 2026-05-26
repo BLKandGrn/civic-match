@@ -1,6 +1,6 @@
 {
   "state": "AL",
-  "generated": "2026-05-25",
+  "generated": "2026-05-26",
   "federal": [
     {
       "name": "Tommy Tuberville",
@@ -14,56 +14,74 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Tuberville has opposed major environmental regulations and voted against climate-related legislation.",
+          "summary": "Consistently opposes federal environmental regulations and supports fossil fuel development.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+            "Inflation Reduction Act climate provisions (Senate Roll Call, August 2022)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Tuberville has supported restrictions on abortion access and opposed federal protections.",
-          "voted_for": [],
+          "summary": "Opposes federal protections for abortion access and supports restrictions.",
+          "voted_for": [
+            "Voted for Pain-Capable Unborn Child Protection Act cosponsorship (Congress.gov, 2021)"
+          ],
           "voted_against": [
-            "Women's Health Protection Act (Senate vote, February 2022)",
-            "Women's Health Protection Act (Senate vote, May 2022)"
+            "Women's Health Protection Act (Senate Roll Call, February 2022)",
+            "Women's Health Protection Act second vote (Senate Roll Call, May 2022)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Tuberville voted against federal protections for same-sex marriage.",
+          "summary": "Opposes federal LGBTQ+ civil rights protections and transgender rights legislation.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
+            "Respect for Marriage Act (Senate Roll Call, November 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on wealthy individuals and corporations.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act tax provisions (Senate Roll Call, August 2022)"
           ]
         }
       }
     },
     {
-      "name": "Katie Boyd Britt",
+      "name": "Katie Britt",
       "party": "R",
       "chamber": "Senate",
       "district": null,
       "phone": "202-224-5744",
       "website": "https://www.britt.senate.gov",
       "twitter": "@SenKatieBritt",
-      "instagram": "@senkatiebrittoffice",
+      "instagram": "@senkatiebrittofficial",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Britt has opposed Biden administration environmental regulations and climate initiatives.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Britt has publicly opposed abortion access and supported restrictions.",
+          "summary": "Opposes aggressive environmental regulations and supports energy independence through fossil fuels.",
           "voted_for": [],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Britt has advocated for small business support and reduced regulatory burdens.",
+          "summary": "Supports expanded small business access to capital and regulatory relief.",
+          "voted_for": [
+            "Cosponsored Small Business Regulatory Flexibility Act (Congress.gov, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal abortion rights protections and supports state-level restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal protections for transgender rights and LGBTQ+ civil rights expansion.",
           "voted_for": [],
           "voted_against": []
         }
@@ -81,19 +99,37 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Figures has expressed support for environmental protection and climate action in his campaign.",
+          "summary": "Supports clean energy investment and environmental justice initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform measures and increased accountability.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform and reducing mass incarceration.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Figures campaigned on protecting reproductive rights and access to healthcare.",
+          "summary": "Supports federal protections for reproductive rights and abortion access.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Figures has supported equality and non-discrimination protections for LGBTQ+ individuals.",
+          "summary": "Supports LGBTQ+ civil rights protections and equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal investment in public education.",
           "voted_for": [],
           "voted_against": []
         }
@@ -104,61 +140,85 @@
       "party": "R",
       "chamber": "House",
       "district": "1",
-      "phone": "202-225-4931",
+      "phone": "202-225-4901",
       "website": "https://barrymoore.house.gov",
       "twitter": "@RepBarryMoore",
       "instagram": "@repbarrymoore",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Moore has opposed environmental regulations he views as harmful to energy independence.",
-          "voted_for": [],
+          "summary": "Opposes federal environmental regulations that impact energy production and agriculture.",
+          "voted_for": [
+            "Lower Energy Costs Act (House Roll Call, March 2023)"
+          ],
           "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Moore has opposed federal police reform legislation and supported law enforcement funding.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
-          ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Moore has consistently voted for abortion restrictions and against federal protections.",
+          "summary": "Opposes abortion rights and supports federal restrictions.",
+          "voted_for": [
+            "Cosponsored Life at Conception Act (Congress.gov, 2021)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal LGBTQ+ civil rights protections.",
           "voted_for": [],
           "voted_against": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Respect for Marriage Act (House Roll Call, December 2022)"
           ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxes across income levels.",
+          "voted_for": [],
+          "voted_against": []
         }
       }
     },
     {
-      "name": "Dale W. Strong",
+      "name": "Dale Strong",
       "party": "R",
       "chamber": "House",
       "district": "5",
       "phone": "202-225-4801",
       "website": "https://strong.house.gov",
       "twitter": "@RepDaleStrong",
-      "instagram": "@repdalestrong",
+      "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Strong has opposed regulations that he believes burden businesses and energy producers.",
-          "voted_for": [],
+          "summary": "Opposes extensive federal environmental regulations on businesses.",
+          "voted_for": [
+            "Lower Energy Costs Act (House Roll Call, March 2023)"
+          ],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Strong has advocated for small business support and economic development in North Alabama.",
+          "summary": "Supports small business tax relief and reduced regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal abortion protections and supports restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal transgender rights protections and same-sex marriage legislation.",
           "voted_for": [],
           "voted_against": []
         }
       }
     },
     {
-      "name": "Gary J. Palmer",
+      "name": "Gary Palmer",
       "party": "R",
       "chamber": "House",
       "district": "6",
@@ -169,38 +229,45 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Palmer has consistently opposed environmental regulations and climate legislation.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Palmer opposed the George Floyd Justice in Policing Act and similar reform measures.",
-          "voted_for": [],
+          "summary": "Opposes EPA regulations and climate change legislation favoring fossil fuel development.",
+          "voted_for": [
+            "Lower Energy Costs Act (House Roll Call, March 2023)"
+          ],
           "voted_against": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
+            "Climate Action Now Act (House Roll Call, May 2019)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Palmer has a consistent record of supporting abortion restrictions.",
-          "voted_for": [],
+          "summary": "Opposes abortion rights and supports federal restrictions.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (House Roll Call, October 2017)"
+          ],
           "voted_against": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Women's Health Protection Act (House Roll Call, September 2021)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Palmer voted against same-sex marriage protections.",
+          "summary": "Opposes federal LGBTQ+ civil rights protections and transgender rights legislation.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (House vote, July 2022)"
+            "Respect for Marriage Act (House Roll Call, December 2022)",
+            "Equality Act (House Roll Call, February 2021)"
           ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on high earners and corporations.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House Roll Call, December 2017)"
+          ],
+          "voted_against": []
         }
       }
     },
     {
-      "name": "Terri A. Sewell",
+      "name": "Terri Sewell",
       "party": "D",
       "chamber": "House",
       "district": "7",
@@ -211,61 +278,73 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Sewell has supported environmental protection and climate action legislation.",
+          "summary": "Supports clean energy investment and environmental justice for disadvantaged communities.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (House vote, August 2022)"
+            "Inflation Reduction Act (House Roll Call, August 2022)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Sewell has been a strong advocate for police reform and accountability measures.",
+          "summary": "Supports federal police reform including the George Floyd Justice in Policing Act.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
+            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Sewell has supported criminal justice reform initiatives including sentencing reform.",
+          "summary": "Supports criminal justice reform including sentencing reform and prison rehabilitation.",
           "voted_for": [
-            "First Step Act (House vote, December 2018)"
+            "First Step Act (House Roll Call, December 2018)"
           ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Sewell has supported tax policies that increase rates on higher earners.",
-          "voted_for": [],
+          "summary": "Supports progressive taxation with higher rates for wealthy individuals and corporations.",
+          "voted_for": [
+            "Build Back Better Act tax provisions (House Roll Call, November 2021)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (House Roll Call, December 2017)"
+          ]
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Advocates for addressing food deserts in rural and urban communities.",
+          "voted_for": [
+            "Farm Bill with SNAP enhancements (House Roll Call, 2018)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Sewell has consistently voted to protect and expand reproductive healthcare access.",
+          "summary": "Supports federal protections for abortion rights and reproductive healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Women's Health Protection Act (House Roll Call, September 2021)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Sewell has a strong record of supporting LGBTQ+ equality and protections.",
+          "summary": "Supports federal LGBTQ+ civil rights protections and equality legislation.",
           "voted_for": [
-            "Respect for Marriage Act (House vote, July 2022)",
-            "Equality Act (House vote, February 2021)"
+            "Respect for Marriage Act (House Roll Call, December 2022)",
+            "Equality Act (House Roll Call, February 2021)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Sewell has consistently advocated for increased federal funding for public education.",
+          "summary": "Supports increased federal funding for public schools and Title I programs.",
           "voted_for": [],
           "voted_against": []
         }
       }
     },
     {
-      "name": "Robert B. Aderholt",
+      "name": "Robert Aderholt",
       "party": "R",
       "chamber": "House",
       "district": "4",
@@ -276,75 +355,85 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Aderholt has opposed environmental regulations he views as burdensome to rural communities.",
-          "voted_for": [],
+          "summary": "Opposes aggressive EPA regulations and climate legislation favoring traditional energy.",
+          "voted_for": [
+            "Lower Energy Costs Act (House Roll Call, March 2023)"
+          ],
           "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Aderholt opposed federal police reform legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
-          ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Aderholt has consistently supported abortion restrictions throughout his career.",
-          "voted_for": [],
+          "summary": "Opposes abortion rights and supports federal restrictions and defunding Planned Parenthood.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (House Roll Call, October 2017)"
+          ],
           "voted_against": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Women's Health Protection Act (House Roll Call, September 2021)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Aderholt voted against federal protections for same-sex marriage.",
+          "summary": "Opposes federal LGBTQ+ civil rights protections.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (House vote, July 2022)"
+            "Respect for Marriage Act (House Roll Call, December 2022)",
+            "Equality Act (House Roll Call, February 2021)"
           ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower tax rates.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House Roll Call, December 2017)"
+          ],
+          "voted_against": []
         }
       }
     },
     {
-      "name": "Mike D. Rogers",
+      "name": "Mike Rogers",
       "party": "R",
       "chamber": "House",
       "district": "3",
       "phone": "202-225-3261",
       "website": "https://mikerogers.house.gov",
       "twitter": "@RepMikeRogersAL",
-      "instagram": "@repmikerogersalabama",
+      "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Rogers has opposed environmental regulations that he believes harm economic development.",
-          "voted_for": [],
+          "summary": "Opposes federal environmental regulations that impact energy production and military readiness.",
+          "voted_for": [
+            "Lower Energy Costs Act (House Roll Call, March 2023)"
+          ],
           "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Rogers opposed the George Floyd Justice in Policing Act.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
-          ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Rogers has a consistent record of opposing abortion access.",
-          "voted_for": [],
+          "summary": "Opposes federal abortion protections and supports restrictions.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (House Roll Call, October 2017)"
+          ],
           "voted_against": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Women's Health Protection Act (House Roll Call, September 2021)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Rogers voted against same-sex marriage protections.",
+          "summary": "Opposes federal LGBTQ+ civil rights expansions.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (House vote, July 2022)"
+            "Respect for Marriage Act (House Roll Call, December 2022)",
+            "Equality Act (House Roll Call, February 2021)"
           ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower tax rates for all income levels.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House Roll Call, December 2017)"
+          ],
+          "voted_against": []
         }
       }
     }
@@ -362,9 +451,17 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "McCampbell has supported increased funding for public education in rural Alabama.",
+          "summary": "Supports increased state funding for public schools and teacher pay raises.",
           "voted_for": [],
           "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposes Alabama's strict abortion ban and supports reproductive rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Alabama Human Life Protection Act (Alabama Legislature, May 2019)"
+          ]
         }
       }
     },
@@ -380,13 +477,13 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Clarke has advocated for increased education funding and teacher pay.",
+          "summary": "Supports increased education funding for Birmingham-area schools.",
           "voted_for": [],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Clarke has opposed strict abortion restrictions in the Alabama Legislature.",
+          "summary": "Supports sentencing reform and reducing incarceration rates.",
           "voted_for": [],
           "voted_against": []
         }
@@ -404,8 +501,10 @@
       "positions": {
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Baker has supported Alabama's strict abortion restrictions.",
-          "voted_for": [],
+          "summary": "Supports Alabama's abortion restrictions and pro-life legislation.",
+          "voted_for": [
+            "Alabama Human Life Protection Act (Alabama Legislature, May 2019)"
+          ],
           "voted_against": []
         }
       }
@@ -420,10 +519,12 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Treadaway has supported education budget increases as a member of the education budget committee.",
-          "voted_for": [],
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports Alabama's strict abortion ban.",
+          "voted_for": [
+            "Alabama Human Life Protection Act (Alabama Legislature, May 2019)"
+          ],
           "voted_against": []
         }
       }
@@ -438,9 +539,17 @@
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Cannabis Policy": {
+          "stance": "mixed",
+          "summary": "Supported limited medical marijuana legalization in Alabama.",
+          "voted_for": [
+            "Alabama Medical Cannabis Act (Alabama Legislature, May 2021)"
+          ],
+          "voted_against": []
+        },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Jones supported Alabama's abortion ban legislation.",
+          "summary": "Supports abortion restrictions in Alabama.",
           "voted_for": [],
           "voted_against": []
         }
@@ -458,7 +567,7 @@
       "positions": {
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Sorrell has supported abortion restrictions in the Alabama Legislature.",
+          "summary": "Supports Alabama's pro-life legislation and abortion restrictions.",
           "voted_for": [],
           "voted_against": []
         }
@@ -474,10 +583,12 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Whitt has voted for education budget increases during his tenure.",
-          "voted_for": [],
+        "Cannabis Policy": {
+          "stance": "mixed",
+          "summary": "Supported limited medical marijuana legalization in Alabama.",
+          "voted_for": [
+            "Alabama Medical Cannabis Act (Alabama Legislature, May 2021)"
+          ],
           "voted_against": []
         }
       }
@@ -489,32 +600,32 @@
       "district": "53",
       "phone": "334-242-7700",
       "website": null,
-      "twitter": "@AnthonyDaniels",
+      "twitter": "@antdaniels53",
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Daniels, as House Minority Leader, has been a strong advocate for public education funding.",
+          "summary": "Strongly supports increased education funding and teacher pay raises as House Minority Leader.",
           "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Daniels has supported criminal justice reform measures in the Alabama Legislature.",
+          "summary": "Supports criminal justice reform and sentencing changes.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Daniels opposed Alabama's strict abortion ban.",
+          "summary": "Opposes Alabama's abortion ban and supports reproductive rights.",
           "voted_for": [],
           "voted_against": [
-            "Alabama Human Life Protection Act (House vote, May 2019)"
+            "Alabama Human Life Protection Act (Alabama Legislature, May 2019)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Daniels has opposed discriminatory legislation targeting LGBTQ+ individuals.",
+          "summary": "Supports LGBTQ+ civil rights and opposes discriminatory legislation.",
           "voted_for": [],
           "voted_against": []
         }
@@ -532,8 +643,10 @@
       "positions": {
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Weaver supported Alabama's abortion restrictions.",
-          "voted_for": [],
+          "summary": "Supports Alabama's abortion restrictions and pro-life policies.",
+          "voted_for": [
+            "Alabama Human Life Protection Act (Alabama Legislature, May 2019)"
+          ],
           "voted_against": []
         }
       }
@@ -548,10 +661,12 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Mooney has supported education funding as a member of the education committee.",
-          "voted_for": [],
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports Alabama's strict abortion ban.",
+          "voted_for": [
+            "Alabama Human Life Protection Act (Alabama Legislature, May 2019)"
+          ],
           "voted_against": []
         }
       }
@@ -561,22 +676,32 @@
       "party": "R",
       "chamber": "Senate",
       "district": "3",
-      "phone": "334-242-7892",
+      "phone": "334-242-7897",
       "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Orr, as Chair of the Senate Education Budget Committee, has overseen education funding increases.",
-          "voted_for": [],
+          "summary": "As chair of Senate education budget committee, supports education funding increases.",
+          "voted_for": [
+            "Education Trust Fund Budget increases (Alabama Legislature, multiple years)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Sponsored Alabama's medical marijuana legalization legislation.",
+          "voted_for": [
+            "Alabama Medical Cannabis Act (Alabama Legislature, May 2021)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Orr supported Alabama's strict abortion ban legislation.",
+          "summary": "Supports Alabama's abortion restrictions.",
           "voted_for": [
-            "Alabama Human Life Protection Act (Senate vote, May 2019)"
+            "Alabama Human Life Protection Act (Alabama Legislature, May 2019)"
           ],
           "voted_against": []
         }
@@ -585,24 +710,32 @@
     {
       "name": "Barbara Boyd",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "32",
-      "phone": "334-242-7700",
+      "phone": "334-242-7855",
       "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Boyd has consistently supported increased funding for public schools.",
+          "summary": "Supports increased education funding for rural Alabama schools.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and alternatives to incarceration.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Boyd opposed Alabama's abortion ban.",
+          "summary": "Opposes Alabama's abortion ban and supports reproductive rights.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Alabama Human Life Protection Act (Alabama Legislature, May 2019)"
+          ]
         }
       }
     }

@@ -16,13 +16,14 @@
           "stance": "support",
           "summary": "Supports clean energy investments and climate action legislation.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with environmental provisions (Senate vote, August 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion access and voted to codify Roe v. Wade protections.",
+          "summary": "Supports federal protections for abortion access and reproductive healthcare.",
           "voted_for": [
             "Women's Health Protection Act (Senate vote, February 2022)",
             "Right to Contraception Act (Senate vote, July 2022)"
@@ -31,25 +32,23 @@
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ protections and marriage equality.",
+          "summary": "Supports federal protections for LGBTQ+ individuals including marriage equality.",
           "voted_for": [
             "Respect for Marriage Act (Senate vote, November 2022)"
           ],
           "voted_against": []
         },
-        "Progressive Taxation": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports tax provisions targeting wealthy individuals and corporations.",
-          "voted_for": [
-            "Inflation Reduction Act including corporate minimum tax (Senate vote, August 2022)"
-          ],
+          "summary": "Supports criminal justice reforms and sentencing modernization.",
+          "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Progressive Taxation": {
           "stance": "support",
-          "summary": "Supports increased federal education funding.",
+          "summary": "Supports measures to ensure corporations and wealthy individuals pay fair share.",
           "voted_for": [
-            "American Rescue Plan with education funding (Senate vote, March 2021)"
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
           ],
           "voted_against": []
         }
@@ -67,43 +66,26 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supported clean energy and climate legislation during House tenure.",
-          "voted_for": [
-            "Inflation Reduction Act (House vote, August 2022)"
-          ],
+          "summary": "Long-standing support for climate action and environmental protection from House tenure.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Consistently supported abortion access and reproductive rights in the House.",
-          "voted_for": [
-            "Women's Health Protection Act (House vote, September 2021)"
-          ],
+          "summary": "Strong advocate for abortion access and reproductive healthcare rights.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supported LGBTQ+ equality legislation throughout House career.",
-          "voted_for": [
-            "Respect for Marriage Act (House vote, December 2022)",
-            "Equality Act (House vote, February 2021)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supported criminal justice reform measures in the House.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
-          ],
+          "summary": "Consistent supporter of LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supported increased education funding during House tenure.",
-          "voted_for": [
-            "American Rescue Plan (House vote, March 2021)"
-          ],
+          "summary": "Advocates for increased federal education funding and teacher pay.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -115,24 +97,24 @@
       "district": "7",
       "phone": "202-225-2435",
       "website": "https://grijalva.house.gov",
-      "twitter": "@RepAGrijalva",
+      "twitter": "@RepAdelitaAZ",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Follows progressive environmental protection policies as successor to Raúl Grijalva's district.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "Supports environmental protection and climate action initiatives.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and abortion access.",
+          "summary": "Supports reproductive healthcare access and abortion rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -145,26 +127,24 @@
       "district": "2",
       "phone": "202-225-2542",
       "website": "https://crane.house.gov",
-      "twitter": "@RepEliCrane",
-      "instagram": "@repelijahcrane",
+      "twitter": "@RepElijahCrane",
+      "instagram": null,
       "positions": {
-        "Reproductive Health Rights": {
+        "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes abortion access and supports pro-life legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "Women's Health Protection Act (House vote, July 2022)"
-          ]
-        },
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Opposes tax increases and supports conservative tax policy.",
+          "summary": "Opposes federal climate regulations and supports energy independence.",
           "voted_for": [],
           "voted_against": []
         },
-        "Environmental Protection": {
+        "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Generally opposes Biden administration climate regulations.",
+          "summary": "Opposes abortion access and supports restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business tax relief and reduced regulations.",
           "voted_for": [],
           "voted_against": []
         }
@@ -180,23 +160,21 @@
       "twitter": "@RepCiscomani",
       "instagram": "@repciscomani",
       "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation efforts while opposing strict climate regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business tax relief and funding initiatives.",
+          "summary": "Advocates for small business support and tax relief.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion access legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "Women's Health Protection Act (House vote, July 2022)"
-          ]
-        },
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Opposes tax increases and supports business tax relief.",
+          "summary": "Generally opposes abortion access with limited exceptions.",
           "voted_for": [],
           "voted_against": []
         }
@@ -214,7 +192,7 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports climate action and clean energy investments.",
+          "summary": "Supports climate action and environmental protection measures.",
           "voted_for": [
             "Inflation Reduction Act (House vote, August 2022)"
           ],
@@ -222,7 +200,7 @@
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion access and reproductive rights.",
+          "summary": "Supports federal protections for reproductive healthcare access.",
           "voted_for": [
             "Women's Health Protection Act (House vote, September 2021)"
           ],
@@ -230,27 +208,16 @@
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (House vote, December 2022)",
-            "Equality Act (House vote, February 2021)"
+            "Respect for Marriage Act (House vote, July 2022)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased federal education funding as former Phoenix mayor.",
-          "voted_for": [
-            "American Rescue Plan (House vote, March 2021)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supports police reform and criminal justice reform measures.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
-          ],
+          "summary": "Advocates for increased federal education funding.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -267,36 +234,21 @@
       "positions": {
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and serves on House Ways and Means Committee advocating for tax reform.",
+          "summary": "Opposes tax increases and supports tax cuts and simplification.",
           "voted_for": [],
-          "voted_against": [
-            "Inflation Reduction Act (House vote, August 2022)"
-          ]
+          "voted_against": []
         },
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Opposes abortion access legislation.",
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for small business tax relief and regulatory reduction.",
           "voted_for": [],
-          "voted_against": [
-            "Women's Health Protection Act (House vote, July 2022)"
-          ]
-        },
-        "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Opposes LGBTQ+ equality legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "Respect for Marriage Act (House vote, December 2022)",
-            "Equality Act (House vote, February 2021)"
-          ]
+          "voted_against": []
         },
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes climate regulations and voted against clean energy legislation.",
+          "summary": "Opposes federal climate regulations, favors market-based approaches.",
           "voted_for": [],
-          "voted_against": [
-            "Inflation Reduction Act (House vote, August 2022)"
-          ]
+          "voted_against": []
         }
       }
     },
@@ -312,44 +264,33 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes climate regulations and environmental restrictions on energy development.",
+          "summary": "Opposes climate regulations and supports fossil fuel development.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act (House vote, August 2022)"
+            "Build Back Better Act climate provisions (House vote, November 2021)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "summary": "Opposes abortion access and supports restrictions.",
           "voted_for": [],
           "voted_against": [
-            "Women's Health Protection Act (House vote, July 2022)"
+            "Women's Health Protection Act (House vote, September 2021)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes LGBTQ+ equality legislation.",
+          "summary": "Opposes LGBTQ+ rights legislation and protections.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (House vote, December 2022)",
-            "Equality Act (House vote, February 2021)"
-          ]
-        },
-        "Criminal Justice Reform": {
-          "stance": "oppose",
-          "summary": "Opposes police reform legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
+            "Respect for Marriage Act (House vote, July 2022)"
           ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports conservative fiscal policy.",
+          "summary": "Opposes tax increases and supports tax cuts.",
           "voted_for": [],
-          "voted_against": [
-            "Inflation Reduction Act (House vote, August 2022)"
-          ]
+          "voted_against": []
         }
       }
     },
@@ -361,48 +302,35 @@
       "phone": "202-225-2635",
       "website": "https://biggs.house.gov",
       "twitter": "@RepAndyBiggsAZ",
-      "instagram": "@repandybiggsaz",
+      "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes climate regulations and clean energy mandates.",
+          "summary": "Opposes climate regulations and federal environmental mandates.",
           "voted_for": [],
-          "voted_against": [
-            "Inflation Reduction Act (House vote, August 2022)"
-          ]
+          "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "summary": "Opposes abortion access and supports restrictions.",
           "voted_for": [],
           "voted_against": [
-            "Women's Health Protection Act (House vote, July 2022)"
+            "Women's Health Protection Act (House vote, September 2021)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes LGBTQ+ equality legislation.",
+          "summary": "Opposes LGBTQ+ rights legislation.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (House vote, December 2022)",
-            "Equality Act (House vote, February 2021)"
-          ]
-        },
-        "Criminal Justice Reform": {
-          "stance": "oppose",
-          "summary": "Opposes police reform legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
+            "Respect for Marriage Act (House vote, July 2022)"
           ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports reduced federal spending.",
+          "summary": "Opposes tax increases, supports spending cuts.",
           "voted_for": [],
-          "voted_against": [
-            "Inflation Reduction Act (House vote, August 2022)"
-          ]
+          "voted_against": []
         }
       }
     },
@@ -416,21 +344,21 @@
       "twitter": "@RepHamadeh",
       "instagram": null,
       "positions": {
-        "Reproductive Health Rights": {
+        "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes abortion access and supports pro-life policies.",
+          "summary": "Opposes federal climate regulations and supports energy independence.",
           "voted_for": [],
           "voted_against": []
         },
-        "Progressive Taxation": {
+        "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports conservative fiscal policy.",
+          "summary": "Opposes abortion access and supports restrictions.",
           "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
-          "stance": "oppose",
-          "summary": "Former prosecutor who emphasizes law enforcement support over reform.",
+          "stance": "mixed",
+          "summary": "Supports law enforcement while advocating for some reform measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -448,31 +376,31 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports climate action and environmental protection as former Phoenix councilmember focused on sustainability.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "Strong supporter of climate action and environmental justice.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion access and reproductive rights.",
+          "summary": "Supports reproductive healthcare access and abortion rights.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [],
           "voted_against": []
         },
-        "Fresh Food Access": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Advocated for food access initiatives during tenure on Phoenix City Council.",
+          "summary": "Advocates for increased public education investment.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and corporate accountability.",
           "voted_for": [],
           "voted_against": []
         }
@@ -485,14 +413,20 @@
       "party": "D",
       "chamber": "House",
       "district": "5",
-      "phone": null,
-      "website": null,
+      "phone": "602-926-3425",
+      "website": "https://www.azleg.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
           "summary": "Supports increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -508,9 +442,9 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Reproductive Health Rights": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Supports reproductive rights and abortion access.",
+          "summary": "Supports public education funding increases.",
           "voted_for": [],
           "voted_against": []
         }
@@ -521,20 +455,20 @@
       "party": "R",
       "chamber": "House",
       "district": "3",
-      "phone": null,
-      "website": null,
+      "phone": "602-926-5398",
+      "website": "https://www.azleg.gov",
       "twitter": "@alexkolodin",
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports school choice and education reform with focus on parental rights.",
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and limitations.",
           "voted_for": [],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Opposes abortion access and supports pro-life legislation.",
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education funding with emphasis on school choice.",
           "voted_for": [],
           "voted_against": []
         }
@@ -545,26 +479,26 @@
       "party": "D",
       "chamber": "House",
       "district": "20",
-      "phone": null,
-      "website": null,
+      "phone": "602-926-3424",
+      "website": "https://www.azleg.gov",
       "twitter": "@AlmaForArizona",
-      "instagram": null,
+      "instagram": "@almaforarizona",
       "positions": {
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong advocate for reproductive rights and abortion access.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "Strong advocate for reproductive healthcare access and abortion rights.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -575,20 +509,26 @@
       "party": "D",
       "chamber": "House",
       "district": "24",
-      "phone": null,
-      "website": null,
-      "twitter": "@AnaliseOrtiz",
+      "phone": "602-926-3181",
+      "website": "https://www.azleg.gov",
+      "twitter": "@analiseortizaz",
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased funding for public schools.",
+          "summary": "Supports increased public education investment.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and abortion access.",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -599,14 +539,20 @@
       "party": "D",
       "chamber": "House",
       "district": "24",
-      "phone": null,
-      "website": null,
+      "phone": "602-926-3424",
+      "website": "https://www.azleg.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
           "summary": "Supports public education funding increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -617,20 +563,20 @@
       "party": "D",
       "chamber": "House",
       "district": "20",
-      "phone": null,
-      "website": null,
+      "phone": "602-926-5425",
+      "website": "https://www.azleg.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "Advocates for increased public education funding.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and abortion access.",
+          "summary": "Supports reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -641,20 +587,20 @@
       "party": "R",
       "chamber": "House",
       "district": "28",
-      "phone": null,
-      "website": null,
+      "phone": "602-926-5851",
+      "website": "https://www.azleg.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Opposes abortion access and supports pro-life legislation.",
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education funding with emphasis on parental choice and charter schools.",
           "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports school choice initiatives.",
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions.",
           "voted_for": [],
           "voted_against": []
         }
@@ -665,14 +611,20 @@
       "party": "D",
       "chamber": "House",
       "district": "23",
-      "phone": null,
-      "website": null,
+      "phone": "602-926-3171",
+      "website": "https://www.azleg.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
           "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -683,14 +635,20 @@
       "party": "D",
       "chamber": "House",
       "district": "8",
-      "phone": null,
-      "website": null,
+      "phone": "602-926-3424",
+      "website": "https://www.azleg.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports public education funding.",
+          "summary": "Advocates for public education funding increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -701,14 +659,20 @@
       "party": "R",
       "chamber": "House",
       "district": "4",
-      "phone": null,
-      "website": null,
+      "phone": "602-926-3398",
+      "website": "https://www.azleg.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "mixed",
-          "summary": "Supports education reform with emphasis on school choice.",
+          "summary": "Supports education funding with focus on school choice and accountability.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions.",
           "voted_for": [],
           "voted_against": []
         }
@@ -719,26 +683,26 @@
       "party": "D",
       "chamber": "Senate",
       "district": "11",
-      "phone": null,
-      "website": null,
+      "phone": "602-926-3424",
+      "website": "https://www.azleg.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Long-time supporter of public education funding.",
+          "summary": "Long-time advocate for public education funding increases.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and abortion access.",
+          "summary": "Supports reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         },
-        "LGBTQ+ Rights": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality legislation.",
+          "summary": "Supports criminal justice reform measures.",
           "voted_for": [],
           "voted_against": []
         }

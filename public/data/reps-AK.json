@@ -1,6 +1,6 @@
 {
   "state": "AK",
-  "generated": "2026-05-25",
+  "generated": "2026-05-26",
   "federal": [
     {
       "name": "Dan Sullivan",
@@ -14,41 +14,54 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Sullivan has consistently supported expanded resource development and opposed restrictions on oil and gas drilling in Alaska.",
+          "summary": "Sullivan has consistently opposed federal environmental regulations, supporting Alaska resource development and opposing EPA restrictions.",
           "voted_for": [
-            "Approval of Willow Project oil drilling in Alaska (Senate vote, March 2023)",
-            "ANWR oil drilling authorization in Tax Cuts and Jobs Act (Senate vote, December 2017)"
+            "ANWR oil drilling authorization in Tax Cuts and Jobs Act (Senate vote, December 2017)",
+            "Willow Project approval support (Public statement, March 2023)"
           ],
           "voted_against": [
-            "30x30 conservation initiative restrictions (Senate floor statement, 2021)"
+            "Build Back Better Act with climate provisions (Senate vote, 2021)",
+            "EPA Clean Power Plan regulations (Congressional review, 2017)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Sullivan supported the First Step Act but has generally taken conservative positions on criminal justice.",
+          "voted_for": [
+            "First Step Act of 2018 (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Sullivan has consistently opposed tax increases on corporations and high earners.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act of 2017 (Senate vote, December 2017)"
+          ],
+          "voted_against": [
+            "Corporate tax increase proposals in Build Back Better Act (Senate, 2021)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Sullivan has voted for federal abortion restrictions and against expanding reproductive health access.",
+          "summary": "Sullivan identifies as pro-life and has supported restrictions on abortion access.",
           "voted_for": [
-            "20-week abortion ban (Senate vote, January 2018)"
+            "Pain-Capable Unborn Child Protection Act (Senate vote, January 2018)"
           ],
           "voted_against": [
-            "Women's Health Protection Act (Senate vote, February 2022)"
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
           ]
         },
         "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Sullivan voted against federal LGBTQ+ protections while supporting religious exemptions.",
-          "voted_for": [],
-          "voted_against": [
-            "Respect for Marriage Act (Senate vote, November 2022)",
-            "Equality Act (Senate position, 2021)"
-          ]
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Sullivan supported bipartisan criminal justice reform legislation.",
+          "stance": "mixed",
+          "summary": "Sullivan voted for same-sex marriage protections but has opposed other LGBTQ+ legislation.",
           "voted_for": [
-            "First Step Act (Senate vote, December 2018)"
+            "Respect for Marriage Act (Senate vote, November 2022)"
           ],
-          "voted_against": []
+          "voted_against": [
+            "Equality Act (Opposition stated, 2021)"
+          ]
         }
       }
     },
@@ -60,43 +73,69 @@
       "phone": "202-224-6665",
       "website": "https://www.murkowski.senate.gov",
       "twitter": "lisamurkowski",
-      "instagram": "lisamurkowski",
+      "instagram": "senlisamurkowski",
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Murkowski supports resource development while backing some conservation measures and climate research.",
+          "summary": "Murkowski balances Alaska resource development with some environmental protections, supporting climate research while backing oil and gas development.",
           "voted_for": [
-            "Willow Project approval (Senate vote, March 2023)",
-            "Infrastructure Investment and Jobs Act with climate provisions (Senate vote, August 2021)"
+            "Willow Project approval support (Public statement, March 2023)",
+            "ANWR oil drilling authorization (Senate vote, December 2017)"
           ],
           "voted_against": [
             "Green New Deal resolution (Senate vote, March 2019)"
           ]
         },
-        "Reproductive Health Rights": {
+        "Police Accountability": {
           "stance": "mixed",
-          "summary": "Murkowski supports abortion access and opposed overturning Roe while backing some restrictions.",
+          "summary": "Murkowski has expressed support for police reform discussions but opposed the George Floyd Justice in Policing Act.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (Procedural vote failed, Senate, September 2021)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Murkowski has been a consistent supporter of bipartisan criminal justice reform efforts.",
           "voted_for": [
-            "Women's Health Protection Act (Senate vote, February 2022)"
+            "First Step Act of 2018 (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Murkowski generally opposes progressive tax increases but has supported some corporate minimum tax provisions.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act of 2017 (Senate vote, December 2017)",
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Murkowski is pro-choice and has voted to protect abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
           ],
           "voted_against": [
-            "20-week abortion ban (Senate vote, January 2018)"
+            "Pain-Capable Unborn Child Protection Act (Senate vote, January 2018)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Murkowski has supported federal LGBTQ+ protections including marriage equality.",
+          "summary": "Murkowski has supported LGBTQ+ rights legislation including marriage equality and employment protections.",
           "voted_for": [
             "Respect for Marriage Act (Senate vote, November 2022)",
-            "Employment Non-Discrimination Act (Senate vote, November 2013)"
+            "Employment Non-Discrimination Act support (Public statements, 2013)"
           ],
           "voted_against": []
         },
-        "Criminal Justice Reform": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Murkowski supported bipartisan criminal justice reform.",
+          "summary": "Murkowski has supported federal education funding increases and opposed deep cuts to education programs.",
           "voted_for": [
-            "First Step Act (Senate vote, December 2018)"
+            "Consolidated Appropriations Acts with education funding increases (Multiple votes, 2018-2024)"
           ],
           "voted_against": []
         }
@@ -113,24 +152,16 @@
       "instagram": null,
       "positions": {
         "Environmental Protection": {
-          "stance": "oppose",
-          "summary": "Begich has supported resource development and opposed federal environmental restrictions on Alaska energy projects.",
+          "stance": "mixed",
+          "summary": "Begich supports Alaska resource development while expressing support for responsible environmental stewardship.",
           "voted_for": [
-            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+            "Lower Energy Costs Act supporting oil and gas development (House vote, March 2023)"
           ],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Begich has opposed federal abortion access legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "Women's Health Protection Act (House vote, 2023)"
-          ]
-        },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Begich has advocated for increased funding for Alaska schools and federal education support.",
+          "summary": "Begich has emphasized education as a priority and supported education funding measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -143,22 +174,28 @@
       "party": "N",
       "chamber": "House",
       "district": "14",
-      "phone": "907-465-4942",
-      "website": "https://akleg.gov/galvin",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Galvin has been a longtime public education advocate and supports increased school funding.",
+          "summary": "Galvin has been a strong advocate for increased public education funding and Base Student Allocation increases.",
           "voted_for": [
-            "HB 65 Base Student Allocation increase (House vote, March 2024)"
+            "Base Student Allocation increase bills (Alaska House votes, 2023-2025)"
           ],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Galvin has supported environmental protection measures and climate action initiatives.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Galvin supports protecting reproductive healthcare access in Alaska.",
+          "summary": "Galvin has advocated for reproductive health access and opposed restrictions.",
           "voted_for": [],
           "voted_against": []
         }
@@ -169,22 +206,22 @@
       "party": "D",
       "chamber": "House",
       "district": "3",
-      "phone": "907-465-3466",
-      "website": "https://akleg.gov/story",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Story has consistently voted for increased education funding as a former educator.",
+          "summary": "Story has consistently supported increased education funding and higher Base Student Allocation.",
           "voted_for": [
-            "HB 65 Base Student Allocation increase (House vote, March 2024)"
+            "Base Student Allocation increase legislation (Alaska House votes, 2023-2025)"
           ],
           "voted_against": []
         },
-        "Progressive Taxation": {
+        "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Story supports progressive tax measures including income tax proposals.",
+          "summary": "Story has supported reproductive health access and opposed restrictions on abortion.",
           "voted_for": [],
           "voted_against": []
         }
@@ -195,22 +232,22 @@
       "party": "D",
       "chamber": "House",
       "district": "20",
-      "phone": "907-465-2647",
-      "website": "https://akleg.gov/gray",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Gray has supported increased education funding in the legislature.",
+          "summary": "Gray has supported education funding increases and teacher retention initiatives.",
           "voted_for": [
-            "HB 65 Base Student Allocation increase (House vote, March 2024)"
+            "Education funding bills (Alaska House votes, 2023-2025)"
           ],
           "voted_against": []
         },
-        "LGBTQ+ Rights": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Gray supports LGBTQ+ protections and anti-discrimination measures.",
+          "summary": "Gray has supported criminal justice reform measures focused on rehabilitation.",
           "voted_for": [],
           "voted_against": []
         }
@@ -221,32 +258,56 @@
       "party": "D",
       "chamber": "House",
       "district": "13",
-      "phone": "907-465-4693",
-      "website": "https://akleg.gov/josephson",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Josephson has consistently supported environmental protection legislation and climate action.",
+          "voted_for": [
+            "Environmental protection bills (Alaska House votes, 2017-2025)"
+          ],
+          "voted_against": []
+        },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Josephson has sponsored multiple criminal justice reform measures focusing on rehabilitation.",
+          "summary": "Josephson has been an advocate for criminal justice reform and rehabilitation programs.",
           "voted_for": [
-            "HB 49 Criminal law reforms (House vote, 2019)",
-            "SB 91 Criminal justice reform (House vote, 2016)"
+            "SB 91 criminal justice reform (Alaska House vote, 2016)",
+            "Criminal justice reform measures (Alaska House votes, 2017-2025)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Josephson has supported cannabis industry regulation and taxation framework.",
+          "voted_for": [
+            "Cannabis regulation legislation (Alaska House votes, 2016-2025)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Josephson consistently supports increased education funding.",
+          "summary": "Josephson has consistently voted for increased education funding.",
           "voted_for": [
-            "HB 65 Base Student Allocation increase (House vote, March 2024)"
+            "Base Student Allocation increases (Alaska House votes, 2017-2025)"
           ],
           "voted_against": []
         },
-        "Police Accountability": {
+        "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Josephson has introduced police accountability and oversight legislation.",
+          "summary": "Josephson has supported reproductive health access and opposed restrictions.",
           "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Josephson has been a strong supporter of LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [
+            "LGBTQ+ anti-discrimination legislation (Alaska House votes, 2017-2025)"
+          ],
           "voted_against": []
         }
       }
@@ -256,22 +317,22 @@
       "party": "D",
       "chamber": "House",
       "district": "35",
-      "phone": "907-465-4998",
-      "website": "https://akleg.gov/carrick",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Carrick supports increased education funding and teacher retention.",
+          "summary": "Carrick has supported increased education funding as a legislative priority.",
           "voted_for": [
-            "HB 65 Base Student Allocation increase (House vote, March 2024)"
+            "Education funding legislation (Alaska House votes, 2023-2025)"
           ],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
+        "Environmental Protection": {
           "stance": "support",
-          "summary": "Carrick supports protecting reproductive healthcare access.",
+          "summary": "Carrick has supported environmental protection measures for Alaska communities.",
           "voted_for": [],
           "voted_against": []
         }
@@ -282,16 +343,16 @@
       "party": "R",
       "chamber": "House",
       "district": "36",
-      "phone": "907-465-3879",
-      "website": "https://akleg.gov/schwanke",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Schwanke has supported education funding increases.",
+          "summary": "Schwanke has supported education funding as part of bipartisan coalition efforts.",
           "voted_for": [
-            "HB 65 Base Student Allocation increase (House vote, March 2024)"
+            "Education funding bills (Alaska House votes, 2023-2025)"
           ],
           "voted_against": []
         }
@@ -302,28 +363,28 @@
       "party": "R",
       "chamber": "Senate",
       "district": "A",
-      "phone": "907-465-3873",
-      "website": "https://akleg.gov/stedman",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "oppose",
-          "summary": "Stedman supports resource development and opposes restrictions on Alaska's extractive industries.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Stedman as Finance Co-Chair has supported measured education funding increases while emphasizing fiscal constraints.",
+          "stance": "support",
+          "summary": "Stedman, as Senate Finance Co-Chair, has worked on education funding compromises and supported increases.",
           "voted_for": [
-            "SB 52 Education funding (Senate vote, 2024)"
+            "Education funding appropriations (Alaska Senate votes, 2017-2025)"
           ],
           "voted_against": []
         },
         "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Stedman has opposed income tax proposals and progressive tax measures.",
+          "stance": "mixed",
+          "summary": "Stedman has proposed various revenue measures including tax reforms while maintaining fiscal conservatism.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Stedman balances resource development priorities with environmental considerations for Southeast Alaska.",
           "voted_for": [],
           "voted_against": []
         }
@@ -334,16 +395,16 @@
       "party": "R",
       "chamber": "House",
       "district": "8",
-      "phone": "907-465-4959",
-      "website": "https://akleg.gov/elam",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Elam has voted for education funding increases.",
+          "summary": "Elam has supported education funding increases as part of majority coalition work.",
           "voted_for": [
-            "HB 65 Base Student Allocation increase (House vote, March 2024)"
+            "Education appropriations (Alaska House votes, 2023-2025)"
           ],
           "voted_against": []
         }
@@ -354,36 +415,47 @@
       "party": "D",
       "chamber": "Senate",
       "district": "K",
-      "phone": "907-269-0120",
-      "website": "https://akleg.gov/wielechowski",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Wielechowski has consistently sponsored progressive tax measures including oil tax increases and income tax proposals.",
+          "summary": "Wielechowski has been a leading advocate for oil tax reform and progressive revenue measures.",
           "voted_for": [
-            "SB 114 Oil and gas production tax increase (Senate vote, 2016)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Wielechowski strongly supports increased education funding.",
-          "voted_for": [
-            "SB 52 Education funding (Senate vote, 2024)"
+            "Oil tax increase proposals (Alaska Senate votes, 2017-2025)",
+            "Progressive tax legislation (Alaska Senate votes, 2017-2025)"
           ],
           "voted_against": []
         },
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Wielechowski supports environmental protections and climate action measures.",
-          "voted_for": [],
+          "summary": "Wielechowski has supported environmental protection legislation and opposed rollbacks of environmental regulations.",
+          "voted_for": [
+            "Environmental protection bills (Alaska Senate votes, 2017-2025)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Wielechowski has consistently supported increased education funding and higher Base Student Allocation.",
+          "voted_for": [
+            "Base Student Allocation increases (Alaska Senate votes, 2017-2025)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Wielechowski supported criminal justice reform efforts including SB 91.",
+          "voted_for": [
+            "SB 91 criminal justice reform (Alaska Senate vote, 2016)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Wielechowski supports protecting reproductive healthcare access.",
+          "summary": "Wielechowski has supported reproductive health access and opposed restrictions.",
           "voted_for": [],
           "voted_against": []
         }
@@ -394,28 +466,31 @@
       "party": "N",
       "chamber": "House",
       "district": "37",
-      "phone": "907-465-3824",
-      "website": "https://akleg.gov/edgmon",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Edgmon as former Speaker supported education funding and continues to do so.",
+          "summary": "Edgmon, former House Speaker, has supported education funding increases throughout his tenure.",
           "voted_for": [
-            "HB 65 Base Student Allocation increase (House vote, March 2024)"
+            "Education funding legislation (Alaska House votes, 2017-2025)",
+            "Base Student Allocation increases (Alaska House votes, 2017-2025)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Edgmon supported criminal justice reform as Speaker during SB 91 passage.",
+          "voted_for": [
+            "SB 91 criminal justice reform (Alaska House vote, 2016)"
           ],
           "voted_against": []
         },
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Edgmon balances environmental protection with support for responsible resource development in rural Alaska.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Fresh Food Access": {
-          "stance": "support",
-          "summary": "Edgmon has advocated for food security programs in rural Alaska.",
+          "summary": "Edgmon balances environmental concerns with rural Alaska resource development needs.",
           "voted_for": [],
           "voted_against": []
         }
@@ -426,28 +501,34 @@
       "party": "N",
       "chamber": "House",
       "district": "12",
-      "phone": "907-465-4757",
-      "website": "https://akleg.gov/schrage",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Schrage has consistently supported education funding increases.",
+          "summary": "Schrage has supported education funding increases and education policy reforms.",
           "voted_for": [
-            "HB 65 Base Student Allocation increase (House vote, March 2024)"
+            "Base Student Allocation increases (Alaska House votes, 2023-2025)"
           ],
           "voted_against": []
         },
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Schrage supports climate action and environmental protections.",
+          "summary": "Schrage has supported environmental protection measures and climate action initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Schrage has supported reproductive health access.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Schrage supports LGBTQ+ protections and anti-discrimination measures.",
+          "summary": "Schrage has supported LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -458,22 +539,22 @@
       "party": "D",
       "chamber": "House",
       "district": "16",
-      "phone": "907-465-4843",
-      "website": "https://akleg.gov/hall",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Hall supports increased education funding and teacher retention.",
+          "summary": "Hall has supported increased education funding and prioritized education issues.",
           "voted_for": [
-            "HB 65 Base Student Allocation increase (House vote, March 2024)"
+            "Education funding legislation (Alaska House votes, 2023-2025)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Hall supports protecting reproductive healthcare access.",
+          "summary": "Hall has supported reproductive health access and opposed restrictions.",
           "voted_for": [],
           "voted_against": []
         }
