@@ -9,21 +9,21 @@
       "district": null,
       "phone": "202-224-2752",
       "website": "https://www.risch.senate.gov",
-      "twitter": "@SenatorRisch",
-      "instagram": null,
+      "twitter": "SenatorRisch",
+      "instagram": "senatorrisch",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Consistently opposes federal environmental regulations and has voted against climate change legislation.",
+          "summary": "Consistently opposes federal environmental regulations and climate change legislation, favoring state control and energy independence.",
           "voted_for": [],
           "voted_against": [
             "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
-            "Paris Climate Agreement ratification support (Senate, 2021)"
+            "EPA Clean Power Plan regulations (public statements, 2015)"
           ]
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supported bipartisan criminal justice reform focused on sentencing.",
+          "summary": "Supported bipartisan criminal justice reform efforts including sentencing reform.",
           "voted_for": [
             "First Step Act (Senate vote, December 2018)"
           ],
@@ -31,19 +31,27 @@
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports tax cuts, particularly for businesses.",
+          "summary": "Opposes tax increases and supports tax cuts, particularly for businesses and higher earners.",
           "voted_for": [
             "Tax Cuts and Jobs Act (Senate vote, December 2017)"
           ],
           "voted_against": [
-            "Build Back Better Act with tax increases on high earners (Senate, 2021-2022)"
+            "Build Back Better Act tax provisions (public statements, 2021)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposes federal marijuana legalization and maintains traditional drug enforcement approach.",
+          "voted_for": [],
+          "voted_against": [
+            "MORE Act federal cannabis legalization (public opposition, 2020)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports restrictions on reproductive health access.",
+          "summary": "Opposes abortion access and supports restrictions on reproductive health services.",
           "voted_for": [
-            "Pain-Capable Unborn Child Protection Act cloture vote (Senate, January 2018)"
+            "20-week abortion ban legislation (co-sponsor, 2018)"
           ],
           "voted_against": [
             "Women's Health Protection Act (Senate vote, February 2022)"
@@ -51,10 +59,11 @@
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Has voted against LGBTQ+ rights legislation including same-sex marriage protections.",
+          "summary": "Opposes expanding federal LGBTQ+ protections in legislation.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
+            "Respect for Marriage Act (Senate vote, November 2022)",
+            "Equality Act (public opposition, 2021)"
           ]
         }
       }
@@ -66,16 +75,16 @@
       "district": null,
       "phone": "202-224-6142",
       "website": "https://www.crapo.senate.gov",
-      "twitter": "@MikeCrapo",
-      "instagram": null,
+      "twitter": "MikeCrapo",
+      "instagram": "senatormikecrapo",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes most federal environmental regulations and climate change legislation.",
+          "summary": "Opposes expansive federal environmental regulations, prioritizing economic concerns and state authority.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
-            "Paris Climate Agreement support (Senate, 2021)"
+            "Green New Deal resolution (Senate vote, March 2019)",
+            "Inflation Reduction Act climate provisions (Senate vote, August 2022)"
           ]
         },
         "Criminal Justice Reform": {
@@ -88,28 +97,35 @@
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and consistently supports tax reduction policies.",
+          "summary": "Opposes progressive tax increases and supports tax reduction policies.",
           "voted_for": [
             "Tax Cuts and Jobs Act (Senate vote, December 2017)"
           ],
+          "voted_against": [
+            "American Rescue Plan Act tax provisions (Senate vote, March 2021)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Maintains opposition to federal marijuana legalization efforts.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
           "summary": "Opposes abortion rights and supports restrictive legislation.",
-          "voted_for": [
-            "Pain-Capable Unborn Child Protection Act cloture vote (Senate, January 2018)"
-          ],
+          "voted_for": [],
           "voted_against": [
             "Women's Health Protection Act (Senate vote, February 2022)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Has voted against LGBTQ+ rights protections including same-sex marriage.",
+          "summary": "Opposes federal legislation expanding LGBTQ+ protections.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
+            "Respect for Marriage Act (Senate vote, November 2022)",
+            "Equality Act (public opposition)"
           ]
         }
       }
@@ -121,50 +137,58 @@
       "district": "1",
       "phone": "202-225-6611",
       "website": "https://fulcher.house.gov",
-      "twitter": "@RepRussFulcher",
-      "instagram": null,
+      "twitter": "RepRussFulcher",
+      "instagram": "reprussfulcher",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal environmental regulations and climate change legislation.",
+          "summary": "Opposes federal environmental regulations that impact Idaho's natural resource industries.",
           "voted_for": [],
           "voted_against": [
-            "Build Back Better Act with climate provisions (House vote, November 2021)",
-            "Inflation Reduction Act climate provisions (House vote, August 2022)"
+            "Build Back Better Act climate provisions (House vote, November 2021)"
           ]
         },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supported bipartisan criminal justice reform legislation.",
-          "voted_for": [
-            "First Step Act (House vote, December 2018)"
-          ],
-          "voted_against": []
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police reform legislation, supports law enforcement.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes progressive taxation and supports tax cuts.",
+          "summary": "Opposes tax increases and supports conservative fiscal policies.",
           "voted_for": [
             "Tax Cuts and Jobs Act (House vote, December 2017)"
           ],
-          "voted_against": []
+          "voted_against": [
+            "Build Back Better Act tax provisions (House vote, November 2021)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports restrictive legislation.",
-          "voted_for": [],
+          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (House vote, 2017)"
+          ],
           "voted_against": [
             "Women's Health Protection Act (House vote, September 2021)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Has voted against LGBTQ+ rights protections.",
+          "summary": "Opposes federal LGBTQ+ rights expansion legislation.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (House vote, July 2022)",
             "Equality Act (House vote, February 2021)"
           ]
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports local control of education while voting for some federal education funding measures.",
+          "voted_for": [],
+          "voted_against": []
         }
       }
     },
@@ -175,30 +199,20 @@
       "district": "2",
       "phone": "202-225-5531",
       "website": "https://simpson.house.gov",
-      "twitter": "@CongMikeSimpson",
-      "instagram": null,
+      "twitter": "CongMikeSimpson",
+      "instagram": "repmikeisimpson",
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Has supported some environmental conservation efforts while opposing broader climate regulations.",
+          "summary": "Takes moderate approach on environmental issues, supporting some conservation efforts while opposing restrictive regulations.",
           "voted_for": [
             "Great American Outdoors Act (House vote, July 2020)"
-          ],
-          "voted_against": [
-            "Build Back Better Act with climate provisions (House vote, November 2021)"
-          ]
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supported bipartisan criminal justice reform efforts.",
-          "voted_for": [
-            "First Step Act (House vote, December 2018)"
           ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes progressive taxation and supports tax reduction policies.",
+          "summary": "Supports tax cuts and opposes progressive taxation increases.",
           "voted_for": [
             "Tax Cuts and Jobs Act (House vote, December 2017)"
           ],
@@ -213,14 +227,20 @@
           ]
         },
         "LGBTQ+ Rights": {
-          "stance": "mixed",
-          "summary": "Has voted against some LGBTQ+ rights legislation while supporting the Respect for Marriage Act.",
-          "voted_for": [
-            "Respect for Marriage Act (House vote, July 2022)"
-          ],
+          "stance": "oppose",
+          "summary": "Generally opposes federal LGBTQ+ rights expansion.",
+          "voted_for": [],
           "voted_against": [
             "Equality Act (House vote, February 2021)"
           ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Has supported federal education funding through appropriations process.",
+          "voted_for": [
+            "Various appropriations bills with education funding increases (2018-2024)"
+          ],
+          "voted_against": []
         }
       }
     }
@@ -236,27 +256,29 @@
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding and teacher pay raises.",
+          "voted_for": [
+            "Education budget increases (Idaho Legislature, 2023-2024)"
+          ],
+          "voted_against": []
+        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Advocates for reproductive health access and has opposed strict abortion restrictions.",
+          "summary": "Supports reproductive health access and opposes restrictive abortion legislation.",
           "voted_for": [],
           "voted_against": [
-            "Idaho abortion ban trigger law (House vote, 2020)"
+            "Abortion trafficking ban HB 242 (Idaho House, 2023)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections in Idaho.",
+          "summary": "Supports LGBTQ+ rights and opposes discriminatory legislation.",
           "voted_for": [],
           "voted_against": [
-            "Transgender sports ban legislation (House vote, 2020)"
+            "Anti-transgender legislation (Idaho Legislature, 2023-2024)"
           ]
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports increased public school funding and educator pay.",
-          "voted_for": [],
-          "voted_against": []
         }
       }
     },
@@ -272,13 +294,19 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased funding for public education.",
+          "summary": "Advocates for increased public education investment.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive health rights and access.",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and nondiscrimination protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -296,15 +324,21 @@
       "positions": {
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Sponsored legislation restricting transgender participation in sports.",
+          "summary": "Sponsored legislation restricting transgender student athletes in sports.",
           "voted_for": [
-            "H.B. 500 Fairness in Women's Sports Act (House vote, March 2020)"
+            "HB 500 Fairness in Women's Sports Act (Idaho House sponsor, 2020)"
           ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Has supported education funding measures in the legislature.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports restrictions on abortion access.",
+          "summary": "Supports pro-life legislation and restrictions on abortion.",
           "voted_for": [],
           "voted_against": []
         }
@@ -313,7 +347,7 @@
     {
       "name": "Ben Adams",
       "party": "R",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": "12",
       "phone": null,
       "website": "https://legislature.idaho.gov/legislators/membership/",
@@ -322,7 +356,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports education funding as member of Idaho Senate.",
+          "summary": "Has voted for education budget increases.",
           "voted_for": [],
           "voted_against": []
         }
@@ -339,8 +373,8 @@
       "instagram": null,
       "positions": {
         "Public School Funding": {
-          "stance": "unclear",
-          "summary": "Voting record on education funding varies.",
+          "stance": "support",
+          "summary": "Generally supports education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -358,7 +392,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Generally supports education funding in the Idaho Senate.",
+          "summary": "Has supported education funding measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -371,23 +405,23 @@
       "district": null,
       "phone": "208-334-2100",
       "website": "https://gov.idaho.gov",
-      "twitter": "@GovernorLittle",
-      "instagram": null,
+      "twitter": "GovernorLittle",
+      "instagram": "governorlittle",
       "positions": {
-        "Environmental Protection": {
-          "stance": "mixed",
-          "summary": "Has supported water quality initiatives while opposing federal environmental regulations.",
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "As Governor, has proposed and signed education funding increases including teacher pay raises.",
           "voted_for": [
-            "Water quality improvement initiatives (Governor's office, 2019-2024)"
+            "Education budget increases and teacher pay raises (signed as Governor, 2019-2025)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Signed restrictive abortion legislation into law.",
+          "summary": "Signed restrictive abortion legislation as Governor.",
           "voted_for": [
-            "Idaho abortion trigger ban (Signed into law, 2020)",
-            "Six-week abortion ban (Signed into law, 2021)"
+            "Abortion trigger ban (signed into law, 2020)",
+            "Abortion trafficking ban (signed into law, 2023)"
           ],
           "voted_against": []
         },
@@ -395,25 +429,18 @@
           "stance": "oppose",
           "summary": "Signed legislation restricting transgender rights.",
           "voted_for": [
-            "H.B. 500 transgender sports ban (Signed into law, March 2020)"
+            "Transgender sports ban (signed into law, 2020)",
+            "Transgender healthcare restrictions (signed into law, 2023)"
           ],
           "voted_against": []
         },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Has supported increased education funding as governor.",
-          "voted_for": [
-            "Teacher pay increase legislation (Governor's budget, 2021-2024)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
+        "Cannabis Policy": {
           "stance": "oppose",
-          "summary": "Has signed tax cuts into law.",
-          "voted_for": [
-            "Income tax reduction legislation (Signed into law, 2022)"
-          ],
-          "voted_against": []
+          "summary": "Opposes marijuana legalization in Idaho.",
+          "voted_for": [],
+          "voted_against": [
+            "Medical marijuana initiatives (public opposition, 2020-2024)"
+          ]
         }
       }
     },
@@ -429,7 +456,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Generally supports education funding.",
+          "summary": "Has supported education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -438,7 +465,7 @@
     {
       "name": "Brandon Shippy",
       "party": "R",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": "9",
       "phone": null,
       "website": "https://legislature.idaho.gov/legislators/membership/",
@@ -447,7 +474,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports education funding in the Idaho Senate.",
+          "summary": "Has voted for education budgets.",
           "voted_for": [],
           "voted_against": []
         }
@@ -467,13 +494,13 @@
           "stance": "oppose",
           "summary": "Has sponsored and supported restrictive abortion legislation.",
           "voted_for": [
-            "Idaho abortion ban legislation (House votes, 2020-2022)"
+            "Abortion trafficking ban HB 242 (Idaho House, sponsored, 2023)"
           ],
           "voted_against": []
         },
-        "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Supports restrictions on LGBTQ+ rights.",
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Has voted for education funding measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -490,8 +517,8 @@
       "instagram": null,
       "positions": {
         "Public School Funding": {
-          "stance": "unclear",
-          "summary": "Voting record on education funding varies.",
+          "stance": "support",
+          "summary": "Has supported education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -509,7 +536,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Generally supports education funding initiatives.",
+          "summary": "Has voted for education funding measures.",
           "voted_for": [],
           "voted_against": []
         }

@@ -14,36 +14,40 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposed major climate legislation and environmental regulations while supporting offshore drilling expansion.",
+          "summary": "Scott has opposed major climate legislation and supported fossil fuel development.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+            "Inflation Reduction Act climate provisions (Senate vote, August 2022)"
           ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supported First Step Act but generally opposes broader reform measures.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Consistently opposes tax increases on high earners and corporations.",
-          "voted_for": [
-            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
-          ],
+          "summary": "Consistently opposes tax increases on corporations and high earners.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act tax provisions (opposed, 2021)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposes federal marijuana legalization efforts.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and voted for federal limitations.",
-          "voted_for": [
-            "Pain-Capable Unborn Child Protection Act (Cosponsored, 2018)"
-          ],
-          "voted_against": [
-            "Women's Health Protection Act (Senate vote, February 2022)"
-          ]
-        },
-        "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Opposed federal protections for same-sex marriage and LGBTQ+ employment protections.",
+          "summary": "Supports abortion restrictions and voted for anti-abortion measures.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
+            "Women's Health Protection Act (Senate vote, February 2022)"
           ]
         }
       }
@@ -58,21 +62,21 @@
       "twitter": "@SenAshleyMoody",
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
+        "Police Accountability": {
           "stance": "oppose",
-          "summary": "As Attorney General, opposed clemency expansions and certain sentencing reforms.",
+          "summary": "As Attorney General, opposed measures that would increase police oversight.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Defended Florida's abortion restrictions as Attorney General and supported overturning Roe v. Wade.",
+          "summary": "Defended abortion restrictions as Florida Attorney General.",
           "voted_for": [],
           "voted_against": []
         },
-        "Cannabis Policy": {
+        "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposed recreational marijuana amendments in Florida as Attorney General.",
+          "summary": "Defended state policies restricting LGBTQ+ rights as Attorney General.",
           "voted_for": [],
           "voted_against": []
         }
@@ -90,9 +94,13 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of climate action and environmental justice initiatives.",
-          "voted_for": [],
-          "voted_against": []
+          "summary": "Strong supporter of climate action and environmental justice.",
+          "voted_for": [
+            "Lower Energy Costs Act amendments for clean energy (House vote, March 2023)"
+          ],
+          "voted_against": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ]
         },
         "Police Accountability": {
           "stance": "support",
@@ -102,26 +110,36 @@
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform including sentencing reform and rehabilitation programs.",
+          "summary": "Supports comprehensive criminal justice reform and ending mass incarceration.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Supports increased taxation on wealthy individuals and corporations.",
+          "summary": "Supports higher taxes on wealthy individuals and corporations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports federal marijuana legalization and decriminalization.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong advocate for abortion access and reproductive healthcare.",
-          "voted_for": [],
+          "summary": "Strong supporter of abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ rights and protections.",
-          "voted_for": [],
+          "summary": "Strong advocate for LGBTQ+ rights and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
@@ -144,21 +162,41 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposed major environmental regulations and climate legislation.",
+          "summary": "Opposes major climate legislation and supports fossil fuel industry.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supported First Step Act but generally opposes broader reform.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and federal limitations on reproductive healthcare.",
+          "summary": "Supports abortion restrictions and opposes federal abortion protections.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
         },
-        "Progressive Taxation": {
+        "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes tax increases on high earners and supports tax cuts.",
+          "summary": "Voted against federal protections for LGBTQ+ individuals.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Respect for Marriage Act (House vote, July 2022)"
+          ]
         }
       }
     },
@@ -172,21 +210,21 @@
       "twitter": "@VoteRandyFine",
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "As state legislator supported school choice and voucher programs while voting for some education funding increases.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
+        "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Supported abortion restrictions during tenure in Florida Legislature.",
+          "summary": "As state legislator, opposed environmental regulations and supported development.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Supported restrictions on LGBTQ+ content in schools as Florida state legislator.",
+          "summary": "Supported restrictions on LGBTQ+ rights in Florida legislature.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "oppose",
+          "summary": "Supported school choice and voucher programs over traditional public school funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -204,13 +242,13 @@
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "As CFO focused on insurance issues related to climate while not prioritizing environmental regulations.",
+          "summary": "As CFO, supported some environmental initiatives while backing business interests.",
           "voted_for": [],
           "voted_against": []
         },
-        "Cannabis Policy": {
-          "stance": "oppose",
-          "summary": "Opposed recreational marijuana legalization efforts in Florida.",
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "As CFO, promoted small business support programs.",
           "voted_for": [],
           "voted_against": []
         }
@@ -226,15 +264,15 @@
       "twitter": "@Haridopolos",
       "instagram": null,
       "positions": {
-        "Public School Funding": {
+        "Environmental Protection": {
           "stance": "mixed",
-          "summary": "As former Florida Senate President supported education funding while also backing school choice initiatives.",
+          "summary": "As former state senate president, supported some environmental measures while backing development.",
           "voted_for": [],
           "voted_against": []
         },
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Historically opposed tax increases during state legislative tenure.",
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supported education reforms including accountability measures and choice programs.",
           "voted_for": [],
           "voted_against": []
         }
@@ -248,25 +286,37 @@
       "phone": "202-225-1252",
       "website": "https://franklin.house.gov",
       "twitter": "@RepFranklin",
-      "instagram": null,
+      "instagram": "@repscottfranklin",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposed major climate legislation and environmental regulations.",
+          "summary": "Opposes climate regulations and supports fossil fuel development.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on corporations and high earners.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and federal limitations.",
+          "summary": "Supports abortion restrictions and opposes federal protections.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
         },
-        "Progressive Taxation": {
+        "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports lower taxes.",
+          "summary": "Voted against federal LGBTQ+ protections.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Respect for Marriage Act (House vote, July 2022)"
+          ]
         }
       }
     },
@@ -275,32 +325,44 @@
       "party": "D",
       "chamber": "House",
       "district": "23",
-      "phone": "202-225-7931",
+      "phone": "202-225-3001",
       "website": "https://moskowitz.house.gov",
       "twitter": "@RepMoskowitz",
-      "instagram": "@rejmoskowitz",
+      "instagram": "@repmoskowitz",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "As former Florida emergency management director and congressman, advocates for climate resilience and environmental protection.",
+          "summary": "As Florida Emergency Management Director, supported climate resilience and Everglades restoration.",
+          "voted_for": [],
+          "voted_against": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports marijuana reform and decriminalization.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion access and reproductive healthcare rights.",
-          "voted_for": [],
+          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
-          "voted_for": [],
+          "summary": "Supports federal protections for LGBTQ+ individuals.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased education funding.",
+          "summary": "Supports increased education funding and teacher pay.",
           "voted_for": [],
           "voted_against": []
         }
@@ -318,21 +380,39 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal environmental regulations and climate legislation.",
-          "voted_for": [],
+          "summary": "Opposes climate regulations and supports energy independence through fossil fuels.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
+        "Police Accountability": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and pro-life policies.",
+          "summary": "Opposes measures that would increase police oversight or reduce funding.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases on high earners and corporations.",
+          "summary": "Opposes tax increases and supports cuts.",
           "voted_for": [],
           "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Voted against federal LGBTQ+ protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, July 2022)"
+          ]
         }
       }
     },
@@ -348,21 +428,33 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes major environmental regulations and climate initiatives.",
+          "summary": "Opposes climate regulations and supports fossil fuel industry.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports flat tax proposals.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and pro-life legislation.",
+          "summary": "Supports abortion restrictions and opposes federal protections.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
         },
-        "Progressive Taxation": {
+        "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports tax cuts.",
+          "summary": "Voted against federal LGBTQ+ protections.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Respect for Marriage Act (House vote, July 2022)"
+          ]
         }
       }
     },
@@ -378,21 +470,33 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal environmental regulations and climate legislation.",
+          "summary": "Opposes major climate legislation and regulations.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on corporations and high earners.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions.",
+          "summary": "As former Secretary of State, defended abortion restrictions; opposes federal protections.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
         },
-        "Progressive Taxation": {
+        "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes tax increases on high earners.",
+          "summary": "Voted against federal LGBTQ+ protections.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Respect for Marriage Act (House vote, July 2022)"
+          ]
         }
       }
     }
@@ -404,13 +508,13 @@
       "chamber": "House",
       "district": "57",
       "phone": "850-717-5057",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=5033",
+      "website": "https://www.myfloridahouse.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "mixed",
-          "summary": "Supports education funding while also backing school choice programs.",
+          "summary": "Supports education funding while backing school choice expansion.",
           "voted_for": [],
           "voted_against": []
         }
@@ -422,13 +526,19 @@
       "chamber": "House",
       "district": "80",
       "phone": "850-717-5080",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4826",
+      "website": "https://www.myfloridahouse.gov",
       "twitter": "@AdamBotana",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
-          "stance": "mixed",
-          "summary": "Supports water quality initiatives while opposing strict environmental regulations.",
+          "stance": "support",
+          "summary": "Supported water quality and environmental protection measures for Southwest Florida.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases in state budget.",
           "voted_for": [],
           "voted_against": []
         }
@@ -440,20 +550,31 @@
       "chamber": "House",
       "district": "2",
       "phone": "850-717-5002",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4715",
-      "twitter": "@AlexandradeFLA",
+      "website": "https://www.myfloridahouse.gov",
+      "twitter": "@VoteAndrade",
       "instagram": null,
       "positions": {
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "Supports tough-on-crime policies and opposes sentencing reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Sponsored and supported abortion restrictions in Florida Legislature.",
-          "voted_for": [],
+          "summary": "Sponsored and supported abortion restrictions.",
+          "voted_for": [
+            "15-week abortion ban (Florida House, 2022)",
+            "6-week abortion ban (Florida House, 2023)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Supported legislation restricting LGBTQ+ content in schools.",
-          "voted_for": [],
+          "summary": "Supported restrictions on LGBTQ+ discussions in schools and other limitations.",
+          "voted_for": [
+            "Parental Rights in Education Act (Florida House, 2022)"
+          ],
           "voted_against": []
         }
       }
@@ -464,13 +585,19 @@
       "chamber": "House",
       "district": "112",
       "phone": "850-717-5112",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4877",
+      "website": "https://www.myfloridahouse.gov",
       "twitter": "@AlexRizoFL",
       "instagram": null,
       "positions": {
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Advocates for small business support and reduced regulations.",
+          "summary": "Supports tax relief and funding programs for small businesses.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supports education while backing school choice programs.",
           "voted_for": [],
           "voted_against": []
         }
@@ -482,13 +609,21 @@
       "chamber": "House",
       "district": "38",
       "phone": "850-717-5038",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4883",
-      "twitter": "@AlexisforFLA",
+      "website": "https://www.myfloridahouse.gov",
+      "twitter": "@AlexisCalatayud",
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports education funding while backing school choice initiatives.",
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supported abortion restrictions in the legislature.",
+          "voted_for": [
+            "6-week abortion ban (Florida House, 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Voted for restrictions on LGBTQ+ rights.",
           "voted_for": [],
           "voted_against": []
         }
@@ -500,25 +635,42 @@
       "chamber": "House",
       "district": "9",
       "phone": "850-717-5009",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4779",
+      "website": "https://www.myfloridahouse.gov",
       "twitter": "@AllisonTant",
       "instagram": null,
       "positions": {
-        "Public School Funding": {
+        "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for increased public education funding.",
+          "summary": "Supports environmental protections and water quality initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports sentencing reform and rehabilitation programs.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Opposes abortion restrictions and supports reproductive healthcare access.",
+          "summary": "Opposes abortion restrictions and supports reproductive rights.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "15-week abortion ban (Florida House, 2022)",
+            "6-week abortion ban (Florida House, 2023)"
+          ]
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
+          "summary": "Opposes restrictions on LGBTQ+ rights and supports equality measures.",
+          "voted_for": [],
+          "voted_against": [
+            "Parental Rights in Education Act (Florida House, 2022)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for public school funding and teacher pay increases.",
           "voted_for": [],
           "voted_against": []
         }
@@ -530,19 +682,28 @@
       "chamber": "Senate",
       "district": "40",
       "phone": "850-487-5040",
-      "website": "https://www.flsenate.gov/Senators/S40",
-      "twitter": "@SenAnaRodriguez",
+      "website": "https://www.flsenate.gov",
+      "twitter": "@AnaMariaForSen",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some environmental initiatives while opposing strict regulations.",
+          "summary": "Supported some environmental measures while backing business interests.",
           "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supported abortion restrictions in the Florida Senate.",
+          "voted_for": [
+            "15-week abortion ban (Florida Senate, 2022)",
+            "6-week abortion ban (Florida Senate, 2023)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "mixed",
-          "summary": "Supports education funding while backing school choice programs.",
+          "summary": "Supported education funding while backing school choice expansion.",
           "voted_for": [],
           "voted_against": []
         }
@@ -554,31 +715,60 @@
       "chamber": "House",
       "district": "13",
       "phone": "850-717-5013",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4825",
-      "twitter": "@angie_nixon",
-      "instagram": "@angie_nixon",
+      "website": "https://www.myfloridahouse.gov",
+      "twitter": "@AngieNixon",
+      "instagram": "@angienixonfl",
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of environmental justice and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocates for police reform and accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Advocates for criminal justice reform and sentencing changes.",
+          "summary": "Strong advocate for criminal justice reform and ending mass incarceration.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports marijuana legalization and criminal record expungement.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Advocates for food justice and access to healthy food in underserved communities.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of reproductive healthcare access.",
+          "summary": "Strong opponent of abortion restrictions and advocate for reproductive rights.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "15-week abortion ban (Florida House, 2022)",
+            "6-week abortion ban (Florida House, 2023)"
+          ]
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Vocal advocate for LGBTQ+ rights and protections.",
+          "summary": "Strong advocate for LGBTQ+ rights and protections.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Parental Rights in Education Act (Florida House, 2022)"
+          ]
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Strong supporter of increased public education funding.",
+          "summary": "Strong advocate for public school funding and opposing voucher expansion.",
           "voted_for": [],
           "voted_against": []
         }
@@ -590,7 +780,7 @@
       "chamber": "House",
       "district": "42",
       "phone": "850-717-5042",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4748",
+      "website": "https://www.myfloridahouse.gov",
       "twitter": "@AnnaForFlorida",
       "instagram": "@annaforflorida",
       "positions": {
@@ -600,33 +790,56 @@
           "voted_for": [],
           "voted_against": []
         },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability measures and criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform initiatives.",
+          "summary": "Advocates for criminal justice reform and sentencing reform.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Advocates for progressive tax policies.",
+          "summary": "Supports progressive tax policies and corporate accountability.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports marijuana legalization and decriminalization.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support and worker protections.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Outspoken advocate for reproductive healthcare access and abortion rights.",
+          "summary": "Vocal opponent of abortion restrictions and strong advocate for reproductive rights.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "15-week abortion ban (Florida House, 2022)",
+            "6-week abortion ban (Florida House, 2023)"
+          ]
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Strong supporter of LGBTQ+ rights and protections.",
+          "summary": "Strong advocate for LGBTQ+ rights and equality measures.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Parental Rights in Education Act (Florida House, 2022)"
+          ]
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased public education funding.",
+          "summary": "Strong advocate for public education funding and teacher pay.",
           "voted_for": [],
           "voted_against": []
         }
@@ -638,13 +851,19 @@
       "chamber": "House",
       "district": "93",
       "phone": "850-717-5093",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=5025",
-      "twitter": null,
+      "website": "https://www.myfloridahouse.gov",
+      "twitter": "@AnneGerwig",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
+          "stance": "support",
+          "summary": "As former mayor, supported environmental protection and water quality initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
           "stance": "mixed",
-          "summary": "Supports water quality initiatives while opposing strict environmental regulations.",
+          "summary": "Supports education while backing school choice policies.",
           "voted_for": [],
           "voted_against": []
         }
@@ -656,25 +875,45 @@
       "chamber": "House",
       "district": "109",
       "phone": "850-717-5109",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4878",
-      "twitter": "@AshleyVGantt",
+      "website": "https://www.myfloridahouse.gov",
+      "twitter": "@AshleyGanttFL",
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate resilience.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and police accountability.",
+          "summary": "Supports criminal justice reform and community-based alternatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Advocates for food access in underserved communities.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive healthcare access.",
+          "summary": "Opposes abortion restrictions and supports reproductive rights.",
+          "voted_for": [],
+          "voted_against": [
+            "6-week abortion ban (Florida House, 2023)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and opposes discriminatory legislation.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased public education funding.",
+          "summary": "Advocates for increased public school funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -686,25 +925,43 @@
       "chamber": "House",
       "district": "35",
       "phone": "850-717-5035",
-      "website": "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=5028",
-      "twitter": "@BarbaraSharief",
+      "website": "https://www.myfloridahouse.gov",
+      "twitter": "@CommishSharief",
       "instagram": null,
       "positions": {
-        "Public School Funding": {
+        "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "Supports environmental protection and climate resilience initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and rehabilitation programs.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Advocates for healthcare access and food security in underserved communities.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive healthcare access.",
+          "summary": "Opposes abortion restrictions and supports reproductive healthcare.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
+          "summary": "Supports LGBTQ+ rights and equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
           "voted_for": [],
           "voted_against": []
         }

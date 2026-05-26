@@ -14,34 +14,37 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Consistent supporter of environmental legislation including clean energy and climate action.",
+          "summary": "Durbin has consistently supported environmental legislation including clean energy investments and climate action.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
-            "Infrastructure Investment and Jobs Act with clean energy funding (Senate.gov, August 2021)"
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy funding (Senate vote, August 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Long-time advocate for criminal justice reform including sentencing reform.",
+          "summary": "Durbin has championed criminal justice reform as Judiciary Committee chair, supporting sentencing reform and police accountability measures.",
           "voted_for": [
-            "First Step Act (Senate.gov, December 2018)"
+            "First Step Act (Senate vote, December 2018)",
+            "George Floyd Justice in Policing Act (co-sponsor, 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of reproductive rights and access to abortion services.",
+          "summary": "Durbin strongly supports abortion rights and has voted for federal protections.",
           "voted_for": [
-            "Women's Health Protection Act (Senate.gov, February 2022)"
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ rights legislation.",
+          "summary": "Durbin has consistently supported LGBTQ+ rights legislation including marriage equality and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate.gov, November 2022)"
+            "Respect for Marriage Act (Senate vote, November 2022)",
+            "Employment Non-Discrimination Act (previous legislation)"
           ],
           "voted_against": []
         }
@@ -59,26 +62,35 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports climate action and clean energy initiatives.",
+          "summary": "Duckworth supports clean energy initiatives and environmental protection legislation.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
-            "Infrastructure Investment and Jobs Act (Senate.gov, August 2021)"
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate vote, August 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong advocate for reproductive rights and abortion access.",
+          "summary": "Duckworth is a strong supporter of abortion rights and reproductive healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (Senate.gov, February 2022)"
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
+          "summary": "Duckworth supports LGBTQ+ rights including marriage equality and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate.gov, November 2022)"
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Duckworth supports criminal justice reform and police accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (co-sponsor, 2021)"
           ],
           "voted_against": []
         }
@@ -96,20 +108,28 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Former meteorologist who supports climate action and environmental protection.",
-          "voted_for": [],
-          "voted_against": []
+          "summary": "Sorensen, a former meteorologist, has prioritized climate action and environmental protection since taking office in 2023.",
+          "voted_for": [
+            "Lower Energy Costs Act amendments supporting clean energy (House votes, 2023)"
+          ],
+          "voted_against": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and abortion access.",
-          "voted_for": [],
+          "summary": "Sorensen supports abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, 2023)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "As an openly gay member of Congress, strongly supports LGBTQ+ rights.",
-          "voted_for": [],
+          "summary": "As an openly LGBTQ+ member, Sorensen strongly supports LGBTQ+ rights and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
           "voted_against": []
         }
       }
@@ -126,31 +146,35 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental justice and climate action.",
+          "summary": "Ramirez supports environmental justice and climate action policies.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ]
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Advocate for criminal justice reform and reducing incarceration.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports progressive taxation and tax fairness.",
+          "summary": "Ramirez has championed criminal justice reform and police accountability from her state legislative work and in Congress.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of reproductive rights.",
+          "summary": "Ramirez strongly supports abortion rights and reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
+          "summary": "Ramirez supports comprehensive LGBTQ+ rights and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Ramirez supports progressive tax policies and increased taxes on wealthy individuals and corporations.",
           "voted_for": [],
           "voted_against": []
         }
@@ -161,27 +185,37 @@
       "party": "D",
       "chamber": "House",
       "district": "1",
-      "phone": "202-225-0773",
+      "phone": "202-225-5006",
       "website": "https://jackson.house.gov",
-      "twitter": "@RepJonJackson",
+      "twitter": "@RepJJackson",
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Jackson supports environmental protection and climate action legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ]
+        },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and equity.",
+          "summary": "Jackson supports criminal justice reform and has advocated for these issues as part of his family's civil rights legacy.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights.",
+          "summary": "Jackson supports reproductive healthcare access and abortion rights.",
           "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
+        "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports increased public school funding.",
-          "voted_for": [],
+          "summary": "Jackson supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
           "voted_against": []
         }
       }
@@ -198,19 +232,29 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and clean energy.",
+          "summary": "Budzinski supports environmental protection while balancing agricultural and energy sector interests in her district.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and abortion access.",
+          "summary": "Budzinski supports abortion rights and reproductive healthcare access.",
           "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Budzinski supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business development and funding.",
+          "summary": "Budzinski has prioritized small business support and economic development in her legislative work.",
           "voted_for": [],
           "voted_against": []
         }
@@ -228,23 +272,42 @@
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some conservation efforts but opposes strict climate regulations.",
+          "summary": "LaHood supports some environmental measures but opposes regulations he views as harmful to business and agriculture.",
           "voted_for": [
-            "Infrastructure Investment and Jobs Act (House.gov, November 2021)"
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)",
+            "Infrastructure Investment and Jobs Act (House vote, November 2021)"
           ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes progressive taxation and supports tax cuts.",
+          "summary": "LaHood opposes tax increases and supports lower taxes and simplified tax code.",
           "voted_for": [
-            "Tax Cuts and Jobs Act (House.gov, December 2017)"
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
           ],
           "voted_against": []
         },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "LaHood opposes abortion rights and has voted for restrictions on abortion access.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "mixed",
+          "summary": "LaHood supported marriage equality but has opposed some LGBTQ+ rights legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
+          "voted_against": [
+            "Equality Act (House vote, February 2021)"
+          ]
+        },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business funding and tax relief.",
+          "summary": "LaHood supports small business tax relief and funding programs.",
           "voted_for": [],
           "voted_against": []
         }
@@ -255,36 +318,41 @@
       "party": "R",
       "chamber": "House",
       "district": "15",
-      "phone": "202-225-5271",
+      "phone": "202-225-5001",
       "website": "https://marymiller.house.gov",
       "twitter": "@RepMaryMiller",
-      "instagram": "@repmary_miller",
+      "instagram": "@repmmarymiller",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes many environmental regulations, favors agricultural interests.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Opposes progressive taxation and increased taxes.",
-          "voted_for": [],
+          "summary": "Miller opposes many environmental regulations, viewing them as harmful to agriculture and energy independence.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports pro-life legislation.",
+          "summary": "Miller is strongly opposed to abortion rights and supports restrictions on abortion access.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes many LGBTQ+ rights measures.",
+          "summary": "Miller opposes LGBTQ+ rights legislation and has voted against anti-discrimination protections.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (House.gov, December 2022)"
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
           ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Miller opposes tax increases and supports lower taxes and reduced government spending.",
+          "voted_for": [],
+          "voted_against": []
         }
       }
     },
@@ -300,43 +368,40 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of environmental justice and climate action.",
+          "summary": "García supports environmental justice and climate action, particularly for communities of color.",
           "voted_for": [],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Supports police accountability and reform measures.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House.gov, March 2021)"
-          ],
-          "voted_against": []
+          "voted_against": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ]
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Advocates for criminal justice reform and reducing incarceration.",
-          "voted_for": [],
+          "summary": "García strongly supports criminal justice reform, police accountability, and ending mass incarceration.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Supports progressive taxation and tax fairness.",
+          "summary": "García supports progressive taxation and increased taxes on wealthy individuals and corporations.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and abortion access.",
+          "summary": "García supports abortion rights and reproductive healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (House.gov, September 2021)"
+            "Women's Health Protection Act (House vote, September 2021)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and equality.",
+          "summary": "García supports comprehensive LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (House.gov, December 2022)"
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
           ],
           "voted_against": []
         }
@@ -354,29 +419,33 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate action.",
+          "summary": "Underwood supports environmental protection and climate action legislation.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Registered nurse who strongly supports reproductive health rights.",
+          "summary": "Underwood, a registered nurse, strongly supports reproductive healthcare access and abortion rights.",
           "voted_for": [
-            "Women's Health Protection Act (House.gov, September 2021)"
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Black Maternal Health Momnibus Act (co-sponsor)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and equality.",
+          "summary": "Underwood supports LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (House.gov, December 2022)"
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public school funding.",
+          "summary": "Underwood supports increased federal funding for public schools and educational equity.",
           "voted_for": [],
           "voted_against": []
         }
@@ -394,24 +463,35 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Clean energy entrepreneur who strongly supports climate action and environmental protection.",
-          "voted_for": [],
-          "voted_against": []
+          "summary": "Casten, a clean energy entrepreneur, has made climate action and environmental protection central to his legislative work.",
+          "voted_for": [
+            "Climate Action Now Act (House vote, May 2019)"
+          ],
+          "voted_against": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of reproductive rights.",
+          "summary": "Casten strongly supports abortion rights and reproductive healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (House.gov, September 2021)"
+            "Women's Health Protection Act (House vote, September 2021)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and equality.",
+          "summary": "Casten supports comprehensive LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (House.gov, December 2022)"
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
           ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Casten supports progressive tax policies and closing tax loopholes for wealthy individuals and corporations.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -428,29 +508,32 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate action.",
+          "summary": "Krishnamoorthi supports environmental protection and climate action legislation.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and abortion access.",
+          "summary": "Krishnamoorthi supports abortion rights and reproductive healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (House.gov, September 2021)"
+            "Women's Health Protection Act (House vote, September 2021)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
+          "summary": "Krishnamoorthi supports LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (House.gov, December 2022)"
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
           ],
           "voted_against": []
         },
-        "Small Business Funding": {
+        "Progressive Taxation": {
           "stance": "support",
-          "summary": "Supports small business development and funding.",
+          "summary": "Krishnamoorthi supports tax reform that increases taxes on wealthy individuals and corporations.",
           "voted_for": [],
           "voted_against": []
         }
@@ -463,20 +546,20 @@
       "party": "D",
       "chamber": "House",
       "district": "1",
-      "phone": "773-440-8725",
-      "website": "https://www.ilga.gov/house/Rep.asp?MemberID=3160",
-      "twitter": "@RepAaronOrtiz",
+      "phone": "773-278-2204",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=3134",
+      "twitter": null,
       "instagram": null,
       "positions": {
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive health rights and access.",
+          "summary": "Ortíz supports abortion rights and reproductive healthcare access in Illinois.",
           "voted_for": [],
           "voted_against": []
         },
-        "LGBTQ+ Rights": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
+          "summary": "Ortíz supports increased funding for public schools and educational equity.",
           "voted_for": [],
           "voted_against": []
         }
@@ -487,20 +570,20 @@
       "party": "D",
       "chamber": "House",
       "district": "21",
-      "phone": "217-782-3167",
-      "website": "https://www.ilga.gov/house/Rep.asp?MemberID=3161",
-      "twitter": "@RepRashid",
+      "phone": "217-782-8018",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=3135",
+      "twitter": null,
       "instagram": null,
       "positions": {
-        "Reproductive Health Rights": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Supports reproductive health rights.",
+          "summary": "Rashid supports increased funding for public education.",
           "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports public school funding.",
+          "summary": "Rashid supports criminal justice reform measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -512,19 +595,27 @@
       "chamber": "House",
       "district": "102",
       "phone": "217-782-0432",
-      "website": "https://repniemerg.com",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=2919",
       "twitter": "@RepNiemerg",
       "instagram": null,
       "positions": {
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes progressive taxation measures.",
+          "summary": "Niemerg opposed the progressive income tax amendment and supports lower taxes.",
           "voted_for": [],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
+        "Criminal Justice Reform": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports pro-life legislation.",
+          "summary": "Niemerg has opposed criminal justice reform legislation including the SAFE-T Act.",
+          "voted_for": [],
+          "voted_against": [
+            "SAFE-T Act provisions (Illinois General Assembly, 2021)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Niemerg supports school funding while advocating for local control and fiscal responsibility.",
           "voted_for": [],
           "voted_against": []
         }
@@ -533,34 +624,28 @@
     {
       "name": "Adriane Johnson",
       "party": "D",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": "30",
-      "phone": "217-782-0498",
-      "website": "https://www.senatoradrianebjohnson.com",
-      "twitter": "@SenAdriane",
+      "phone": "847-672-2028",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=2918",
+      "twitter": "@RepAJohnson",
       "instagram": null,
       "positions": {
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform measures.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Cannabis Policy": {
-          "stance": "support",
-          "summary": "Supports cannabis legalization and equity in cannabis industry.",
+          "summary": "Johnson supports criminal justice reform and police accountability measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive health rights and access.",
+          "summary": "Johnson supports abortion rights and reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports public school funding increases.",
+          "summary": "Johnson supports increased funding for public schools and educational equity.",
           "voted_for": [],
           "voted_against": []
         }
@@ -571,20 +656,28 @@
       "party": "R",
       "chamber": "House",
       "district": "111",
-      "phone": "217-782-8108",
-      "website": "https://repelik.com",
+      "phone": "618-307-9200",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=2921",
       "twitter": "@RepAmyElik",
       "instagram": null,
       "positions": {
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes progressive taxation and tax increases.",
+          "summary": "Elik opposes progressive tax increases and supports tax relief.",
           "voted_for": [],
           "voted_against": []
         },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Supports small business funding and tax relief.",
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "Elik has opposed criminal justice reform legislation including the SAFE-T Act.",
+          "voted_for": [],
+          "voted_against": [
+            "SAFE-T Act (Illinois General Assembly, 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Elik opposes abortion rights and has supported restrictions on abortion access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -595,20 +688,26 @@
       "party": "R",
       "chamber": "House",
       "district": "47",
-      "phone": "217-782-8220",
-      "website": "https://repamygrant.com",
+      "phone": "630-797-5530",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=2587",
       "twitter": "@RepAmyGrant",
       "instagram": null,
       "positions": {
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Opposes progressive taxation increases.",
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Grant supports some environmental measures while opposing regulations she views as burdensome to business.",
           "voted_for": [],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
+        "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights expansion.",
+          "summary": "Grant opposed the progressive income tax amendment in 2020.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Grant supports public school funding and has worked on education issues.",
           "voted_for": [],
           "voted_against": []
         }
@@ -619,26 +718,28 @@
       "party": "R",
       "chamber": "House",
       "district": "45",
-      "phone": "217-782-0455",
-      "website": "https://repchesney.com",
+      "phone": "815-547-3436",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=2710",
       "twitter": "@RepChesney",
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "mixed",
-          "summary": "Supports some conservation but opposes strict regulations.",
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Chesney opposes progressive tax increases and supports tax relief.",
           "voted_for": [],
           "voted_against": []
         },
-        "Progressive Taxation": {
+        "Criminal Justice Reform": {
           "stance": "oppose",
-          "summary": "Opposes progressive taxation measures.",
+          "summary": "Chesney has strongly opposed criminal justice reform legislation including the SAFE-T Act.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "SAFE-T Act (Illinois General Assembly, 2021)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights.",
+          "summary": "Chesney opposes abortion rights and supports restrictions on abortion access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -649,26 +750,26 @@
       "party": "D",
       "chamber": "House",
       "district": "22",
-      "phone": "217-782-0167",
-      "website": "https://www.ilga.gov/house/Rep.asp?MemberID=3162",
-      "twitter": "@RepGuerreroCuel",
+      "phone": "872-218-3182",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=3136",
+      "twitter": null,
       "instagram": null,
       "positions": {
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and equity.",
+          "summary": "Guerrero-Cuellar supports criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Guerrero-Cuellar supports increased funding for public schools.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive health rights.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
+          "summary": "Guerrero-Cuellar supports abortion rights and reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -680,37 +781,41 @@
       "chamber": "House",
       "district": "11",
       "phone": "773-880-9082",
-      "website": "https://www.annmwilliams.com",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=2265",
       "twitter": "@RepAnnWilliams",
-      "instagram": "@repannwilliams",
+      "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of environmental protection and climate action.",
-          "voted_for": [],
+          "summary": "Williams has been a strong advocate for environmental protection and climate action in Illinois.",
+          "voted_for": [
+            "Climate and Equitable Jobs Act (Illinois General Assembly, 2021)"
+          ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform measures.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Cannabis Policy": {
-          "stance": "support",
-          "summary": "Supports cannabis legalization and regulation.",
+          "summary": "Williams supports criminal justice reform and police accountability measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of reproductive health rights.",
-          "voted_for": [],
+          "summary": "Williams strongly supports abortion rights and has sponsored reproductive healthcare legislation.",
+          "voted_for": [
+            "Reproductive Health Act (Illinois General Assembly, 2019)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Strong supporter of LGBTQ+ rights and protections.",
+          "summary": "Williams has been a champion for LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Williams supports increased funding for public schools and educational equity.",
           "voted_for": [],
           "voted_against": []
         }
@@ -721,32 +826,36 @@
       "party": "D",
       "chamber": "House",
       "district": "43",
-      "phone": "847-214-6908",
-      "website": "https://www.repmoeller.com",
+      "phone": "847-214-7308",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=2411",
       "twitter": "@RepAnnaMoeller",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection measures.",
+          "summary": "Moeller supports environmental protection and clean energy initiatives.",
+          "voted_for": [
+            "Climate and Equitable Jobs Act (Illinois General Assembly, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Moeller supports criminal justice reform measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive health rights.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
-          "voted_for": [],
+          "summary": "Moeller supports abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Reproductive Health Act (Illinois General Assembly, 2019)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports public school funding.",
+          "summary": "Moeller supports increased funding for public schools and educational equity.",
           "voted_for": [],
           "voted_against": []
         }
@@ -757,38 +866,34 @@
       "party": "D",
       "chamber": "House",
       "district": "81",
-      "phone": "630-474-0588",
-      "website": "https://repstavamurray.com",
-      "twitter": "@repstavamurray",
+      "phone": "630-800-0045",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=2712",
+      "twitter": "@RepStavaMurray",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate action.",
-          "voted_for": [],
+          "summary": "Stava-Murray supports environmental protection and climate action.",
+          "voted_for": [
+            "Climate and Equitable Jobs Act (Illinois General Assembly, 2021)"
+          ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform.",
+          "summary": "Stava-Murray supports criminal justice reform and police accountability.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive health rights.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Supports LGBTQ+ rights.",
+          "summary": "Stava-Murray supports abortion rights and reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Strong supporter of public school funding.",
+          "summary": "Stava-Murray supports increased funding for public schools and has prioritized education policy.",
           "voted_for": [],
           "voted_against": []
         }
@@ -799,27 +904,29 @@
       "party": "D",
       "chamber": "House",
       "district": "80",
-      "phone": "773-445-8128",
-      "website": "https://www.repdeluca.com",
-      "twitter": "@RepDeluca",
+      "phone": "773-869-2295",
+      "website": "https://ilga.gov/house/Rep.asp?MemberID=1830",
+      "twitter": null,
       "instagram": null,
       "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "DeLuca supports public school funding and has worked on education issues.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform measures.",
+          "summary": "DeLuca supports criminal justice reform measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive health rights.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports public school funding.",
-          "voted_for": [],
+          "summary": "DeLuca supports reproductive healthcare access.",
+          "voted_for": [
+            "Reproductive Health Act (Illinois General Assembly, 2019)"
+          ],
           "voted_against": []
         }
       }

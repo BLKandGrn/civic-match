@@ -9,49 +9,39 @@
       "district": null,
       "phone": "202-224-3934",
       "website": "https://www.schatz.senate.gov",
-      "twitter": "@brianschatz",
-      "instagram": "@brianschatz",
+      "twitter": "brianschatz",
+      "instagram": "brianschatz",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of climate action and environmental protection legislation including ocean conservation.",
+          "summary": "Strong advocate for climate action, renewable energy, and ocean protection legislation.",
           "voted_for": [
-            "Inflation Reduction Act with climate investments (Senate vote, August 2022)",
-            "Infrastructure Investment and Jobs Act with clean energy provisions (Senate vote, August 2021)"
+            "Inflation Reduction Act with climate provisions (Congress.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy funding (Congress.gov, November 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of reproductive health access and abortion rights protections.",
+          "summary": "Consistent supporter of reproductive rights and access to healthcare services.",
           "voted_for": [
-            "Women's Health Protection Act (Senate vote, February 2022)",
-            "Right to Contraception Act (Senate vote, July 2022)"
+            "Women's Health Protection Act (Congress.gov, February 2023)",
+            "Right to Contraception Act (Congress.gov, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Strong advocate for LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Vocal advocate for LGBTQ+ equality and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
+            "Respect for Marriage Act (Congress.gov, November 2022)"
           ],
           "voted_against": []
         },
-        "Progressive Taxation": {
+        "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supports higher taxes on wealthy individuals and corporations to fund social programs.",
-          "voted_for": [
-            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supports criminal justice reform measures including sentencing reform.",
-          "voted_for": [
-            "First Step Act (Senate vote, December 2018)"
-          ],
+          "summary": "Supports federal cannabis reform and decriminalization efforts.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -63,49 +53,47 @@
       "district": null,
       "phone": "202-224-6361",
       "website": "https://www.hirono.senate.gov",
-      "twitter": "@maziehirono",
-      "instagram": "@maziehirono",
+      "twitter": "maziehirono",
+      "instagram": "maziehirono",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Consistent advocate for climate action and environmental justice measures.",
+          "summary": "Champion of climate legislation and environmental justice initiatives.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
-            "Infrastructure Investment and Jobs Act (Senate vote, August 2021)"
-          ],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Strong supporter of abortion rights and reproductive health access.",
-          "voted_for": [
-            "Women's Health Protection Act (Senate vote, February 2022)",
-            "Right to Contraception Act (Senate vote, July 2022)"
-          ],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Vocal advocate for LGBTQ+ equality and protections.",
-          "voted_for": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
+            "Inflation Reduction Act with climate provisions (Congress.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act (Congress.gov, November 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and sentencing changes.",
+          "summary": "Supports sentencing reform and rehabilitation programs.",
           "voted_for": [
-            "First Step Act (Senate vote, December 2018)"
+            "First Step Act (Congress.gov, December 2018)"
           ],
           "voted_against": []
         },
-        "Progressive Taxation": {
+        "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports progressive tax policies and higher taxes on corporations.",
+          "summary": "Strong advocate for abortion access and reproductive healthcare.",
           "voted_for": [
-            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+            "Women's Health Protection Act (Congress.gov, February 2023)",
+            "Right to Contraception Act (Congress.gov, July 2022)"
           ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ rights and marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (Congress.gov, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Advocates for marijuana decriminalization and criminal record expungement.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -117,30 +105,30 @@
       "district": "2",
       "phone": "202-225-4906",
       "website": "https://tokuda.house.gov",
-      "twitter": "@RepTokuda",
-      "instagram": null,
+      "twitter": "RepTokuda",
+      "instagram": "reptokuda",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate resilience measures as former state legislator and new member of Congress.",
+          "summary": "Supports renewable energy development and environmental conservation measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supporter of reproductive health rights and abortion access.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "As former Chair of Hawaii Senate Education Committee, strong advocate for public education funding.",
+          "summary": "Advocates for reproductive healthcare access and rights.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supporter of LGBTQ+ equality and non-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased education funding based on state legislative record.",
           "voted_for": [],
           "voted_against": []
         }
@@ -153,39 +141,35 @@
       "district": "1",
       "phone": "202-225-2726",
       "website": "https://case.house.gov",
-      "twitter": "@RepEdCase",
-      "instagram": null,
+      "twitter": "RepEdCase",
+      "instagram": "repedcase",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection measures including ocean conservation.",
+          "summary": "Supports environmental protection with focus on practical implementation.",
           "voted_for": [
-            "Infrastructure Investment and Jobs Act (House vote, November 2021)"
+            "Infrastructure Investment and Jobs Act (Congress.gov, November 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and reproductive health access.",
-          "voted_for": [
-            "Women's Health Protection Act (House vote, September 2021)"
-          ],
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality protections.",
+          "summary": "Supports LGBTQ+ equality legislation.",
           "voted_for": [
-            "Respect for Marriage Act (House vote, July 2022)"
+            "Respect for Marriage Act (Congress.gov, December 2022)"
           ],
           "voted_against": []
         },
-        "Progressive Taxation": {
-          "stance": "mixed",
-          "summary": "Moderate Democrat who supports some progressive tax measures but has shown fiscal conservatism.",
-          "voted_for": [
-            "Inflation Reduction Act (House vote, August 2022)"
-          ],
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support and economic development programs.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -197,26 +181,26 @@
       "party": "D",
       "chamber": "House",
       "district": "24",
-      "phone": "808-586-9460",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=tam",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=tam",
       "twitter": null,
       "instagram": null,
       "positions": {
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "First openly gay member of Hawaii House and strong advocate for LGBTQ+ equality.",
+          "summary": "Openly LGBTQ+ legislator and strong advocate for equality measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and decriminalization measures.",
+          "summary": "Advocates for progressive criminal justice policies and reform.",
           "voted_for": [],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Supports reproductive health access and protections.",
+          "summary": "Supports increased education funding and resources.",
           "voted_for": [],
           "voted_against": []
         }
@@ -227,26 +211,26 @@
       "party": "D",
       "chamber": "House",
       "district": "46",
-      "phone": "808-586-9490",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=perruso",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=perruso",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Former public school teacher and union leader, strong advocate for education funding.",
+          "summary": "Former teacher and strong advocate for public education investment.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Progressive advocate for tax equity and funding social services.",
+          "summary": "Supports progressive tax policies to fund social programs.",
           "voted_for": [],
           "voted_against": []
         },
-        "Environmental Protection": {
+        "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate action measures.",
+          "summary": "Advocates for reproductive healthcare access and rights.",
           "voted_for": [],
           "voted_against": []
         }
@@ -257,14 +241,20 @@
       "party": "D",
       "chamber": "House",
       "district": "22",
-      "phone": "808-586-9455",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=garrett",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=garrett",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental and sustainability measures.",
+          "summary": "Supports environmental conservation and sustainability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for education funding increases.",
           "voted_for": [],
           "voted_against": []
         }
@@ -273,16 +263,22 @@
     {
       "name": "Angus McKelvey",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "6",
-      "phone": "808-586-9430",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=mckelvey",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=mckelvey",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Represents West Maui and supports environmental protection.",
+          "summary": "Supports environmental protection and conservation efforts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support programs.",
           "voted_for": [],
           "voted_against": []
         }
@@ -304,20 +300,20 @@
       "party": "D",
       "chamber": "House",
       "district": "16",
-      "phone": "808-586-9445",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=elefante",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=elefante",
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
+        "Fresh Food Access": {
           "stance": "support",
-          "summary": "Education Committee member supporting public school funding.",
+          "summary": "Advocates for food security and local agriculture support.",
           "voted_for": [],
           "voted_against": []
         },
-        "Environmental Protection": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Supports environmental and sustainability initiatives.",
+          "summary": "Supports education funding and school improvements.",
           "voted_for": [],
           "voted_against": []
         }
@@ -328,14 +324,20 @@
       "party": "R",
       "chamber": "House",
       "district": "23",
-      "phone": "808-586-9465",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=awa",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=awa",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Republican member supporting small business interests.",
+          "summary": "Advocates for small business support and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports funding for public education.",
           "voted_for": [],
           "voted_against": []
         }
@@ -344,22 +346,22 @@
     {
       "name": "Carol Fukunaga",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "11",
-      "phone": "808-586-6230",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=fukunaga",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=fukunaga",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Long-serving legislator supporting environmental measures.",
+          "summary": "Long-time supporter of environmental and sustainability initiatives.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports education funding and public schools.",
+          "summary": "Advocates for increased education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -368,34 +370,28 @@
     {
       "name": "Chris Lee",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "25",
-      "phone": "808-586-9470",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=lee",
-      "twitter": "@chris_lee_hi",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=lee",
+      "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for environmental protection and renewable energy.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Cannabis Policy": {
-          "stance": "support",
-          "summary": "Has supported cannabis legalization and decriminalization efforts.",
+          "summary": "Strong advocate for renewable energy and climate action.",
           "voted_for": [],
           "voted_against": []
         },
         "Data Center Regulation": {
           "stance": "support",
-          "summary": "Tech-focused legislator who has addressed data privacy and technology regulation.",
+          "summary": "Focuses on technology policy and regulation issues.",
           "voted_for": [],
           "voted_against": []
         },
-        "LGBTQ+ Rights": {
+        "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and protections.",
+          "summary": "Supports cannabis legalization and regulation efforts.",
           "voted_for": [],
           "voted_against": []
         }
@@ -406,14 +402,14 @@
       "party": "R",
       "chamber": "House",
       "district": "45",
-      "phone": "808-586-9485",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=muraoka",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=muraoka",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Republican member supporting business interests.",
+          "summary": "Advocates for small business support programs.",
           "voted_for": [],
           "voted_against": []
         }
@@ -424,14 +420,20 @@
       "party": "D",
       "chamber": "House",
       "district": "3",
-      "phone": "808-586-9425",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=todd",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=todd",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Represents Hilo and supports environmental measures.",
+          "summary": "Supports environmental conservation measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -442,14 +444,20 @@
       "party": "D",
       "chamber": "House",
       "district": "35",
-      "phone": "808-586-8480",
-      "website": "https://www.capitol.hawaii.gov/memberpage.aspx?member=chun",
+      "phone": null,
+      "website": "https://capitol.hawaii.gov/memberpage.aspx?member=chun",
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports investment in public education.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business development and funding.",
+          "summary": "Advocates for small business support.",
           "voted_for": [],
           "voted_against": []
         }
