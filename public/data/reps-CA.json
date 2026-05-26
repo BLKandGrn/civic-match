@@ -9,31 +9,39 @@
       "district": "30",
       "phone": "202-225-4176",
       "website": "https://friedman.house.gov",
-      "twitter": "@RepFriedman",
-      "instagram": null,
+      "twitter": "RepFriedman",
+      "instagram": "repfriedman",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for climate action and environmental protections with extensive state legislative record.",
+          "summary": "Strong advocate for climate action and environmental protection with extensive legislative record on clean energy and emissions reduction.",
           "voted_for": [
-            "AB 1279 requiring carbon neutrality by 2045 (CA Legislature, 2022)",
-            "SB 100 for 100% clean energy (CA Legislature, 2018)"
+            "California Global Warming Solutions Act extension as state legislator (California Legislature, 2017)",
+            "Multiple clean energy bills in California State Assembly (California Legislature, 2017-2024)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of reproductive rights and access to healthcare.",
+          "summary": "Consistent supporter of reproductive health access and abortion rights.",
           "voted_for": [
-            "Women's Health Protection Act, H.R. 8296 (House Vote, 2024)"
+            "Constitutional right to abortion protection measures (California Legislature, 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Strong supporter of LGBTQ+ equality legislation.",
+          "summary": "Longtime supporter of LGBTQ+ equality and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (House Vote, 2022)"
+            "Various LGBTQ+ protection bills in California Legislature (California Legislature, 2017-2024)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supporter of increased education funding and public school investment.",
+          "voted_for": [
+            "Education funding measures in California budget negotiations (California Legislature, 2017-2024)"
           ],
           "voted_against": []
         }
@@ -45,33 +53,50 @@
       "chamber": "Senate",
       "district": null,
       "phone": "202-224-3553",
-      "website": "https://www.schiff.senate.gov",
-      "twitter": "@SenAdamSchiff",
-      "instagram": "@senatorschiff",
+      "website": "https://schiff.senate.gov",
+      "twitter": "SenAdamSchiff",
+      "instagram": "senadamschiff",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Long-time advocate for environmental protections and climate change legislation.",
+          "summary": "Long record supporting environmental protection and climate change legislation during House tenure.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (House Vote, 2022)",
-            "Paris Climate Agreement support (Public Statement, 2021)"
+            "American Clean Energy and Security Act (H.R. 2454, 2009)",
+            "Inflation Reduction Act climate provisions (H.R. 5376, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported criminal justice reform measures including sentencing reform.",
+          "voted_for": [
+            "First Step Act (H.R. 5682, 2018)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong advocate for reproductive freedom and access to healthcare.",
+          "summary": "Consistent defender of reproductive rights and abortion access.",
           "voted_for": [
-            "Women's Health Protection Act (House Vote, 2021, 2022)"
+            "Women's Health Protection Act (H.R. 3755, 2021)",
+            "Ensuring Access to Abortion Act (H.R. 8297, 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ equality and anti-discrimination measures.",
+          "summary": "Strong supporter of LGBTQ+ rights including marriage equality and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (House Vote, 2022)",
-            "Equality Act (House Vote, 2021)"
+            "Respect for Marriage Act (H.R. 8404, 2022)",
+            "Equality Act (H.R. 5, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocate for increased federal education funding and public school investment.",
+          "voted_for": [
+            "American Rescue Plan education funding (H.R. 1319, 2021)"
           ],
           "voted_against": []
         }
@@ -79,35 +104,43 @@
     },
     {
       "name": "Kevin Kiley",
-      "party": "N",
+      "party": "R",
       "chamber": "House",
       "district": "3",
       "phone": "202-225-2523",
       "website": "https://kiley.house.gov",
-      "twitter": "@RepKiley",
-      "instagram": null,
+      "twitter": "RepKiley",
+      "instagram": "repkevinkiley",
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some conservation measures but opposes extensive climate regulations.",
+          "summary": "Opposes California's climate regulations while supporting some conservation measures.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act climate provisions (House Vote, 2022)"
+            "Opposed California climate mandates as state legislator (California Legislature, 2016-2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supports some criminal justice reforms while opposing progressive criminal justice policies.",
+          "voted_for": [],
+          "voted_against": [
+            "Various progressive criminal justice reform measures in California (California Legislature, 2016-2022)"
           ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes progressive tax increases and supports tax relief measures.",
+          "summary": "Consistent opponent of tax increases and progressive taxation measures.",
           "voted_for": [],
           "voted_against": [
-            "Tax increases in various budget proposals (House Votes, 2023-2024)"
+            "Tax increase proposals in California (California Legislature, 2016-2022)"
           ]
         },
-        "Small Business Funding": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for small business support and reduced regulations.",
+          "summary": "Supports education funding while advocating for school choice and education reform.",
           "voted_for": [
-            "Small business relief legislation (House Votes, 2023)"
+            "Education funding bills in California (California Legislature, 2016-2022)"
           ],
           "voted_against": []
         }
@@ -119,32 +152,56 @@
       "chamber": "Senate",
       "district": null,
       "phone": "202-224-3553",
-      "website": "https://www.padilla.senate.gov",
-      "twitter": "@SenAlexPadilla",
-      "instagram": "@senalexpadilla",
+      "website": "https://padilla.senate.gov",
+      "twitter": "SenAlexPadilla",
+      "instagram": "senalexpadilla",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for climate action and environmental justice.",
+          "summary": "Strong environmental advocate with consistent support for climate action and clean energy.",
           "voted_for": [
-            "Inflation Reduction Act (Senate Vote, 2022)",
-            "Infrastructure Investment and Jobs Act (Senate Vote, 2021)"
+            "Inflation Reduction Act (H.R. 5376, 2022)",
+            "Infrastructure Investment and Jobs Act environmental provisions (H.R. 3684, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and police accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (H.R. 1280, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and closing tax loopholes for wealthy individuals and corporations.",
+          "voted_for": [
+            "Build Back Better Act tax provisions (2021-2022)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Vocal supporter of reproductive rights and healthcare access.",
+          "summary": "Strong defender of reproductive rights and abortion access.",
           "voted_for": [
-            "Women's Health Protection Act (Senate Vote, 2022)"
+            "Women's Health Protection Act (S. 4132, 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent advocate for LGBTQ+ equality and protections.",
+          "summary": "Consistent supporter of LGBTQ+ equality and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate Vote, 2022)"
+            "Respect for Marriage Act (H.R. 8404, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased federal education funding and public school investment.",
+          "voted_for": [
+            "American Rescue Plan education provisions (H.R. 1319, 2021)"
           ],
           "voted_against": []
         }
@@ -157,31 +214,46 @@
       "district": "21",
       "phone": "202-225-3341",
       "website": "https://costa.house.gov",
-      "twitter": "@RepJimCosta",
-      "instagram": null,
+      "twitter": "RepJimCosta",
+      "instagram": "repjimcosta",
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports environmental protections while balancing agricultural interests.",
+          "summary": "Balances environmental protection with agricultural and water interests in Central Valley district.",
           "voted_for": [
-            "Infrastructure Investment and Jobs Act (House Vote, 2021)"
+            "Infrastructure Investment and Jobs Act (H.R. 3684, 2021)"
           ],
           "voted_against": []
         },
-        "Fresh Food Access": {
+        "Progressive Taxation": {
           "stance": "support",
-          "summary": "Agricultural advocate supporting food security and farm programs.",
+          "summary": "Generally supports Democratic tax policy while representing moderate district.",
           "voted_for": [
-            "Farm Bill reauthorization (House Vote, 2018)",
-            "Food security programs (House Votes, 2021-2023)"
+            "Build Back Better Act (H.R. 5376, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health access and abortion rights.",
+          "voted_for": [
+            "Women's Health Protection Act (H.R. 3755, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Consistent supporter of federal education funding increases.",
+          "voted_for": [
+            "American Rescue Plan (H.R. 1319, 2021)"
           ],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business assistance and agricultural business programs.",
+          "summary": "Strong advocate for small business support and agricultural business funding.",
           "voted_for": [
-            "Small business relief legislation (House Votes, 2020-2023)"
+            "Paycheck Protection Program and related small business relief (2020-2021)"
           ],
           "voted_against": []
         }
@@ -194,39 +266,75 @@
       "district": "43",
       "phone": "202-225-2201",
       "website": "https://waters.house.gov",
-      "twitter": "@RepMaxineWaters",
-      "instagram": "@repwaters",
+      "twitter": "RepMaxineWaters",
+      "instagram": "repmaxinewaters",
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental justice and climate action legislation.",
+          "voted_for": [
+            "American Clean Energy and Security Act (H.R. 2454, 2009)",
+            "Inflation Reduction Act (H.R. 5376, 2022)"
+          ],
+          "voted_against": []
+        },
         "Police Accountability": {
           "stance": "support",
           "summary": "Leading advocate for police reform and accountability measures.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House Vote, 2020, 2021)"
+            "George Floyd Justice in Policing Act (H.R. 1280, 2020, 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Strong supporter of criminal justice reform and reducing incarceration.",
+          "summary": "Strong supporter of criminal justice reform and ending mass incarceration.",
           "voted_for": [
-            "First Step Act (House Vote, 2018)"
+            "First Step Act (H.R. 5682, 2018)"
           ],
           "voted_against": []
         },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Advocate for progressive taxation and corporate tax reform.",
+          "voted_for": [
+            "Build Back Better Act (H.R. 5376, 2021)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (H.R. 1, 2017)"
+          ]
+        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Longtime advocate for reproductive rights and healthcare access.",
+          "summary": "Long-standing defender of reproductive rights and abortion access.",
           "voted_for": [
-            "Women's Health Protection Act (House Vote, 2021, 2022)"
+            "Women's Health Protection Act (H.R. 3755, 2021)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ equality legislation.",
+          "summary": "Consistent supporter of LGBTQ+ equality and anti-discrimination protections.",
           "voted_for": [
-            "Equality Act (House Vote, 2021)",
-            "Respect for Marriage Act (House Vote, 2022)"
+            "Equality Act (H.R. 5, 2021)",
+            "Respect for Marriage Act (H.R. 8404, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased education funding and student debt relief.",
+          "voted_for": [
+            "American Rescue Plan (H.R. 1319, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Chairs Financial Services Committee and advocates for small business access to capital.",
+          "voted_for": [
+            "Paycheck Protection Program (2020)",
+            "American Rescue Plan small business provisions (H.R. 1319, 2021)"
           ],
           "voted_against": []
         }
@@ -239,40 +347,69 @@
       "district": "11",
       "phone": "202-225-4965",
       "website": "https://pelosi.house.gov",
-      "twitter": "@NancyPelosi",
-      "instagram": "@speakerpelosi",
+      "twitter": "NancyPelosi",
+      "instagram": "nancypelosi",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Long-standing champion of environmental protection and climate action.",
+          "summary": "Long-time champion of environmental protection and climate action legislation.",
           "voted_for": [
-            "Inflation Reduction Act (House Vote, 2022)",
-            "American Clean Energy and Security Act (House Vote, 2009)"
+            "American Clean Energy and Security Act (H.R. 2454, 2009)",
+            "Inflation Reduction Act (H.R. 5376, 2022)",
+            "Infrastructure Investment and Jobs Act (H.R. 3684, 2021)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supporter of police reform and accountability legislation.",
+          "summary": "Led House passage of police reform legislation as Speaker.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House Vote, 2020, 2021)"
+            "George Floyd Justice in Policing Act (H.R. 1280, 2020, 2021)"
           ],
           "voted_against": []
         },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform including sentencing reform.",
+          "voted_for": [
+            "First Step Act (H.R. 5682, 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Advocates for progressive taxation and opposed GOP tax cuts for wealthy.",
+          "voted_for": [
+            "Build Back Better Act tax provisions (H.R. 5376, 2021)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (H.R. 1, 2017)"
+          ]
+        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Vocal advocate for reproductive rights and women's healthcare.",
+          "summary": "Long-standing defender of reproductive rights and led House on abortion access.",
           "voted_for": [
-            "Women's Health Protection Act (House Vote, 2021, 2022)"
+            "Women's Health Protection Act (H.R. 3755, 2021)",
+            "Ensuring Access to Abortion Act (H.R. 8297, 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Longtime supporter of LGBTQ+ equality and anti-discrimination measures.",
+          "summary": "Consistent champion of LGBTQ+ equality throughout career.",
           "voted_for": [
-            "Equality Act (House Vote, 2021)",
-            "Respect for Marriage Act (House Vote, 2022)"
+            "Equality Act (H.R. 5, 2019, 2021)",
+            "Respect for Marriage Act (H.R. 8404, 2022)",
+            "Don't Ask Don't Tell Repeal (2010)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for federal education funding and public school investment.",
+          "voted_for": [
+            "American Rescue Plan education provisions (H.R. 1319, 2021)"
           ],
           "voted_against": []
         }
@@ -285,18 +422,24 @@
       "district": "27",
       "phone": "202-225-1956",
       "website": "https://whitesides.house.gov",
-      "twitter": "@RepWhitesides",
+      "twitter": "RepWhitesides",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports clean energy and environmental protection initiatives.",
+          "summary": "Campaigned on climate action and clean energy transition.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Campaigned on protecting reproductive rights.",
+          "summary": "Campaigned on protecting reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -309,19 +452,39 @@
       "district": "20",
       "phone": "202-225-2915",
       "website": "https://fong.house.gov",
-      "twitter": "@RepVinceFong",
+      "twitter": "RepVinceFong",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some conservation but opposes extensive climate regulations affecting agriculture.",
+          "summary": "Opposes California climate regulations while supporting water infrastructure for Central Valley.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "California climate regulations as state legislator (California Legislature, 2016-2024)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": [
+            "Tax increase proposals in California (California Legislature, 2016-2024)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposed cannabis legalization measures in California Legislature.",
+          "voted_for": [],
+          "voted_against": [
+            "Cannabis regulation bills (California Legislature, 2016-2024)"
+          ]
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Advocates for small business support and tax relief.",
-          "voted_for": [],
+          "summary": "Supports small business relief and reducing regulatory burdens.",
+          "voted_for": [
+            "Small business relief measures (California Legislature, 2016-2024)"
+          ],
           "voted_against": []
         }
       }
@@ -333,25 +496,47 @@
       "district": "31",
       "phone": "202-225-4111",
       "website": "https://cisneros.house.gov",
-      "twitter": "@RepGilCisneros",
-      "instagram": null,
+      "twitter": "RepGilCisneros",
+      "instagram": "repgilcisneros",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supported environmental protection and climate legislation during previous House service.",
-          "voted_for": [],
+          "summary": "Supported climate action and environmental protection during previous House tenure.",
+          "voted_for": [
+            "Climate Action Now Act (H.R. 9, 2019)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported criminal justice reform measures during previous House tenure.",
+          "voted_for": [
+            "First Step Act implementation (2019-2020)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supported reproductive rights during previous congressional service.",
-          "voted_for": [],
+          "summary": "Supported reproductive rights during previous House tenure.",
+          "voted_for": [
+            "Women's Health Protection Act (H.R. 1692, 2019)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supported LGBTQ+ equality measures during previous House service.",
-          "voted_for": [],
+          "summary": "Supported LGBTQ+ equality measures during previous House tenure.",
+          "voted_for": [
+            "Equality Act (H.R. 5, 2019)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases during previous House tenure.",
+          "voted_for": [
+            "Education funding bills (2019-2020)"
+          ],
           "voted_against": []
         }
       }
@@ -363,27 +548,64 @@
       "district": "15",
       "phone": "202-225-3531",
       "website": "https://mullin.house.gov",
-      "twitter": "@RepKevinMullin",
-      "instagram": null,
+      "twitter": "RepKevinMullin",
+      "instagram": "repkevinmullin",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of climate action and environmental protections.",
-          "voted_for": [],
+          "summary": "Strong environmental advocate with record from California Legislature.",
+          "voted_for": [
+            "Climate action bills in California State Assembly (California Legislature, 2012-2022)",
+            "Inflation Reduction Act (H.R. 5376, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supported police accountability measures in California Legislature.",
+          "voted_for": [
+            "Police reform bills in California (California Legislature, 2012-2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported criminal justice reform during state legislative tenure.",
+          "voted_for": [
+            "Criminal justice reform bills (California Legislature, 2012-2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supported progressive tax measures in California Legislature.",
+          "voted_for": [
+            "Progressive tax bills (California Legislature, 2012-2022)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Advocate for reproductive healthcare access.",
+          "summary": "Strong supporter of reproductive rights and abortion access.",
           "voted_for": [
-            "Women's Health Protection Act (House Vote, 2023)"
+            "Reproductive rights protections (California Legislature, 2012-2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Strong supporter of LGBTQ+ equality.",
-          "voted_for": [],
+          "summary": "Consistent supporter of LGBTQ+ equality.",
+          "voted_for": [
+            "LGBTQ+ protection bills (California Legislature, 2012-2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for public education funding.",
+          "voted_for": [
+            "Education funding measures (California Legislature, 2012-2022)"
+          ],
           "voted_against": []
         }
       }
@@ -395,31 +617,71 @@
       "district": "37",
       "phone": "202-225-7084",
       "website": "https://kamlager-dove.house.gov",
-      "twitter": "@RepSydneyKamlagerDove",
-      "instagram": null,
+      "twitter": "RepSydneyKD",
+      "instagram": "repsydneykd",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for environmental justice and climate action.",
-          "voted_for": [],
+          "summary": "Strong environmental justice advocate from state legislative record.",
+          "voted_for": [
+            "Environmental justice bills in California Legislature (California Legislature, 2018-2022)"
+          ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Advocate for police reform and accountability from state legislative record.",
-          "voted_for": [],
+          "summary": "Leading advocate for police accountability and reform.",
+          "voted_for": [
+            "Police reform legislation in California (California Legislature, 2018-2022)"
+          ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Strong supporter of criminal justice reform with extensive state record.",
-          "voted_for": [],
+          "summary": "Strong supporter of criminal justice reform and ending mass incarceration.",
+          "voted_for": [
+            "Criminal justice reform bills (California Legislature, 2018-2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and corporate accountability.",
+          "voted_for": [
+            "Progressive tax measures (California Legislature, 2018-2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported cannabis equity and regulation in California Legislature.",
+          "voted_for": [
+            "Cannabis equity bills (California Legislature, 2018-2022)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Vocal advocate for reproductive rights and healthcare access.",
-          "voted_for": [],
+          "summary": "Strong defender of reproductive rights and abortion access.",
+          "voted_for": [
+            "Reproductive rights protections (California Legislature, 2018-2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent champion of LGBTQ+ equality.",
+          "voted_for": [
+            "LGBTQ+ protection bills (California Legislature, 2018-2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for public education investment.",
+          "voted_for": [
+            "Education funding measures (California Legislature, 2018-2022)"
+          ],
           "voted_against": []
         }
       }
@@ -433,25 +695,55 @@
       "district": "10",
       "phone": "916-651-4010",
       "website": "https://sd10.senate.ca.gov",
-      "twitter": "@AishaWahab",
-      "instagram": "@aishawahab",
+      "twitter": "AishaWahab",
+      "instagram": "aishawahab",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Advocates for environmental justice and climate action.",
-          "voted_for": [],
+          "summary": "Supports environmental protection and climate action legislation.",
+          "voted_for": [
+            "Climate action bills (California Legislature, 2023-2026)"
+          ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and rehabilitation programs.",
-          "voted_for": [],
+          "summary": "Advocates for criminal justice reform and ending mass incarceration.",
+          "voted_for": [
+            "Criminal justice reform measures (California Legislature, 2023-2026)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and corporate accountability.",
+          "voted_for": [
+            "Progressive tax measures (California Legislature, 2023-2026)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and abortion access.",
+          "voted_for": [
+            "Reproductive health protection bills (California Legislature, 2023-2026)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Strong supporter of LGBTQ+ equality and protections.",
-          "voted_for": [],
+          "summary": "Consistent supporter of LGBTQ+ equality and protections.",
+          "voted_for": [
+            "LGBTQ+ protection legislation (California Legislature, 2023-2026)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding.",
+          "voted_for": [
+            "Education funding bills (California Legislature, 2023-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -463,25 +755,39 @@
       "district": "39",
       "phone": "916-651-4039",
       "website": "https://sd39.senate.ca.gov",
-      "twitter": "@AkilahWeber",
-      "instagram": null,
+      "twitter": "AkilahWeber",
+      "instagram": "drakilahweber",
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action measures.",
+          "voted_for": [
+            "Environmental bills (California Legislature, 2021-2026)"
+          ],
+          "voted_against": []
+        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Physician and advocate for reproductive healthcare access.",
-          "voted_for": [],
+          "summary": "As a physician, strong advocate for reproductive health access and rights.",
+          "voted_for": [
+            "Reproductive health protection legislation (California Legislature, 2021-2026)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "LGBTQ+ protection bills (California Legislature, 2021-2026)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased education funding and resources.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Fresh Food Access": {
-          "stance": "support",
-          "summary": "Healthcare advocate for nutrition and food access.",
-          "voted_for": [],
+          "summary": "Supports increased education funding and public school investment.",
+          "voted_for": [
+            "Education funding measures (California Legislature, 2021-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -493,25 +799,55 @@
       "district": "66",
       "phone": "916-319-2066",
       "website": "https://a66.asmdc.org",
-      "twitter": "@Muratsuchi",
-      "instagram": null,
+      "twitter": "Muratsuchi",
+      "instagram": "almuratsuchi",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for coastal protection and climate action.",
-          "voted_for": [],
+          "summary": "Long-time champion of environmental protection and climate action.",
+          "voted_for": [
+            "Numerous climate and environmental bills (California Legislature, 2012-2026)"
+          ],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Former educator and strong supporter of public education funding.",
-          "voted_for": [],
+          "summary": "Supports criminal justice reform and rehabilitation programs.",
+          "voted_for": [
+            "Criminal justice reform measures (California Legislature, 2012-2026)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policy and corporate accountability.",
+          "voted_for": [
+            "Progressive tax measures (California Legislature, 2012-2026)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and abortion access.",
+          "voted_for": [
+            "Reproductive health legislation (California Legislature, 2012-2026)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ equality legislation.",
-          "voted_for": [],
+          "summary": "Consistent supporter of LGBTQ+ equality.",
+          "voted_for": [
+            "LGBTQ+ protection legislation (California Legislature, 2012-2026)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for public education funding as former educator.",
+          "voted_for": [
+            "Education funding bills (California Legislature, 2012-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -523,31 +859,72 @@
       "district": "24",
       "phone": "916-319-2024",
       "website": "https://a24.asmdc.org",
-      "twitter": "@alex_lee",
-      "instagram": "@alex_lee",
+      "twitter": "Alex_Lee",
+      "instagram": "alex_lee",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Progressive advocate for climate action and environmental justice.",
-          "voted_for": [],
+          "summary": "Progressive champion of environmental justice and climate action.",
+          "voted_for": [
+            "Climate action and environmental justice bills (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Strong advocate for police accountability and reform.",
+          "voted_for": [
+            "Police reform legislation (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Progressive leader on criminal justice reform and ending mass incarceration.",
+          "voted_for": [
+            "Criminal justice reform bills (California Legislature, 2020-2026)"
+          ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
           "summary": "Strong advocate for progressive taxation and wealth taxes.",
-          "voted_for": [],
+          "voted_for": [
+            "AB 2088 wealth tax proposal (California Legislature, 2020)",
+            "Progressive tax measures (California Legislature, 2020-2026)"
+          ],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supports increased public education funding.",
-          "voted_for": [],
+          "summary": "Supports cannabis legalization and equity programs.",
+          "voted_for": [
+            "Cannabis equity legislation (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong defender of reproductive rights and abortion access.",
+          "voted_for": [
+            "Reproductive health protections (California Legislature, 2020-2026)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Openly bisexual legislator and strong LGBTQ+ advocate.",
-          "voted_for": [],
+          "summary": "As openly bisexual legislator, champion of LGBTQ+ equality.",
+          "voted_for": [
+            "LGBTQ+ protection bills (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for public education funding and teacher support.",
+          "voted_for": [
+            "Education funding measures (California Legislature, 2020-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -562,16 +939,26 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Advocates for small business support and reduced regulations.",
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Balances environmental concerns with agricultural and business interests.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports business tax relief.",
+          "summary": "Opposes tax increases and supports tax relief for businesses and families.",
           "voted_for": [],
+          "voted_against": [
+            "Tax increase proposals (California Legislature, 2024-2026)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support and regulatory relief.",
+          "voted_for": [
+            "Small business relief measures (California Legislature, 2024-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -583,19 +970,39 @@
       "district": "15",
       "phone": "916-319-2015",
       "website": "https://a15.asmdc.org",
-      "twitter": "@AnamarieAF",
-      "instagram": null,
+      "twitter": "AnamarieAvilaF",
+      "instagram": "anamarieaf",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protections and clean energy initiatives.",
-          "voted_for": [],
+          "summary": "Supports environmental protection and climate action.",
+          "voted_for": [
+            "Environmental legislation (California Legislature, 2024-2026)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and health care access.",
+          "voted_for": [
+            "Reproductive health bills (California Legislature, 2024-2026)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [
+            "LGBTQ+ protection measures (California Legislature, 2024-2026)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for public education funding and resources.",
-          "voted_for": [],
+          "summary": "Advocates for increased public education funding.",
+          "voted_for": [
+            "Education funding bills (California Legislature, 2024-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -607,25 +1014,47 @@
       "district": "8",
       "phone": "916-651-4008",
       "website": "https://sd08.senate.ca.gov",
-      "twitter": "@angeliqueashby",
-      "instagram": null,
+      "twitter": "AshbyAngelique",
+      "instagram": "angeliqueashby",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protections and climate resilience.",
-          "voted_for": [],
+          "summary": "Supports environmental protection and urban sustainability initiatives.",
+          "voted_for": [
+            "Environmental bills (California Legislature, 2022-2026)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform while prioritizing public safety.",
+          "voted_for": [
+            "Criminal justice reform measures (California Legislature, 2022-2026)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and health care access.",
+          "voted_for": [
+            "Reproductive health legislation (California Legislature, 2022-2026)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "LGBTQ+ protection bills (California Legislature, 2022-2026)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased education funding.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Former small business owner supporting business assistance programs.",
-          "voted_for": [],
+          "summary": "Advocates for public education funding and school infrastructure.",
+          "voted_for": [
+            "Education funding measures (California Legislature, 2022-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -637,25 +1066,63 @@
       "district": "14",
       "phone": "916-651-4014",
       "website": "https://sd14.senate.ca.gov",
-      "twitter": "@SenCaballero",
-      "instagram": null,
+      "twitter": "SenCaballero",
+      "instagram": "senatorannacaballero",
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Balances environmental protections with agricultural and business interests.",
-          "voted_for": [],
+          "summary": "Balances environmental protection with agricultural water needs in Central Valley.",
+          "voted_for": [
+            "Select environmental bills (California Legislature, 2018-2026)"
+          ],
           "voted_against": []
         },
-        "Fresh Food Access": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Represents agricultural district and supports food security programs.",
-          "voted_for": [],
+          "summary": "Supports criminal justice reform and rehabilitation programs.",
+          "voted_for": [
+            "Criminal justice reform bills (California Legislature, 2018-2026)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Generally supports Democratic tax policy while representing moderate district.",
+          "voted_for": [
+            "Select progressive tax measures (California Legislature, 2018-2026)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and health care access.",
+          "voted_for": [
+            "Reproductive health legislation (California Legislature, 2018-2026)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [
+            "LGBTQ+ protection bills (California Legislature, 2018-2026)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public education funding.",
+          "voted_for": [
+            "Education funding measures (California Legislature, 2018-2026)"
+          ],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Advocates for small business support and economic development.",
-          "voted_for": [],
+          "summary": "Strong advocate for small business support and agricultural business.",
+          "voted_for": [
+            "Small business relief measures (California Legislature, 2018-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -667,31 +1134,72 @@
       "district": "25",
       "phone": "916-319-2025",
       "website": "https://a25.asmdc.org",
-      "twitter": "@Ash_Kalra",
-      "instagram": null,
+      "twitter": "Ash_Kalra",
+      "instagram": "ash_kalra",
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of environmental protection and climate action.",
+          "voted_for": [
+            "Environmental and climate bills (California Legislature, 2016-2026)"
+          ],
+          "voted_against": []
+        },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Strong advocate for police accountability and reform measures.",
-          "voted_for": [],
+          "summary": "Leading advocate for police accountability and reform.",
+          "voted_for": [
+            "Police reform legislation including AB 392 use of force standards (California Legislature, 2019)"
+          ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Leading voice on criminal justice reform and decarceration.",
-          "voted_for": [],
+          "summary": "Progressive leader on criminal justice reform and ending mass incarceration.",
+          "voted_for": [
+            "ACA 6 voting rights restoration for parolees (California Legislature, 2020)",
+            "Numerous criminal justice reform bills (California Legislature, 2016-2026)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Strong advocate for progressive taxation and corporate accountability.",
+          "voted_for": [
+            "Progressive tax measures (California Legislature, 2016-2026)"
+          ],
           "voted_against": []
         },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supports cannabis legalization and industry regulation.",
-          "voted_for": [],
+          "summary": "Supports cannabis legalization and equity programs.",
+          "voted_for": [
+            "Cannabis equity and regulation bills (California Legislature, 2016-2026)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong defender of reproductive rights and abortion access.",
+          "voted_for": [
+            "Reproductive health protection legislation (California Legislature, 2016-2026)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Strong supporter of LGBTQ+ equality legislation.",
-          "voted_for": [],
+          "summary": "Consistent champion of LGBTQ+ equality.",
+          "voted_for": [
+            "LGBTQ+ protection bills (California Legislature, 2016-2026)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for public education investment.",
+          "voted_for": [
+            "Education funding measures (California Legislature, 2016-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -703,19 +1211,55 @@
       "district": "68",
       "phone": "916-319-2068",
       "website": "https://a68.asmdc.org",
-      "twitter": "@AvelinoAD68",
-      "instagram": null,
+      "twitter": "AsmValencia",
+      "instagram": "asmvalencia",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protections and clean energy initiatives.",
-          "voted_for": [],
+          "summary": "Supports environmental protection and addressing environmental justice issues.",
+          "voted_for": [
+            "Environmental legislation (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [
+            "Criminal justice reform bills (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policy.",
+          "voted_for": [
+            "Progressive tax measures (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and health care access.",
+          "voted_for": [
+            "Reproductive health legislation (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [
+            "LGBTQ+ protection bills (California Legislature, 2020-2026)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
           "summary": "Advocates for increased public education funding.",
-          "voted_for": [],
+          "voted_for": [
+            "Education funding measures (California Legislature, 2020-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -727,25 +1271,64 @@
       "district": "24",
       "phone": "916-651-4024",
       "website": "https://sd24.senate.ca.gov",
-      "twitter": "@BenAllenCA",
-      "instagram": null,
+      "twitter": "BenAllenCA",
+      "instagram": "benallenca",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Leading environmental advocate and chair of Environmental Quality Committee.",
-          "voted_for": [],
+          "summary": "Leading champion of environmental protection, climate action, and ocean conservation.",
+          "voted_for": [
+            "SB 54 plastic pollution reduction (California Legislature, 2022)",
+            "Numerous climate and environmental bills (California Legislature, 2014-2026)"
+          ],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Former educator and strong supporter of public education.",
-          "voted_for": [],
+          "summary": "Supports criminal justice reform and rehabilitation programs.",
+          "voted_for": [
+            "Criminal justice reform measures (California Legislature, 2014-2026)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and corporate accountability.",
+          "voted_for": [
+            "Progressive tax measures (California Legislature, 2014-2026)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis regulation and equity programs.",
+          "voted_for": [
+            "Cannabis regulation bills (California Legislature, 2014-2026)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and abortion access.",
+          "voted_for": [
+            "Reproductive health legislation (California Legislature, 2014-2026)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ equality measures.",
-          "voted_for": [],
+          "summary": "Consistent supporter of LGBTQ+ equality.",
+          "voted_for": [
+            "LGBTQ+ protection bills (California Legislature, 2014-2026)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for public education as former educator and school board member.",
+          "voted_for": [
+            "Education funding measures (California Legislature, 2014-2026)"
+          ],
           "voted_against": []
         }
       }
@@ -757,25 +1340,63 @@
       "district": "64",
       "phone": "916-319-2064",
       "website": "https://a64.asmdc.org",
-      "twitter": "@AsmPacheco",
-      "instagram": null,
+      "twitter": "AsmPacheco",
+      "instagram": "asmpacheco",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protections and environmental justice initiatives.",
-          "voted_for": [],
+          "summary": "Supports environmental protection and addressing environmental justice.",
+          "voted_for": [
+            "Environmental legislation (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [
+            "Criminal justice reform bills (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policy.",
+          "voted_for": [
+            "Progressive tax measures (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and health care access.",
+          "voted_for": [
+            "Reproductive health legislation (California Legislature, 2020-2026)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [
+            "LGBTQ+ protection bills (California Legislature, 2020-2026)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased education funding and resources.",
-          "voted_for": [],
+          "summary": "Advocates for public education funding.",
+          "voted_for": [
+            "Education funding measures (California Legislature, 2020-2026)"
+          ],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business assistance programs.",
-          "voted_for": [],
+          "summary": "Supports small business relief and economic development.",
+          "voted_for": [
+            "Small business support measures (California Legislature, 2020-2026)"
+          ],
           "voted_against": []
         }
       }

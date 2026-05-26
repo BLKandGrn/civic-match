@@ -9,39 +9,40 @@
       "district": null,
       "phone": "202-224-5042",
       "website": "https://www.coons.senate.gov",
-      "twitter": "@ChrisCoons",
-      "instagram": "@senatorchris",
+      "twitter": "ChrisCoons",
+      "instagram": "sencoonsoffice",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
           "summary": "Consistently supports climate action legislation and clean energy initiatives.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
-            "Infrastructure Investment and Jobs Act with environmental provisions (Senate.gov, August 2021)"
+            "Infrastructure Investment and Jobs Act with climate provisions (Senate Vote, November 2021)",
+            "Inflation Reduction Act with climate investments (Senate Vote, August 2022)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports sentencing reform and reentry programs for formerly incarcerated individuals.",
+          "summary": "Supports bipartisan criminal justice reform efforts and sentencing reform.",
           "voted_for": [
-            "First Step Act (Senate.gov, December 2018)"
+            "First Step Act (Senate Vote, December 2018)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and access to reproductive healthcare.",
+          "summary": "Supports abortion rights and voted to codify Roe v. Wade protections.",
           "voted_for": [
-            "Women's Health Protection Act (Senate.gov, February 2022)"
+            "Women's Health Protection Act (Senate Vote, February 2022)",
+            "Women's Health Protection Act (Senate Vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ rights protections and marriage equality legislation.",
           "voted_for": [
-            "Respect for Marriage Act (Senate.gov, November 2022)"
+            "Respect for Marriage Act (Senate Vote, November 2022)"
           ],
           "voted_against": []
         }
@@ -54,56 +55,49 @@
       "district": "At-Large",
       "phone": "202-225-4165",
       "website": "https://bluntrochester.house.gov",
-      "twitter": "@RepLBR",
-      "instagram": "@replbr",
+      "twitter": "RepLBR",
+      "instagram": "replbr",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Advocates for climate action and environmental justice initiatives.",
+          "summary": "Supports climate change legislation and environmental protection measures.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (House.gov, August 2022)",
-            "Infrastructure Investment and Jobs Act (House.gov, November 2021)"
+            "Infrastructure Investment and Jobs Act (House Vote, November 2021)",
+            "Inflation Reduction Act (House Vote, August 2022)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police reform measures and accountability legislation.",
+          "summary": "Supports police reform and accountability measures.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House.gov, March 2021)"
+            "George Floyd Justice in Policing Act (House Vote, March 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and reentry programs.",
+          "summary": "Supports criminal justice reform and sentencing reform legislation.",
           "voted_for": [
-            "First Step Act (House.gov, December 2018)"
+            "First Step Act (House Vote, December 2018)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "summary": "Supports abortion rights and voted to protect reproductive healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (House.gov, September 2021)"
+            "Women's Health Protection Act (House Vote, September 2021)",
+            "Women's Health Protection Act (House Vote, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination legislation.",
+          "summary": "Supports LGBTQ+ rights protections and anti-discrimination legislation.",
           "voted_for": [
-            "Respect for Marriage Act (House.gov, July 2022)",
-            "Equality Act (House.gov, February 2021)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Advocates for increased federal funding for public education.",
-          "voted_for": [
-            "American Rescue Plan with education funding (House.gov, March 2021)"
+            "Respect for Marriage Act (House Vote, July 2022)",
+            "Equality Act (House Vote, February 2021)"
           ],
           "voted_against": []
         }
@@ -116,24 +110,24 @@
       "district": "At-Large",
       "phone": "202-225-4165",
       "website": "https://mcbride.house.gov",
-      "twitter": "@RepMcBride",
-      "instagram": null,
+      "twitter": "SarahEMcBride",
+      "instagram": "sarahemcbride",
       "positions": {
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "As the first openly transgender member of Congress, champions LGBTQ+ equality and protections.",
+          "summary": "First openly transgender person elected to Congress, longtime LGBTQ+ rights advocate.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and healthcare access based on campaign positions.",
+          "summary": "Supports reproductive healthcare access based on campaign platform and advocacy history.",
           "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Environmental Protection": {
           "stance": "support",
-          "summary": "Advocates for increased public education funding based on legislative priorities.",
+          "summary": "Supported environmental protection measures as state senator.",
           "voted_for": [],
           "voted_against": []
         }
@@ -147,7 +141,7 @@
       "chamber": "House",
       "district": "20",
       "phone": null,
-      "website": null,
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -155,17 +149,19 @@
     {
       "name": "Bill Bush",
       "party": "D",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": "29",
       "phone": null,
-      "website": null,
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supported cannabis legalization efforts in Delaware.",
-          "voted_for": [],
+          "summary": "Voted in favor of cannabis legalization in Delaware.",
+          "voted_for": [
+            "HB 1 - Cannabis legalization (House Vote, April 2023)"
+          ],
           "voted_against": []
         }
       }
@@ -176,7 +172,7 @@
       "chamber": "House",
       "district": "28",
       "phone": null,
-      "website": null,
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -186,17 +182,17 @@
       "party": "R",
       "chamber": "Senate",
       "district": "19",
-      "phone": "302-744-4298",
-      "website": null,
+      "phone": "302-744-4167",
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Cannabis Policy": {
           "stance": "oppose",
-          "summary": "Opposed cannabis legalization legislation in Delaware.",
+          "summary": "Voted against cannabis legalization in Delaware.",
           "voted_for": [],
           "voted_against": [
-            "HB 1 marijuana legalization (Delaware General Assembly, April 2023)"
+            "HB 1 - Cannabis legalization (Senate Vote, April 2023)"
           ]
         }
       }
@@ -204,35 +200,44 @@
     {
       "name": "Bryan Shupe",
       "party": "R",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": "36",
-      "phone": "302-744-4133",
-      "website": null,
+      "phone": "302-744-4351",
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Voted against cannabis legalization in Delaware.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 1 - Cannabis legalization (House Vote, April 2023)"
+          ]
+        }
+      }
     },
     {
       "name": "Bryan Townsend",
       "party": "D",
       "chamber": "Senate",
       "district": "11",
-      "phone": "302-744-4125",
-      "website": null,
-      "twitter": "@BryanTownsendDE",
+      "phone": "302-744-4169",
+      "website": "https://legis.delaware.gov",
+      "twitter": "BryanTownsendDE",
       "instagram": null,
       "positions": {
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supported and sponsored cannabis legalization legislation.",
+          "summary": "Voted in favor of cannabis legalization and has sponsored related legislation.",
           "voted_for": [
-            "HB 1 marijuana legalization (Delaware General Assembly, April 2023)"
+            "HB 1 - Cannabis legalization (Senate Vote, April 2023)"
           ],
           "voted_against": []
         },
-        "Criminal Justice Reform": {
+        "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports criminal justice reform measures and sentencing reform.",
+          "summary": "Supports reproductive healthcare access protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -243,19 +248,28 @@
       "party": "R",
       "chamber": "Senate",
       "district": "21",
-      "phone": "302-744-4164",
-      "website": null,
+      "phone": "302-744-4048",
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Voted against cannabis legalization in Delaware.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 1 - Cannabis legalization (Senate Vote, April 2023)"
+          ]
+        }
+      }
     },
     {
       "name": "Charles Postles",
       "party": "R",
       "chamber": "House",
       "district": "33",
-      "phone": null,
-      "website": null,
+      "phone": "302-744-4351",
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -266,13 +280,19 @@
       "chamber": "Senate",
       "district": "14",
       "phone": null,
-      "website": null,
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and healthcare access.",
+          "summary": "Supports reproductive healthcare access and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights protections based on advocacy record.",
           "voted_for": [],
           "voted_against": []
         }
@@ -284,7 +304,7 @@
       "chamber": "House",
       "district": "25",
       "phone": null,
-      "website": null,
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -295,7 +315,7 @@
       "chamber": "House",
       "district": "1",
       "phone": null,
-      "website": null,
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
       "positions": {}
@@ -306,10 +326,19 @@
       "chamber": "House",
       "district": "39",
       "phone": "302-744-4351",
-      "website": null,
+      "website": "https://legis.delaware.gov",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Voted against cannabis legalization in Delaware.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 1 - Cannabis legalization (House Vote, April 2023)"
+          ]
+        }
+      }
     }
   ]
 }
