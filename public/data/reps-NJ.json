@@ -1,0 +1,723 @@
+{
+  "state": "NJ",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Cory A. Booker",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3224",
+      "website": "https://www.booker.senate.gov",
+      "twitter": "@CoryBooker",
+      "instagram": "@corybooker",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for climate action and environmental justice, co-sponsor of major climate legislation.",
+          "voted_for": [
+            "Environmental Justice for All Act (Congress.gov, 2021)",
+            "Inflation Reduction Act climate provisions (Senate.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Leading advocate for criminal justice reform including sentencing reform and marijuana decriminalization.",
+          "voted_for": [
+            "First Step Act (Congress.gov, December 2018)",
+            "Cannabis Administration and Opportunity Act sponsorship (Congress.gov, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Co-sponsor of federal cannabis legalization legislation and advocate for expungement of marijuana convictions.",
+          "voted_for": [
+            "Cannabis Administration and Opportunity Act (Congress.gov, 2022)",
+            "MORE Act support (Congress.gov, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of abortion rights and access to reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate.gov, 2022)",
+            "Right to Contraception Act (Senate.gov, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate.gov, November 2022)",
+            "Equality Act support (Congress.gov, 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andy Kim",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3224",
+      "website": "https://www.kim.senate.gov",
+      "twitter": "@AndyKimNJ",
+      "instagram": "@andykimnj",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supported clean energy initiatives and climate action during House tenure.",
+          "voted_for": [
+            "Inflation Reduction Act (House.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act environmental provisions (House.gov, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for abortion rights protections during House service.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, 2021, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supported LGBTQ+ rights legislation including marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, December 2022)",
+            "Equality Act (House.gov, 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Analilia Mejia",
+      "party": "D",
+      "chamber": "House",
+      "district": "11",
+      "phone": "202-225-5034",
+      "website": "https://mejia.house.gov",
+      "twitter": "@RepMejia",
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Campaign platform emphasized tax fairness and progressive revenue policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for reproductive rights based on campaign positions and early legislative record.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Nellie Pou",
+      "party": "D",
+      "chamber": "House",
+      "district": "9",
+      "phone": "202-225-5751",
+      "website": "https://pou.house.gov",
+      "twitter": "@RepNelliePou",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Long record in NJ Legislature supporting education funding increases and school infrastructure.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supported reproductive health protections during NJ legislative service.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Herb Conaway",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-4765",
+      "website": "https://conaway.house.gov",
+      "twitter": "@RepConaway",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supported reproductive health legislation during NJ Assembly tenure and as physician-legislator.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Voted for education funding increases in NJ Legislature.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "LaMonica McIver",
+      "party": "D",
+      "chamber": "House",
+      "district": "10",
+      "phone": "202-225-3436",
+      "website": "https://mciver.house.gov",
+      "twitter": "@RepMcIver",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Newark councilmember background with focus on education access and funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Rob Menendez",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-7919",
+      "website": "https://menendez.house.gov",
+      "twitter": "@RepMenendez",
+      "instagram": "@repmenendez",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supported environmental protection measures and climate legislation in Congress.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for abortion rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Thomas H. Kean Jr.",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-5361",
+      "website": "https://kean.house.gov",
+      "twitter": "@RepTomKean",
+      "instagram": "@reptomkean",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Moderate Republican with some environmental support but opposition to aggressive climate regulations.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act (House.gov, November 2021)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (House.gov, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "mixed",
+          "summary": "Generally opposes federal abortion rights legislation but supports some exceptions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House.gov, 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jeff Van Drew",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-6572",
+      "website": "https://vandrew.house.gov",
+      "twitter": "@CongressmanJVD",
+      "instagram": "@congressmanjvd",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation but opposes aggressive climate regulations affecting business.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House.gov, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal abortion rights legislation and voted against protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House.gov, 2021, 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Voted against LGBTQ+ protections including marriage equality.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House.gov, December 2022)",
+            "Equality Act (House.gov, 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Josh Gottheimer",
+      "party": "D",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-4465",
+      "website": "https://gottheimer.house.gov",
+      "twitter": "@RepJoshG",
+      "instagram": "@repjoshg",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and infrastructure investments including clean energy.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act (House.gov, November 2021)",
+            "Inflation Reduction Act (House.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for abortion rights protections.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supported LGBTQ+ rights legislation including marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, December 2022)",
+            "Equality Act (House.gov, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for small business support and tax relief as moderate Democrat.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bonnie Watson Coleman",
+      "party": "D",
+      "chamber": "House",
+      "district": "12",
+      "phone": "202-225-5801",
+      "website": "https://watsoncoleman.house.gov",
+      "twitter": "@RepBonnie",
+      "instagram": "@repwatsoncoleman",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong progressive advocate for environmental justice and climate action.",
+          "voted_for": [
+            "Inflation Reduction Act (House.gov, August 2022)",
+            "Environmental Justice for All Act sponsorship (Congress.gov, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Advocate for police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House.gov, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Strong supporter of criminal justice reform including sentencing and marijuana policy changes.",
+          "voted_for": [
+            "First Step Act (House.gov, December 2018)",
+            "MORE Act (House.gov, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and increased taxation on wealthy individuals and corporations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Strong supporter of marijuana legalization and expungement.",
+          "voted_for": [
+            "MORE Act (House.gov, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, 2021, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, December 2022)",
+            "Equality Act (House.gov, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Donald Norcross",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-6501",
+      "website": "https://norcross.house.gov",
+      "twitter": "@DonaldNorcross",
+      "instagram": "@repdonaldnorcross",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and clean energy infrastructure investments.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act (House.gov, November 2021)",
+            "Inflation Reduction Act (House.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Voted for criminal justice reform legislation.",
+          "voted_for": [
+            "First Step Act (House.gov, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported marijuana decriminalization legislation.",
+          "voted_for": [
+            "MORE Act (House.gov, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for abortion rights protections.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supported LGBTQ+ rights legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, December 2022)",
+            "Equality Act (House.gov, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Labor-backed representative supporting increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Al Abdelaziz",
+      "party": "D",
+      "chamber": "House",
+      "district": "35",
+      "phone": "609-847-3905",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/350/assemblyman-abdelaziz",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding for Hudson County schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Al Barlas",
+      "party": "R",
+      "chamber": "House",
+      "district": "40",
+      "phone": "973-300-0200",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/400/assemblyman-barlas",
+      "twitter": "@AlBarlas",
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Small business owner advocating for reduced regulation and business support.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Sauickie",
+      "party": "R",
+      "chamber": "House",
+      "district": "12",
+      "phone": "609-693-6700",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/120/assemblywoman-sauickie",
+      "twitter": "@AlexSauickie",
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Republican opposed to tax increases and supporting property tax relief.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alixon Collazos-Gill",
+      "party": "D",
+      "chamber": "House",
+      "district": "27",
+      "phone": "973-345-1211",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/270/assemblywoman-collazos-gill",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access and rights.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrea Katz",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": "856-435-1247",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/80/assemblywoman-katz",
+      "twitter": "@AndreaKatzNJ",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Environmental advocate supporting clean energy and conservation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Macurdy",
+      "party": "D",
+      "chamber": "House",
+      "district": "21",
+      "phone": "908-232-3673",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/210/assemblyman-macurdy",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public education funding and resources.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Zwicker",
+      "party": "D",
+      "chamber": "House",
+      "district": "16",
+      "phone": "609-395-1166",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/160/assemblyman-zwicker",
+      "twitter": "@azwicker",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Physicist and environmental advocate supporting climate action and clean energy.",
+          "voted_for": [
+            "Clean Energy Act support (NJ Legislature, 2018)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of increased education funding and STEM education.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for reproductive healthcare protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela McKnight",
+      "party": "D",
+      "chamber": "House",
+      "district": "31",
+      "phone": "201-217-4614",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/310/assemblywoman-mcknight",
+      "twitter": "@Angelamcknight1",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Jersey City representative supporting increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reforms and community policing initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Annette Quijano",
+      "party": "D",
+      "chamber": "House",
+      "district": "20",
+      "phone": "908-327-9715",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/200/assemblywoman-quijano",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Long-time legislator supporting education funding increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for reproductive healthcare protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anthony Angelozzi",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": "856-435-1247",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/80/assemblyman-angelozzi",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding and resources for schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anthony Verrelli",
+      "party": "D",
+      "chamber": "House",
+      "district": "15",
+      "phone": "609-631-7501",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/150/assemblyman-verrelli",
+      "twitter": "@AnthonyVerrelli",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and clean energy initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Antwan McClellan",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "609-567-0696",
+      "website": "https://www.njleg.state.nj.us/legislative-roster/10/assemblyman-mcclellan",
+      "twitter": "@antwanmcclellan",
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Republican supporting small business development and reduced regulation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports property tax relief.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
