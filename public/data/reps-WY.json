@@ -1,0 +1,354 @@
+{
+  "state": "WY",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Cynthia M. Lummis",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3424",
+      "website": "https://www.lummis.senate.gov",
+      "twitter": "@SenLummis",
+      "instagram": "@senlummis",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Consistently opposes federal environmental regulations, particularly those affecting fossil fuel industries.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Congressional Review Act resolution to maintain SEC climate disclosure rule (Senate vote, March 2024)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported bipartisan criminal justice reform legislation.",
+          "voted_for": [
+            "First Step Act of 2018 (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts, particularly for businesses.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (as House member, December 2017)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act with corporate minimum tax provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions on reproductive healthcare access.",
+          "voted_for": [
+            "Co-sponsored Life at Conception Act (2021, 2023)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal protections for LGBTQ+ individuals in marriage and other areas.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "John Barrasso",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6441",
+      "website": "https://www.barrasso.senate.gov",
+      "twitter": "@SenJohnBarrasso",
+      "instagram": "@senjohnbarrasso",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Strongly opposes environmental regulations affecting energy production and has led efforts to block EPA rules.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "EPA power plant emissions standards via Congressional Review Act (2024)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported major bipartisan criminal justice reform.",
+          "voted_for": [
+            "First Step Act of 2018 (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports reducing tax burden on businesses and individuals.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act of 2017 (Senate vote, December 2017)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act with tax provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and federal protections for abortion access.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal legislation protecting same-sex marriage.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Harriet M. Hageman",
+      "party": "R",
+      "chamber": "House",
+      "district": "At-Large",
+      "phone": "202-225-2311",
+      "website": "https://hageman.house.gov",
+      "twitter": "@RepHageman",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and advocates for state control over natural resources.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act to expand fossil fuel production (House vote, March 2023)"
+          ],
+          "voted_against": [
+            "Congressional Review Act resolution to maintain EPA emissions standards (House vote, 2024)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports extending tax cuts.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with corporate tax provisions (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports federal restrictions.",
+          "voted_for": [
+            "Co-sponsored Life at Conception Act (2023)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal protections for LGBTQ+ individuals.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ]
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Abby Angelos",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported increased education funding measures in the Wyoming Legislature.",
+          "voted_for": [
+            "HB 140 Education funding increase (Wyoming House, 2024)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Byron",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "22",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Ann Lucas",
+      "party": "R",
+      "chamber": "House",
+      "district": "43",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Art Washut",
+      "party": "R",
+      "chamber": "House",
+      "district": "36",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supported abortion restrictions in the Wyoming Legislature.",
+          "voted_for": [
+            "HB 152 Abortion medication ban (Wyoming House, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barry Crago",
+      "party": "R",
+      "chamber": "House",
+      "district": "22",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Bill Allemand",
+      "party": "R",
+      "chamber": "House",
+      "district": "58",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported legislation restricting transgender youth healthcare access.",
+          "voted_for": [
+            "SF 99 Transgender youth healthcare ban (Wyoming House, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Landen",
+      "party": "R",
+      "chamber": "House",
+      "district": "27",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Bo Biteman",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "21",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Strongly supports abortion restrictions and sponsored multiple anti-abortion bills.",
+          "voted_for": [
+            "SF 109 Abortion medication ban (Wyoming Senate, 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Sponsored and supported legislation restricting transgender rights.",
+          "voted_for": [
+            "SF 99 Transgender youth healthcare ban (Wyoming Senate, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bob Davis",
+      "party": "R",
+      "chamber": "House",
+      "district": "47",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Bob Ide",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "29",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Bob Nicholas",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes new tax increases and advocates for limited taxation.",
+          "voted_for": [],
+          "voted_against": [
+            "HB 200 Corporate tax increase proposal (Wyoming House, 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bob Wharff",
+      "party": "R",
+      "chamber": "House",
+      "district": "49",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    }
+  ]
+}

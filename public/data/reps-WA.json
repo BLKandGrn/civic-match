@@ -1,0 +1,805 @@
+{
+  "state": "WA",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Patty Murray",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2621",
+      "website": "https://www.murray.senate.gov",
+      "twitter": "@PattyMurray",
+      "instagram": "@senpattyMurray",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of climate action and environmental regulations including clean energy investment.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate, August 2022)",
+            "Infrastructure Investment and Jobs Act with environmental funding (Senate, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistent advocate for abortion access and reproductive healthcare rights.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate, February 2022)",
+            "Right to Contraception Act (Senate, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Long-standing supporter of LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased federal education funding and teacher support.",
+          "voted_for": [
+            "American Rescue Plan Act with education funding (Senate, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Maria Cantwell",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3441",
+      "website": "https://www.cantwell.senate.gov",
+      "twitter": "@SenatorCantwell",
+      "instagram": "@senatorCantwell",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Champion of clean energy, environmental conservation, and climate change mitigation.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports access to reproductive healthcare and abortion rights.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Michael Baumgartner",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-2006",
+      "website": "https://baumgartner.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation measures while opposing regulations seen as harmful to agriculture and energy sectors.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Marie Gluesenkamp Perez",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-3536",
+      "website": "https://perez.house.gov",
+      "twitter": "@RepMGP",
+      "instagram": "@repmariegp",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections balanced with rural economic concerns.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports access to reproductive healthcare.",
+          "voted_for": [
+            "Right to Contraception Act (House, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Auto shop owner who prioritizes small business support and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Marilyn Strickland",
+      "party": "D",
+      "chamber": "House",
+      "district": "10",
+      "phone": "202-225-9740",
+      "website": "https://strickland.house.gov",
+      "twitter": "@RepStricklandWA",
+      "instagram": "@repstricklandwa",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental justice initiatives.",
+          "voted_for": [
+            "Inflation Reduction Act (House, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House, July 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Kim Schrier",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-7761",
+      "website": "https://schrier.house.gov",
+      "twitter": "@RepKimSchrier",
+      "instagram": "@repkimschrier",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protections for Washington state.",
+          "voted_for": [
+            "Inflation Reduction Act (House, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "As a pediatrician, strongly supports reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Advocates for nutrition programs and healthy food access as a healthcare priority.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and resources for schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Pramila Jayapal",
+      "party": "D",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-3106",
+      "website": "https://jayapal.house.gov",
+      "twitter": "@RepJayapal",
+      "instagram": "@repjayapal",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Progressive leader on climate action and Green New Deal policies.",
+          "voted_for": [
+            "Inflation Reduction Act (House, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Strong advocate for police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for comprehensive criminal justice reform and reducing incarceration.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Advocates for higher taxes on wealthy individuals and corporations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports federal cannabis legalization and criminal justice reform related to marijuana.",
+          "voted_for": [
+            "MORE Act (House, April 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Champion of LGBTQ+ equality and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House, July 2022)",
+            "Equality Act (House, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Dan Newhouse",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-5816",
+      "website": "https://newhouse.house.gov",
+      "twitter": "@RepNewhouse",
+      "instagram": "@repnewhouse",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports agricultural conservation but opposes regulations seen as harmful to farming communities.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act (House, November 2021)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act (House, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Generally opposes abortion rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports funding and tax relief for small businesses and agricultural operations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Suzan K. DelBene",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-6311",
+      "website": "https://delbene.house.gov",
+      "twitter": "@RepDelBene",
+      "instagram": "@repdelbene",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protections.",
+          "voted_for": [
+            "Inflation Reduction Act (House, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports tax reforms to increase revenue from wealthy individuals and corporations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access and abortion rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "Data Center Regulation": {
+          "stance": "support",
+          "summary": "Supports technology sector growth with appropriate oversight and environmental standards.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Emily Randall",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-5916",
+      "website": "https://randall.house.gov",
+      "twitter": "@RepRandallWA",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and climate action initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "First LGBTQ+ Latina elected to Congress from Washington, strong advocate for equality.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access and rights.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam Smith",
+      "party": "D",
+      "chamber": "House",
+      "district": "9",
+      "phone": "202-225-8901",
+      "website": "https://adamsmith.house.gov",
+      "twitter": "@RepAdamSmith",
+      "instagram": "@repadamsmith",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental regulations.",
+          "voted_for": [
+            "Inflation Reduction Act (House, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and reducing mass incarceration.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House, July 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Rick Larsen",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-2605",
+      "website": "https://larsen.house.gov",
+      "twitter": "@RepRickLarsen",
+      "instagram": "@repricklarsen",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and climate action measures.",
+          "voted_for": [
+            "Inflation Reduction Act (House, August 2022)",
+            "Infrastructure Investment and Jobs Act (House, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House, July 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Adam Bernbaum",
+      "party": "D",
+      "chamber": "House",
+      "district": "24",
+      "phone": null,
+      "website": "https://housedemocrats.wa.gov/bernbaum",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding and resources.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adison Richards",
+      "party": "D",
+      "chamber": "House",
+      "district": "26",
+      "phone": null,
+      "website": "https://housedemocrats.wa.gov/richards",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and climate initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adrian Cortes",
+      "party": "D",
+      "chamber": "House",
+      "district": "18",
+      "phone": null,
+      "website": "https://housedemocrats.wa.gov/cortes",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Ramel",
+      "party": "D",
+      "chamber": "House",
+      "district": "40",
+      "phone": "360-786-7969",
+      "website": "https://housedemocrats.wa.gov/ramel",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for climate action and environmental regulations.",
+          "voted_for": [
+            "Climate Commitment Act implementation (WA Legislature, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Ybarra",
+      "party": "R",
+      "chamber": "House",
+      "district": "13",
+      "phone": "360-786-7808",
+      "website": "https://alexybarra.houserepublicans.wa.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation measures while opposing regulations seen as burdensome to agriculture.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding and has worked on bipartisan education issues.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alicia Rule",
+      "party": "D",
+      "chamber": "House",
+      "district": "42",
+      "phone": "360-786-7890",
+      "website": "https://housedemocrats.wa.gov/rule",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and climate initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Walen",
+      "party": "D",
+      "chamber": "House",
+      "district": "48",
+      "phone": "360-786-7848",
+      "website": "https://housedemocrats.wa.gov/walen",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business resources and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Barkis",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "360-786-7824",
+      "website": "https://andrewbarkis.houserepublicans.wa.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation efforts while opposing certain environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business funding and reducing regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Engell",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": null,
+      "website": "https://houserepublicans.wa.gov/engell",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports balanced approach to environmental policy and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Annette Cleveland",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "49",
+      "phone": "360-786-7696",
+      "website": "https://senatedemocrats.wa.gov/cleveland",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "As a healthcare professional, supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "April Berg",
+      "party": "D",
+      "chamber": "House",
+      "district": "44",
+      "phone": "360-786-7892",
+      "website": "https://housedemocrats.wa.gov/berg",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protections and climate initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "April Connors",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "360-786-7876",
+      "website": "https://aprilconnors.houserepublicans.wa.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports balanced environmental policies with economic considerations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

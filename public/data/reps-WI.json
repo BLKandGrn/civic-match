@@ -1,0 +1,717 @@
+{
+  "state": "WI",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Ron Johnson",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5323",
+      "website": "https://www.ronjohnson.senate.gov",
+      "twitter": "@SenRonJohnson",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Johnson has consistently opposed major environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Johnson supported the First Step Act but has generally opposed broader reform measures.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Johnson has consistently opposed tax increases on corporations and high earners.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Johnson has opposed federal cannabis legalization efforts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Johnson has supported restrictions on abortion access and opposed federal protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "mixed",
+          "summary": "Johnson voted for the Respect for Marriage Act but has opposed other LGBTQ+ legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Tammy Baldwin",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5653",
+      "website": "https://www.baldwin.senate.gov",
+      "twitter": "@SenatorBaldwin",
+      "instagram": "@sentammybaldwin",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Baldwin has consistently supported environmental protection and climate action legislation.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Baldwin has supported police reform measures including the George Floyd Justice in Policing Act.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Baldwin supported the First Step Act and other criminal justice reform measures.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Baldwin has consistently supported tax increases on wealthy individuals and corporations.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Baldwin has supported federal cannabis reform and decriminalization efforts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Baldwin has been a consistent supporter of abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Baldwin, the first openly LGBTQ+ Senator from Wisconsin, has championed LGBTQ+ rights legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Baldwin has supported increased federal funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Tony Wied",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-5665",
+      "website": "https://wied.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Derrick Van Orden",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-5506",
+      "website": "https://vanorden.house.gov",
+      "twitter": "@RepVanOrden",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Van Orden has opposed Biden administration environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Van Orden has opposed federal police reform legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Van Orden has supported abortion restrictions and opposed federal protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Scott Fitzgerald",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-5101",
+      "website": "https://fitzgerald.house.gov",
+      "twitter": "@RepFitzgerald",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Fitzgerald has opposed federal environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Fitzgerald has opposed tax increases on corporations and high earners.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Fitzgerald has supported abortion restrictions and opposed federal abortion protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Fitzgerald supported school choice expansion as Wisconsin Senate Majority Leader.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Thomas Tiffany",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-3365",
+      "website": "https://tiffany.house.gov",
+      "twitter": "@RepTiffany",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Tiffany has opposed environmental regulations and supported mining and resource extraction.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Tiffany has opposed tax increases and supported tax cuts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Tiffany has supported abortion restrictions and opposed federal abortion protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bryan Steil",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-3031",
+      "website": "https://steil.house.gov",
+      "twitter": "@RepBryanSteil",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Steil has supported some conservation measures while opposing broader climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Steil has emphasized small business support and entrepreneurship initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Steil has supported abortion restrictions and opposed federal abortion protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Glenn Grothman",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-2476",
+      "website": "https://grothman.house.gov",
+      "twitter": "@RepGrothman",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Grothman has consistently opposed environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Grothman has opposed tax increases and supported tax cuts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Grothman has been a vocal opponent of abortion rights and has supported restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Grothman has opposed LGBTQ+ rights legislation throughout his career.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Mark Pocan",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-2906",
+      "website": "https://pocan.house.gov",
+      "twitter": "@RepMarkPocan",
+      "instagram": "@repmarkpocan",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Pocan has consistently supported environmental protection and climate action legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Pocan has been a strong advocate for police accountability and reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Pocan has supported comprehensive criminal justice reform legislation.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Pocan has strongly supported progressive taxation and wealth taxes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Pocan has been a vocal supporter of cannabis legalization and reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Pocan has consistently supported abortion rights and reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Pocan, an openly gay congressman, has been a champion of LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Pocan has strongly supported increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Gwen Moore",
+      "party": "D",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-4572",
+      "website": "https://gwenmoore.house.gov",
+      "twitter": "@RepGwenMoore",
+      "instagram": "@repgwenmoore",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Moore has consistently supported environmental protection and climate justice initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Moore has been a strong advocate for police accountability and criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Moore has supported comprehensive criminal justice reform measures.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Moore has supported progressive taxation and tax increases on the wealthy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Moore has advocated for food security and access to fresh food in urban communities.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Moore has been a consistent supporter of abortion rights and reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Moore has consistently supported LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Moore has strongly supported increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Adam Neylon",
+      "party": "R",
+      "chamber": "House",
+      "district": "15",
+      "phone": "608-266-5120",
+      "website": "https://legis.wisconsin.gov/assembly/15/neylon",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Neylon has supported school choice expansion while voting for some education funding increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Neylon has supported small business tax relief and regulatory reduction.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Dallman",
+      "party": "R",
+      "chamber": "House",
+      "district": "39",
+      "phone": "608-266-8077",
+      "website": "https://legis.wisconsin.gov/assembly/39/dallman",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Dallman has supported rural school funding while backing school choice programs.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Joers",
+      "party": "D",
+      "chamber": "House",
+      "district": "81",
+      "phone": "608-266-3790",
+      "website": "https://legis.wisconsin.gov/assembly/81/joers",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Joers has supported environmental protection measures in the Wisconsin Assembly.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Joers has advocated for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amaad Rivera-Wagner",
+      "party": "D",
+      "chamber": "House",
+      "district": "90",
+      "phone": "608-237-9190",
+      "website": "https://legis.wisconsin.gov/assembly/90/rivera-wagner",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Rivera-Wagner has advocated for criminal justice reform and police accountability.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Rivera-Wagner has supported increased funding for Milwaukee public schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amanda Nedweski",
+      "party": "R",
+      "chamber": "House",
+      "district": "32",
+      "phone": "608-237-9132",
+      "website": "https://legis.wisconsin.gov/assembly/32/nedweski",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Nedweski has supported school choice expansion and parental rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Hysell",
+      "party": "D",
+      "chamber": "House",
+      "district": "48",
+      "phone": "608-237-9148",
+      "website": "https://legis.wisconsin.gov/assembly/48/hysell",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Hysell has supported environmental protection and clean water initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Hysell has advocated for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "André Jacque",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "1",
+      "phone": "608-266-3512",
+      "website": "https://legis.wisconsin.gov/senate/01/jacque",
+      "twitter": "@SenJacque",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Jacque has supported abortion restrictions and opposed reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Jacque has opposed LGBTQ+ rights legislation in the Wisconsin Senate.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Jacque has supported school choice expansion while voting for some education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Stroud",
+      "party": "D",
+      "chamber": "House",
+      "district": "73",
+      "phone": "608-237-9173",
+      "website": "https://legis.wisconsin.gov/assembly/73/stroud",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Stroud has supported increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Stroud has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angelina Cruz",
+      "party": "D",
+      "chamber": "House",
+      "district": "62",
+      "phone": "608-237-9162",
+      "website": "https://legis.wisconsin.gov/assembly/62/cruz",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Cruz has advocated for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Cruz has supported reproductive rights and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angelito Tenorio",
+      "party": "D",
+      "chamber": "House",
+      "district": "14",
+      "phone": "608-237-9114",
+      "website": "https://legis.wisconsin.gov/assembly/14/tenorio",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Tenorio has supported police accountability and criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Tenorio has advocated for increased funding for public schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ann Roe",
+      "party": "D",
+      "chamber": "House",
+      "district": "44",
+      "phone": "608-237-9144",
+      "website": "https://legis.wisconsin.gov/assembly/44/roe",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Roe has supported increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Roe has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barbara Dittrich",
+      "party": "R",
+      "chamber": "House",
+      "district": "99",
+      "phone": "608-237-9138",
+      "website": "https://legis.wisconsin.gov/assembly/99/dittrich",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "oppose",
+          "summary": "Dittrich has prioritized school choice and homeschooling support over traditional public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Dittrich has supported abortion restrictions and opposed reproductive rights measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

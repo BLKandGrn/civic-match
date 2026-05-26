@@ -1,0 +1,513 @@
+{
+  "state": "VT",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Peter Welch",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4242",
+      "website": "https://www.welch.senate.gov",
+      "twitter": "@SenatorWelch",
+      "instagram": "senatorwelch",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Welch has consistently supported environmental legislation including clean energy investments and climate action.",
+          "voted_for": [
+            "Inflation Reduction Act with major climate provisions (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy funding (Senate vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Welch supports higher taxes on wealthy individuals and corporations.",
+          "voted_for": [
+            "Inflation Reduction Act with 15% corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Welch has consistently voted to protect and expand reproductive rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Ensuring Access to Abortion Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Welch has supported LGBTQ+ rights throughout his congressional career.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Welch has supported cannabis reform and legalization efforts.",
+          "voted_for": [
+            "MORE Act to federally decriminalize marijuana (House vote, April 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bernard Sanders",
+      "party": "N",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5141",
+      "website": "https://www.sanders.senate.gov",
+      "twitter": "@SenSanders",
+      "instagram": "sensanders",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Sanders has been a leading advocate for aggressive climate action and environmental protection.",
+          "voted_for": [
+            "Inflation Reduction Act (Senate vote, August 2022)",
+            "Green New Deal resolution as co-sponsor (February 2019)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Sanders has been a long-time advocate for progressive taxation and taxing the wealthy.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Sanders supports comprehensive criminal justice reform including sentencing reform.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Sanders has consistently supported reproductive rights and access to abortion.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Ensuring Access to Abortion Act (Senate vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Sanders has long supported LGBTQ+ rights and equality legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)",
+            "Equality Act co-sponsor"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Sanders has been a strong supporter of marijuana legalization at the federal level.",
+          "voted_for": [
+            "Marijuana legalization advocacy and policy statements"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Sanders has advocated for increased federal funding for public education.",
+          "voted_for": [
+            "American Rescue Plan Act with education funding (Senate vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Becca Balint",
+      "party": "D",
+      "chamber": "House",
+      "district": "At-Large",
+      "phone": "202-225-4115",
+      "website": "https://balint.house.gov",
+      "twitter": "@RepBeccaBalint",
+      "instagram": "repbeccabalint",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Balint has supported environmental protection and climate action since taking office in 2023.",
+          "voted_for": [
+            "Lower Energy Costs Act amendments supporting clean energy (House votes, March 2023)"
+          ],
+          "voted_against": [
+            "Lower Energy Costs Act which would expand fossil fuel production (House vote, March 2023)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Balint supports progressive tax policies and closing loopholes for the wealthy.",
+          "voted_for": [],
+          "voted_against": [
+            "GOP tax cut package (House vote, January 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Balint is a strong advocate for reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, January 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "As an openly LGBTQ+ member of Congress, Balint strongly supports LGBTQ+ rights.",
+          "voted_for": [
+            "Respect for Marriage Act implementation measures"
+          ],
+          "voted_against": [
+            "Parental Rights in Education bills restricting LGBTQ+ curriculum (House votes, 2023)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Balint has advocated for police accountability and reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Balint supports increased federal funding for public education.",
+          "voted_for": [],
+          "voted_against": [
+            "School choice bills redirecting public education funding (House votes, 2023-2024)"
+          ]
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Abbey Duke",
+      "party": "D",
+      "chamber": "House",
+      "district": "Chittenden-17",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Duke has supported environmental protection legislation in the Vermont House.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Duke has supported increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alice Emmons",
+      "party": "D",
+      "chamber": "House",
+      "district": "Windsor-3",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Emmons has supported environmental legislation during her tenure in the Vermont House.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Emmons has supported reproductive rights legislation.",
+          "voted_for": [
+            "Vermont reproductive rights constitutional amendment (House vote, 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alicia Malay",
+      "party": "R",
+      "chamber": "House",
+      "district": "Rutland-8",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Malay has advocated for small business support and reduced regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Malay has opposed tax increases as a Republican legislator.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alison Clarkson",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "Windsor",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Clarkson has been a strong supporter of environmental protection in the Vermont Senate.",
+          "voted_for": [
+            "Global Warming Solutions Act (Senate vote, 2020)",
+            "Clean Heat Standard legislation (Senate vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Clarkson supported reproductive rights constitutional amendment.",
+          "voted_for": [
+            "Vermont reproductive rights constitutional amendment (Senate vote, 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Clarkson has supported education funding measures in the Senate.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alyssa Black",
+      "party": "D",
+      "chamber": "House",
+      "district": "Chittenden-24",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Black has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Black has supported LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Sheldon",
+      "party": "D",
+      "chamber": "House",
+      "district": "Addison-1",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Sheldon has supported environmental legislation in the Vermont House.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Sheldon has supported agricultural and food access initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Perchlik",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "Washington",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Perchlik has supported environmental protection measures in the Senate.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Perchlik has supported progressive tax policies.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Arsenault",
+      "party": "D",
+      "chamber": "House",
+      "district": "Chittenden-2",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Arsenault has supported public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Arsenault has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ann Cummings",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "Washington",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "As chair of the Senate Finance Committee, Cummings has supported progressive tax policies.",
+          "voted_for": [
+            "Various state budget bills with progressive tax provisions (Senate votes, 2020-2024)"
+          ],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Cummings has supported environmental legislation and climate funding.",
+          "voted_for": [
+            "Clean Heat Standard (Senate vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Cummings has supported education funding as Finance Committee chair.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anne Donahue",
+      "party": "R",
+      "chamber": "House",
+      "district": "Washington-1",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Donahue has taken varied positions on environmental legislation, supporting some measures while opposing others.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "As a Republican legislator, Donahue has generally opposed tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anne Watson",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "Washington",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Watson has supported environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Watson has supported reproductive rights legislation.",
+          "voted_for": [
+            "Vermont reproductive rights constitutional amendment (Senate vote, 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ashley Bartley",
+      "party": "R",
+      "chamber": "House",
+      "district": "Franklin-1",
+      "phone": "802-828-2228",
+      "website": "https://legislature.vermont.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Bartley has supported small business initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "As a Republican legislator, Bartley has opposed tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
