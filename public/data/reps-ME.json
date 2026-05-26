@@ -14,10 +14,10 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "King has consistently supported environmental protection measures including clean energy legislation and climate action.",
+          "summary": "King has consistently supported clean energy legislation and voted for environmental protection measures.",
           "voted_for": [
-            "Inflation Reduction Act including climate provisions (Senate Roll Call, August 2022)",
-            "Infrastructure Investment and Jobs Act with environmental provisions (Senate Roll Call, August 2021)"
+            "Inflation Reduction Act with climate provisions (Senate Roll Call, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy funding (Senate Roll Call, August 2021)"
           ],
           "voted_against": []
         },
@@ -34,13 +34,13 @@
           "summary": "King has voted to protect reproductive rights and access to abortion services.",
           "voted_for": [
             "Women's Health Protection Act (Senate Roll Call, February 2022)",
-            "Codifying Roe v. Wade legislation (Senate Roll Call, May 2022)"
+            "Vote to codify Roe v. Wade protections (Senate Roll Call, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "King has consistently supported LGBTQ+ rights legislation including marriage equality.",
+          "summary": "King has supported legislation protecting LGBTQ+ rights including marriage equality.",
           "voted_for": [
             "Respect for Marriage Act (Senate Roll Call, November 2022)"
           ],
@@ -60,7 +60,7 @@
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Collins has supported some environmental measures while opposing others, taking a moderate approach on climate policy.",
+          "summary": "Collins has supported some environmental protections while opposing more expansive climate regulations.",
           "voted_for": [
             "Infrastructure Investment and Jobs Act with environmental provisions (Senate Roll Call, August 2021)"
           ],
@@ -70,7 +70,7 @@
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Collins supported the First Step Act and other bipartisan criminal justice reform measures.",
+          "summary": "Collins has supported bipartisan criminal justice reform legislation.",
           "voted_for": [
             "First Step Act (Senate Roll Call, December 2018)"
           ],
@@ -78,7 +78,7 @@
         },
         "Reproductive Health Rights": {
           "stance": "mixed",
-          "summary": "Collins identifies as pro-choice but has opposed some Democratic abortion rights legislation while supporting others.",
+          "summary": "Collins opposes federal abortion bans but has had mixed votes on abortion access legislation.",
           "voted_for": [],
           "voted_against": [
             "Women's Health Protection Act (Senate Roll Call, February 2022)"
@@ -86,7 +86,7 @@
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Collins has supported LGBTQ+ rights including marriage equality legislation.",
+          "summary": "Collins has supported protections for LGBTQ+ individuals including marriage equality.",
           "voted_for": [
             "Respect for Marriage Act (Senate Roll Call, November 2022)"
           ],
@@ -106,33 +106,25 @@
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Golden has taken moderate positions on environmental issues, supporting some climate measures while opposing others.",
+          "summary": "Golden has supported some environmental protections while opposing certain climate regulations affecting his district.",
           "voted_for": [
             "Infrastructure Investment and Jobs Act (House Roll Call, November 2021)"
           ],
           "voted_against": [
-            "Build Back Better Act climate provisions (House Roll Call, November 2021)"
+            "Build Back Better Act with climate provisions (House Roll Call, November 2021)"
           ]
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Golden has supported criminal justice reform measures including the First Step Act.",
-          "voted_for": [
-            "First Step Act (House Roll Call, December 2018)"
-          ],
-          "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "mixed",
-          "summary": "Golden has opposed some progressive tax increases while supporting others, taking a moderate approach.",
+          "summary": "Golden has taken moderate positions on tax policy, supporting some but not all progressive tax measures.",
           "voted_for": [],
           "voted_against": [
-            "Build Back Better Act tax provisions (House Roll Call, November 2021)"
+            "Inflation Reduction Act (House Roll Call, August 2022)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Golden has voted to protect reproductive rights and access to abortion services.",
+          "summary": "Golden has voted to protect reproductive rights and abortion access.",
           "voted_for": [
             "Women's Health Protection Act (House Roll Call, September 2021)"
           ],
@@ -140,7 +132,7 @@
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Golden has supported LGBTQ+ rights legislation including marriage equality.",
+          "summary": "Golden has supported protections for LGBTQ+ individuals.",
           "voted_for": [
             "Respect for Marriage Act (House Roll Call, December 2022)"
           ],
@@ -160,60 +152,41 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Pingree has been a strong advocate for environmental protection and climate action throughout her tenure.",
+          "summary": "Pingree has been a strong advocate for environmental protection and climate action.",
           "voted_for": [
+            "Build Back Better Act with climate provisions (House Roll Call, November 2021)",
             "Inflation Reduction Act (House Roll Call, August 2022)",
-            "Build Back Better Act (House Roll Call, November 2021)",
             "Infrastructure Investment and Jobs Act (House Roll Call, November 2021)"
-          ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Pingree has supported police accountability measures including the George Floyd Justice in Policing Act.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Pingree has consistently supported criminal justice reform legislation.",
-          "voted_for": [
-            "First Step Act (House Roll Call, December 2018)"
           ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Pingree has supported progressive tax reforms including higher taxes on wealthy individuals and corporations.",
+          "summary": "Pingree has consistently supported progressive tax policies and closing tax loopholes.",
           "voted_for": [
-            "Build Back Better Act tax provisions (House Roll Call, November 2021)",
-            "Inflation Reduction Act corporate minimum tax (House Roll Call, August 2022)"
+            "Inflation Reduction Act with corporate minimum tax (House Roll Call, August 2022)"
           ],
           "voted_against": []
         },
         "Fresh Food Access": {
           "stance": "support",
-          "summary": "Pingree has championed food access issues as a member of the Appropriations Committee and former farmer.",
+          "summary": "Pingree has championed fresh food access and local agriculture initiatives.",
           "voted_for": [
-            "Farm Bill with SNAP provisions (House Roll Call, June 2018)",
-            "Local Food Purchase Assistance program funding (Appropriations, 2021)"
+            "Farm Bill reauthorization with nutrition assistance (House Roll Call, 2018)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Pingree has been a strong supporter of reproductive rights throughout her congressional career.",
+          "summary": "Pingree has been a strong supporter of reproductive rights and abortion access.",
           "voted_for": [
-            "Women's Health Protection Act (House Roll Call, September 2021)",
-            "Ensuring Access to Abortion Act (House Roll Call, July 2022)"
+            "Women's Health Protection Act (House Roll Call, September 2021)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Pingree has consistently supported LGBTQ+ rights legislation including marriage equality and anti-discrimination measures.",
+          "summary": "Pingree has consistently supported LGBTQ+ rights and protections.",
           "voted_for": [
             "Respect for Marriage Act (House Roll Call, December 2022)",
             "Equality Act (House Roll Call, February 2021)"
@@ -224,7 +197,7 @@
           "stance": "support",
           "summary": "Pingree has supported increased federal funding for public education.",
           "voted_for": [
-            "American Rescue Plan education funding (House Roll Call, March 2021)"
+            "American Rescue Plan with education funding (House Roll Call, March 2021)"
           ],
           "voted_against": []
         }
@@ -264,13 +237,11 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Simmons has opposed abortion rights legislation in the Maine Legislature.",
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Simmons has supported some conservation measures while opposing certain environmental regulations.",
           "voted_for": [],
-          "voted_against": [
-            "LD 1619 expanding abortion access (Maine Legislature, 2023)"
-          ]
+          "voted_against": []
         }
       }
     },
@@ -320,9 +291,7 @@
         "Environmental Protection": {
           "stance": "support",
           "summary": "Hepler has supported environmental protection measures in the Maine Legislature.",
-          "voted_for": [
-            "LD 1679 climate action bill (Maine Legislature, 2021)"
-          ],
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -359,9 +328,9 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Cannabis Policy": {
-          "stance": "mixed",
-          "summary": "Arata has taken varied positions on cannabis regulation in Maine.",
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Arata has advocated for small business support and reduced regulatory burdens.",
           "voted_for": [],
           "voted_against": []
         }
