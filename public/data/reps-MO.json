@@ -14,42 +14,35 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal climate regulations and has challenged EPA rules as Missouri Attorney General and Senator.",
+          "summary": "Opposes federal environmental regulations and climate initiatives, particularly EPA rules.",
           "voted_for": [],
           "voted_against": [
-            "EPA climate regulations and clean power plan (Senate votes, 2023-2025)",
-            "Inflation Reduction Act climate provisions (Senate vote, August 2022 as AG-elect)"
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022 as AG)"
           ]
         },
         "Criminal Justice Reform": {
           "stance": "mixed",
-          "summary": "Supported some sentencing reforms while emphasizing law enforcement support as Attorney General.",
+          "summary": "Supported some sentencing reforms while maintaining tough-on-crime positions as Attorney General.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports tax cuts for businesses and individuals.",
+          "summary": "Opposes tax increases and supports tax cuts.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Defended Missouri abortion restrictions as Attorney General and opposes federal abortion protections.",
+          "summary": "Strongly opposes abortion rights and defended Missouri's abortion restrictions as Attorney General.",
           "voted_for": [],
-          "voted_against": [
-            "Federal abortion rights legislation (Senate votes, 2023-2025)"
-          ]
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Issued emergency rule restricting gender-affirming care as Attorney General in 2023.",
-          "voted_for": [
-            "Emergency rule restricting transgender healthcare (AG action, April 2023)"
-          ],
-          "voted_against": [
-            "Respect for Marriage Act (December 2022 as AG-elect)"
-          ]
+          "summary": "Opposed LGBTQ+ rights protections and defended religious exemptions as Attorney General.",
+          "voted_for": [],
+          "voted_against": []
         }
       }
     },
@@ -60,28 +53,20 @@
       "district": null,
       "phone": "202-224-6154",
       "website": "https://www.hawley.senate.gov",
-      "twitter": "@SenHawleyPress",
+      "twitter": "@HawleyMO",
       "instagram": "@senatorhawley",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes Green New Deal and major federal climate regulations, supports fossil fuel energy.",
+          "summary": "Opposes climate regulations and Green New Deal initiatives.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
-          ]
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Opposes federal police reform legislation and emphasizes support for law enforcement.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (Senate, 2020-2021)"
+            "Inflation Reduction Act climate provisions (Senate vote, August 2022)"
           ]
         },
         "Criminal Justice Reform": {
           "stance": "mixed",
-          "summary": "Supports some bipartisan criminal justice reforms while maintaining tough-on-crime positions.",
+          "summary": "Supported First Step Act but maintains strong law enforcement positions.",
           "voted_for": [
             "First Step Act (Senate vote, December 2018)"
           ],
@@ -89,29 +74,31 @@
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases on corporations and wealthy individuals.",
+          "summary": "Opposes progressive tax increases while supporting some populist economic measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Data Center Regulation": {
           "stance": "support",
-          "summary": "Supports increased regulation of big tech companies and data privacy protections.",
-          "voted_for": [
-            "Various big tech accountability bills (Senate, 2019-2025)"
-          ],
+          "summary": "Supports regulation of big tech companies and data privacy protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports funding for small businesses and opposed monopolistic practices.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports federal restrictions.",
+          "summary": "Opposes abortion rights and supported overturning Roe v. Wade.",
           "voted_for": [],
-          "voted_against": [
-            "Women's Health Protection Act (Senate votes, 2021-2022)"
-          ]
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes federal LGBTQ+ anti-discrimination protections and transgender rights legislation.",
+          "summary": "Opposes same-sex marriage protections and transgender rights legislation.",
           "voted_for": [],
           "voted_against": [
             "Respect for Marriage Act (Senate vote, November 2022)"
@@ -124,66 +111,54 @@
       "party": "R",
       "chamber": "House",
       "district": "2",
-      "phone": "202-225-1141",
+      "phone": "202-225-1621",
       "website": "https://wagner.house.gov",
       "twitter": "@RepAnnWagner",
       "instagram": "@repannwagner",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes major climate legislation and EPA regulations, supports fossil fuel industry.",
+          "summary": "Opposes stringent environmental regulations and climate legislation.",
           "voted_for": [],
-          "voted_against": [
-            "Climate Action Now Act (House vote, May 2019)",
-            "Build Back Better Act climate provisions (House vote, November 2021)"
-          ]
+          "voted_against": []
         },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Opposes federal police reform legislation, emphasizes law enforcement support.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (House votes, 2020-2021)"
-          ]
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supported First Step Act while maintaining pro-law enforcement positions.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports tax cuts, particularly for businesses.",
-          "voted_for": [
-            "Tax Cuts and Jobs Act (House vote, December 2017)"
-          ],
+          "summary": "Opposes tax increases and supports tax cuts for businesses and individuals.",
+          "voted_for": [],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business assistance programs and pandemic relief.",
-          "voted_for": [
-            "Paycheck Protection Program and other small business relief (House votes, 2020-2021)"
-          ],
+          "summary": "Supports funding programs for small businesses and entrepreneurship.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Consistently opposes abortion rights and supports restrictions.",
-          "voted_for": [
-            "Pain-Capable Unborn Child Protection Act (House votes, multiple years)"
-          ],
-          "voted_against": [
-            "Women's Health Protection Act (House votes, 2021-2022)"
-          ]
+          "summary": "Opposes abortion rights and supports restrictions on reproductive healthcare.",
+          "voted_for": [],
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes federal LGBTQ+ anti-discrimination legislation.",
+          "summary": "Opposes LGBTQ+ rights legislation including marriage equality protections.",
           "voted_for": [],
           "voted_against": [
-            "Equality Act (House vote, February 2021)",
             "Respect for Marriage Act (House vote, December 2022)"
           ]
         },
         "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports some education funding while emphasizing school choice and local control.",
+          "stance": "support",
+          "summary": "Supports education funding while advocating for school choice options.",
           "voted_for": [],
           "voted_against": []
         }
@@ -201,37 +176,19 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposed environmental regulations as state senator and maintains conservative environmental positions.",
+          "summary": "Opposes environmental regulations as former state senator.",
           "voted_for": [],
           "voted_against": []
         },
-        "Cannabis Policy": {
-          "stance": "oppose",
-          "summary": "Opposed marijuana legalization as Missouri state senator.",
-          "voted_for": [],
-          "voted_against": [
-            "Medical marijuana expansion bills (Missouri Senate, 2020-2024)"
-          ]
-        },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Strongly anti-abortion, sponsored restrictive legislation as state senator.",
-          "voted_for": [
-            "Abortion restriction bills (Missouri Senate, 2014-2024)"
-          ],
+          "summary": "Strongly opposes abortion rights and sponsored restrictive legislation in state senate.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposed LGBTQ+ protections and supported restrictions on transgender rights as state senator.",
-          "voted_for": [
-            "Transgender sports ban and healthcare restriction bills (Missouri Senate, 2021-2024)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supported school choice initiatives while voting on education funding as state senator.",
+          "summary": "Opposed LGBTQ+ rights protections in Missouri legislature.",
           "voted_for": [],
           "voted_against": []
         }
@@ -244,52 +201,66 @@
       "district": "1",
       "phone": "202-225-2406",
       "website": "https://bell.house.gov",
-      "twitter": "@RepWesBell",
+      "twitter": "@WesleyBellSTL",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports climate action and environmental protections as part of progressive platform.",
+          "summary": "Supports environmental justice and climate action initiatives.",
           "voted_for": [],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Reformed prosecutorial practices as St. Louis County Prosecutor, emphasizing accountability and transparency.",
-          "voted_for": [
-            "Criminal justice reform policies as County Prosecutor (2019-2024)"
-          ],
+          "summary": "Championed police reform and accountability measures as St. Louis County Prosecutor.",
+          "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Championed criminal justice reform as prosecutor, reducing cash bail and diverting low-level offenses.",
-          "voted_for": [
-            "Prosecutorial reform initiatives including diversion programs (County Prosecutor actions, 2019-2024)"
-          ],
+          "summary": "Implemented progressive prosecution reforms as County Prosecutor including diversion programs.",
+          "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Supports fair taxation policies that ensure wealthy individuals and corporations pay their share.",
+          "summary": "Supports progressive tax policies and corporate taxation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis legalization and expungement of cannabis convictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Advocates for food justice and reducing food deserts in underserved communities.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports funding for small businesses, particularly minority-owned enterprises.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and access to reproductive healthcare.",
+          "summary": "Supports abortion rights and reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ rights protections and equality legislation.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for robust public school funding and educational equity.",
+          "summary": "Supports increased funding for public education.",
           "voted_for": [],
           "voted_against": []
         }
@@ -307,41 +278,31 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal climate regulations and EPA oversight, supports fossil fuel energy.",
+          "summary": "Opposes environmental regulations and climate legislation.",
           "voted_for": [],
-          "voted_against": [
-            "Environmental protection and climate bills (House votes, 2023-2025)"
-          ]
+          "voted_against": []
         },
-        "Police Accountability": {
+        "Criminal Justice Reform": {
           "stance": "oppose",
-          "summary": "Opposes federal police oversight legislation, emphasizes law enforcement support.",
+          "summary": "Opposed criminal justice reform measures in Missouri legislature.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases, supports flat tax and tax reduction proposals.",
+          "summary": "Opposes tax increases and supports eliminating income taxes.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights, supported restrictions as Missouri state representative.",
-          "voted_for": [
-            "Anti-abortion legislation (Missouri House, 2019-2022)"
-          ],
+          "summary": "Opposes abortion rights and supported restrictions in state legislature.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes LGBTQ+ protections, supported restrictions as state legislator.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Emphasizes school choice and parental rights while voting on education budgets.",
+          "summary": "Opposed LGBTQ+ rights protections in Missouri legislature.",
           "voted_for": [],
           "voted_against": []
         }
@@ -359,39 +320,31 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal climate regulations and Green New Deal policies.",
-          "voted_for": [],
-          "voted_against": [
-            "Environmental protection bills (House votes, 2023-2025)"
-          ]
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Supports law enforcement without additional federal oversight or accountability measures.",
+          "summary": "Opposes climate regulations and environmental restrictions on agriculture.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases, supports lower taxes for businesses and individuals.",
+          "summary": "Opposes tax increases and supports reducing federal taxation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business and agricultural funding programs.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports federal restrictions.",
+          "summary": "Opposes abortion rights and supports restrictions.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes federal LGBTQ+ anti-discrimination legislation.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports local control of education and school choice policies.",
+          "summary": "Opposes LGBTQ+ rights protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -409,24 +362,13 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes climate regulations and supports coal and fossil fuel industries important to rural Missouri.",
+          "summary": "Opposes environmental regulations that impact rural and agricultural communities.",
           "voted_for": [],
-          "voted_against": [
-            "Climate Action Now Act (House vote, May 2019)",
-            "Build Back Better Act (House vote, November 2021)"
-          ]
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Opposes federal police reform, supports law enforcement funding.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (House votes, 2020-2021)"
-          ]
+          "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "mixed",
-          "summary": "Supported First Step Act while maintaining generally conservative criminal justice positions.",
+          "summary": "Supported First Step Act while maintaining law enforcement support.",
           "voted_for": [
             "First Step Act (House vote, December 2018)"
           ],
@@ -434,40 +376,27 @@
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases as Ways and Means Committee Chairman, supports tax cuts.",
-          "voted_for": [
-            "Tax Cuts and Jobs Act (House vote, December 2017)"
-          ],
-          "voted_against": [
-            "Tax increases in various Democratic bills (House votes, 2021-2025)"
-          ]
+          "summary": "As Ways and Means Chair, opposes progressive taxation and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business tax relief and assistance programs.",
-          "voted_for": [
-            "Small business pandemic relief programs (House votes, 2020-2021)"
-          ],
+          "summary": "Supports funding for small businesses and rural development.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Consistently opposes abortion rights and supports restrictions.",
-          "voted_for": [
-            "Anti-abortion legislation (House votes, multiple years)"
-          ],
-          "voted_against": [
-            "Women's Health Protection Act (House votes, 2021-2022)"
-          ]
+          "summary": "Opposes abortion rights and supports restrictions.",
+          "voted_for": [],
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes federal LGBTQ+ anti-discrimination legislation.",
+          "summary": "Opposes LGBTQ+ rights legislation.",
           "voted_for": [],
-          "voted_against": [
-            "Equality Act (House vote, February 2021)",
-            "Respect for Marriage Act (House vote, July 2022)"
-          ]
+          "voted_against": []
         }
       }
     },
@@ -483,87 +412,68 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports climate action legislation and environmental protections.",
-          "voted_for": [
-            "Climate Action Now Act (House vote, May 2019)",
-            "Build Back Better Act with climate provisions (House vote, November 2021)"
-          ],
+          "summary": "Supports environmental protection and climate action legislation.",
+          "voted_for": [],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports federal police reform and accountability measures while working with law enforcement.",
+          "summary": "Supports police reform and accountability measures.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House votes, 2020-2021)"
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform including sentencing reform and rehabilitation programs.",
+          "summary": "Supports criminal justice reform including sentencing reform.",
           "voted_for": [
-            "First Step Act (House vote, December 2018)",
-            "Various criminal justice reform bills (House votes, 2007-2025)"
+            "First Step Act (House vote, December 2018)"
           ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Supports progressive taxation and ensuring wealthy pay fair share.",
-          "voted_for": [
-            "Tax fairness provisions in various bills (House votes, 2019-2025)"
-          ],
-          "voted_against": [
-            "Tax Cuts and Jobs Act (House vote, December 2017)"
-          ]
+          "summary": "Supports progressive taxation and closing tax loopholes.",
+          "voted_for": [],
+          "voted_against": []
         },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supports marijuana decriminalization and reform of federal cannabis laws.",
-          "voted_for": [
-            "MORE Act (House votes, 2020, 2022)"
-          ],
+          "summary": "Supports cannabis legalization and criminal justice reform related to cannabis.",
+          "voted_for": [],
           "voted_against": []
         },
         "Fresh Food Access": {
           "stance": "support",
-          "summary": "Advocates for addressing food deserts and improving nutrition access in urban areas.",
-          "voted_for": [
-            "Farm bills with nutrition assistance provisions (House votes, multiple years)"
-          ],
+          "summary": "Advocates for food security and access to fresh food in underserved areas.",
+          "voted_for": [],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Strong advocate for small business assistance and minority-owned business support.",
-          "voted_for": [
-            "Small business relief and PPP funding (House votes, 2020-2021)"
-          ],
+          "summary": "Strongly supports small business funding, particularly for minority-owned businesses.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and access to reproductive healthcare.",
-          "voted_for": [
-            "Women's Health Protection Act (House votes, 2021-2022)"
-          ],
+          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ rights and equality legislation.",
           "voted_for": [
-            "Equality Act (House vote, February 2021)",
-            "Respect for Marriage Act (House vote, July 2022)"
+            "Respect for Marriage Act (House vote, December 2022)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
           "summary": "Supports increased federal funding for public education.",
-          "voted_for": [
-            "Education funding increases in appropriations bills (House votes, multiple years)"
-          ],
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -580,24 +490,13 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes major climate regulations, focuses on agricultural and rural impacts of environmental rules.",
+          "summary": "Opposes environmental regulations, particularly those affecting agriculture and transportation.",
           "voted_for": [],
-          "voted_against": [
-            "Climate Action Now Act (House vote, May 2019)",
-            "Build Back Better Act (House vote, November 2021)"
-          ]
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Opposes federal police reform legislation, supports law enforcement.",
-          "voted_for": [],
-          "voted_against": [
-            "George Floyd Justice in Policing Act (House votes, 2020-2021)"
-          ]
+          "voted_against": []
         },
         "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supported bipartisan First Step Act for sentencing reform.",
+          "stance": "mixed",
+          "summary": "Supported First Step Act but maintains strong law enforcement positions.",
           "voted_for": [
             "First Step Act (House vote, December 2018)"
           ],
@@ -605,44 +504,29 @@
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases, supports tax relief for businesses and families.",
-          "voted_for": [
-            "Tax Cuts and Jobs Act (House vote, December 2017)"
-          ],
+          "summary": "Opposes tax increases and supports tax cuts.",
+          "voted_for": [],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business assistance, particularly for agricultural and rural businesses.",
-          "voted_for": [
-            "Small business pandemic relief (House votes, 2020-2021)"
-          ],
+          "summary": "Supports small business funding as ranking member of Small Business Committee.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
           "summary": "Opposes abortion rights and supports restrictions.",
-          "voted_for": [
-            "Anti-abortion legislation (House votes, multiple years)"
-          ],
-          "voted_against": [
-            "Women's Health Protection Act (House votes, 2021-2022)"
-          ]
+          "voted_for": [],
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes federal LGBTQ+ anti-discrimination legislation.",
+          "summary": "Opposes LGBTQ+ rights legislation.",
           "voted_for": [],
           "voted_against": [
-            "Equality Act (House vote, February 2021)",
-            "Respect for Marriage Act (House vote, July 2022)"
+            "Respect for Marriage Act (House vote, December 2022)"
           ]
-        },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports rural education funding while emphasizing local control and school choice.",
-          "voted_for": [],
-          "voted_against": []
         }
       }
     }
@@ -653,45 +537,39 @@
       "party": "D",
       "chamber": "House",
       "district": "29",
-      "phone": "573-751-4265",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=29",
+      "phone": "573-751-1459",
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
+        "Police Accountability": {
           "stance": "support",
-          "summary": "Supports environmental protections and climate action as part of Democratic caucus priorities.",
+          "summary": "Supports police accountability and reform measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and reducing incarceration rates.",
+          "summary": "Supports criminal justice reform initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public schools.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and opposes abortion restrictions.",
+          "summary": "Supports reproductive health rights and opposes restrictions.",
           "voted_for": [],
-          "voted_against": [
-            "Abortion restriction bills (Missouri House votes, 2023-2025)"
-          ]
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and opposes discriminatory legislation.",
+          "summary": "Supports LGBTQ+ rights protections.",
           "voted_for": [],
-          "voted_against": [
-            "Transgender sports and healthcare restriction bills (Missouri House votes, 2023-2025)"
-          ]
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports increased public school funding and teacher pay raises.",
-          "voted_for": [
-            "Education funding bills (Missouri House votes, 2023-2025)"
-          ],
           "voted_against": []
         }
       }
@@ -702,49 +580,31 @@
       "chamber": "House",
       "district": "23",
       "phone": "573-751-1487",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=23",
-      "twitter": "@adamschnelting",
+      "website": null,
+      "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes stringent environmental regulations that impact business and development.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Opposes additional police oversight measures, supports law enforcement.",
+          "summary": "Opposes environmental regulations.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Supports tax cuts and opposes progressive tax increases.",
-          "voted_for": [
-            "Tax cut legislation (Missouri House votes, 2017-2025)"
-          ],
+          "summary": "Opposes progressive taxation and supports tax cuts.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and pro-life legislation.",
-          "voted_for": [
-            "Abortion restriction bills (Missouri House votes, 2017-2025)"
-          ],
+          "summary": "Opposes abortion rights and supports restrictions.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes LGBTQ+ protections and supports religious liberty exemptions.",
-          "voted_for": [
-            "Transgender restriction bills (Missouri House votes, 2021-2025)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports education funding while emphasizing school choice and charter school expansion.",
+          "summary": "Opposes LGBTQ+ rights protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -755,51 +615,39 @@
       "party": "D",
       "chamber": "House",
       "district": "47",
-      "phone": "573-751-9774",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=47",
+      "phone": "573-751-2198",
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protections and clean energy initiatives.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Supports police accountability reforms and community oversight.",
+          "summary": "Supports environmental protection measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and rehabilitation programs.",
+          "summary": "Supports criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and opposes abortion restrictions.",
+          "summary": "Supports reproductive health rights.",
           "voted_for": [],
-          "voted_against": [
-            "Abortion restriction bills (Missouri House votes, 2023-2025)"
-          ]
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ rights protections.",
           "voted_for": [],
-          "voted_against": [
-            "Transgender restriction bills (Missouri House votes, 2023-2025)"
-          ]
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Advocates for increased public school funding and resources.",
-          "voted_for": [
-            "Education funding increases (Missouri House votes, 2023-2025)"
-          ],
           "voted_against": []
         }
       }
@@ -809,40 +657,20 @@
       "party": "R",
       "chamber": "House",
       "district": "134",
-      "phone": "573-751-4302",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=134",
+      "phone": "573-751-4567",
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "oppose",
-          "summary": "Opposes environmental regulations that impact agricultural and business interests.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports business-friendly tax policies.",
+          "summary": "Opposes progressive taxation.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and pro-life policies.",
-          "voted_for": [
-            "Abortion restriction legislation (Missouri House votes, 2023-2025)"
-          ],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Opposes LGBTQ+ anti-discrimination legislation.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports education funding for rural schools while emphasizing fiscal responsibility.",
+          "summary": "Opposes abortion rights.",
           "voted_for": [],
           "voted_against": []
         }
@@ -853,57 +681,45 @@
       "party": "D",
       "chamber": "House",
       "district": "13",
-      "phone": "573-751-4855",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=13",
+      "phone": "573-751-4039",
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental justice and protections for urban communities.",
+          "summary": "Supports environmental protection.",
           "voted_for": [],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police accountability reforms and community oversight.",
+          "summary": "Supports police accountability measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Advocates for criminal justice reform and addressing racial disparities.",
+          "summary": "Supports criminal justice reform.",
           "voted_for": [],
           "voted_against": []
         },
-        "Fresh Food Access": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for addressing food deserts and improving nutrition access in urban areas.",
+          "summary": "Supports increased public school funding.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to healthcare.",
+          "summary": "Supports reproductive health rights.",
           "voted_for": [],
-          "voted_against": [
-            "Abortion restriction bills (Missouri House votes, 2023-2025)"
-          ]
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ rights protections.",
           "voted_for": [],
-          "voted_against": [
-            "Transgender restriction bills (Missouri House votes, 2023-2025)"
-          ]
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Strong advocate for increased public school funding, particularly for urban districts.",
-          "voted_for": [
-            "Education funding increases (Missouri House votes, 2023-2025)"
-          ],
           "voted_against": []
         }
       }
@@ -914,49 +730,31 @@
       "chamber": "House",
       "district": "127",
       "phone": "573-751-3424",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=127",
-      "twitter": "@RepAnnKelley",
+      "website": null,
+      "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes environmental regulations that impact agricultural communities and rural economy.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Opposes additional police oversight, supports law enforcement funding.",
+          "summary": "Opposes environmental regulations.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports tax relief measures.",
-          "voted_for": [
-            "Tax cut legislation (Missouri House votes, 2021-2025)"
-          ],
+          "summary": "Opposes progressive taxation.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Strongly supports abortion restrictions and pro-life legislation.",
-          "voted_for": [
-            "Abortion restriction bills (Missouri House votes, 2021-2025)"
-          ],
+          "summary": "Strongly opposes abortion rights and sponsored restrictive legislation.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes LGBTQ+ protections and supports restrictions on transgender rights.",
-          "voted_for": [
-            "Transgender sports and healthcare restriction bills (Missouri House votes, 2021-2025)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports rural education funding while emphasizing parental rights and school choice.",
+          "summary": "Opposes LGBTQ+ rights protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -967,51 +765,39 @@
       "party": "D",
       "chamber": "House",
       "district": "36",
-      "phone": "573-751-5701",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=36",
+      "phone": "573-751-5471",
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Supports environmental protections and clean energy development.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police accountability and reform measures.",
+          "summary": "Supports police accountability and reform.",
           "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and reducing incarceration disparities.",
+          "summary": "Supports criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and opposes restrictive abortion legislation.",
+          "summary": "Supports reproductive health rights.",
           "voted_for": [],
-          "voted_against": [
-            "Abortion restriction bills (Missouri House votes, 2023-2025)"
-          ]
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ rights protections.",
           "voted_for": [],
-          "voted_against": [
-            "Transgender restriction bills (Missouri House votes, 2023-2025)"
-          ]
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Advocates for increased public school funding and educational equity.",
-          "voted_for": [
-            "Education funding bills (Missouri House votes, 2023-2025)"
-          ],
           "voted_against": []
         }
       }
@@ -1022,56 +808,50 @@
       "chamber": "House",
       "district": "14",
       "phone": "573-751-0232",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=14",
-      "twitter": "@AshleyAuneKS",
+      "website": null,
+      "twitter": "@ashleyaunemsp",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protections and climate action.",
+          "summary": "Supports environmental protection measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police accountability and transparency measures.",
+          "summary": "Supports police accountability.",
           "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and alternatives to incarceration.",
+          "summary": "Supports criminal justice reform.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Supports progressive taxation to fund public services.",
+          "summary": "Supports progressive taxation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public school funding.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong advocate for reproductive rights and abortion access, focusing on this issue in campaign.",
+          "summary": "Vocal advocate for reproductive health rights and abortion access.",
           "voted_for": [],
-          "voted_against": [
-            "Abortion restriction bills (Missouri House votes, 2023-2025)"
-          ]
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and opposes discriminatory legislation.",
+          "summary": "Supports LGBTQ+ rights protections.",
           "voted_for": [],
-          "voted_against": [
-            "Transgender restriction bills (Missouri House votes, 2023-2025)"
-          ]
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Supports increased public education funding.",
-          "voted_for": [
-            "Education funding bills (Missouri House votes, 2023-2025)"
-          ],
           "voted_against": []
         }
       }
@@ -1082,56 +862,38 @@
       "chamber": "House",
       "district": "9",
       "phone": "573-751-3310",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=9",
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Supports environmental justice and protections for urban communities.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police accountability and community oversight measures.",
+          "summary": "Supports police accountability measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and addressing racial disparities in the justice system.",
+          "summary": "Supports criminal justice reform.",
           "voted_for": [],
           "voted_against": []
         },
-        "Fresh Food Access": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for addressing food insecurity in urban communities.",
+          "summary": "Supports increased public school funding.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and healthcare access.",
+          "summary": "Supports reproductive health rights.",
           "voted_for": [],
-          "voted_against": [
-            "Abortion restriction bills (Missouri House votes, 2019-2025)"
-          ]
+          "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ rights protections.",
           "voted_for": [],
-          "voted_against": [
-            "Transgender restriction bills (Missouri House votes, 2021-2025)"
-          ]
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Strong advocate for public school funding, particularly for Kansas City schools.",
-          "voted_for": [
-            "Education funding increases (Missouri House votes, 2019-2025)"
-          ],
           "voted_against": []
         }
       }
@@ -1142,53 +904,37 @@
       "chamber": "House",
       "district": "146",
       "phone": "573-751-1490",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=146",
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "oppose",
-          "summary": "Opposes environmental regulations that impact business and economic development.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Police Accountability": {
           "stance": "oppose",
-          "summary": "Former law enforcement officer who opposes additional police oversight measures.",
+          "summary": "Former law enforcement officer who opposes police accountability reforms.",
           "voted_for": [],
           "voted_against": []
         },
         "Criminal Justice Reform": {
-          "stance": "mixed",
-          "summary": "Supports some targeted reforms based on law enforcement experience while maintaining tough-on-crime positions.",
+          "stance": "oppose",
+          "summary": "Opposes criminal justice reform measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports business tax relief.",
+          "summary": "Opposes progressive taxation.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and pro-life legislation.",
-          "voted_for": [
-            "Abortion restriction bills (Missouri House votes, 2019-2025)"
-          ],
+          "summary": "Opposes abortion rights.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes LGBTQ+ protections and transgender rights legislation.",
-          "voted_for": [
-            "Transgender restriction bills (Missouri House votes, 2021-2025)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports education funding while emphasizing fiscal responsibility and local control.",
+          "summary": "Opposes LGBTQ+ rights protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -1199,40 +945,26 @@
       "party": "R",
       "chamber": "House",
       "district": "117",
-      "phone": "573-751-1488",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=117",
+      "phone": "573-751-9766",
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "oppose",
-          "summary": "Opposes strict environmental regulations that impact business.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports tax reduction measures.",
+          "summary": "Opposes progressive taxation.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and pro-life policies.",
-          "voted_for": [
-            "Abortion restriction legislation (Missouri House votes, 2023-2025)"
-          ],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Opposes LGBTQ+ anti-discrimination protections.",
+          "summary": "Opposes abortion rights.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports education funding while emphasizing school choice and parental rights.",
+          "stance": "support",
+          "summary": "Former educator who supports education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -1243,50 +975,32 @@
       "party": "R",
       "chamber": "House",
       "district": "26",
-      "phone": "573-751-3971",
-      "website": "https://house.mo.gov/MemberDetails.aspx?district=26",
+      "phone": "573-751-2238",
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes environmental regulations that affect agricultural and business interests.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "oppose",
-          "summary": "Opposes additional police oversight, supports law enforcement.",
+          "summary": "Opposes environmental regulations.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports business-friendly tax policies.",
-          "voted_for": [
-            "Tax cut legislation (Missouri House votes, 2021-2025)"
-          ],
+          "summary": "Opposes progressive taxation.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Supports abortion restrictions and pro-life legislation.",
-          "voted_for": [
-            "Abortion restriction bills (Missouri House votes, 2021-2025)"
-          ],
+          "summary": "Opposes abortion rights.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes LGBTQ+ protections and supports restrictions on transgender rights.",
-          "voted_for": [
-            "Transgender restriction bills (Missouri House votes, 2021-2025)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports education funding while emphasizing local control and school choice.",
+          "summary": "Opposes LGBTQ+ rights protections.",
           "voted_for": [],
           "voted_against": []
         }
