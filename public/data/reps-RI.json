@@ -16,33 +16,33 @@
           "stance": "support",
           "summary": "Whitehouse is a leading advocate for climate action and environmental protection in the Senate.",
           "voted_for": [
-            "Inflation Reduction Act climate provisions (Senate roll call vote, August 2022)",
-            "Infrastructure Investment and Jobs Act climate resilience funding (Senate vote, August 2021)"
+            "Inflation Reduction Act with climate provisions (Senate Vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with environmental provisions (Senate Vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Whitehouse has supported criminal justice reform measures including sentencing reform.",
+          "voted_for": [
+            "First Step Act (Senate Vote, December 2018)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Whitehouse consistently supports abortion rights and reproductive healthcare access.",
+          "summary": "Whitehouse consistently supports reproductive health rights and access to abortion services.",
           "voted_for": [
-            "Women's Health Protection Act (Senate vote, February 2022)",
-            "Right to Contraception Act (Senate vote, July 2022)"
+            "Women's Health Protection Act (Senate Vote, February 2022)",
+            "Women's Health Protection Act (Senate Vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Whitehouse has a consistent record supporting LGBTQ+ equality legislation.",
+          "summary": "Whitehouse has consistently supported LGBTQ+ rights legislation.",
           "voted_for": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Whitehouse supports higher taxes on wealthy individuals and corporations.",
-          "voted_for": [
-            "Inflation Reduction Act corporate minimum tax provisions (Senate vote, August 2022)"
+            "Respect for Marriage Act (Senate Vote, November 2022)"
           ],
           "voted_against": []
         }
@@ -60,34 +60,35 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Reed supports climate action and environmental protection measures.",
+          "summary": "Reed has supported major environmental and climate legislation throughout his Senate career.",
           "voted_for": [
-            "Inflation Reduction Act climate provisions (Senate vote, August 2022)",
-            "Infrastructure Investment and Jobs Act (Senate vote, August 2021)"
+            "Inflation Reduction Act with climate provisions (Senate Vote, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate Vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Reed has supported bipartisan criminal justice reform efforts.",
+          "voted_for": [
+            "First Step Act (Senate Vote, December 2018)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Reed supports reproductive healthcare access and abortion rights.",
+          "summary": "Reed supports reproductive health rights and access to abortion services.",
           "voted_for": [
-            "Women's Health Protection Act (Senate vote, February 2022)"
+            "Women's Health Protection Act (Senate Vote, February 2022)",
+            "Women's Health Protection Act (Senate Vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Reed has consistently voted for LGBTQ+ equality legislation.",
+          "summary": "Reed has supported LGBTQ+ rights and anti-discrimination legislation.",
           "voted_for": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Reed supports increased federal funding for public education.",
-          "voted_for": [
-            "American Rescue Plan education funding (Senate vote, March 2021)"
+            "Respect for Marriage Act (Senate Vote, November 2022)"
           ],
           "voted_against": []
         }
@@ -103,21 +104,27 @@
       "twitter": "@RepGabeAmo",
       "instagram": "@repgabeamo",
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Amo has expressed support for environmental protection and climate action since taking office in 2024.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Amo has expressed strong support for reproductive healthcare access since taking office in 2024.",
+          "summary": "Amo supports reproductive health rights and abortion access.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Amo has stated support for LGBTQ+ equality and non-discrimination protections.",
+          "summary": "Amo supports LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [],
           "voted_against": []
         },
-        "Environmental Protection": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Amo has advocated for climate action and environmental justice.",
+          "summary": "Amo has advocated for increased federal support for public education.",
           "voted_for": [],
           "voted_against": []
         }
@@ -135,25 +142,25 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Magaziner has championed climate action and renewable energy development.",
+          "summary": "Magaziner has prioritized environmental protection and climate action in Congress.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Magaziner supports abortion rights and reproductive healthcare access.",
+          "summary": "Magaziner supports reproductive health rights and abortion access.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Magaziner has consistently supported LGBTQ+ equality legislation.",
+          "summary": "Magaziner supports LGBTQ+ rights and equality measures.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "As former state treasurer, Magaziner supported progressive tax policies.",
+          "summary": "Magaziner has supported progressive tax policies during his tenure.",
           "voted_for": [],
           "voted_against": []
         }
@@ -167,13 +174,19 @@
       "chamber": "Senate",
       "district": "36",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/senators/",
+      "website": "https://www.rilegislature.gov/dimario",
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "DiMario has supported environmental protection measures in the Rhode Island Senate.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "DiMario has supported reproductive healthcare access legislation.",
+          "summary": "DiMario supports reproductive health rights and access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -185,13 +198,19 @@
       "chamber": "House",
       "district": "74",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/representatives/",
+      "website": "https://www.rilegislature.gov/finkelman",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Finkelman has advocated for increased public school funding.",
+          "summary": "Finkelman has advocated for increased public school funding in Rhode Island.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Finkelman supports LGBTQ+ rights and equality legislation.",
           "voted_for": [],
           "voted_against": []
         }
@@ -203,13 +222,19 @@
       "chamber": "House",
       "district": "52",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/representatives/",
+      "website": "https://www.rilegislature.gov/marszalkowski",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Marszalkowski has supported environmental protection measures.",
+          "summary": "Marszalkowski has supported environmental legislation in the Rhode Island House.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Marszalkowski supports increased funding for public education.",
           "voted_for": [],
           "voted_against": []
         }
@@ -218,16 +243,22 @@
     {
       "name": "Ana Quezada",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "2",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/representatives/",
+      "website": "https://www.rilegislature.gov/quezada",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Quezada has advocated for educational equity and increased school funding.",
+          "summary": "Quezada has advocated for public education funding and equity.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Quezada supports reproductive health rights and access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -239,13 +270,19 @@
       "chamber": "House",
       "district": "25",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/representatives/",
+      "website": "https://www.rilegislature.gov/dimitri",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Dimitri has supported small business assistance programs.",
+          "summary": "Dimitri has supported small business assistance and funding programs.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Dimitri supports funding for public schools.",
           "voted_for": [],
           "voted_against": []
         }
@@ -254,16 +291,16 @@
     {
       "name": "Anthony DeSimone",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "5",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/representatives/",
+      "website": "https://www.rilegislature.gov/desimone",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "DeSimone has supported public education funding initiatives.",
+          "summary": "DeSimone has supported public education funding measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -272,16 +309,22 @@
     {
       "name": "Arthur Handy",
       "party": "D",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": "18",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/senators/",
+      "website": "https://www.rilegislature.gov/handy",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Handy has a record of supporting education funding legislation.",
+          "summary": "Handy has supported public education initiatives in the Rhode Island House.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Handy has supported environmental protection measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -293,13 +336,13 @@
       "chamber": "House",
       "district": "54",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/representatives/",
+      "website": "https://www.rilegislature.gov/obrien",
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "O'Brien has supported environmental protection measures.",
+          "summary": "O'Brien has supported public school funding legislation.",
           "voted_for": [],
           "voted_against": []
         }
@@ -308,16 +351,16 @@
     {
       "name": "Bob Britto",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "18",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/representatives/",
+      "website": "https://www.rilegislature.gov/britto",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Britto has supported public education funding.",
+          "summary": "Britto has supported education funding measures in the Rhode Island Senate.",
           "voted_for": [],
           "voted_against": []
         }
@@ -329,13 +372,19 @@
       "chamber": "House",
       "district": "51",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/representatives/",
+      "website": "https://www.rilegislature.gov/phillips",
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Phillips has supported environmental protection legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Phillips has supported education funding initiatives.",
+          "summary": "Phillips supports public education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -344,16 +393,16 @@
     {
       "name": "Bob Quattrocchi",
       "party": "R",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "41",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/representatives/",
+      "website": "https://www.rilegislature.gov/quattrocchi",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Quattrocchi has advocated for small business support.",
+          "summary": "Quattrocchi has supported small business assistance programs.",
           "voted_for": [],
           "voted_against": []
         }
@@ -362,16 +411,22 @@
     {
       "name": "Brandon Potter",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "16",
       "phone": null,
-      "website": "http://webserver.rilegislature.gov/representatives/",
+      "website": "https://www.rilegislature.gov/potter",
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Potter has supported criminal justice reform measures.",
+          "summary": "Potter has supported public education funding initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Potter supports LGBTQ+ rights and equality legislation.",
           "voted_for": [],
           "voted_against": []
         }

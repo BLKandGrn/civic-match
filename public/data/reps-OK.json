@@ -14,16 +14,18 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Lankford has consistently opposed federal environmental regulations and voted against climate-focused legislation.",
-          "voted_for": [],
+          "summary": "Consistently opposes federal environmental regulations and supports fossil fuel development.",
+          "voted_for": [
+            "Keystone XL Pipeline approval (Senate vote, 2015)",
+            "Congressional Review Act to overturn methane emissions rule (Senate vote, 2017)"
+          ],
           "voted_against": [
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
-            "Methane emissions fee provisions (Senate vote, 2022)"
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
           ]
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Lankford has supported bipartisan criminal justice reform efforts including sentencing reform.",
+          "summary": "Supported the bipartisan First Step Act for criminal justice reform.",
           "voted_for": [
             "First Step Act (Senate vote, December 2018)"
           ],
@@ -31,19 +33,19 @@
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Lankford opposes tax increases on corporations and high earners, supporting tax cuts.",
+          "summary": "Opposes tax increases and supports lower tax rates.",
           "voted_for": [
             "Tax Cuts and Jobs Act (Senate vote, December 2017)"
           ],
           "voted_against": [
-            "Inflation Reduction Act tax provisions (Senate vote, August 2022)"
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Lankford has consistently opposed abortion rights and supported restrictions.",
+          "summary": "Consistently opposes abortion rights and supports restrictive legislation.",
           "voted_for": [
-            "Pain-Capable Unborn Child Protection Act (Senate vote, January 2018)"
+            "Pain-Capable Unborn Child Protection Act (Senate vote, 2018)"
           ],
           "voted_against": [
             "Women's Health Protection Act (Senate vote, February 2022)"
@@ -51,7 +53,7 @@
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Lankford has opposed LGBTQ+ rights legislation including marriage equality protections.",
+          "summary": "Opposed marriage equality and LGBTQ+ nondiscrimination protections.",
           "voted_for": [],
           "voted_against": [
             "Respect for Marriage Act (Senate vote, November 2022)"
@@ -82,45 +84,36 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Hern has opposed climate legislation and environmental regulations, focusing on energy independence.",
+          "summary": "Opposes environmental regulations and supports energy independence through fossil fuels.",
           "voted_for": [],
           "voted_against": [
-            "Build Back Better Act with climate provisions (House vote, November 2021)",
-            "Inflation Reduction Act (House vote, August 2022)"
+            "Build Back Better Act with climate provisions (House vote, November 2021)"
           ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Hern opposes increased taxation on corporations and wealthy individuals, supporting tax cuts.",
+          "summary": "Opposes tax increases and supports reduced government spending.",
           "voted_for": [
-            "Tax Cuts and Jobs Act extension proposals (2023)"
+            "Tax Cuts and Jobs Act extension proposals (Various House votes, 2021-2023)"
           ],
           "voted_against": [
-            "Build Back Better Act tax provisions (House vote, November 2021)"
-          ]
-        },
-        "Cannabis Policy": {
-          "stance": "oppose",
-          "summary": "Hern has opposed federal cannabis legalization efforts.",
-          "voted_for": [],
-          "voted_against": [
-            "MORE Act for cannabis decriminalization (House vote, April 2022)"
+            "Build Back Better Act with tax increases (House vote, November 2021)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Hern has consistently voted against abortion rights legislation.",
-          "voted_for": [],
+          "summary": "Supports abortion restrictions and opposes federal protections for abortion access.",
+          "voted_for": [
+            "Born-Alive Abortion Survivors Protection Act (House vote, January 2023)"
+          ],
           "voted_against": [
             "Women's Health Protection Act (House vote, September 2021)"
           ]
         },
         "Public School Funding": {
           "stance": "mixed",
-          "summary": "Hern has supported some education funding while opposing federal education mandates.",
-          "voted_for": [
-            "Various appropriations bills with education funding (2021-2023)"
-          ],
+          "summary": "Supports education funding but opposes federal mandates and supports school choice.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -137,23 +130,21 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Brecheen has opposed environmental regulations and climate legislation.",
-          "voted_for": [
-            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
-          ],
+          "summary": "Opposes environmental regulations and has questioned climate science.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Brecheen has taken strong anti-abortion positions and opposed abortion rights legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "Abortion rights protection measures (House votes, 2023)"
-          ]
+          "summary": "Supports strict abortion restrictions.",
+          "voted_for": [
+            "Born-Alive Abortion Survivors Protection Act (House vote, January 2023)"
+          ],
+          "voted_against": []
         },
-        "Progressive Taxation": {
+        "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Brecheen opposes tax increases and supports reduced federal spending.",
+          "summary": "Opposes LGBTQ+ rights legislation based on religious liberty concerns.",
           "voted_for": [],
           "voted_against": []
         }
@@ -171,39 +162,38 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Lucas has opposed climate legislation while supporting agricultural and energy interests.",
+          "summary": "Opposes stringent environmental regulations while supporting agricultural interests.",
           "voted_for": [],
           "voted_against": [
-            "Build Back Better Act (House vote, November 2021)",
-            "Inflation Reduction Act (House vote, August 2022)"
-          ]
-        },
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Lucas has consistently opposed tax increases on businesses and individuals.",
-          "voted_for": [
-            "Tax Cuts and Jobs Act (House vote, December 2017)"
-          ],
-          "voted_against": [
-            "Tax increase provisions in various legislation (2021-2022)"
+            "Climate Action Now Act (House vote, May 2019)"
           ]
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Lucas has supported small business assistance and rural development programs.",
+          "summary": "Supports small business development and agricultural business funding.",
           "voted_for": [
-            "Paycheck Protection Program and related small business aid (2020-2021)",
-            "Farm Bill with rural business provisions (2018)"
+            "Paycheck Protection Program and Health Care Enhancement Act (House vote, April 2020)",
+            "Farm Bill with small farm provisions (House vote, December 2018)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Lucas has voted against abortion rights protections.",
-          "voted_for": [],
+          "summary": "Consistently votes for abortion restrictions.",
+          "voted_for": [
+            "Born-Alive Abortion Survivors Protection Act (House vote, January 2023)"
+          ],
           "voted_against": [
             "Women's Health Protection Act (House vote, September 2021)"
           ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax relief.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
         }
       }
     },
@@ -219,46 +209,45 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Cole has opposed major climate legislation while supporting energy development.",
+          "summary": "Generally opposes environmental regulations that impact energy development.",
           "voted_for": [],
           "voted_against": [
-            "Build Back Better Act (House vote, November 2021)",
-            "Climate provisions in appropriations (various votes, 2021-2022)"
+            "Climate Action Now Act (House vote, May 2019)"
           ]
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Cole supported the First Step Act and criminal justice reform measures.",
-          "voted_for": [
-            "First Step Act (House vote, December 2018)"
-          ],
-          "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Cole has consistently opposed tax increases and supported tax cuts.",
+          "summary": "Supports tax cuts and opposes tax increases.",
           "voted_for": [
             "Tax Cuts and Jobs Act (House vote, December 2017)"
           ],
-          "voted_against": [
-            "Tax increases in Build Back Better Act (House vote, November 2021)"
-          ]
+          "voted_against": []
         },
-        "Public School Funding": {
+        "Small Business Funding": {
           "stance": "support",
-          "summary": "Cole has supported education funding through appropriations as a senior appropriator.",
+          "summary": "Supports small business development programs and funding.",
           "voted_for": [
-            "Education appropriations increases (various bills, 2018-2023)"
+            "Paycheck Protection Program and Health Care Enhancement Act (House vote, April 2020)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Cole has voted against abortion rights legislation.",
-          "voted_for": [],
+          "summary": "Supports abortion restrictions and opposes federal abortion protections.",
+          "voted_for": [
+            "Born-Alive Abortion Survivors Protection Act (House vote, January 2023)"
+          ],
           "voted_against": [
             "Women's Health Protection Act (House vote, September 2021)"
           ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding through appropriations process.",
+          "voted_for": [
+            "Various appropriations bills including education funding (House votes, 2017-2024)"
+          ],
+          "voted_against": []
         }
       }
     },
@@ -274,45 +263,44 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Bice has opposed climate legislation and supported energy independence measures.",
-          "voted_for": [
-            "H.R. 1 Lower Energy Costs Act (House vote, March 2023)"
-          ],
+          "summary": "Opposes climate regulations and supports energy independence through traditional energy sources.",
+          "voted_for": [],
           "voted_against": [
-            "Build Back Better Act (House vote, November 2021)",
-            "Inflation Reduction Act (House vote, August 2022)"
+            "Build Back Better Act with climate provisions (House vote, November 2021)"
           ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Bice opposes tax increases and has supported tax relief measures.",
+          "summary": "Opposes tax increases and supports tax relief for businesses and individuals.",
           "voted_for": [],
           "voted_against": [
-            "Tax increases in Build Back Better Act (House vote, November 2021)"
+            "Build Back Better Act with tax increases (House vote, November 2021)"
           ]
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Bice has supported small business assistance and relief programs.",
+          "summary": "Supports small business assistance and reducing regulatory burdens.",
           "voted_for": [
-            "Small business relief measures (2021-2023)"
+            "Paycheck Protection Program extension (House vote, 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Bice has voted against abortion rights legislation.",
-          "voted_for": [],
+          "summary": "Supports abortion restrictions.",
+          "voted_for": [
+            "Born-Alive Abortion Survivors Protection Act (House vote, January 2023)"
+          ],
           "voted_against": [
             "Women's Health Protection Act (House vote, September 2021)"
           ]
         },
-        "Cannabis Policy": {
+        "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Bice has opposed federal cannabis legalization efforts.",
+          "summary": "Opposed marriage equality protections.",
           "voted_for": [],
           "voted_against": [
-            "MORE Act for cannabis decriminalization (House vote, April 2022)"
+            "Respect for Marriage Act (House vote, December 2022)"
           ]
         }
       }
@@ -383,20 +371,7 @@
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Fugate has advocated for increased public education funding in Oklahoma.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Fugate has supported LGBTQ+ rights and opposed discriminatory legislation.",
-          "voted_for": [],
-          "voted_against": []
-        }
-      }
+      "positions": {}
     },
     {
       "name": "Annie Menz",
@@ -407,20 +382,7 @@
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Menz has supported increased funding for public education.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Menz has opposed abortion restrictions and supported reproductive health access.",
-          "voted_for": [],
-          "voted_against": []
-        }
-      }
+      "positions": {}
     },
     {
       "name": "Anthony Moore",
@@ -453,14 +415,7 @@
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Frix has supported abortion restrictions and opposed reproductive health access.",
-          "voted_for": [],
-          "voted_against": []
-        }
-      }
+      "positions": {}
     },
     {
       "name": "Bill Coleman",
