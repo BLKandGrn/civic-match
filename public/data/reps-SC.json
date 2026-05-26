@@ -1,0 +1,767 @@
+{
+  "state": "SC",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Tim Scott",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6121",
+      "website": "https://www.scott.senate.gov",
+      "twitter": "@SenatorTimScott",
+      "instagram": "@senatorTimScott",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Scott has consistently opposed major climate legislation and supported fossil fuel interests.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Scott authored the JUSTICE Act and supports targeted criminal justice reform measures.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)",
+            "JUSTICE Act sponsorship (June 2020)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Scott opposes progressive tax increases and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Scott supports abortion restrictions and has voted for limitations on reproductive healthcare access.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (Senate vote, January 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Scott has opposed federal LGBTQ+ protections including marriage equality legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Scott has consistently supported small business funding and tax relief measures.",
+          "voted_for": [
+            "Paycheck Protection Program and Health Care Enhancement Act (Senate vote, April 2020)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Lindsey Graham",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5972",
+      "website": "https://www.lgraham.senate.gov",
+      "twitter": "@LindseyGrahamSC",
+      "instagram": "@lindseygrahamsc",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Graham has opposed major climate legislation and supports expanded fossil fuel production.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Graham supported the First Step Act but has opposed broader reform measures.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Graham opposes tax increases on wealthy individuals and corporations.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Graham has opposed federal marijuana legalization efforts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Graham has sponsored federal abortion ban legislation and opposes abortion rights.",
+          "voted_for": [
+            "20-week abortion ban sponsorship (Senate, 2018)",
+            "15-week abortion ban sponsorship (Senate, September 2022)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Graham has opposed federal LGBTQ+ rights protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sheri Biggs",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-5301",
+      "website": "https://biggs.house.gov",
+      "twitter": "@RepSheriB",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Biggs has expressed opposition to climate regulations and supports energy independence through fossil fuels.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Biggs campaigned as pro-life and supports abortion restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Biggs has expressed support for increased public school funding and teacher pay.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Russell Fry",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-9895",
+      "website": "https://fry.house.gov",
+      "twitter": "@RepRussellFry",
+      "instagram": "@reprussell_fry",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Fry has opposed climate regulations and supported expanded energy production.",
+          "voted_for": [
+            "Lower Energy Costs Act (House vote, March 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Fry is pro-life and has voted for abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Fry has opposed federal LGBTQ+ protections in education and employment.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Fry has supported small business tax relief and funding measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Nancy Mace",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-3176",
+      "website": "https://mace.house.gov",
+      "twitter": "@RepNancyMace",
+      "instagram": "@repnancymace",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Mace has supported some coastal protection measures while opposing broad climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Mace has supported criminal justice reform including sentencing reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Mace has sponsored federal marijuana legalization legislation.",
+          "voted_for": [
+            "States Reform Act sponsorship (House, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "mixed",
+          "summary": "Mace opposes late-term abortion but has broken from her party on some reproductive health votes.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "mixed",
+          "summary": "Mace supported the Respect for Marriage Act but opposed the Equality Act.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
+          "voted_against": [
+            "Equality Act (House vote, February 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Mace has consistently supported small business relief and funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "William R. Timmons",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-6030",
+      "website": "https://timmons.house.gov",
+      "twitter": "@RepTimmons",
+      "instagram": "@reptimmons",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Timmons has opposed climate legislation and supported fossil fuel development.",
+          "voted_for": [
+            "Lower Energy Costs Act (House vote, March 2023)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Timmons opposes tax increases and supports tax cuts for businesses and individuals.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Timmons is pro-life and has voted for abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Timmons has opposed federal LGBTQ+ civil rights protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House vote, February 2021)",
+            "Respect for Marriage Act (House vote, December 2022)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Timmons has supported small business relief programs and tax incentives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ralph Norman",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-5501",
+      "website": "https://norman.house.gov",
+      "twitter": "@RepRalphNorman",
+      "instagram": "@repnorman",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Norman has consistently opposed environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Norman opposes tax increases and supports reduced taxation and spending.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Norman is strongly pro-life and has voted for abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Norman has opposed federal LGBTQ+ protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House vote, February 2021)",
+            "Respect for Marriage Act (House vote, December 2022)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Norman has supported small business relief and reducing regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Joe Wilson",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-2452",
+      "website": "https://joewilson.house.gov",
+      "twitter": "@RepJoeWilson",
+      "instagram": "@repjoewilson",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Wilson has opposed climate legislation and supported expanded energy production.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Wilson opposes progressive taxation and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Wilson is pro-life and has consistently voted for abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Wilson has opposed federal LGBTQ+ civil rights protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House vote, February 2021)",
+            "Respect for Marriage Act (House vote, December 2022)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Wilson has supported small business relief and development programs.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "James E. Clyburn",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-3315",
+      "website": "https://clyburn.house.gov",
+      "twitter": "@WhipClyburn",
+      "instagram": "@whipclyburn",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Clyburn has supported major climate legislation and environmental justice initiatives.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (House vote, August 2022)",
+            "Build Back Better Act climate provisions (House vote, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Clyburn has supported police accountability measures and the George Floyd Justice in Policing Act.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Clyburn has supported criminal justice reform including the First Step Act.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Clyburn supports progressive taxation and has voted for tax increases on wealthy individuals and corporations.",
+          "voted_for": [
+            "Build Back Better Act tax provisions (House vote, November 2021)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Clyburn has supported federal marijuana decriminalization efforts.",
+          "voted_for": [
+            "MORE Act marijuana decriminalization (House vote, April 2022)"
+          ],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Clyburn has championed rural development and food security programs.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Clyburn has supported small business funding, particularly for minority-owned businesses.",
+          "voted_for": [
+            "Paycheck Protection Program and Health Care Enhancement Act (House vote, April 2020)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Clyburn supports reproductive health rights and has voted to protect abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Clyburn has supported federal LGBTQ+ civil rights protections.",
+          "voted_for": [
+            "Equality Act (House vote, February 2021)",
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Clyburn has consistently supported increased federal funding for public schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Adam Duncan",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=0191458843",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Duncan has supported education funding increases for South Carolina public schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alan Morgan",
+      "party": "R",
+      "chamber": "House",
+      "district": "18",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=0909326690",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Morgan has voted for education budget increases.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alan Wilson",
+      "party": "R",
+      "chamber": "House",
+      "district": null,
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Wilson has taken varied positions on criminal justice issues during his legislative service.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Allen Blackmon",
+      "party": "R",
+      "chamber": "House",
+      "district": "27",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=0738502877",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Blackmon has supported education funding increases in the state budget.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Annie McDaniel",
+      "party": "D",
+      "chamber": "House",
+      "district": "41",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=1693598438",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "McDaniel has advocated for increased public education funding and teacher pay.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "McDaniel has opposed abortion restrictions in the South Carolina legislature.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "April Cromer",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=1441859158",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Cromer has supported education funding initiatives in the state legislature.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Beth Bernstein",
+      "party": "D",
+      "chamber": "House",
+      "district": "78",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=0410486857",
+      "twitter": "@bethbernsteinsc",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Bernstein has supported environmental protection measures in the legislature.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Bernstein has consistently supported increased public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Bernstein has opposed abortion restrictions and supported reproductive health access.",
+          "voted_for": [],
+          "voted_against": [
+            "Fetal Heartbeat and Protection from Abortion Act (House vote, September 2023)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Bernstein has supported LGBTQ+ protections and opposed discriminatory legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Chumley",
+      "party": "R",
+      "chamber": "House",
+      "district": "35",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=0888476502",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Chumley has opposed environmental regulations that he views as burdensome to business.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Chumley has supported abortion restrictions in the South Carolina legislature.",
+          "voted_for": [
+            "Fetal Heartbeat and Protection from Abortion Act (House vote, September 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Chumley has opposed LGBTQ+ protections and supported traditional values legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Clyburn",
+      "party": "D",
+      "chamber": "House",
+      "district": "82",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=1906896598",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Clyburn has supported increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Clyburn has opposed abortion restrictions in the legislature.",
+          "voted_for": [],
+          "voted_against": [
+            "Fetal Heartbeat and Protection from Abortion Act (House vote, September 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bill Hager",
+      "party": "R",
+      "chamber": "House",
+      "district": "122",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=1128426956",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Hager has supported education budget increases during his legislative service.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Herbkersman",
+      "party": "R",
+      "chamber": "House",
+      "district": "118",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=0469260677",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Herbkersman has supported education funding as a senior member of the Ways and Means Committee.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Herbkersman has supported small business development initiatives in the state budget.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Hixon",
+      "party": "R",
+      "chamber": "House",
+      "district": "83",
+      "phone": "803-212-6875",
+      "website": "https://www.scstatehouse.gov/member.php?code=1001746679",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Hixon has supported education funding increases in legislative votes.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

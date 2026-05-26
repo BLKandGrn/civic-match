@@ -1,0 +1,782 @@
+{
+  "state": "OR",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Ron Wyden",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5244",
+      "website": "https://www.wyden.senate.gov",
+      "twitter": "@RonWyden",
+      "instagram": "@ronwyden",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Wyden has consistently supported environmental legislation including climate action and renewable energy investments.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with environmental funding (Senate vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Wyden chairs the Senate Finance Committee and has advocated for higher taxes on wealthy individuals and corporations.",
+          "voted_for": [
+            "American Rescue Plan Act with tax credits for working families (Senate vote, March 2021)",
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act of 2017 (Senate vote, December 2017)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Wyden has co-sponsored federal cannabis reform legislation to deschedule marijuana.",
+          "voted_for": [
+            "Cannabis Administration and Opportunity Act co-sponsor (Introduced July 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Wyden has consistently voted to protect and expand reproductive health access.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Wyden has consistently supported LGBTQ+ rights legislation throughout his Senate tenure.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jeff Merkley",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3753",
+      "website": "https://www.merkley.senate.gov",
+      "twitter": "@SenJeffMerkley",
+      "instagram": "@senjeffmerkley",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Merkley is a leading advocate for climate action and has introduced comprehensive environmental legislation.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)",
+            "100 by '50 Act to achieve 100% clean energy by 2050 (Introduced March 2019)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Merkley has co-sponsored police reform legislation and supported accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act co-sponsor (Introduced 2020-2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Merkley supported bipartisan criminal justice reform efforts.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Merkley has advocated for tax reform that increases burden on wealthy and corporations.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act of 2017 (Senate vote, December 2017)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Merkley has been a vocal supporter of federal cannabis legalization and banking access.",
+          "voted_for": [
+            "SAFE Banking Act supporter (Multiple years)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Merkley has consistently voted to protect reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Women's Health Protection Act (Senate vote, May 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Merkley has been a strong advocate for LGBTQ+ equality throughout his career.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)",
+            "Equality Act co-sponsor (Introduced 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Suzanne Bonamici",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-0855",
+      "website": "https://bonamici.house.gov",
+      "twitter": "@RepBonamici",
+      "instagram": "@repbonamici",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Bonamici has consistently supported environmental protection and climate legislation.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (House vote, August 2022)",
+            "Infrastructure Investment and Jobs Act (House vote, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Bonamici has supported progressive tax policies and voted against Republican tax cuts.",
+          "voted_for": [
+            "American Rescue Plan Act (House vote, March 2021)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act of 2017 (House vote, December 2017)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Bonamici has consistently voted to protect reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Women's Health Protection Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Bonamici has consistently supported LGBTQ+ rights legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Bonamici serves on the House Education Committee and advocates for increased education funding.",
+          "voted_for": [
+            "American Rescue Plan Act with education funding (House vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Cliff Bentz",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-6730",
+      "website": "https://bentz.house.gov",
+      "twitter": "@RepBentz",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Bentz has supported some conservation measures while opposing federal climate regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (House vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Bentz has opposed tax increases and supported lower taxes.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with corporate minimum tax (House vote, August 2022)",
+            "American Rescue Plan Act (House vote, March 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Bentz has voted against federal protections for abortion access.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)",
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Bentz has voted against federal LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, July 2022)",
+            "Equality Act (House vote, February 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Maxine Dexter",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-4811",
+      "website": "https://dexter.house.gov",
+      "twitter": "@RepMaxineDexter",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Dexter has expressed support for environmental protection and climate action as a new member elected in 2024.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Dexter campaigned on protecting reproductive healthcare access and has supported related legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Dexter has expressed support for LGBTQ+ equality.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Dexter has advocated for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Val Hoyle",
+      "party": "D",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-6416",
+      "website": "https://hoyle.house.gov",
+      "twitter": "@RepValHoyle",
+      "instagram": "@repvalhoyle",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Hoyle has supported environmental protection and balanced forest management approaches.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "As former Oregon Labor Commissioner, Hoyle has advocated for small business support.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Hoyle has supported reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Hoyle has expressed support for LGBTQ+ equality.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Hoyle has advocated for increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Janelle Bynum",
+      "party": "D",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-5711",
+      "website": "https://bynum.house.gov",
+      "twitter": "@RepJanelleBynum",
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Bynum is a small business owner and has championed small business support as a legislator.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Bynum worked on criminal justice reform during her time in the Oregon Legislature.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Bynum has supported reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Bynum has supported LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Bynum advocated for education funding during her state legislative service.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrea Salinas",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-5643",
+      "website": "https://salinas.house.gov",
+      "twitter": "@RepAndreaSalinas",
+      "instagram": "@repandreasalinas",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Salinas has supported environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Salinas worked on criminal justice reform during her Oregon legislative service.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Salinas has supported progressive tax policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Salinas has been a strong advocate for reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Salinas has supported LGBTQ+ equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Salinas advocated for education funding during her state legislative career.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Alek Skarlatos",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "503-986-1404",
+      "website": "https://www.oregonlegislature.gov/skarlatos",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Skarlatos has focused on rural interests and forest management while expressing concerns about regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Skarlatos has expressed support for education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrea Valderrama",
+      "party": "D",
+      "chamber": "House",
+      "district": "47",
+      "phone": "503-986-1447",
+      "website": "https://www.oregonlegislature.gov/valderrama",
+      "twitter": "@RepValderrama",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Valderrama has supported environmental protection measures in the Oregon Legislature.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Valderrama has supported reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Valderrama has supported LGBTQ+ equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Valderrama has advocated for increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anna Scharf",
+      "party": "R",
+      "chamber": "House",
+      "district": "23",
+      "phone": "503-986-1423",
+      "website": "https://www.oregonlegislature.gov/scharf",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Scharf has focused on public safety while supporting some reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Scharf has advocated for small business support and reduced regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Annessa Hartman",
+      "party": "D",
+      "chamber": "House",
+      "district": "40",
+      "phone": "503-986-1440",
+      "website": "https://www.oregonlegislature.gov/hartman",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Hartman has supported environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Hartman has supported reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Hartman has advocated for increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anthony Broadman",
+      "party": "D",
+      "chamber": "House",
+      "district": "27",
+      "phone": "503-986-1427",
+      "website": "https://www.oregonlegislature.gov/broadman",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Broadman has supported environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Broadman has supported reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Broadman has supported LGBTQ+ equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Broadman has advocated for education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "April Dobson",
+      "party": "D",
+      "chamber": "House",
+      "district": "39",
+      "phone": "503-986-1439",
+      "website": "https://www.oregonlegislature.gov/dobson",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Dobson has supported environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Dobson has supported reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Dobson has advocated for education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ben Bowman",
+      "party": "D",
+      "chamber": "House",
+      "district": "25",
+      "phone": "503-986-1425",
+      "website": "https://www.oregonlegislature.gov/bowman",
+      "twitter": "@RepBenBowman",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Bowman has supported environmental protection and climate measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Bowman has supported criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Bowman has supported reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Bowman has supported LGBTQ+ equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Bowman has advocated for education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bobby Levy",
+      "party": "R",
+      "chamber": "House",
+      "district": "58",
+      "phone": "503-986-1458",
+      "website": "https://www.oregonlegislature.gov/levy",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Levy has advocated for small business support and reduced regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Levy has opposed tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Boomer Wright",
+      "party": "R",
+      "chamber": "House",
+      "district": "9",
+      "phone": "503-986-1409",
+      "website": "https://www.oregonlegislature.gov/wright",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Wright has focused on rural and agricultural interests while expressing concerns about environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Wright has advocated for small business and agricultural support.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bruce Starr",
+      "party": "R",
+      "chamber": "House",
+      "district": "12",
+      "phone": "503-986-1412",
+      "website": "https://www.oregonlegislature.gov/starr",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Starr has opposed tax increases and supported lower taxes during his legislative service.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Starr has advocated for small business support and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Starr has expressed support for education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Cedric Hayden",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "503-986-1406",
+      "website": "https://www.oregonlegislature.gov/hayden",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Hayden has focused on rural and timber interests while supporting some conservation measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Hayden has advocated for small business and rural economic support.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Hayden has supported education funding measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Chris Gorsek",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "25",
+      "phone": "503-986-1725",
+      "website": "https://www.oregonlegislature.gov/gorsek",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Gorsek has supported environmental protection measures during his legislative service.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Gorsek has supported criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Gorsek has supported reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Gorsek has supported LGBTQ+ equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Gorsek has advocated for education funding throughout his legislative career.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
