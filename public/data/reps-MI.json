@@ -1,0 +1,822 @@
+{
+  "state": "MI",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Kristen McDonald Rivet",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-4872",
+      "website": "https://mcdonaldrivet.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports clean energy initiatives and environmental protection measures based on campaign platform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Campaigned on protecting reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocated for increased public education funding during campaign.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Elissa Slotkin",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4822",
+      "website": "https://www.slotkin.senate.gov",
+      "twitter": "SenSlotkin",
+      "instagram": "senslotkin",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supported clean energy legislation and environmental protection during House tenure.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistently voted to protect reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supported LGBTQ+ rights legislation during House service.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Gary C. Peters",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6221",
+      "website": "https://www.peters.senate.gov",
+      "twitter": "SenGaryPeters",
+      "instagram": "sengarypeters",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and clean energy initiatives.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supported police reform efforts following George Floyd protests.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted to protect reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistently voted for LGBTQ+ rights protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Tom Barrett",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-2806",
+      "website": "https://barrett.house.gov",
+      "twitter": "RepBarrett",
+      "instagram": "repbarrett",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some environmental measures while opposing regulations viewed as burdensome to agriculture.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support and reduced regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding during state senate tenure.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Shri Thanedar",
+      "party": "D",
+      "chamber": "House",
+      "district": "13",
+      "phone": "202-225-5126",
+      "website": "https://thanedar.house.gov",
+      "twitter": "RepShriThanedar",
+      "instagram": "repshri",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and higher taxes on wealthy individuals.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strongly supports reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Hillary J. Scholten",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-3831",
+      "website": "https://scholten.house.gov",
+      "twitter": "RepScholten",
+      "instagram": "repscholten",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and clean water initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "John James",
+      "party": "R",
+      "chamber": "House",
+      "district": "10",
+      "phone": "202-225-4961",
+      "website": "https://johnjames.house.gov",
+      "twitter": "RepJamesJames",
+      "instagram": "repjohnjames",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation efforts while opposing strict climate regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Strongly supports small business initiatives as former business owner.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Expressed support for certain criminal justice reforms.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Lisa C. McClain",
+      "party": "R",
+      "chamber": "House",
+      "district": "9",
+      "phone": "202-225-2106",
+      "website": "https://mcclain.house.gov",
+      "twitter": "RepLisaMcClain",
+      "instagram": "replisamc",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations viewed as harmful to business.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support and reduced regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Holds pro-life position opposing abortion rights.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Rashida Tlaib",
+      "party": "D",
+      "chamber": "House",
+      "district": "12",
+      "phone": "202-225-5126",
+      "website": "https://tlaib.house.gov",
+      "twitter": "RepRashida",
+      "instagram": "reprashida",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of environmental justice and climate action.",
+          "voted_for": [
+            "Inflation Reduction Act climate provisions (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Strong advocate for police accountability and reform measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for comprehensive criminal justice reform and ending cash bail.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Strong supporter of progressive taxation and wealth taxes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis legalization and criminal record expungement.",
+          "voted_for": [
+            "MORE Act (House vote, April 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of LGBTQ+ rights and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public school funding and free college.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Debbie Dingell",
+      "party": "D",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-4071",
+      "website": "https://debbiedingell.house.gov",
+      "twitter": "RepDebDingell",
+      "instagram": "repdebdingell",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection while balancing auto industry interests.",
+          "voted_for": [
+            "Inflation Reduction Act climate provisions (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supported police reform legislation.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistently supports reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "John R. Moolenaar",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-3561",
+      "website": "https://moolenaar.house.gov",
+      "twitter": "RepMoolenaar",
+      "instagram": "repmoolenaar",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation efforts while opposing strict climate regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (House vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business funding and reduced regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Holds pro-life position opposing abortion rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding during state legislature tenure.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Huizenga",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-4401",
+      "website": "https://huizenga.house.gov",
+      "twitter": "RepHuizenga",
+      "instagram": "rephuizenga",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations viewed as harmful to business.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (House vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of small business initiatives and deregulation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Holds pro-life position opposing abortion rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Alabas Farhat",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": null,
+      "website": "https://housedems.com/farhat",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alicia St. Germaine",
+      "party": "R",
+      "chamber": "House",
+      "district": "62",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding while emphasizing parental rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amos O'Neal",
+      "party": "D",
+      "chamber": "House",
+      "district": "94",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Rigas",
+      "party": "R",
+      "chamber": "House",
+      "district": "79",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Holds pro-life position opposing abortion rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business support measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Witwer",
+      "party": "D",
+      "chamber": "House",
+      "district": "76",
+      "phone": null,
+      "website": "https://housedems.com/witwer",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and clean energy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ann Bollin",
+      "party": "R",
+      "chamber": "House",
+      "district": "49",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding during legislative tenure.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Aric Nesbitt",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "20",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business support and deregulation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding during legislative tenure.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Betsy Coffia",
+      "party": "D",
+      "chamber": "House",
+      "district": "103",
+      "phone": null,
+      "website": "https://housedems.com/coffia",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of environmental protection and Great Lakes conservation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Schuette",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "95",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some conservation while opposing strict regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases based on previous record as Attorney General.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Holds pro-life position based on previous record.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brad Paquette",
+      "party": "R",
+      "chamber": "House",
+      "district": "37",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brad Slagh",
+      "party": "R",
+      "chamber": "House",
+      "district": "85",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business support measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brenda Carter",
+      "party": "D",
+      "chamber": "House",
+      "district": "53",
+      "phone": null,
+      "website": "https://housedems.com/carter",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

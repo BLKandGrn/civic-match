@@ -1,0 +1,392 @@
+{
+  "state": "ME",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Angus S. King Jr.",
+      "party": "N",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5344",
+      "website": "https://www.king.senate.gov",
+      "twitter": "@SenAngusKing",
+      "instagram": "@senangusking",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Consistently supports clean energy legislation and environmental protection measures.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Senate Roll Call Vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy funding (Senate Vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports bipartisan criminal justice reform efforts including sentencing reform.",
+          "voted_for": [
+            "First Step Act (Senate Vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and voted for federal protections.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate Vote, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ civil rights protections and marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate Vote, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Susan M. Collins",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2523",
+      "website": "https://www.collins.senate.gov",
+      "twitter": "@SenatorCollins",
+      "instagram": "@senatorcollinsmaine",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some environmental protections while opposing aggressive climate regulations.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act (Senate Vote, August 2021)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act (Senate Vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "mixed",
+          "summary": "Personally opposes abortion but supports Roe v. Wade and voted for some protections.",
+          "voted_for": [
+            "Voted to confirm Justice Kavanaugh stating belief he would uphold Roe (Senate Vote, October 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate Vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights including marriage equality and employment protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate Vote, November 2022)",
+            "Employment Non-Discrimination Act (Senate Vote, November 2013)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Consistently supports small business assistance and funding programs.",
+          "voted_for": [
+            "Paycheck Protection Program and Health Care Enhancement Act (Senate Vote, April 2020)",
+            "CARES Act small business provisions (Senate Vote, March 2020)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jared F. Golden",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-6306",
+      "website": "https://golden.house.gov",
+      "twitter": "@RepGolden",
+      "instagram": "@repjaredgolden",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some environmental protections but opposed Build Back Better climate provisions.",
+          "voted_for": [
+            "Infrastructure Investment and Jobs Act (House Vote, November 2021)"
+          ],
+          "voted_against": [
+            "Build Back Better Act (House Vote, November 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "mixed",
+          "summary": "Moderate Democrat who has opposed some progressive tax proposals.",
+          "voted_for": [
+            "Inflation Reduction Act with tax provisions (House Vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion rights and federal protections.",
+          "voted_for": [
+            "Women's Health Protection Act (House Vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business assistance programs and pandemic relief.",
+          "voted_for": [
+            "Paycheck Protection Program Enhancement Act (House Vote, April 2020)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Chellie Pingree",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-6116",
+      "website": "https://pingree.house.gov",
+      "twitter": "@ChelliePingree",
+      "instagram": "@repchelliepingree",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of environmental protection and climate action legislation.",
+          "voted_for": [
+            "Build Back Better Act (House Vote, November 2021)",
+            "Climate Action Now Act (House Vote, May 2019)",
+            "Inflation Reduction Act (House Vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform including sentencing reform and police accountability.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House Vote, March 2021)",
+            "First Step Act (House Vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies and closing loopholes for wealthy individuals and corporations.",
+          "voted_for": [
+            "Build Back Better Act tax provisions (House Vote, November 2021)",
+            "Inflation Reduction Act (House Vote, August 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (House Vote, December 2017)"
+          ]
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Strong advocate for food access, local food systems, and farm-to-school programs.",
+          "voted_for": [
+            "Farm Bill with food access provisions (House Vote, December 2018)",
+            "Local Food and Regional Market Supply Chain Resiliency Act (Co-sponsor, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of abortion rights and reproductive health access.",
+          "voted_for": [
+            "Women's Health Protection Act (House Vote, September 2021)",
+            "Ensuring Access to Abortion Act (House Vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ rights and protections.",
+          "voted_for": [
+            "Equality Act (House Vote, February 2021)",
+            "Respect for Marriage Act (House Vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal funding for public education.",
+          "voted_for": [
+            "American Rescue Plan with education funding (House Vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aaron Dana",
+      "party": "N",
+      "chamber": "House",
+      "district": "Passamaquoddy Tribe",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Aaron M. Frey",
+      "party": "D",
+      "chamber": "House",
+      "district": null,
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Abden Simmons",
+      "party": "R",
+      "chamber": "House",
+      "district": "45",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Represents coastal district with focus on balancing environmental protection with fishing industry interests.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Abigail Griffin",
+      "party": "R",
+      "chamber": "House",
+      "district": "34",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Adam Lee",
+      "party": "D",
+      "chamber": "House",
+      "district": "89",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Alicia Collins",
+      "party": "R",
+      "chamber": "House",
+      "district": "61",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Allison Hepler",
+      "party": "D",
+      "chamber": "House",
+      "district": "49",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection measures and renewable energy development.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public school funding and educational resources.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amanda Collamore",
+      "party": "R",
+      "chamber": "House",
+      "district": "68",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Ambureen Rana",
+      "party": "D",
+      "chamber": "House",
+      "district": "21",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Amy Arata",
+      "party": "R",
+      "chamber": "House",
+      "district": "104",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and reduced regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Kuhn",
+      "party": "D",
+      "chamber": "House",
+      "district": "111",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Amy Roeder",
+      "party": "D",
+      "chamber": "House",
+      "district": "23",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased investment in public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
