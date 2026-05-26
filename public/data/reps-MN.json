@@ -1,0 +1,957 @@
+{
+  "state": "MN",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Tina Smith",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5641",
+      "website": "https://www.smith.senate.gov",
+      "twitter": "@SenTinaSmith",
+      "instagram": "@senttinasmith",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of climate action and environmental regulations including clean energy initiatives.",
+          "voted_for": [
+            "Inflation Reduction Act climate provisions (Senate roll call, August 2022)",
+            "Methane emissions reduction measures (Senate committee, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistent advocate for abortion access and reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Right to Contraception Act (Senate vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports federal LGBTQ+ protections and anti-discrimination measures.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports higher taxes on wealthy individuals and corporations.",
+          "voted_for": [
+            "Inflation Reduction Act corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports federal cannabis reform and banking access for cannabis businesses.",
+          "voted_for": [
+            "SAFE Banking Act co-sponsorship (2021-2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased federal education funding.",
+          "voted_for": [
+            "American Rescue Plan education funding (Senate vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Klobuchar",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3244",
+      "website": "https://www.klobuchar.senate.gov",
+      "twitter": "@SenAmyKlobuchar",
+      "instagram": "@amyklobuchar",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and clean energy while balancing agricultural interests.",
+          "voted_for": [
+            "Inflation Reduction Act (Senate vote, August 2022)",
+            "Bipartisan Infrastructure Law clean energy provisions (Senate vote, August 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports federal protections for abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate vote, February 2022)",
+            "Right to Contraception Act (Senate vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports federal LGBTQ+ equality legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Data Center Regulation": {
+          "stance": "support",
+          "summary": "Advocates for antitrust and privacy regulations affecting tech companies.",
+          "voted_for": [
+            "American Innovation and Choice Online Act sponsorship (2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports closing tax loopholes and increasing corporate taxes.",
+          "voted_for": [
+            "Inflation Reduction Act corporate minimum tax (Senate vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal funding for K-12 education.",
+          "voted_for": [
+            "American Rescue Plan education provisions (Senate vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Kelly Morrison",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-2871",
+      "website": "https://morrison.house.gov",
+      "twitter": "@RepMorrison",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Physician and strong advocate for reproductive healthcare access, elected on this platform in 2024.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Campaigned on education funding as former state legislator.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action based on campaign platform and state legislative record.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brad Finstad",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-2472",
+      "website": "https://finstad.house.gov",
+      "twitter": "@RepFinstad",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes expansive federal environmental regulations, focuses on agricultural concerns.",
+          "voted_for": [],
+          "voted_against": [
+            "EPA vehicle emissions standards opposition (House statements, 2023)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on businesses and individuals.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports restrictions on abortion access.",
+          "voted_for": [
+            "Born-Alive Abortion Survivors Protection Act (House vote, January 2023)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Michelle Fischbach",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-2165",
+      "website": "https://fischbach.house.gov",
+      "twitter": "@RepFischbach",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes Biden administration environmental regulations, particularly those affecting agriculture.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act environmental provisions (House vote, November 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and pro-life legislation.",
+          "voted_for": [
+            "Born-Alive Abortion Survivors Protection Act (House vote, January 2023)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police reform measures, supports law enforcement funding.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Angie Craig",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-2271",
+      "website": "https://craig.house.gov",
+      "twitter": "@RepAngieCraig",
+      "instagram": "@repangiecraig",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action while maintaining moderate approach on energy policy.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports federal protections for abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, July 2022)",
+            "Right to Contraception Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality legislation and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House vote, December 2022)",
+            "Equality Act (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform measures while emphasizing community safety.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports targeted tax increases on wealthy and corporations.",
+          "voted_for": [
+            "Inflation Reduction Act corporate minimum tax (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business support programs and funding.",
+          "voted_for": [
+            "American Rescue Plan small business provisions (House vote, February 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Pete Stauber",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-6211",
+      "website": "https://stauber.house.gov",
+      "twitter": "@RepPeteStauber",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations that restrict mining and resource extraction in northern Minnesota.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (House vote, November 2021)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Former police officer who opposes federal police reform legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions.",
+          "voted_for": [
+            "Born-Alive Abortion Survivors Protection Act (House vote, January 2023)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on businesses and individuals.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ilhan Omar",
+      "party": "D",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-4755",
+      "website": "https://omar.house.gov",
+      "twitter": "@Ilhan",
+      "instagram": "@ilhanmn",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of Green New Deal and aggressive climate action.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)",
+            "Green New Deal Resolution co-sponsorship (2019)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Vocal advocate for police reform and accountability following George Floyd's murder.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Strong advocate for criminal justice reform and ending mass incarceration.",
+          "voted_for": [
+            "First Step Act implementation support (2019-2020)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports substantial tax increases on wealthy and corporations.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports federal marijuana legalization and expungement.",
+          "voted_for": [
+            "MORE Act (House vote, April 2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong advocate for abortion rights and reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, July 2022)",
+            "Right to Contraception Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ equality and protections.",
+          "voted_for": [
+            "Equality Act (House vote, February 2021)",
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for significant increases in public education funding.",
+          "voted_for": [
+            "American Rescue Plan education provisions (House vote, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Advocates for food justice and expanded SNAP benefits.",
+          "voted_for": [
+            "Farm Bill food assistance provisions (2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Tom Emmer",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-2331",
+      "website": "https://emmer.house.gov",
+      "twitter": "@RepTomEmmer",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes expansive climate regulations and supports energy independence.",
+          "voted_for": [],
+          "voted_against": [
+            "Build Back Better Act (House vote, November 2021)",
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and pro-life legislation.",
+          "voted_for": [
+            "Born-Alive Abortion Survivors Protection Act (House vote, January 2023)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes federal police reform legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
+        },
+        "Data Center Regulation": {
+          "stance": "oppose",
+          "summary": "Opposes cryptocurrency and technology regulations as House Republican Whip.",
+          "voted_for": [],
+          "voted_against": [
+            "Digital asset regulatory proposals (2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Betty McCollum",
+      "party": "D",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-6631",
+      "website": "https://mccollum.house.gov",
+      "twitter": "@BettyMcCollum04",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Long-time supporter of environmental protection and climate action.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)",
+            "Build Back Better Act (House vote, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of abortion rights and reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, July 2022)",
+            "Right to Contraception Act (House vote, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Long-time supporter of LGBTQ+ equality legislation.",
+          "voted_for": [
+            "Equality Act (House vote, February 2021)",
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability and reform measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and closing corporate loopholes.",
+          "voted_for": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Long-time advocate for increased education funding as Appropriations Committee member.",
+          "voted_for": [
+            "American Rescue Plan education provisions (House vote, February 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aisha Gomez",
+      "party": "N",
+      "chamber": "House",
+      "district": "62A",
+      "phone": "651-296-9889",
+      "website": "https://www.house.mn.gov/members/profile/15483",
+      "twitter": "@AishaForMpls",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supported Minnesota's 2023 abortion rights protections legislation.",
+          "voted_for": [
+            "PRO Act codifying abortion rights in Minnesota (HF 1, 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ protections and transgender rights legislation.",
+          "voted_for": [
+            "Trans Refuge Act (HF 146, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported increased education funding in 2023 legislative session.",
+          "voted_for": [
+            "E-12 education omnibus funding bill (2023)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform and restorative justice approaches.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Falconer",
+      "party": "N",
+      "chamber": "House",
+      "district": "49A",
+      "phone": "651-296-4176",
+      "website": "https://www.house.mn.gov/members/profile/15539",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases in 2023.",
+          "voted_for": [
+            "E-12 education omnibus bill (2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for abortion rights protections.",
+          "voted_for": [
+            "PRO Act (HF 1, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supported progressive tax reforms in 2023 session.",
+          "voted_for": [
+            "Tax omnibus bill with progressive provisions (2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alice Mann",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "50",
+      "phone": "651-296-5537",
+      "website": "https://www.senate.mn/members/member_bio.html?mem_id=1214",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases as state senator.",
+          "voted_for": [
+            "E-12 education omnibus bill (Senate, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for abortion rights legislation.",
+          "voted_for": [
+            "PRO Act (Senate vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supported LGBTQ+ protections legislation.",
+          "voted_for": [
+            "Trans Refuge Act (Senate vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amanda Hemmingsen-Jaeger",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "47",
+      "phone": "651-296-1279",
+      "website": "https://www.senate.mn/members/member_bio.html?mem_id=1220",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases in 2023.",
+          "voted_for": [
+            "E-12 education omnibus bill (Senate, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for reproductive rights protections.",
+          "voted_for": [
+            "PRO Act (Senate vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Lang",
+      "party": "R",
+      "chamber": "House",
+      "district": "16",
+      "phone": "651-296-4265",
+      "website": "https://www.house.mn.gov/members/profile/15497",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Supported some education funding but opposed overall DFL education package.",
+          "voted_for": [],
+          "voted_against": [
+            "E-12 education omnibus bill (House vote, 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposed abortion rights expansion legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "PRO Act (HF 1, 2023)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposed DFL tax increases in 2023.",
+          "voted_for": [],
+          "voted_against": [
+            "Tax omnibus bill (House vote, 2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Andrew Mathews",
+      "party": "R",
+      "chamber": "House",
+      "district": "27",
+      "phone": "651-296-4336",
+      "website": "https://www.house.mn.gov/members/profile/15500",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposed abortion rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "PRO Act (HF 1, 2023)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "oppose",
+          "summary": "Opposed DFL education funding package.",
+          "voted_for": [],
+          "voted_against": [
+            "E-12 education omnibus bill (2023)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposed tax increases in 2023 session.",
+          "voted_for": [],
+          "voted_against": [
+            "Tax omnibus bill (2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Andrew Myers",
+      "party": "R",
+      "chamber": "House",
+      "district": "45A",
+      "phone": "651-296-4229",
+      "website": "https://www.house.mn.gov/members/profile/15501",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposed abortion rights protections.",
+          "voted_for": [],
+          "voted_against": [
+            "PRO Act (HF 1, 2023)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposed DFL tax package.",
+          "voted_for": [],
+          "voted_against": [
+            "Tax omnibus bill (2023)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Andy Smith",
+      "party": "N",
+      "chamber": "House",
+      "district": "25B",
+      "phone": "651-296-9918",
+      "website": "https://www.house.mn.gov/members/profile/15551",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases.",
+          "voted_for": [
+            "E-12 education omnibus bill (2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for reproductive rights legislation.",
+          "voted_for": [
+            "PRO Act (HF 1, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ann Johnson Stewart",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "45",
+      "phone": "651-296-4314",
+      "website": "https://www.senate.mn/members/member_bio.html?mem_id=1199",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases in 2023.",
+          "voted_for": [
+            "E-12 education omnibus bill (Senate, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for abortion rights protections.",
+          "voted_for": [
+            "PRO Act (Senate vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supported LGBTQ+ protections.",
+          "voted_for": [
+            "Trans Refuge Act (Senate vote, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ann Rest",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "43",
+      "phone": "651-296-2889",
+      "website": "https://www.senate.mn/members/member_bio.html?mem_id=1142",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Long-time supporter of education funding as senior legislator.",
+          "voted_for": [
+            "E-12 education omnibus bill (Senate, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supported reproductive rights legislation.",
+          "voted_for": [
+            "PRO Act (Senate vote, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supported progressive tax reforms as tax committee leader.",
+          "voted_for": [
+            "Tax omnibus bill (Senate, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anquam Mahamoud",
+      "party": "N",
+      "chamber": "House",
+      "district": "62B",
+      "phone": "651-296-4333",
+      "website": "https://www.house.mn.gov/members/profile/15566",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases.",
+          "voted_for": [
+            "E-12 education omnibus bill (2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for reproductive rights protections.",
+          "voted_for": [
+            "PRO Act (HF 1, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Aric Putnam",
+      "party": "N",
+      "chamber": "House",
+      "district": "14",
+      "phone": "651-296-4308",
+      "website": "https://www.house.mn.gov/members/profile/15574",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supported education funding increases.",
+          "voted_for": [
+            "E-12 education omnibus bill (2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Voted for abortion rights legislation.",
+          "voted_for": [
+            "PRO Act (HF 1, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

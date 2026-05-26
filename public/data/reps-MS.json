@@ -1,0 +1,542 @@
+{
+  "state": "MS",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Roger F. Wicker",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6253",
+      "website": "https://www.wicker.senate.gov",
+      "twitter": "@SenatorWicker",
+      "instagram": "@senatorwicker",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Consistently opposes major environmental regulations and voted against climate legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supported bipartisan criminal justice reform but opposes some progressive measures.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on high earners and corporations.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports restrictive legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposed federal protections for same-sex marriage.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cindy Hyde-Smith",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5054",
+      "website": "https://www.hydesmith.senate.gov",
+      "twitter": "@SenHydeSmith",
+      "instagram": "@senhydesmith",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate legislation and environmental regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supported First Step Act but generally takes conservative approach to criminal justice.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports restrictive policies.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposed federal same-sex marriage protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Trent Kelly",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-4306",
+      "website": "https://trentkelly.house.gov",
+      "twitter": "@RepTrentKelly",
+      "instagram": "@reptrentkelly",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate legislation and environmental regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House vote, May 2019)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes increased taxation.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports restrictive measures.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposed federal protections for LGBTQ+ individuals.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House vote, February 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bennie G. Thompson",
+      "party": "D",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-5876",
+      "website": "https://benniethompson.house.gov",
+      "twitter": "@BennieGThompson",
+      "instagram": "@benniegthomspon",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protection measures.",
+          "voted_for": [
+            "Climate Action Now Act (House vote, May 2019)",
+            "Inflation Reduction Act (House vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and opposed tax cuts for wealthy.",
+          "voted_for": [],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion access and reproductive rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports federal protections for LGBTQ+ individuals.",
+          "voted_for": [
+            "Equality Act (House vote, February 2021)",
+            "Respect for Marriage Act (House vote, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Consistently supports increased federal education funding.",
+          "voted_for": [
+            "American Rescue Plan with education funding (House vote, March 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Michael Guest",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-5031",
+      "website": "https://guest.house.gov",
+      "twitter": "@RepMichaeIGuest",
+      "instagram": "@repmichaelguest",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate legislation and environmental regulations.",
+          "voted_for": [],
+          "voted_against": [
+            "Climate Action Now Act (House vote, May 2019)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes tax increases.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports restrictive legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposed federal LGBTQ+ protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House vote, February 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mike Ezell",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-5772",
+      "website": "https://ezell.house.gov",
+      "twitter": "@RepMikeEzell",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes environmental regulations that affect business and energy sectors.",
+          "voted_for": [],
+          "voted_against": [
+            "Lower Energy Costs Act opposition (House vote, March 2023)"
+          ]
+        },
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "As former sheriff, opposes federal police reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes increased taxation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Albert Butler",
+      "party": "D",
+      "chamber": "House",
+      "district": "37",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public education in Mississippi.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andy Berry",
+      "party": "R",
+      "chamber": "House",
+      "district": "35",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding consistent with Republican caucus priorities.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andy Boyd",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "37",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding as state senator.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Cockerham",
+      "party": "N",
+      "chamber": "House",
+      "district": "96",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Independent representative supporting education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Hill",
+      "party": "R",
+      "chamber": "House",
+      "district": "40",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Has supported criminal justice reform measures in the state legislature.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Turner-Ford",
+      "party": "D",
+      "chamber": "House",
+      "district": "16",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bart Williams",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "15",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports state education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Becky Currie",
+      "party": "R",
+      "chamber": "House",
+      "district": "92",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports restrictive abortion legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ben Suber",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "8",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports state education appropriations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Beth Waldo",
+      "party": "R",
+      "chamber": "House",
+      "district": "15",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding in Mississippi.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Kinkade",
+      "party": "R",
+      "chamber": "House",
+      "district": "52",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Pigott",
+      "party": "R",
+      "chamber": "House",
+      "district": "99",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education appropriations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

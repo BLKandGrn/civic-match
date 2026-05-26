@@ -1,0 +1,406 @@
+{
+  "state": "MT",
+  "generated": "2026-05-26",
+  "federal": [
+    {
+      "name": "Tim Sheehy",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2644",
+      "website": "https://www.sheehy.senate.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and supports expanded energy development on public lands.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports state-level abortion restrictions and opposes federal protection of abortion rights.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Steve Daines",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2651",
+      "website": "https://www.daines.senate.gov",
+      "twitter": "SteveDaines",
+      "instagram": "stevedaines",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes expansive environmental regulations and supports fossil fuel development and timber harvesting.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act supporting energy production (Congress.gov, 2023)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (Congress.gov, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes increased taxation on high earners and corporations.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (Congress.gov, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Consistently opposes abortion rights and supports restrictions on reproductive healthcare.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (Congress.gov, 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Congress.gov, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal LGBTQ+ protections and supports religious exemptions.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Congress.gov, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Troy Downing",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-3211",
+      "website": "https://downing.house.gov",
+      "twitter": "RepDowning",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and supports energy independence through fossil fuel development.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and opposes federal protection of abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ryan K. Zinke",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-3211",
+      "website": "https://zinke.house.gov",
+      "twitter": "RepRyanZinke",
+      "instagram": "repryan.zinke",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Supports energy development and opposes expansive environmental protections, favoring state management of public lands.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act (Congress.gov, March 2023)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports reducing federal taxation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights and supports restrictions on reproductive healthcare.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Alanah Griffith",
+      "party": "D",
+      "chamber": "House",
+      "district": "60",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased funding for public education and teacher pay.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports protecting reproductive healthcare access in Montana.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Regier",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported restrictions on transgender participation in sports and opposed LGBTQ+ protections.",
+          "voted_for": [
+            "HB 112 restricting transgender athletes (Montana Legislature, 2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports abortion restrictions and parental notification requirements.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrea Olsen",
+      "party": "D",
+      "chamber": "House",
+      "district": "48",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong advocate for environmental protections, clean water, and climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding and teacher compensation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Advocates for reproductive healthcare access and opposes abortion bans.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anthony Nicastro",
+      "party": "R",
+      "chamber": "House",
+      "district": "50",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports reducing regulatory burdens and providing resources for small businesses.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Austin Knudsen",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "As Attorney General, focuses on tough-on-crime policies and opposes progressive criminal justice reforms.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ protections and has defended state laws restricting transgender rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Defends abortion restrictions and opposes reproductive healthcare protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Barry Usher",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "19",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Supports reduced environmental regulations and expanded resource development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Becky Beard",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "38",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported legislation restricting transgender rights and opposing LGBTQ+ protections.",
+          "voted_for": [
+            "SB 99 restricting transgender healthcare (Montana Legislature, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports restrictions on abortion access and opposes reproductive rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Becky Edwards",
+      "party": "D",
+      "chamber": "House",
+      "district": "61",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased investment in public schools and educator compensation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Advocates for protecting reproductive healthcare access in Montana.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bob Carter",
+      "party": "D",
+      "chamber": "House",
+      "district": "96",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increasing funding for public education and rural schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bob Phalen",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "17",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports reducing regulatory burdens and tax relief for small businesses.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brad Barker",
+      "party": "R",
+      "chamber": "House",
+      "district": "55",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Supports reduced environmental regulations and expanded natural resource development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brandon Ler",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "33",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported legislation restricting transgender participation in sports and opposing LGBTQ+ protections.",
+          "voted_for": [
+            "SB 99 restricting gender-affirming care (Montana Legislature, 2023)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}
