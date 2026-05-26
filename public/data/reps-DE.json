@@ -10,38 +10,38 @@
       "phone": "202-224-5042",
       "website": "https://www.coons.senate.gov",
       "twitter": "@ChrisCoons",
-      "instagram": "@senatorchriscooons",
+      "instagram": "@senatorchris",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Consistently supports climate action legislation and environmental protection measures.",
+          "summary": "Consistently supports climate action legislation and clean energy initiatives.",
           "voted_for": [
-            "Infrastructure Investment and Jobs Act with clean energy provisions (Senate vote, November 2021)",
-            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act with environmental provisions (Senate.gov, August 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports bipartisan criminal justice reform including sentencing reform.",
+          "summary": "Supports sentencing reform and reentry programs for formerly incarcerated individuals.",
           "voted_for": [
-            "First Step Act (Senate vote, December 2018)"
+            "First Step Act (Senate.gov, December 2018)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and voted to codify Roe v. Wade protections.",
+          "summary": "Supports abortion rights and access to reproductive healthcare.",
           "voted_for": [
-            "Women's Health Protection Act (Senate vote, May 2022)"
+            "Women's Health Protection Act (Senate.gov, February 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights legislation including marriage equality.",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
+            "Respect for Marriage Act (Senate.gov, November 2022)"
           ],
           "voted_against": []
         }
@@ -59,43 +59,51 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate action legislation.",
+          "summary": "Advocates for climate action and environmental justice initiatives.",
           "voted_for": [
-            "Infrastructure Investment and Jobs Act (House vote, November 2021)",
-            "Inflation Reduction Act (House vote, August 2022)"
+            "Inflation Reduction Act with climate provisions (House.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act (House.gov, November 2021)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police accountability measures and criminal justice reform.",
+          "summary": "Supports police reform measures and accountability legislation.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House vote, March 2021)"
+            "George Floyd Justice in Policing Act (House.gov, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and reentry programs.",
+          "voted_for": [
+            "First Step Act (House.gov, December 2018)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and voted to protect abortion access.",
+          "summary": "Supports abortion rights and reproductive healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (House vote, September 2021)"
+            "Women's Health Protection Act (House.gov, September 2021)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination legislation.",
           "voted_for": [
-            "Respect for Marriage Act (House vote, July 2022)",
-            "Equality Act (House vote, February 2021)"
+            "Respect for Marriage Act (House.gov, July 2022)",
+            "Equality Act (House.gov, February 2021)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased federal funding for public education.",
+          "summary": "Advocates for increased federal funding for public education.",
           "voted_for": [
-            "American Rescue Plan with education funding (House vote, March 2021)"
+            "American Rescue Plan with education funding (House.gov, March 2021)"
           ],
           "voted_against": []
         }
@@ -113,19 +121,19 @@
       "positions": {
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Strong advocate for LGBTQ+ rights as the first openly transgender member of Congress.",
+          "summary": "As the first openly transgender member of Congress, champions LGBTQ+ equality and protections.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive health rights based on campaign platform and Delaware legislative record.",
+          "summary": "Supports reproductive rights and healthcare access based on campaign positions.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding based on legislative record.",
+          "summary": "Advocates for increased public education funding based on legislative priorities.",
           "voted_for": [],
           "voted_against": []
         }
@@ -156,10 +164,8 @@
       "positions": {
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supported cannabis legalization legislation in Delaware.",
-          "voted_for": [
-            "HB 1 Adult Use Cannabis Bill (Delaware Senate, April 2023)"
-          ],
+          "summary": "Supported cannabis legalization efforts in Delaware.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -180,17 +186,17 @@
       "party": "R",
       "chamber": "Senate",
       "district": "19",
-      "phone": null,
+      "phone": "302-744-4298",
       "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Cannabis Policy": {
           "stance": "oppose",
-          "summary": "Voted against adult-use cannabis legalization.",
+          "summary": "Opposed cannabis legalization legislation in Delaware.",
           "voted_for": [],
           "voted_against": [
-            "HB 1 Adult Use Cannabis Bill (Delaware Senate, April 2023)"
+            "HB 1 marijuana legalization (Delaware General Assembly, April 2023)"
           ]
         }
       }
@@ -198,9 +204,9 @@
     {
       "name": "Bryan Shupe",
       "party": "R",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "36",
-      "phone": null,
+      "phone": "302-744-4133",
       "website": null,
       "twitter": null,
       "instagram": null,
@@ -211,22 +217,22 @@
       "party": "D",
       "chamber": "Senate",
       "district": "11",
-      "phone": null,
+      "phone": "302-744-4125",
       "website": null,
-      "twitter": null,
+      "twitter": "@BryanTownsendDE",
       "instagram": null,
       "positions": {
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supported cannabis legalization and regulation in Delaware.",
+          "summary": "Supported and sponsored cannabis legalization legislation.",
           "voted_for": [
-            "HB 1 Adult Use Cannabis Bill (Delaware Senate, April 2023)"
+            "HB 1 marijuana legalization (Delaware General Assembly, April 2023)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Has supported criminal justice reform measures in the Delaware Senate.",
+          "summary": "Supports criminal justice reform measures and sentencing reform.",
           "voted_for": [],
           "voted_against": []
         }
@@ -237,20 +243,11 @@
       "party": "R",
       "chamber": "Senate",
       "district": "21",
-      "phone": null,
+      "phone": "302-744-4164",
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {
-        "Cannabis Policy": {
-          "stance": "oppose",
-          "summary": "Voted against adult-use cannabis legalization legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "HB 1 Adult Use Cannabis Bill (Delaware Senate, April 2023)"
-          ]
-        }
-      }
+      "positions": {}
     },
     {
       "name": "Charles Postles",
@@ -266,18 +263,25 @@
     {
       "name": "Claire Snyder-Hall",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "14",
       "phone": null,
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Cyndie Romer",
       "party": "D",
-      "chamber": "Senate",
+      "chamber": "House",
       "district": "25",
       "phone": null,
       "website": null,
@@ -301,7 +305,7 @@
       "party": "R",
       "chamber": "House",
       "district": "39",
-      "phone": null,
+      "phone": "302-744-4351",
       "website": null,
       "twitter": null,
       "instagram": null,

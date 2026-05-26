@@ -14,35 +14,52 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Consistently supports clean energy legislation and environmental protection measures.",
+          "summary": "Consistently votes for climate action and clean energy legislation.",
           "voted_for": [
-            "H.R. 1 For the People Act (House Vote, March 2021)",
-            "Inflation Reduction Act climate provisions (House Vote, August 2022)"
+            "H.R. 5376 Inflation Reduction Act with climate provisions (House Vote, August 2022)",
+            "H.R. 1 Climate Action Now Act (House Vote, May 2019)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police reform and accountability measures.",
+          "summary": "Supports federal police reform legislation including the George Floyd Justice in Policing Act.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House Vote, March 2021)"
+            "H.R. 1280 George Floyd Justice in Policing Act (House Vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Voted for bipartisan criminal justice reform measures.",
+          "voted_for": [
+            "H.R. 5682 First Step Act (House Vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports increased taxes on corporations and high earners.",
+          "voted_for": [
+            "H.R. 5376 Inflation Reduction Act with corporate minimum tax (House Vote, August 2022)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive health access and abortion rights.",
+          "summary": "Votes consistently to protect abortion access and reproductive healthcare.",
           "voted_for": [
-            "Women's Health Protection Act (House Vote, September 2021)"
+            "H.R. 3755 Women's Health Protection Act (House Vote, September 2021)",
+            "H.R. 8373 Right to Contraception Act (House Vote, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights protections.",
+          "summary": "Supports LGBTQ+ civil rights protections.",
           "voted_for": [
-            "Respect for Marriage Act (House Vote, December 2022)",
-            "Equality Act (House Vote, February 2021)"
+            "H.R. 5 Equality Act (House Vote, February 2021)",
+            "H.R. 8404 Respect for Marriage Act (House Vote, July 2022)"
           ],
           "voted_against": []
         }
@@ -60,34 +77,49 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports clean energy transition and climate action while balancing energy sector interests.",
+          "summary": "Supports climate action while balancing energy transition concerns.",
           "voted_for": [
-            "Inflation Reduction Act (Senate Vote, August 2022)",
-            "Infrastructure Investment and Jobs Act environmental provisions (Senate Vote, August 2021)"
+            "H.R. 5376 Inflation Reduction Act (Senate Vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Voted for tax increases on corporations and high earners.",
+          "voted_for": [
+            "H.R. 5376 Inflation Reduction Act with corporate minimum tax (Senate Vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis banking reform and decriminalization efforts.",
+          "voted_for": [
+            "Co-sponsor of SAFE Banking Act"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to abortion care.",
+          "summary": "Votes to protect abortion access and reproductive healthcare.",
           "voted_for": [
-            "Women's Health Protection Act (Senate Vote, February 2022)"
+            "S.4132 Women's Health Protection Act (Senate Vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ protections and marriage equality.",
+          "summary": "Supports LGBTQ+ civil rights protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate Vote, November 2022)"
+            "H.R. 8404 Respect for Marriage Act (Senate Vote, November 2022)"
           ],
           "voted_against": []
         },
-        "Small Business Funding": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Supports small business assistance and entrepreneurship programs.",
+          "summary": "Supports increased federal education funding.",
           "voted_for": [
-            "Paycheck Protection Program extensions (Senate Vote, 2021)"
+            "American Rescue Plan Act education funding (Senate Vote, March 2021)"
           ],
           "voted_against": []
         }
@@ -105,35 +137,58 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for climate action and public lands protection.",
+          "summary": "Long-standing advocate for climate action and conservation.",
           "voted_for": [
-            "Inflation Reduction Act (Senate Vote, August 2022)",
-            "CORE Act for Colorado public lands (Senate Sponsor, 2021)"
+            "H.R. 5376 Inflation Reduction Act (Senate Vote, August 2022)",
+            "Bipartisan Infrastructure Law with climate provisions (Senate Vote, August 2021)"
           ],
           "voted_against": []
         },
-        "Public School Funding": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Strong advocate for public education funding and expanded child tax credit.",
+          "summary": "Supported bipartisan criminal justice reform.",
           "voted_for": [
-            "American Rescue Plan education funding (Senate Vote, March 2021)",
-            "Child Tax Credit expansion (Senate Vote, 2021)"
+            "S.756 First Step Act (Senate Vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax reform and closing loopholes.",
+          "voted_for": [
+            "H.R. 5376 Inflation Reduction Act with tax provisions (Senate Vote, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis banking reform.",
+          "voted_for": [
+            "Co-sponsor of SAFE Banking Act"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to healthcare.",
+          "summary": "Consistently votes to protect abortion access.",
           "voted_for": [
-            "Women's Health Protection Act (Senate Vote, February 2022)"
+            "S.4132 Women's Health Protection Act (Senate Vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistently supports LGBTQ+ equality measures.",
+          "summary": "Strong supporter of LGBTQ+ civil rights.",
           "voted_for": [
-            "Respect for Marriage Act (Senate Vote, November 2022)"
+            "H.R. 8404 Respect for Marriage Act (Senate Vote, November 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Prioritizes education funding and has focused on this issue throughout his career.",
+          "voted_for": [
+            "American Rescue Plan Act education provisions (Senate Vote, March 2021)"
           ],
           "voted_against": []
         }
@@ -149,9 +204,27 @@
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports energy independence with emphasis on traditional energy sources.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Police Accountability": {
           "stance": "oppose",
-          "summary": "As former police officer, opposes federal police reform mandates, supports law enforcement funding.",
+          "summary": "As former law enforcement officer, opposes federal police reform mandates.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases, supports reducing federal spending.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports state-level restrictions on abortion.",
           "voted_for": [],
           "voted_against": []
         }
@@ -167,9 +240,27 @@
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal climate regulations and supports fossil fuel industry.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Advocates for lower taxes and limited government spending.",
+          "summary": "Opposes tax increases and supports reduced government spending.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supports restrictions on abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes expansion of LGBTQ+ legal protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -187,35 +278,45 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes climate regulations and supports traditional energy development.",
+          "summary": "Opposes climate regulations and supports fossil fuel development.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act (House Vote, August 2022)"
+            "H.R. 5376 Inflation Reduction Act (House Vote, August 2022)",
+            "H.R. 1 Climate Action Now Act (House Vote, May 2019)"
           ]
         },
         "Police Accountability": {
           "stance": "oppose",
-          "summary": "Opposes federal police reform efforts and supports law enforcement.",
+          "summary": "Opposes federal police reform measures.",
           "voted_for": [],
           "voted_against": [
-            "George Floyd Justice in Policing Act (House Vote, March 2021)"
+            "H.R. 1280 George Floyd Justice in Policing Act (House Vote, March 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": [
+            "H.R. 5376 Inflation Reduction Act (House Vote, August 2022)"
           ]
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports restrictions.",
+          "summary": "Supports restrictions on abortion and opposes federal protections.",
           "voted_for": [],
           "voted_against": [
-            "Women's Health Protection Act (House Vote, September 2021)"
+            "H.R. 3755 Women's Health Protection Act (House Vote, September 2021)",
+            "H.R. 8373 Right to Contraception Act (House Vote, July 2022)"
           ]
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposes LGBTQ+ protections legislation.",
+          "summary": "Opposes LGBTQ+ civil rights legislation.",
           "voted_for": [],
           "voted_against": [
-            "Respect for Marriage Act (House Vote, December 2022)",
-            "Equality Act (House Vote, February 2021)"
+            "H.R. 5 Equality Act (House Vote, February 2021)",
+            "H.R. 8404 Respect for Marriage Act (House Vote, July 2022)"
           ]
         }
       }
@@ -232,25 +333,49 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate action.",
+          "summary": "Supports climate action and environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocate for criminal justice reform and substance abuse treatment.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and closing tax loopholes.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis reform and banking access for cannabis businesses.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong advocate for reproductive rights and healthcare access.",
+          "summary": "Strong advocate for reproductive healthcare access.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and protections.",
+          "summary": "Supports LGBTQ+ civil rights protections.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased public education funding.",
+          "summary": "Advocates for increased education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -264,22 +389,38 @@
       "phone": "202-225-2161",
       "website": "https://neguse.house.gov",
       "twitter": "RepJoeNeguse",
-      "instagram": "repjoeneguse",
+      "instagram": "repjoe neguse",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for environmental protection and public lands conservation.",
+          "summary": "Strong advocate for climate action and conservation, particularly for Colorado public lands.",
           "voted_for": [
-            "Inflation Reduction Act (House Vote, August 2022)",
-            "CORE Act (House Sponsor, 2021)"
+            "H.R. 5376 Inflation Reduction Act (House Vote, August 2022)",
+            "H.R. 1 Climate Action Now Act (House Vote, May 2019)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police reform and accountability measures.",
+          "summary": "Supports federal police reform measures.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House Vote, March 2021)"
+            "H.R. 1280 George Floyd Justice in Policing Act (House Vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform initiatives.",
+          "voted_for": [
+            "H.R. 5682 First Step Act (House Vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax reform.",
+          "voted_for": [
+            "H.R. 5376 Inflation Reduction Act (House Vote, August 2022)"
           ],
           "voted_against": []
         },
@@ -287,16 +428,17 @@
           "stance": "support",
           "summary": "Supports reproductive healthcare access and abortion rights.",
           "voted_for": [
-            "Women's Health Protection Act (House Vote, September 2021)"
+            "H.R. 3755 Women's Health Protection Act (House Vote, September 2021)",
+            "H.R. 8373 Right to Contraception Act (House Vote, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Strong supporter of LGBTQ+ equality and protections.",
+          "summary": "Supports LGBTQ+ civil rights protections.",
           "voted_for": [
-            "Respect for Marriage Act (House Vote, December 2022)",
-            "Equality Act (House Vote, February 2021)"
+            "H.R. 5 Equality Act (House Vote, February 2021)",
+            "H.R. 8404 Respect for Marriage Act (House Vote, July 2022)"
           ],
           "voted_against": []
         }
@@ -314,7 +456,19 @@
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports public lands access while promoting traditional energy development.",
+          "summary": "Supports balanced approach to energy and conservation for Western Colorado.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports fiscal conservatism.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Prioritizes small business support and reducing regulatory burdens.",
           "voted_for": [],
           "voted_against": []
         }
@@ -328,39 +482,56 @@
       "phone": "202-225-4431",
       "website": "https://degette.house.gov",
       "twitter": "RepDianaDeGette",
-      "instagram": "repdianadegette",
+      "instagram": "repdiandegette",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Long-time advocate for environmental protection and clean energy.",
+          "summary": "Long-time advocate for environmental protection and climate action.",
           "voted_for": [
-            "Inflation Reduction Act (House Vote, August 2022)",
-            "H.R. 1 For the People Act (House Vote, March 2021)"
+            "H.R. 5376 Inflation Reduction Act (House Vote, August 2022)",
+            "H.R. 1 Climate Action Now Act (House Vote, May 2019)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police reform and accountability.",
+          "summary": "Supports police reform and accountability measures.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House Vote, March 2021)"
+            "H.R. 1280 George Floyd Justice in Policing Act (House Vote, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform.",
+          "voted_for": [
+            "H.R. 5682 First Step Act (House Vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation policies.",
+          "voted_for": [
+            "H.R. 5376 Inflation Reduction Act (House Vote, August 2022)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Long-standing champion of reproductive rights and healthcare access.",
+          "summary": "Leading advocate for reproductive healthcare and abortion rights.",
           "voted_for": [
-            "Women's Health Protection Act (House Vote, September 2021)"
+            "H.R. 3755 Women's Health Protection Act (House Vote, September 2021)",
+            "H.R. 8373 Right to Contraception Act (House Vote, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ equality.",
+          "summary": "Long-standing supporter of LGBTQ+ civil rights.",
           "voted_for": [
-            "Respect for Marriage Act (House Vote, December 2022)",
-            "Equality Act (House Vote, February 2021)"
+            "H.R. 5 Equality Act (House Vote, February 2021)",
+            "H.R. 8404 Respect for Marriage Act (House Vote, July 2022)"
           ],
           "voted_against": []
         }
@@ -380,13 +551,27 @@
       "positions": {
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform measures and alternatives to incarceration.",
+          "summary": "Supports criminal justice reform and has worked on sentencing reform legislation.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong advocate for reproductive healthcare access.",
+          "summary": "Supports reproductive healthcare access and abortion rights.",
+          "voted_for": [
+            "HB22-1279 Reproductive Health Equity Act (Colorado House, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -404,13 +589,35 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for renewable energy and climate action.",
-          "voted_for": [],
+          "summary": "Strong advocate for clean energy and environmental justice.",
+          "voted_for": [
+            "HB21-1238 Sustainability of the Transportation System (Colorado House, 2021)"
+          ],
           "voted_against": []
         },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supports cannabis industry regulation and equity programs.",
+          "summary": "Supports cannabis industry regulations and equity programs.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [
+            "HB22-1279 Reproductive Health Equity Act (Colorado House, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ civil rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -426,6 +633,24 @@
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Public School Funding": {
           "stance": "support",
           "summary": "Supports increased public education funding.",
@@ -446,7 +671,25 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate initiatives.",
+          "summary": "Supports environmental protection and clean energy initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ civil rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -457,14 +700,26 @@
       "party": "R",
       "chamber": "Senate",
       "district": "14",
-      "phone": "303-866-4853",
+      "phone": "303-866-4876",
       "website": "https://leg.colorado.gov/legislators/ava-flanell",
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
+        "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports education funding with emphasis on parental choice and accountability.",
+          "summary": "Supports balanced approach to energy and environmental policy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports fiscal conservatism.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Prioritizes small business support.",
           "voted_for": [],
           "voted_against": []
         }
@@ -491,6 +746,20 @@
           "summary": "Opposes tax increases and supports limited government spending.",
           "voted_for": [],
           "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "HB22-1279 Reproductive Health Equity Act (Colorado Senate, 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes expansion of LGBTQ+ protections.",
+          "voted_for": [],
+          "voted_against": []
         }
       }
     },
@@ -504,9 +773,35 @@
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [
+            "HB22-1279 Reproductive Health Equity Act (Colorado House, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ civil rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased education funding and teacher support.",
+          "summary": "Supports increased education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -522,9 +817,29 @@
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes restrictive environmental regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and advocates for fiscal restraint.",
+          "summary": "Opposes tax increases and supports fiscal conservatism.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "HB22-1279 Reproductive Health Equity Act (Colorado House, 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes expansion of LGBTQ+ protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -537,24 +852,44 @@
       "district": "27",
       "phone": "303-866-2911",
       "website": "https://leg.colorado.gov/legislators/brianna-titone",
-      "twitter": "BriannaRTitone",
+      "twitter": "BriGuyRunsAgain",
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for environmental protection and renewable energy.",
+          "summary": "Strong advocate for climate action and environmental protection.",
           "voted_for": [],
           "voted_against": []
         },
-        "LGBTQ+ Rights": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "First openly transgender legislator in Colorado, strong LGBTQ+ advocate.",
+          "summary": "Supports criminal justice reform initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation policies.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive healthcare access and rights.",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [
+            "HB22-1279 Reproductive Health Equity Act (Colorado House, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "As Colorado's first openly transgender legislator, strong advocate for LGBTQ+ rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -565,20 +900,34 @@
       "party": "R",
       "chamber": "Senate",
       "district": "1",
-      "phone": "303-866-4853",
+      "phone": "303-866-3077",
       "website": "https://leg.colorado.gov/legislators/byron-pelton",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes strict environmental regulations affecting agriculture and energy.",
+          "summary": "Opposes environmental regulations that impact agriculture and energy.",
           "voted_for": [],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes tax increases and supports rural economic interests.",
+          "summary": "Opposes tax increases and supports limited government.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "HB22-1279 Reproductive Health Equity Act (Colorado Senate, 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes expansion of LGBTQ+ protections.",
           "voted_for": [],
           "voted_against": []
         }
@@ -594,9 +943,21 @@
       "twitter": null,
       "instagram": null,
       "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports balanced approach to environmental and economic concerns.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business development and reduced regulations.",
+          "summary": "Prioritizes small business support.",
           "voted_for": [],
           "voted_against": []
         }
@@ -605,22 +966,48 @@
     {
       "name": "Cathy Kipp",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "14",
-      "phone": "303-866-2911",
+      "phone": "303-866-4876",
       "website": "https://leg.colorado.gov/legislators/cathy-kipp",
-      "twitter": null,
+      "twitter": "cathykipp",
       "instagram": null,
       "positions": {
-        "Public School Funding": {
+        "Environmental Protection": {
           "stance": "support",
-          "summary": "Former educator and strong advocate for public school funding.",
+          "summary": "Supports environmental protection and climate action.",
           "voted_for": [],
           "voted_against": []
         },
-        "Environmental Protection": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports climate action and environmental protection.",
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [
+            "HB22-1279 Reproductive Health Equity Act (Colorado Senate, 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ civil rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for public education funding.",
           "voted_for": [],
           "voted_against": []
         }

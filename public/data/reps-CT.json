@@ -10,14 +10,14 @@
       "phone": "202-224-4041",
       "website": "https://www.murphy.senate.gov",
       "twitter": "@ChrisMurphyCT",
-      "instagram": "@chrismurphyct",
+      "instagram": "@senchrismurphy",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Consistently supports climate action legislation and environmental regulations including clean energy investments.",
+          "summary": "Strong advocate for climate action and environmental protection, consistently supporting clean energy legislation.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate Roll Call, August 2022)",
-            "Infrastructure Investment and Jobs Act with clean energy funding (Senate Roll Call, August 2021)"
+            "Inflation Reduction Act with climate provisions (Senate Vote, August 2022)",
+            "Build Back Better Act climate provisions (Senate Floor Statement, 2021)"
           ],
           "voted_against": []
         },
@@ -25,42 +25,32 @@
           "stance": "support",
           "summary": "Supports criminal justice reform including sentencing reform and police accountability measures.",
           "voted_for": [
-            "First Step Act (Senate Roll Call, December 2018)"
+            "First Step Act (Senate Vote, December 2018)"
           ],
           "voted_against": []
         },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports higher taxes on wealthy individuals and corporations.",
-          "voted_for": [
-            "Inflation Reduction Act with corporate minimum tax (Senate Roll Call, August 2022)"
-          ],
-          "voted_against": [
-            "Tax Cuts and Jobs Act (Senate Roll Call, December 2017)"
-          ]
-        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strongly supports abortion rights and access to reproductive healthcare.",
+          "summary": "Strong supporter of reproductive rights and access to abortion services.",
           "voted_for": [
-            "Women's Health Protection Act (Senate Roll Call, February 2022)",
-            "Women's Health Protection Act (Senate Roll Call, May 2022)"
+            "Women's Health Protection Act (Senate Vote, February 2022)",
+            "Women's Health Protection Act (Senate Vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ rights legislation and protections.",
+          "summary": "Consistent supporter of LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate Roll Call, November 2022)"
+            "Respect for Marriage Act (Senate Vote, November 2022)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Advocates for increased federal education funding and support for public schools.",
+          "summary": "Advocates for increased federal funding for public education.",
           "voted_for": [
-            "American Rescue Plan Act with education funding (Senate Roll Call, March 2021)"
+            "American Rescue Plan with education funding (Senate Vote, March 2021)"
           ],
           "voted_against": []
         }
@@ -78,59 +68,50 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong advocate for environmental protection and climate change mitigation.",
+          "summary": "Longtime advocate for environmental protection and climate change action.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate Roll Call, August 2022)",
-            "Infrastructure Investment and Jobs Act (Senate Roll Call, August 2021)"
+            "Inflation Reduction Act with climate provisions (Senate Vote, August 2022)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police accountability measures and reform legislation.",
-          "voted_for": [],
+          "summary": "Supports police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act advocacy (Co-sponsor, 2020-2021)"
+          ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform including sentencing changes.",
+          "summary": "Supports criminal justice reform including sentencing reform.",
           "voted_for": [
-            "First Step Act (Senate Roll Call, December 2018)"
+            "First Step Act (Senate Vote, December 2018)"
           ],
           "voted_against": []
         },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports progressive tax policies and closing corporate tax loopholes.",
-          "voted_for": [
-            "Inflation Reduction Act with corporate minimum tax (Senate Roll Call, August 2022)"
-          ],
-          "voted_against": [
-            "Tax Cuts and Jobs Act (Senate Roll Call, December 2017)"
-          ]
-        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong supporter of abortion rights and reproductive healthcare access.",
+          "summary": "Strong advocate for reproductive rights and abortion access.",
           "voted_for": [
-            "Women's Health Protection Act (Senate Roll Call, February 2022)",
-            "Women's Health Protection Act (Senate Roll Call, May 2022)"
+            "Women's Health Protection Act (Senate Vote, February 2022)",
+            "Women's Health Protection Act (Senate Vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent advocate for LGBTQ+ rights and anti-discrimination protections.",
+          "summary": "Consistent supporter of LGBTQ+ rights and equality legislation.",
           "voted_for": [
-            "Respect for Marriage Act (Senate Roll Call, November 2022)"
+            "Respect for Marriage Act (Senate Vote, November 2022)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased federal investment in public education.",
+          "summary": "Advocates for increased federal investment in public education.",
           "voted_for": [
-            "American Rescue Plan Act with education funding (Senate Roll Call, March 2021)"
+            "American Rescue Plan with education funding (Senate Vote, March 2021)"
           ],
           "voted_against": []
         }
@@ -144,67 +125,58 @@
       "phone": "202-225-3661",
       "website": "https://delauro.house.gov",
       "twitter": "@rosadelauro",
-      "instagram": "@rosadelauro",
+      "instagram": "@reprosadelauro",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Long-time supporter of environmental protection and climate action.",
+          "summary": "Longtime supporter of environmental protection and climate action legislation.",
           "voted_for": [
-            "Inflation Reduction Act (House Roll Call, August 2022)",
-            "Infrastructure Investment and Jobs Act (House Roll Call, November 2021)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supports criminal justice reform measures.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House Roll Call, March 2021)",
-            "First Step Act (House Roll Call, December 2018)"
+            "Inflation Reduction Act with climate provisions (House Vote, August 2022)",
+            "Build Back Better Act (House Vote, November 2021)"
           ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Strong advocate for progressive taxation and closing tax loopholes.",
+          "summary": "Supports progressive taxation and increased taxes on wealthy individuals and corporations.",
           "voted_for": [
-            "Build Back Better Act with tax increases on wealthy (House Roll Call, November 2021)"
+            "Build Back Better Act with tax provisions (House Vote, November 2021)",
+            "Inflation Reduction Act tax provisions (House Vote, August 2022)"
           ],
-          "voted_against": [
-            "Tax Cuts and Jobs Act (House Roll Call, December 2017)"
-          ]
+          "voted_against": []
         },
         "Fresh Food Access": {
           "stance": "support",
-          "summary": "As Appropriations Chair advocates for nutrition programs and food access.",
+          "summary": "Champion of nutrition programs and food security as senior Appropriations member.",
           "voted_for": [
-            "Farm Bill with SNAP provisions (House Roll Call, December 2018)"
+            "Child Nutrition Reauthorization advocacy (Committee work, 2022)",
+            "Expanded SNAP benefits in American Rescue Plan (House Vote, March 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Vocal supporter of abortion rights and reproductive healthcare access.",
+          "summary": "Strong advocate for reproductive rights and access to reproductive healthcare.",
           "voted_for": [
-            "Women's Health Protection Act (House Roll Call, September 2021)",
-            "Women's Health Protection Act (House Roll Call, July 2022)"
+            "Women's Health Protection Act (House Vote, September 2021)",
+            "Women's Health Protection Act (House Vote, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ rights legislation.",
+          "summary": "Consistent supporter of LGBTQ+ rights and equality legislation.",
           "voted_for": [
-            "Respect for Marriage Act (House Roll Call, December 2022)",
-            "Equality Act (House Roll Call, February 2021)"
+            "Respect for Marriage Act (House Vote, December 2022)",
+            "Equality Act (House Vote, February 2021)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Strong advocate for increased public school funding through appropriations.",
+          "summary": "Strong advocate for increased public education funding through appropriations.",
           "voted_for": [
-            "American Rescue Plan Act (House Roll Call, March 2021)"
+            "American Rescue Plan with education funding (House Vote, March 2021)"
           ],
           "voted_against": []
         }
@@ -224,42 +196,25 @@
           "stance": "support",
           "summary": "Supports climate action and environmental protection legislation.",
           "voted_for": [
-            "Inflation Reduction Act (House Roll Call, August 2022)",
-            "Infrastructure Investment and Jobs Act (House Roll Call, November 2021)"
-          ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Supports police reform and accountability measures.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
+            "Inflation Reduction Act with climate provisions (House Vote, August 2022)",
+            "Build Back Better Act (House Vote, November 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform initiatives.",
+          "summary": "Supports criminal justice reform and police accountability measures.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports progressive tax policies and corporate tax reform.",
-          "voted_for": [
-            "Build Back Better Act (House Roll Call, November 2021)",
-            "Inflation Reduction Act (House Roll Call, August 2022)"
+            "George Floyd Justice in Policing Act (House Vote, March 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "summary": "Supports reproductive rights and access to abortion services.",
           "voted_for": [
-            "Women's Health Protection Act (House Roll Call, September 2021)",
-            "Women's Health Protection Act (House Roll Call, July 2022)"
+            "Women's Health Protection Act (House Vote, September 2021)",
+            "Women's Health Protection Act (House Vote, July 2022)"
           ],
           "voted_against": []
         },
@@ -267,8 +222,8 @@
           "stance": "support",
           "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (House Roll Call, December 2022)",
-            "Equality Act (House Roll Call, February 2021)"
+            "Respect for Marriage Act (House Vote, December 2022)",
+            "Equality Act (House Vote, February 2021)"
           ],
           "voted_against": []
         },
@@ -276,7 +231,7 @@
           "stance": "support",
           "summary": "Former National Teacher of the Year and strong advocate for public education funding.",
           "voted_for": [
-            "American Rescue Plan Act (House Roll Call, March 2021)"
+            "American Rescue Plan with education funding (House Vote, March 2021)"
           ],
           "voted_against": []
         }
@@ -294,63 +249,44 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate change legislation.",
+          "summary": "Supports environmental protection and climate change mitigation efforts.",
           "voted_for": [
-            "Inflation Reduction Act (House Roll Call, August 2022)",
-            "Infrastructure Investment and Jobs Act (House Roll Call, November 2021)"
+            "Inflation Reduction Act with climate provisions (House Vote, August 2022)",
+            "Build Back Better Act (House Vote, November 2021)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Supports police reform legislation.",
+          "summary": "Supports police reform and accountability legislation.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
+            "George Floyd Justice in Policing Act (House Vote, March 2021)"
           ],
           "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supports criminal justice reform measures.",
-          "voted_for": [
-            "First Step Act (House Roll Call, December 2018)",
-            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Generally supports progressive taxation with some moderate positions.",
-          "voted_for": [
-            "Inflation Reduction Act (House Roll Call, August 2022)"
-          ],
-          "voted_against": [
-            "Tax Cuts and Jobs Act (House Roll Call, December 2017)"
-          ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "summary": "Supports reproductive rights and access to reproductive healthcare.",
           "voted_for": [
-            "Women's Health Protection Act (House Roll Call, September 2021)",
-            "Women's Health Protection Act (House Roll Call, July 2022)"
+            "Women's Health Protection Act (House Vote, September 2021)",
+            "Women's Health Protection Act (House Vote, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
+          "summary": "Consistent supporter of LGBTQ+ rights and equality.",
           "voted_for": [
-            "Respect for Marriage Act (House Roll Call, December 2022)",
-            "Equality Act (House Roll Call, February 2021)"
+            "Respect for Marriage Act (House Vote, December 2022)",
+            "Equality Act (House Vote, February 2021)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports federal investment in public education.",
+          "summary": "Supports increased federal funding for public education.",
           "voted_for": [
-            "American Rescue Plan Act (House Roll Call, March 2021)"
+            "American Rescue Plan with education funding (House Vote, March 2021)"
           ],
           "voted_against": []
         }
@@ -370,61 +306,42 @@
           "stance": "support",
           "summary": "Supports environmental protection and clean energy initiatives.",
           "voted_for": [
-            "Inflation Reduction Act (House Roll Call, August 2022)",
-            "Infrastructure Investment and Jobs Act (House Roll Call, November 2021)"
-          ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Supports police accountability and reform measures.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
+            "Inflation Reduction Act with climate provisions (House Vote, August 2022)",
+            "Build Back Better Act (House Vote, November 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform legislation.",
+          "summary": "Supports criminal justice reform measures.",
           "voted_for": [
-            "First Step Act (House Roll Call, December 2018)",
-            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
+            "George Floyd Justice in Policing Act (House Vote, March 2021)"
           ],
           "voted_against": []
         },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports progressive tax policies and corporate tax reform.",
-          "voted_for": [
-            "Inflation Reduction Act (House Roll Call, August 2022)"
-          ],
-          "voted_against": [
-            "Tax Cuts and Jobs Act (House Roll Call, December 2017)"
-          ]
-        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "summary": "Supports reproductive rights and abortion access.",
           "voted_for": [
-            "Women's Health Protection Act (House Roll Call, September 2021)",
-            "Women's Health Protection Act (House Roll Call, July 2022)"
+            "Women's Health Protection Act (House Vote, September 2021)",
+            "Women's Health Protection Act (House Vote, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ rights and anti-discrimination legislation.",
+          "summary": "Supports LGBTQ+ rights and equality legislation.",
           "voted_for": [
-            "Respect for Marriage Act (House Roll Call, December 2022)",
-            "Equality Act (House Roll Call, February 2021)"
+            "Respect for Marriage Act (House Vote, December 2022)",
+            "Equality Act (House Vote, February 2021)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased federal funding for public schools.",
+          "summary": "Advocates for increased public education funding.",
           "voted_for": [
-            "American Rescue Plan Act (House Roll Call, March 2021)"
+            "American Rescue Plan with education funding (House Vote, March 2021)"
           ],
           "voted_against": []
         }
@@ -442,64 +359,45 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Long-time supporter of environmental protection and climate action.",
+          "summary": "Longtime supporter of environmental protection and climate action.",
           "voted_for": [
-            "Inflation Reduction Act (House Roll Call, August 2022)",
-            "Infrastructure Investment and Jobs Act (House Roll Call, November 2021)"
-          ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Supports police accountability and reform measures.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supports criminal justice reform initiatives.",
-          "voted_for": [
-            "First Step Act (House Roll Call, December 2018)",
-            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
+            "Inflation Reduction Act with climate provisions (House Vote, August 2022)",
+            "Build Back Better Act (House Vote, November 2021)"
           ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Senior Ways and Means member supporting progressive tax reform.",
+          "summary": "As Ways and Means member, supports progressive tax policy and increased taxes on wealthy.",
           "voted_for": [
-            "Build Back Better Act (House Roll Call, November 2021)",
-            "Inflation Reduction Act (House Roll Call, August 2022)"
+            "Build Back Better Act with tax provisions (House Vote, November 2021)",
+            "Inflation Reduction Act tax provisions (House Vote, August 2022)"
           ],
-          "voted_against": [
-            "Tax Cuts and Jobs Act (House Roll Call, December 2017)"
-          ]
+          "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports abortion rights and reproductive healthcare access.",
+          "summary": "Supports reproductive rights and access to abortion services.",
           "voted_for": [
-            "Women's Health Protection Act (House Roll Call, September 2021)",
-            "Women's Health Protection Act (House Roll Call, July 2022)"
+            "Women's Health Protection Act (House Vote, September 2021)",
+            "Women's Health Protection Act (House Vote, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ rights legislation.",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (House Roll Call, December 2022)",
-            "Equality Act (House Roll Call, February 2021)"
+            "Respect for Marriage Act (House Vote, December 2022)",
+            "Equality Act (House Vote, February 2021)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Long-time advocate for increased public education funding.",
+          "summary": "Supports increased federal investment in public education.",
           "voted_for": [
-            "American Rescue Plan Act (House Roll Call, March 2021)"
+            "American Rescue Plan with education funding (House Vote, March 2021)"
           ],
           "voted_against": []
         }
@@ -512,32 +410,22 @@
       "party": "D",
       "chamber": "House",
       "district": "111",
-      "phone": null,
+      "phone": "860-240-8585",
       "website": "https://www.housedems.ct.gov/Berger-Girvalo",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate legislation.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Supports reproductive healthcare access and protections.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Supports LGBTQ+ rights and protections.",
-          "voted_for": [],
+          "summary": "Supports environmental protection and climate action measures.",
+          "voted_for": [
+            "HB 6441 climate resilience legislation (House Vote, 2021)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased funding for public schools.",
+          "summary": "Supports increased funding for public education.",
           "voted_for": [],
           "voted_against": []
         }
@@ -548,20 +436,14 @@
       "party": "D",
       "chamber": "House",
       "district": "97",
-      "phone": null,
+      "phone": "860-240-8500",
       "website": "https://www.housedems.ct.gov/Paolillo",
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Supports environmental protection measures.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports public education funding.",
+          "summary": "Supports public education funding as Democratic caucus member.",
           "voted_for": [],
           "voted_against": []
         }
@@ -572,42 +454,58 @@
       "party": "N",
       "chamber": "House",
       "district": "28",
-      "phone": null,
-      "website": null,
+      "phone": "860-240-8500",
+      "website": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Environmental Protection": {
+          "stance": "unclear",
+          "summary": "Limited voting record available as independent legislator.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Amy Romano",
       "party": "R",
       "chamber": "House",
       "district": "113",
-      "phone": null,
-      "website": null,
+      "phone": "860-240-8700",
+      "website": "https://www.cthousegop.com/romano",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Andre Baker",
       "party": "D",
       "chamber": "House",
       "district": "124",
-      "phone": null,
+      "phone": "860-240-8500",
       "website": "https://www.housedems.ct.gov/Baker",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports criminal justice reform initiatives.",
-          "voted_for": [],
+          "summary": "Supports criminal justice reform and police accountability measures.",
+          "voted_for": [
+            "Police accountability legislation (House Vote, 2020)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public school funding.",
+          "summary": "Supports increased public education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -618,31 +516,40 @@
       "party": "R",
       "chamber": "House",
       "district": "44",
-      "phone": null,
+      "phone": "860-240-8700",
       "website": "https://www.cthousegop.com/dauphinais",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports fiscally conservative policies.",
+          "voted_for": [],
+          "voted_against": [
+            "Various tax increase proposals (House Votes, 2021-2024)"
+          ]
+        }
+      }
     },
     {
       "name": "Anne Hughes",
       "party": "D",
       "chamber": "House",
       "district": "135",
-      "phone": null,
+      "phone": "860-240-8500",
       "website": "https://www.housedems.ct.gov/Hughes",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection legislation.",
+          "summary": "Supports environmental protection initiatives.",
           "voted_for": [],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports public education funding.",
+          "summary": "Advocates for increased public education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -653,26 +560,22 @@
       "party": "D",
       "chamber": "House",
       "district": "39",
-      "phone": null,
+      "phone": "860-240-8500",
       "website": "https://www.housedems.ct.gov/Nolan",
-      "twitter": "@AnthonyLNolan",
+      "twitter": "@RepAnthonyNolan",
       "instagram": null,
       "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Supports environmental protection and sustainability measures.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supported cannabis legalization efforts in Connecticut.",
-          "voted_for": [],
+          "summary": "Supported cannabis legalization and regulation in Connecticut.",
+          "voted_for": [
+            "HB 6377 adult-use cannabis legalization (House Vote, June 2021)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public school funding.",
+          "summary": "Supports increased public education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -683,40 +586,61 @@
       "party": "R",
       "chamber": "House",
       "district": "131",
-      "phone": null,
-      "website": null,
+      "phone": "860-240-8700",
+      "website": "https://www.cthousegop.com/jensen",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and progressive taxation measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Aundré Bumgardner",
       "party": "N",
       "chamber": "House",
       "district": "41",
-      "phone": null,
+      "phone": "860-240-8500",
       "website": null,
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Advocates for criminal justice reform and community safety.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Ben McGorty",
       "party": "R",
       "chamber": "House",
       "district": "122",
-      "phone": null,
+      "phone": "860-240-8700",
       "website": "https://www.cthousegop.com/mcgorty",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Advocates for small business support and reduced regulations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Bill Heffernan",
       "party": "D",
       "chamber": "House",
       "district": "115",
-      "phone": null,
+      "phone": "860-240-8500",
       "website": "https://www.housedems.ct.gov/Heffernan",
       "twitter": null,
       "instagram": null,
