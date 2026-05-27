@@ -365,16 +365,18 @@ function Tabs(props) {
       </div>
       {/* Print view: all sections expanded */}
       <div className="print-only">
-        <div style={{ marginBottom:"20px", paddingBottom:"16px", borderBottom:"3px solid #445B3E" }}>
-          <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:"16px" }}>
+        {/* Print header */}
+        <div style={{ marginBottom:"24px", paddingBottom:"20px", borderBottom:"3px solid #445B3E" }}>
+          <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", gap:"16px", marginBottom:"10px" }}>
             <img src="/blkgrn-logo-color.png" alt="BLK + GRN" className="print-logo" style={{ width:"55%", maxWidth:"520px", height:"auto", display:"block" }} />
-            <div style={{ textAlign:"right", fontSize:"11px", color:"#666", whiteSpace:"nowrap", paddingTop:"4px" }}>
-              <div style={{ fontWeight:"bold", color:"#181818", marginBottom:"4px" }}>{props.location || ""}</div>
-              <div style={{ color:"#90A791" }}>Civic Match Voter Guide</div>
+            <div style={{ textAlign:"right", whiteSpace:"nowrap" }}>
+              <div style={{ fontFamily:"Arial, sans-serif", fontSize:"13px", fontWeight:"bold", color:"#181818", marginBottom:"3px" }}>{props.location || ""}</div>
+              <div style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:"#445B3E", letterSpacing:".04em" }}>Civic Match Voter Guide</div>
             </div>
           </div>
-          <div style={{ fontFamily:"Arial, sans-serif", fontSize:"12px", color:"#555", lineHeight:"1.6", marginTop:"12px" }}>
-            Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads.
+          <div style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:"#90A791", marginBottom:"6px", letterSpacing:".04em" }}>Powered by BLK + GRN</div>
+          <div style={{ fontFamily:"Arial, sans-serif", fontSize:"12px", color:"#555", lineHeight:"1.6" }}>
+            A nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads.
           </div>
         </div>
         {secs.map(function(sec, si) {
@@ -388,8 +390,8 @@ function Tabs(props) {
             </div>
           );
         })}
-        <div style={{ marginTop:"32px", paddingTop:"12px", borderTop:"1px solid #ccc", display:"flex", justifyContent:"space-between", alignItems:"center", fontSize:"11px", color:"#888", fontFamily:"Arial, sans-serif" }}>
-          <div>blkgrn.com &nbsp;|&nbsp; hello@blkgrn.com</div>
+        <div style={{ marginTop:"40px", paddingTop:"14px", borderTop:"2px solid #445B3E", display:"flex", justifyContent:"space-between", alignItems:"center", fontSize:"11px", color:"#555", fontFamily:"Arial, sans-serif" }}>
+          <div style={{ color:"#181818", fontWeight:"bold" }}>blkgrn.com &nbsp;|&nbsp; hello@blkgrn.com</div>
           <div>&copy; {new Date().getFullYear()} BLK + GRN. For informational purposes only.</div>
         </div>
       </div>
@@ -896,6 +898,7 @@ if (d.thumbnail && d.thumbnail.source && isPersonPage(d) && isPolitician) return
         button.cta:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(200,249,122,.25);}
         button.cta:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none;}
         .print-only{display:none;}
+        @page { margin: 0.75in; size: letter; }
         @media print{
           .screen-only{display:none!important;}
           .print-only{display:block!important;}
