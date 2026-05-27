@@ -1,6 +1,6 @@
 {
   "state": "NM",
-  "generated": "2026-05-26",
+  "generated": "2026-05-27",
   "federal": [
     {
       "name": "Ben Ray Luján",
@@ -14,34 +14,44 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports clean energy initiatives and has consistently voted for environmental protection measures.",
+          "summary": "Strongly supports renewable energy development and climate action legislation.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
-            "Infrastructure Investment and Jobs Act with clean energy funding (Senate.gov, August 2021)"
+            "Inflation Reduction Act with $369 billion for climate and energy programs (Senate.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act with clean energy provisions (Senate.gov, August 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports protecting reproductive rights and access to abortion services.",
+          "summary": "Consistently votes to protect abortion access and reproductive healthcare.",
           "voted_for": [
             "Women's Health Protection Act (Senate.gov, February 2022)",
-            "Right to Contraception Act (Senate.gov, July 2022)"
+            "Reproductive Freedom for All Act (Senate.gov, July 2024)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports federal LGBTQ+ non-discrimination protections.",
           "voted_for": [
             "Respect for Marriage Act (Senate.gov, November 2022)"
           ],
           "voted_against": []
         },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports increased taxes on corporations and wealthy individuals.",
+          "voted_for": [
+            "Inflation Reduction Act with 15% corporate minimum tax (Senate.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supports cannabis reform and decriminalization efforts.",
-          "voted_for": [],
+          "summary": "Supports federal cannabis decriminalization and reform.",
+          "voted_for": [
+            "Cannabis Administration and Opportunity Act co-sponsorship (Senate.gov, 2022)"
+          ],
           "voted_against": []
         }
       }
@@ -58,35 +68,44 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of environmental protection, renewable energy, and public lands conservation.",
+          "summary": "Leading advocate for clean energy, public lands protection, and climate action.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
-            "Infrastructure Investment and Jobs Act (Senate.gov, August 2021)"
+            "Inflation Reduction Act (Senate.gov, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate.gov, August 2021)",
+            "SCALE Act for carbon capture (Senate.gov, 2023)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to abortion services.",
+          "summary": "Strong supporter of abortion rights and reproductive healthcare access.",
           "voted_for": [
             "Women's Health Protection Act (Senate.gov, February 2022)",
-            "Right to Contraception Act (Senate.gov, July 2022)"
+            "Reproductive Freedom for All Act (Senate.gov, July 2024)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and marriage equality.",
+          "summary": "Consistent supporter of LGBTQ+ equality and protections.",
           "voted_for": [
             "Respect for Marriage Act (Senate.gov, November 2022)"
           ],
           "voted_against": []
         },
-        "Criminal Justice Reform": {
+        "Progressive Taxation": {
           "stance": "support",
-          "summary": "Supports criminal justice reform measures including sentencing reform.",
+          "summary": "Supports tax increases on corporations and the wealthy.",
           "voted_for": [
-            "First Step Act (Senate.gov, December 2018)"
+            "Inflation Reduction Act with corporate minimum tax (Senate.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased federal education funding.",
+          "voted_for": [
+            "American Rescue Plan with K-12 education funding (Senate.gov, March 2021)"
           ],
           "voted_against": []
         }
@@ -104,25 +123,33 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and climate action initiatives.",
-          "voted_for": [],
-          "voted_against": []
+          "summary": "Supports climate action and conservation as former city councilor and environmental advocate.",
+          "voted_for": [
+            "Lower Energy Costs Act opposition, voted against (House.gov, March 2023)"
+          ],
+          "voted_against": [
+            "Lower Energy Costs Act which would expand fossil fuel development (House.gov, March 2023)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to abortion services.",
-          "voted_for": [],
+          "summary": "Supports abortion access and reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (House.gov, 2023)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
-          "voted_for": [],
+          "summary": "Supports LGBTQ+ equality and non-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House.gov, December 2022)"
+          ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased funding for public education.",
+          "summary": "Supports increased federal education funding and teacher support.",
           "voted_for": [],
           "voted_against": []
         }
@@ -140,23 +167,26 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Strong supporter of environmental protection and climate action with background in water policy.",
+          "summary": "Strong supporter of climate action and environmental justice with background in water policy.",
           "voted_for": [
-            "Inflation Reduction Act (House.gov, August 2022)"
+            "Environmental Justice for All Act (House.gov, 2022)"
           ],
-          "voted_against": []
+          "voted_against": [
+            "Lower Energy Costs Act (House.gov, March 2023)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to abortion services.",
+          "summary": "Supports abortion rights and reproductive healthcare access.",
           "voted_for": [
-            "Women's Health Protection Act (House.gov, September 2021)"
+            "Women's Health Protection Act (House.gov, 2021)",
+            "Ensuring Women's Right to Reproductive Freedom Act (House.gov, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ equality and protections.",
           "voted_for": [
             "Respect for Marriage Act (House.gov, July 2022)"
           ],
@@ -164,8 +194,16 @@
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased federal funding for public schools.",
+          "summary": "Advocates for increased public education funding.",
           "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports tax fairness and increasing taxes on wealthy corporations.",
+          "voted_for": [
+            "Build Back Better Act with tax provisions (House.gov, November 2021)"
+          ],
           "voted_against": []
         }
       }
@@ -182,23 +220,26 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports environmental protection and addressing climate change.",
+          "summary": "Supports conservation, environmental justice, and climate action.",
           "voted_for": [
-            "Inflation Reduction Act (House.gov, August 2022)"
+            "Environmental Justice for All Act (House.gov, 2022)"
           ],
-          "voted_against": []
+          "voted_against": [
+            "Lower Energy Costs Act (House.gov, March 2023)"
+          ]
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to abortion services.",
+          "summary": "Strong supporter of abortion rights and reproductive healthcare.",
           "voted_for": [
-            "Women's Health Protection Act (House.gov, September 2021)"
+            "Women's Health Protection Act (House.gov, 2021)",
+            "Ensuring Women's Right to Reproductive Freedom Act (House.gov, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ equality and protections.",
           "voted_for": [
             "Respect for Marriage Act (House.gov, July 2022)"
           ],
@@ -206,7 +247,13 @@
         },
         "Fresh Food Access": {
           "stance": "support",
-          "summary": "Supports initiatives to improve food access in rural and underserved communities.",
+          "summary": "Advocates for food security and nutrition programs in rural communities.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of public education funding and educator support.",
           "voted_for": [],
           "voted_against": []
         }
@@ -220,10 +267,17 @@
       "chamber": "House",
       "district": "23",
       "phone": null,
-      "website": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HAMAR",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "Opposes reforms limiting law enforcement authority and has voted against criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Andi Reeb",
@@ -231,10 +285,17 @@
       "chamber": "House",
       "district": "64",
       "phone": null,
-      "website": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HAREE",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "As former prosecutor, generally opposes criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Andrea Romero",
@@ -242,19 +303,21 @@
       "chamber": "House",
       "district": "46",
       "phone": null,
-      "website": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HANRO",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased funding for public education in New Mexico.",
-          "voted_for": [],
+          "summary": "Supports increased public education funding as House Appropriations Committee member.",
+          "voted_for": [
+            "HB2 General Appropriations with education increases (NMLEGIS, 2024)"
+          ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to reproductive healthcare.",
+          "summary": "Supports reproductive healthcare access and rights.",
           "voted_for": [],
           "voted_against": []
         }
@@ -266,27 +329,27 @@
       "chamber": "House",
       "district": "10",
       "phone": null,
-      "website": null,
-      "twitter": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HAROM",
+      "twitter": "@RepAndresRomero",
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supports criminal justice reform and alternatives to incarceration.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supported legalization of recreational cannabis in New Mexico.",
+          "summary": "Supported cannabis legalization and regulation.",
           "voted_for": [
-            "Cannabis Regulation Act (NMLEGIS.gov, 2021)"
+            "Cannabis Regulation Act (NMLEGIS, 2021)"
           ],
           "voted_against": []
         },
-        "LGBTQ+ Rights": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -298,13 +361,19 @@
       "chamber": "House",
       "district": "30",
       "phone": null,
-      "website": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HACHA",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased funding for public schools.",
+          "summary": "Supports increased education funding and support for Native American students.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Advocates for environmental protection in tribal communities.",
           "voted_for": [],
           "voted_against": []
         }
@@ -316,20 +385,30 @@
       "chamber": "House",
       "district": "35",
       "phone": null,
-      "website": null,
-      "twitter": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HARUB",
+      "twitter": "@RepAngelicaNM",
       "instagram": null,
       "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive healthcare access and abortion rights.",
+          "voted_for": [
+            "HB7 Reproductive and Gender-Affirming Health Care (NMLEGIS, 2023)"
+          ],
+          "voted_against": []
+        },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "Supports increased education funding and teacher pay.",
           "voted_for": [],
           "voted_against": []
         },
-        "Reproductive Health Rights": {
+        "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to healthcare.",
-          "voted_for": [],
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [
+            "HB7 Reproductive and Gender-Affirming Health Care (NMLEGIS, 2023)"
+          ],
           "voted_against": []
         }
       }
@@ -340,24 +419,31 @@
       "chamber": "House",
       "district": "58",
       "phone": null,
-      "website": null,
-      "twitter": null,
-      "instagram": null,
-      "positions": {}
-    },
-    {
-      "name": "Anita Gonzales",
-      "party": "D",
-      "chamber": "Senate",
-      "district": "70",
-      "phone": null,
-      "website": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HAMEJ",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "As former educator, supports education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anita Gonzales",
+      "party": "D",
+      "chamber": "House",
+      "district": "70",
+      "phone": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HAGON",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding increases.",
           "voted_for": [],
           "voted_against": []
         }
@@ -369,10 +455,17 @@
       "chamber": "House",
       "district": "19",
       "phone": null,
-      "website": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HATHO",
       "twitter": null,
       "instagram": null,
-      "positions": {}
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "As business owner, advocates for small business support.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
     },
     {
       "name": "Antoinette Sedillo Lopez",
@@ -380,25 +473,35 @@
       "chamber": "House",
       "district": "16",
       "phone": null,
-      "website": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HASED",
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Supports criminal justice reform and sentencing reform.",
-          "voted_for": [],
-          "voted_against": []
-        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports reproductive rights and access to abortion services.",
+          "summary": "Strong advocate for reproductive rights and healthcare access.",
+          "voted_for": [
+            "HB7 Reproductive and Gender-Affirming Health Care (NMLEGIS, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "As former law professor, supports criminal justice reform.",
           "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
+          "summary": "Supports LGBTQ+ equality and protections.",
+          "voted_for": [
+            "HB7 Reproductive and Gender-Affirming Health Care (NMLEGIS, 2023)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -410,13 +513,13 @@
       "chamber": "House",
       "district": "12",
       "phone": null,
-      "website": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HADEL",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased funding for public education.",
+          "summary": "Supports education funding and programs.",
           "voted_for": [],
           "voted_against": []
         }
@@ -428,13 +531,19 @@
       "chamber": "House",
       "district": "22",
       "phone": null,
-      "website": null,
+      "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HASHE",
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports increased public education funding.",
+          "summary": "Advocates for education funding including support for Native American students.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection measures.",
           "voted_for": [],
           "voted_against": []
         }

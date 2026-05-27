@@ -1,6 +1,6 @@
 {
   "state": "NH",
-  "generated": "2026-05-26",
+  "generated": "2026-05-27",
   "federal": [
     {
       "name": "Jeanne Shaheen",
@@ -14,10 +14,10 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Consistently supports climate action legislation and environmental protection measures.",
+          "summary": "Consistently supports climate action legislation and clean energy investments.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate roll call vote 325, August 2022)",
-            "Infrastructure Investment and Jobs Act with clean energy funding (Senate roll call vote 204, August 2021)"
+            "Inflation Reduction Act with climate provisions (Senate Vote, August 2022)",
+            "Infrastructure Investment and Jobs Act with environmental provisions (Senate Vote, August 2021)"
           ],
           "voted_against": []
         },
@@ -25,41 +25,24 @@
           "stance": "support",
           "summary": "Strong supporter of abortion rights and access to reproductive healthcare.",
           "voted_for": [
-            "Women's Health Protection Act (Senate vote, February 2022)",
-            "Freedom to Travel for Health Care Act of 2022 (Co-sponsor, July 2022)"
+            "Women's Health Protection Act (Senate Vote, February 2022)",
+            "Women's Health Protection Act (Senate Vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Consistent supporter of LGBTQ+ equality legislation.",
+          "summary": "Supports LGBTQ+ equality and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate roll call vote 373, November 2022)"
+            "Respect for Marriage Act (Senate Vote, November 2022)"
           ],
           "voted_against": []
         },
         "Cannabis Policy": {
           "stance": "support",
-          "summary": "Supports cannabis reform and banking access for cannabis businesses.",
+          "summary": "Supports cannabis banking reform and decriminalization measures.",
           "voted_for": [
-            "Co-sponsored SAFE Banking Act (S.910, multiple sessions)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports closing tax loopholes and ensuring corporations pay fair share.",
-          "voted_for": [
-            "Inflation Reduction Act with corporate minimum tax (Senate roll call vote 325, August 2022)"
-          ],
-          "voted_against": []
-        },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Advocates for small business access to capital and pandemic relief.",
-          "voted_for": [
-            "Paycheck Protection Program and Health Care Enhancement Act (Senate voice vote, April 2020)",
-            "American Rescue Plan Act with small business provisions (Senate roll call vote 110, March 2021)"
+            "SAFE Banking Act cosponsorship (2021)"
           ],
           "voted_against": []
         }
@@ -77,51 +60,35 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports clean energy investments and climate change mitigation efforts.",
+          "summary": "Supports environmental protection and climate change mitigation efforts.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate roll call vote 325, August 2022)",
-            "Infrastructure Investment and Jobs Act (Senate roll call vote 204, August 2021)"
+            "Inflation Reduction Act (Senate Vote, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate Vote, August 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Advocates for protecting abortion access and reproductive healthcare.",
+          "summary": "Advocates for protecting abortion access and reproductive rights.",
           "voted_for": [
-            "Women's Health Protection Act (Senate vote, February 2022)"
+            "Women's Health Protection Act (Senate Vote, February 2022)",
+            "Women's Health Protection Act (Senate Vote, May 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports federal protections for LGBTQ+ individuals.",
+          "summary": "Supports LGBTQ+ rights and marriage equality protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate roll call vote 373, November 2022)"
-          ],
-          "voted_against": []
-        },
-        "Cannabis Policy": {
-          "stance": "support",
-          "summary": "Supports cannabis banking reform and state legalization rights.",
-          "voted_for": [
-            "Co-sponsored SAFE Banking Act (S.910, 117th Congress)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports tax reforms targeting corporations and wealthy individuals.",
-          "voted_for": [
-            "Inflation Reduction Act with corporate minimum tax (Senate roll call vote 325, August 2022)"
+            "Respect for Marriage Act (Senate Vote, November 2022)"
           ],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Prioritizes small business relief and economic support programs.",
+          "summary": "Focuses on supporting small businesses through various federal programs.",
           "voted_for": [
-            "American Rescue Plan Act (Senate roll call vote 110, March 2021)",
-            "Paycheck Protection Program expansion (April 2020)"
+            "American Rescue Plan Act with small business provisions (Senate Vote, March 2021)"
           ],
           "voted_against": []
         }
@@ -139,25 +106,13 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Campaigned on climate action and environmental protection as central issues.",
+          "summary": "Campaigned on climate action and environmental protection priorities.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Strong advocate for reproductive rights and abortion access.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Supports comprehensive LGBTQ+ rights and protections.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Advocates for tax fairness and corporate accountability.",
+          "summary": "Ran on platform supporting reproductive rights and abortion access.",
           "voted_for": [],
           "voted_against": []
         }
@@ -170,70 +125,179 @@
       "district": "1",
       "phone": "202-225-5456",
       "website": "https://pappas.house.gov",
-      "twitter": "@ChrisPappasNH",
-      "instagram": "@chrispappasnh",
+      "twitter": "@RepChrisPappas",
+      "instagram": "@repchrispappas",
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Supports clean energy development and climate action measures.",
+          "summary": "Supports climate action and clean energy development.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (House roll call vote 455, August 2022)",
-            "Infrastructure Investment and Jobs Act (House roll call vote 369, November 2021)"
+            "Inflation Reduction Act (House Vote, August 2022)",
+            "Infrastructure Investment and Jobs Act (House Vote, November 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Supports protecting abortion rights and reproductive healthcare access.",
+          "summary": "Consistent supporter of reproductive rights and abortion access.",
           "voted_for": [
-            "Women's Health Protection Act (House roll call vote 224, September 2021)"
+            "Women's Health Protection Act (House Vote, September 2021)",
+            "Women's Health Protection Act (House Vote, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Advocates for LGBTQ+ equality as first openly gay congressman from New Hampshire.",
+          "summary": "As openly gay member, strong advocate for LGBTQ+ equality and protections.",
           "voted_for": [
-            "Respect for Marriage Act (House roll call vote 403, July 2022)",
-            "Equality Act (House roll call vote 39, February 2021)"
-          ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Supports police reform measures while emphasizing community safety.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House roll call vote 60, March 2021)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Supports closing tax loopholes and ensuring corporations pay fair share.",
-          "voted_for": [
-            "Inflation Reduction Act with corporate minimum tax (House roll call vote 455, August 2022)"
+            "Respect for Marriage Act (House Vote, July 2022)",
+            "Equality Act (House Vote, February 2021)"
           ],
           "voted_against": []
         },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Prioritizes small business support as former small business owner.",
+          "summary": "Former small business owner who prioritizes small business support programs.",
           "voted_for": [
-            "American Rescue Plan Act with small business provisions (House roll call vote 72, March 2021)",
-            "Restaurant Revitalization Fund (Co-sponsor, 2021)"
-          ],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Advocates for increased federal education funding.",
-          "voted_for": [
-            "American Rescue Plan Act with education funding (House roll call vote 72, March 2021)"
+            "American Rescue Plan Act (House Vote, March 2021)"
           ],
           "voted_against": []
         }
       }
     }
   ],
-  "state_legislators": []
+  "state_legislators": [
+    {
+      "name": "Aboul Khan",
+      "party": "R",
+      "chamber": "House",
+      "district": "Rockingham 30",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Adam Presa",
+      "party": "R",
+      "chamber": "House",
+      "district": "Hillsborough 12",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Aidan Ankarberg",
+      "party": "N",
+      "chamber": "House",
+      "district": "Strafford 7",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Alexis Simpson",
+      "party": "D",
+      "chamber": "House",
+      "district": "Rockingham 33",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Alice Wade",
+      "party": "D",
+      "chamber": "House",
+      "district": "Strafford 15",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Alicia Gregg",
+      "party": "D",
+      "chamber": "House",
+      "district": "Hillsborough 7",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Alissandra Murray",
+      "party": "D",
+      "chamber": "House",
+      "district": "Hillsborough 20",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Allan Howland",
+      "party": "D",
+      "chamber": "House",
+      "district": "Strafford 20",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Allison Knab",
+      "party": "D",
+      "chamber": "House",
+      "district": "Rockingham 12",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Alvin See",
+      "party": "R",
+      "chamber": "House",
+      "district": "Merrimack 26",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Amy Malone",
+      "party": "D",
+      "chamber": "House",
+      "district": "Strafford 9",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Andrew Prout",
+      "party": "R",
+      "chamber": "House",
+      "district": "Hillsborough 13",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    }
+  ]
 }

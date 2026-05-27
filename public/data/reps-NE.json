@@ -1,6 +1,6 @@
 {
   "state": "NE",
-  "generated": "2026-05-26",
+  "generated": "2026-05-27",
   "federal": [
     {
       "name": "Pete Ricketts",
@@ -14,34 +14,32 @@
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal environmental regulations and supports fossil fuel development.",
+          "summary": "Opposes expansive federal environmental regulations and supports energy independence through traditional energy sources.",
           "voted_for": [],
           "voted_against": [
-            "Infrastructure Investment and Jobs Act environmental provisions (Senate vote, 2021)"
+            "Inflation Reduction Act climate provisions (Senate vote, August 2023 - as Governor publicly opposed)"
           ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes progressive tax policies and supports tax cuts.",
-          "voted_for": [],
-          "voted_against": []
-        },
-        "Cannabis Policy": {
-          "stance": "oppose",
-          "summary": "Strongly opposed cannabis legalization as Governor and Senator.",
+          "summary": "Supports tax cuts and opposes progressive tax increases.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports restrictions.",
-          "voted_for": [],
+          "summary": "Supports restrictions on abortion access and signed abortion restrictions as Governor.",
+          "voted_for": [
+            "12-week abortion ban as Nebraska Governor (Signed LB 574, May 2023)"
+          ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "oppose",
-          "summary": "Opposed LGBTQ+ rights protections as Governor.",
-          "voted_for": [],
+          "summary": "Signed legislation restricting gender-affirming care and opposed LGBTQ+ protections as Governor.",
+          "voted_for": [
+            "Ban on gender-affirming care for minors as Nebraska Governor (Signed LB 574, May 2023)"
+          ],
           "voted_against": []
         }
       }
@@ -54,19 +52,27 @@
       "phone": "202-224-6551",
       "website": "https://www.fischer.senate.gov",
       "twitter": "@SenatorFischer",
-      "instagram": "@senatorfischer",
+      "instagram": "senatorfischer",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes major environmental regulations and climate legislation.",
+          "summary": "Opposes expansive climate regulations and supports traditional energy development.",
           "voted_for": [],
           "voted_against": [
-            "Inflation Reduction Act climate provisions (Senate vote, August 2022)"
+            "Inflation Reduction Act (Senate vote, August 2022)"
           ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supports some bipartisan criminal justice reforms while maintaining law enforcement priorities.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Supports tax cuts and opposes progressive taxation increases.",
+          "summary": "Consistently opposes tax increases and supports tax relief measures.",
           "voted_for": [
             "Tax Cuts and Jobs Act (Senate vote, December 2017)"
           ],
@@ -74,18 +80,10 @@
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports restrictions.",
+          "summary": "Supports abortion restrictions and opposes federal protection of abortion access.",
           "voted_for": [],
           "voted_against": [
             "Women's Health Protection Act (Senate vote, February 2022)"
-          ]
-        },
-        "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Voted against LGBTQ+ rights protections.",
-          "voted_for": [],
-          "voted_against": [
-            "Respect for Marriage Act (Senate vote, November 2022)"
           ]
         }
       }
@@ -98,31 +96,35 @@
       "phone": "202-225-4806",
       "website": "https://flood.house.gov",
       "twitter": "@RepMikeFlood",
-      "instagram": "@repmikeflood",
+      "instagram": "repmikeflood",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes federal environmental regulations and climate legislation.",
+          "summary": "Opposes expansive federal climate regulations and supports agricultural interests.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Supports tax cuts and opposes progressive tax increases.",
+          "summary": "Supports tax cuts and opposes increased taxation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business assistance and regulatory relief.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports restrictions.",
+          "summary": "Supports abortion restrictions and opposes federal protections for abortion access.",
           "voted_for": [],
-          "voted_against": []
-        },
-        "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Supports education funding but favors local control and school choice.",
-          "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "Women's Health Protection Act (House vote, July 2022)"
+          ]
         }
       }
     },
@@ -134,27 +136,33 @@
       "phone": "202-225-4155",
       "website": "https://bacon.house.gov",
       "twitter": "@RepDonBacon",
-      "instagram": "@repdonbacon",
+      "instagram": "repdonbacon",
       "positions": {
         "Environmental Protection": {
           "stance": "mixed",
-          "summary": "Supports some conservation efforts while opposing aggressive climate regulations.",
-          "voted_for": [
-            "Great American Outdoors Act (House vote, July 2020)"
-          ],
+          "summary": "Supports some conservation efforts while opposing expansive climate regulations.",
+          "voted_for": [],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "oppose",
-          "summary": "Opposes major police reform legislation while supporting law enforcement funding.",
+          "summary": "Opposes major police reform legislation and emphasizes law enforcement support.",
           "voted_for": [],
           "voted_against": [
             "George Floyd Justice in Policing Act (House vote, March 2021)"
           ]
         },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported the First Step Act and some bipartisan criminal justice reforms.",
+          "voted_for": [
+            "First Step Act (House vote, December 2018)"
+          ],
+          "voted_against": []
+        },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Opposes progressive tax increases and supports tax cuts.",
+          "summary": "Opposes tax increases and supports tax relief.",
           "voted_for": [
             "Tax Cuts and Jobs Act (House vote, December 2017)"
           ],
@@ -162,19 +170,11 @@
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Generally opposes abortion rights with some exceptions.",
+          "summary": "Supports abortion restrictions and opposes federal abortion protections.",
           "voted_for": [],
           "voted_against": [
             "Women's Health Protection Act (House vote, September 2021)"
           ]
-        },
-        "LGBTQ+ Rights": {
-          "stance": "mixed",
-          "summary": "Has taken mixed positions on LGBTQ+ rights legislation.",
-          "voted_for": [
-            "Respect for Marriage Act (House vote, December 2022)"
-          ],
-          "voted_against": []
         }
       }
     },
@@ -186,44 +186,45 @@
       "phone": "202-225-6435",
       "website": "https://adriansmith.house.gov",
       "twitter": "@RepAdrianSmith",
-      "instagram": null,
+      "instagram": "repadriansmith",
       "positions": {
         "Environmental Protection": {
           "stance": "oppose",
-          "summary": "Opposes environmental regulations that impact agriculture and energy production.",
+          "summary": "Opposes federal climate regulations and supports agricultural and energy industry interests.",
           "voted_for": [],
           "voted_against": [
-            "Climate Action Now Act (House vote, May 2019)"
+            "American Clean Energy and Security Act (House vote, June 2009)",
+            "Inflation Reduction Act (House vote, August 2022)"
           ]
         },
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Strongly opposes progressive taxation and supports tax cuts.",
+          "summary": "Consistently opposes tax increases and supports tax cuts.",
           "voted_for": [
             "Tax Cuts and Jobs Act (House vote, December 2017)"
           ],
           "voted_against": []
         },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposes federal cannabis legalization efforts.",
+          "voted_for": [],
+          "voted_against": [
+            "Marijuana Opportunity Reinvestment and Expungement Act (House vote, April 2022)"
+          ]
+        },
         "Small Business Funding": {
           "stance": "support",
-          "summary": "Supports small business assistance and rural development funding.",
+          "summary": "Supports small business tax relief and funding programs.",
           "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "oppose",
-          "summary": "Opposes abortion rights and supports restrictions.",
+          "summary": "Supports abortion restrictions and opposes federal abortion protections.",
           "voted_for": [],
           "voted_against": [
             "Women's Health Protection Act (House vote, September 2021)"
-          ]
-        },
-        "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Opposes LGBTQ+ rights protections.",
-          "voted_for": [],
-          "voted_against": [
-            "Respect for Marriage Act (House vote, December 2022)"
           ]
         }
       }
@@ -240,17 +241,27 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Criminal Justice Reform": {
+        "Public School Funding": {
           "stance": "support",
-          "summary": "Supports criminal justice reform and rehabilitation programs.",
+          "summary": "Supports increased public education funding and teacher support.",
           "voted_for": [],
           "voted_against": []
         },
-        "Public School Funding": {
+        "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Advocates for increased public school funding and resources.",
+          "summary": "Opposed restrictions on gender-affirming care for minors.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "LB 574 gender-affirming care restrictions (Nebraska Legislature vote, May 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposed abortion restrictions in the Nebraska Legislature.",
+          "voted_for": [],
+          "voted_against": [
+            "LB 574 12-week abortion ban (Nebraska Legislature vote, May 2023)"
+          ]
         }
       }
     },
@@ -266,7 +277,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "unclear",
-          "summary": "Limited public record on education funding positions.",
+          "summary": "Limited public record on education funding positions as newer legislator.",
           "voted_for": [],
           "voted_against": []
         }
@@ -284,7 +295,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "unclear",
-          "summary": "Limited public record on education funding positions.",
+          "summary": "Limited voting record on education funding as newer legislator.",
           "voted_for": [],
           "voted_against": []
         }
@@ -300,15 +311,25 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Has advocated for rural school funding and property tax relief.",
-          "voted_for": [],
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supported abortion restrictions in the Nebraska Legislature.",
+          "voted_for": [
+            "LB 574 12-week abortion ban (Nebraska Legislature vote, May 2023)"
+          ],
           "voted_against": []
         },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Supports small business development in rural areas.",
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported restrictions on gender-affirming care for minors.",
+          "voted_for": [
+            "LB 574 gender-affirming care ban (Nebraska Legislature vote, May 2023)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "mixed",
+          "summary": "Has taken varied positions on education funding measures.",
           "voted_for": [],
           "voted_against": []
         }
@@ -326,7 +347,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "unclear",
-          "summary": "Limited public record on education funding positions.",
+          "summary": "Limited public voting record on education funding.",
           "voted_for": [],
           "voted_against": []
         }
@@ -344,7 +365,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "unclear",
-          "summary": "Limited public record on education funding positions.",
+          "summary": "Limited voting record as newer legislator.",
           "voted_for": [],
           "voted_against": []
         }
@@ -378,10 +399,20 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "unclear",
-          "summary": "Limited public record on education funding positions.",
-          "voted_for": [],
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported restrictions on gender-affirming care for minors.",
+          "voted_for": [
+            "LB 574 gender-affirming care ban (Nebraska Legislature vote, May 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supported abortion restrictions in the Legislature.",
+          "voted_for": [
+            "LB 574 12-week abortion ban (Nebraska Legislature vote, May 2023)"
+          ],
           "voted_against": []
         }
       }
@@ -396,11 +427,21 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
+        "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Supports public education funding and teacher resources.",
+          "summary": "Opposed restrictions on gender-affirming care for minors.",
           "voted_for": [],
-          "voted_against": []
+          "voted_against": [
+            "LB 574 gender-affirming care restrictions (Nebraska Legislature vote, May 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposed abortion restrictions in the Nebraska Legislature.",
+          "voted_for": [],
+          "voted_against": [
+            "LB 574 12-week abortion ban (Nebraska Legislature vote, May 2023)"
+          ]
         }
       }
     },
@@ -414,10 +455,20 @@
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Public School Funding": {
-          "stance": "support",
-          "summary": "Advocates for public education funding and early childhood education.",
-          "voted_for": [],
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported restrictions on gender-affirming care for minors.",
+          "voted_for": [
+            "LB 574 gender-affirming care ban (Nebraska Legislature vote, May 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Supported abortion restrictions in the Legislature.",
+          "voted_for": [
+            "LB 574 12-week abortion ban (Nebraska Legislature vote, May 2023)"
+          ],
           "voted_against": []
         }
       }
@@ -434,7 +485,7 @@
       "positions": {
         "Public School Funding": {
           "stance": "unclear",
-          "summary": "Limited public record on education funding positions.",
+          "summary": "Limited public voting record as newer legislator.",
           "voted_for": [],
           "voted_against": []
         }
@@ -450,9 +501,25 @@
       "twitter": null,
       "instagram": null,
       "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Opposed restrictions on gender-affirming care for minors.",
+          "voted_for": [],
+          "voted_against": [
+            "LB 574 gender-affirming care restrictions (Nebraska Legislature vote, May 2023)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Opposed abortion restrictions in the Nebraska Legislature.",
+          "voted_for": [],
+          "voted_against": [
+            "LB 574 12-week abortion ban (Nebraska Legislature vote, May 2023)"
+          ]
+        },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Supports public school funding and local control of education.",
+          "summary": "Supports increased education funding and teacher compensation.",
           "voted_for": [],
           "voted_against": []
         }

@@ -1,6 +1,6 @@
 {
   "state": "NV",
-  "generated": "2026-05-26",
+  "generated": "2026-05-27",
   "federal": [
     {
       "name": "Jacky Rosen",
@@ -14,37 +14,42 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Rosen has consistently supported clean energy initiatives and protection of public lands in Nevada.",
+          "summary": "Supports clean energy development and environmental conservation measures in Nevada.",
           "voted_for": [
-            "Inflation Reduction Act with climate provisions (Senate.gov, August 2022)",
-            "Great American Outdoors Act (Senate.gov, June 2020)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Rosen has supported bipartisan criminal justice reform measures.",
-          "voted_for": [
-            "First Step Act (Senate.gov, December 2018)"
+            "Inflation Reduction Act with climate provisions (Senate Roll Call, August 2022)",
+            "Infrastructure Investment and Jobs Act with environmental provisions (Senate Roll Call, August 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Rosen has consistently voted to protect abortion access and reproductive rights.",
+          "summary": "Supports abortion access and reproductive healthcare rights.",
           "voted_for": [
-            "Women's Health Protection Act (Senate.gov, February 2022)",
-            "Respect for Marriage Act (Senate.gov, November 2022)"
+            "Women's Health Protection Act (Senate Roll Call, February 2022)",
+            "Ensuring Women's Right to Reproductive Freedom Act (Senate Roll Call, July 2022)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Rosen has supported legislation protecting LGBTQ+ rights and marriage equality.",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [
-            "Respect for Marriage Act (Senate.gov, November 2022)",
-            "Equality Act co-sponsor (Senate.gov, 2021)"
+            "Respect for Marriage Act (Senate Roll Call, November 2022)"
           ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports tax measures that increase revenue from corporations and high earners.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Senate Roll Call, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports cannabis banking reform and decriminalization measures.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -61,146 +66,45 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Cortez Masto has been a strong advocate for clean energy and public lands protection.",
+          "summary": "Supports environmental conservation and clean energy initiatives in Nevada.",
           "voted_for": [
-            "Inflation Reduction Act (Senate.gov, August 2022)",
-            "Great American Outdoors Act (Senate.gov, June 2020)"
+            "Inflation Reduction Act with climate provisions (Senate Roll Call, August 2022)",
+            "Infrastructure Investment and Jobs Act (Senate Roll Call, August 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Cortez Masto has supported sentencing reform and criminal justice initiatives.",
+          "summary": "Supports criminal justice reform measures including sentencing reform.",
           "voted_for": [
-            "First Step Act (Senate.gov, December 2018)"
+            "First Step Act (Senate Roll Call, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion access and reproductive healthcare rights.",
+          "voted_for": [
+            "Women's Health Protection Act (Senate Roll Call, February 2022)",
+            "Ensuring Women's Right to Reproductive Freedom Act (Senate Roll Call, July 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and marriage equality.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate Roll Call, November 2022)"
           ],
           "voted_against": []
         },
         "Progressive Taxation": {
           "stance": "support",
-          "summary": "Cortez Masto has supported tax fairness measures and closing loopholes for the wealthy.",
+          "summary": "Supports tax measures targeting corporations and wealthy individuals.",
           "voted_for": [
-            "Inflation Reduction Act with tax provisions (Senate.gov, August 2022)"
+            "Inflation Reduction Act with corporate minimum tax (Senate Roll Call, August 2022)"
           ],
           "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Cortez Masto has consistently voted to protect reproductive rights and abortion access.",
-          "voted_for": [
-            "Women's Health Protection Act (Senate.gov, February 2022)"
-          ],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Cortez Masto has been a strong supporter of LGBTQ+ rights and protections.",
-          "voted_for": [
-            "Respect for Marriage Act (Senate.gov, November 2022)",
-            "Equality Act co-sponsor (Senate.gov, 2021)"
-          ],
-          "voted_against": []
-        }
-      }
-    },
-    {
-      "name": "Dina Titus",
-      "party": "D",
-      "chamber": "House",
-      "district": "1",
-      "phone": "202-225-5965",
-      "website": "https://titus.house.gov",
-      "twitter": "@repdinatitus",
-      "instagram": "@repdinatitus",
-      "positions": {
-        "Environmental Protection": {
-          "stance": "support",
-          "summary": "Titus has strongly supported environmental protection and clean energy legislation.",
-          "voted_for": [
-            "Inflation Reduction Act (House.gov, August 2022)",
-            "Infrastructure Investment and Jobs Act with clean energy provisions (House.gov, November 2021)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Titus has supported criminal justice reform and sentencing reform measures.",
-          "voted_for": [
-            "First Step Act (House.gov, December 2018)",
-            "George Floyd Justice in Policing Act (House.gov, March 2021)"
-          ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Titus has voted for police accountability and reform legislation.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House.gov, March 2021)"
-          ],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "support",
-          "summary": "Titus has consistently voted to protect abortion access and reproductive healthcare.",
-          "voted_for": [
-            "Women's Health Protection Act (House.gov, September 2021)"
-          ],
-          "voted_against": []
-        },
-        "LGBTQ+ Rights": {
-          "stance": "support",
-          "summary": "Titus has been a longtime supporter of LGBTQ+ rights and equality legislation.",
-          "voted_for": [
-            "Equality Act (House.gov, February 2021)",
-            "Respect for Marriage Act (House.gov, July 2022)"
-          ],
-          "voted_against": []
-        }
-      }
-    },
-    {
-      "name": "Mark E. Amodei",
-      "party": "R",
-      "chamber": "House",
-      "district": "2",
-      "phone": "202-225-6155",
-      "website": "https://amodei.house.gov",
-      "twitter": "@MarkAmodeiNV2",
-      "instagram": null,
-      "positions": {
-        "Environmental Protection": {
-          "stance": "mixed",
-          "summary": "Amodei has supported some conservation measures for Nevada lands while opposing broader climate regulations.",
-          "voted_for": [
-            "Great American Outdoors Act (House.gov, July 2020)"
-          ],
-          "voted_against": [
-            "Inflation Reduction Act climate provisions (House.gov, August 2022)"
-          ]
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Amodei supported the First Step Act for criminal justice reform.",
-          "voted_for": [
-            "First Step Act (House.gov, December 2018)"
-          ],
-          "voted_against": []
-        },
-        "Reproductive Health Rights": {
-          "stance": "oppose",
-          "summary": "Amodei has voted against abortion access legislation.",
-          "voted_for": [],
-          "voted_against": [
-            "Women's Health Protection Act (House.gov, September 2021)"
-          ]
-        },
-        "LGBTQ+ Rights": {
-          "stance": "oppose",
-          "summary": "Amodei has voted against several LGBTQ+ rights measures.",
-          "voted_for": [],
-          "voted_against": [
-            "Equality Act (House.gov, February 2021)"
-          ]
         }
       }
     },
@@ -216,60 +120,43 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Lee has supported clean energy and environmental protection legislation.",
+          "summary": "Supports environmental protection and clean energy development.",
           "voted_for": [
-            "Inflation Reduction Act (House.gov, August 2022)",
-            "Infrastructure Investment and Jobs Act (House.gov, November 2021)"
-          ],
-          "voted_against": []
-        },
-        "Police Accountability": {
-          "stance": "support",
-          "summary": "Lee has voted for police reform and accountability measures.",
-          "voted_for": [
-            "George Floyd Justice in Policing Act (House.gov, March 2021)"
-          ],
-          "voted_against": []
-        },
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Lee has supported criminal justice reform legislation.",
-          "voted_for": [
-            "First Step Act implementation funding (House.gov, 2021)"
-          ],
-          "voted_against": []
-        },
-        "Small Business Funding": {
-          "stance": "support",
-          "summary": "Lee has championed small business support and COVID relief for businesses.",
-          "voted_for": [
-            "Paycheck Protection Program and Health Care Enhancement Act (House.gov, April 2020)",
-            "American Rescue Plan small business provisions (House.gov, March 2021)"
+            "Inflation Reduction Act with climate provisions (House Roll Call, August 2022)",
+            "Infrastructure Investment and Jobs Act (House Roll Call, November 2021)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Lee has consistently voted to protect reproductive rights.",
+          "summary": "Supports abortion access and reproductive healthcare rights.",
           "voted_for": [
-            "Women's Health Protection Act (House.gov, September 2021)"
+            "Women's Health Protection Act (House Roll Call, September 2021)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Lee has supported LGBTQ+ equality legislation.",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
           "voted_for": [
-            "Equality Act (House.gov, February 2021)",
-            "Respect for Marriage Act (House.gov, July 2022)"
+            "Respect for Marriage Act (House Roll Call, December 2022)",
+            "Equality Act (House Roll Call, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive tax policies including corporate taxation.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (House Roll Call, August 2022)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Lee has voted for increased education funding.",
+          "summary": "Supports increased federal funding for public education.",
           "voted_for": [
-            "American Rescue Plan education provisions (House.gov, March 2021)"
+            "American Rescue Plan Act with education funding (House Roll Call, March 2021)"
           ],
           "voted_against": []
         }
@@ -287,67 +174,175 @@
       "positions": {
         "Environmental Protection": {
           "stance": "support",
-          "summary": "Horsford has supported environmental protection and clean energy legislation.",
+          "summary": "Supports environmental justice and clean energy initiatives.",
           "voted_for": [
-            "Inflation Reduction Act (House.gov, August 2022)",
-            "Infrastructure Investment and Jobs Act (House.gov, November 2021)"
+            "Inflation Reduction Act with climate provisions (House Roll Call, August 2022)",
+            "Infrastructure Investment and Jobs Act (House Roll Call, November 2021)"
           ],
           "voted_against": []
         },
         "Police Accountability": {
           "stance": "support",
-          "summary": "Horsford has been a strong advocate for police reform and accountability.",
+          "summary": "Supports police accountability measures and criminal justice reform.",
           "voted_for": [
-            "George Floyd Justice in Policing Act (House.gov, March 2021)"
+            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
           ],
           "voted_against": []
         },
         "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Horsford has supported criminal justice reform measures.",
+          "summary": "Supports criminal justice reform including sentencing reform.",
           "voted_for": [
-            "First Step Act (House.gov, December 2018)"
-          ],
-          "voted_against": []
-        },
-        "Progressive Taxation": {
-          "stance": "support",
-          "summary": "Horsford has supported progressive tax policies and closing loopholes for the wealthy.",
-          "voted_for": [
-            "Inflation Reduction Act tax provisions (House.gov, August 2022)"
-          ],
-          "voted_against": []
-        },
-        "Fresh Food Access": {
-          "stance": "support",
-          "summary": "Horsford has advocated for food security and access in underserved communities.",
-          "voted_for": [
-            "Farm Bill with food access provisions (House.gov, 2018)"
+            "First Step Act (House Roll Call, December 2018)"
           ],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Horsford has consistently voted to protect reproductive rights.",
+          "summary": "Supports abortion access and reproductive healthcare rights.",
           "voted_for": [
-            "Women's Health Protection Act (House.gov, September 2021)"
+            "Women's Health Protection Act (House Roll Call, September 2021)"
           ],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Horsford has supported LGBTQ+ rights and equality legislation.",
+          "summary": "Supports LGBTQ+ rights and equality legislation.",
           "voted_for": [
-            "Equality Act (House.gov, February 2021)",
-            "Respect for Marriage Act (House.gov, July 2022)"
+            "Respect for Marriage Act (House Roll Call, December 2022)",
+            "Equality Act (House Roll Call, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and corporate tax reform.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (House Roll Call, August 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Mark E. Amodei",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-6155",
+      "website": "https://amodei.house.gov",
+      "twitter": "@MarkAmodeiNV2",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Supports some environmental measures related to Nevada lands but opposes broad climate regulations.",
+          "voted_for": [
+            "Great American Outdoors Act (House Roll Call, July 2020)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (House Roll Call, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported the First Step Act criminal justice reform legislation.",
+          "voted_for": [
+            "First Step Act (House Roll Call, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal abortion protections and voted against related legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House Roll Call, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Generally opposes LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Equality Act (House Roll Call, February 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases including corporate minimum tax provisions.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with corporate minimum tax (House Roll Call, August 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dina Titus",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-5965",
+      "website": "https://titus.house.gov",
+      "twitter": "@repdinatitus",
+      "instagram": "@repdinatitus",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental protection and clean energy initiatives.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (House Roll Call, August 2022)",
+            "Infrastructure Investment and Jobs Act (House Roll Call, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability and reform measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House Roll Call, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform including sentencing reform.",
+          "voted_for": [
+            "First Step Act (House Roll Call, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports abortion access and reproductive healthcare rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House Roll Call, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House Roll Call, December 2022)",
+            "Equality Act (House Roll Call, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports progressive taxation and corporate tax reform.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (House Roll Call, August 2022)"
           ],
           "voted_against": []
         },
         "Public School Funding": {
           "stance": "support",
-          "summary": "Horsford has advocated for increased public education funding.",
+          "summary": "Supports increased federal funding for public education.",
           "voted_for": [
-            "American Rescue Plan education provisions (House.gov, March 2021)"
+            "American Rescue Plan Act with education funding (House Roll Call, March 2021)"
           ],
           "voted_against": []
         }
@@ -363,30 +358,24 @@
       "phone": "775-684-1100",
       "website": "https://ag.nv.gov",
       "twitter": "@AaronDFordNV",
-      "instagram": "@aaronfordnv",
+      "instagram": "@aarondfordnv",
       "positions": {
-        "Criminal Justice Reform": {
-          "stance": "support",
-          "summary": "Ford has been a strong advocate for criminal justice reform as Attorney General.",
-          "voted_for": [
-            "Supported criminal justice reform initiatives as Attorney General (Nevada AG Office, 2019-present)"
-          ],
-          "voted_against": []
-        },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Ford has defended reproductive rights in Nevada as Attorney General.",
-          "voted_for": [
-            "Defended Nevada's abortion protections (Nevada AG Office, 2022)"
-          ],
+          "summary": "As Attorney General, has defended abortion rights in Nevada.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and sponsored related legislation as State Senator.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Ford has supported LGBTQ+ rights protections as Attorney General.",
-          "voted_for": [
-            "Supported LGBTQ+ anti-discrimination measures (Nevada AG Office, 2019-present)"
-          ],
+          "summary": "Supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -396,45 +385,39 @@
       "party": "R",
       "chamber": "Senate",
       "district": "32",
-      "phone": "775-684-1466",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Hansen has opposed tax increases and supported limited government spending.",
+        "Public School Funding": {
+          "stance": "unclear",
+          "summary": "Voting record on public school funding has varied.",
           "voted_for": [],
-          "voted_against": [
-            "Various tax increase proposals (Nevada Legislature, 2023-2025)"
-          ]
+          "voted_against": []
         }
       }
     },
     {
       "name": "Angie Taylor",
       "party": "D",
-      "chamber": "House",
+      "chamber": "Senate",
       "district": "15",
-      "phone": "775-684-8503",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Taylor has supported increased funding for public education in Nevada.",
-          "voted_for": [
-            "Education funding bills (Nevada Legislature, 2023)"
-          ],
+          "summary": "Supports increased funding for public education.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Taylor has supported reproductive health protections.",
-          "voted_for": [
-            "Reproductive health protection measures (Nevada Legislature, 2023)"
-          ],
+          "summary": "Supports reproductive healthcare access and rights.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -444,18 +427,16 @@
       "party": "R",
       "chamber": "Senate",
       "district": "33",
-      "phone": "775-684-1457",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
-        "Progressive Taxation": {
-          "stance": "oppose",
-          "summary": "Gurr has generally opposed tax increases.",
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Represents rural district with focus on water and agricultural issues.",
           "voted_for": [],
-          "voted_against": [
-            "Tax increase proposals (Nevada Legislature, 2023-2025)"
-          ]
+          "voted_against": []
         }
       }
     },
@@ -464,18 +445,16 @@
       "party": "R",
       "chamber": "House",
       "district": "39",
-      "phone": "775-684-8503",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Osborn has opposed progressive tax policies.",
+          "summary": "Opposes tax increases and supports limited government spending.",
           "voted_for": [],
-          "voted_against": [
-            "Tax increase measures (Nevada Legislature, 2025)"
-          ]
+          "voted_against": []
         }
       }
     },
@@ -484,17 +463,15 @@
       "party": "R",
       "chamber": "House",
       "district": "13",
-      "phone": "775-684-8503",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
-          "stance": "mixed",
-          "summary": "Hibbetts has supported some education funding while favoring school choice initiatives.",
-          "voted_for": [
-            "Education choice measures (Nevada Legislature, 2023-2025)"
-          ],
+          "stance": "unclear",
+          "summary": "Limited public record on education funding positions.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -504,25 +481,27 @@
       "party": "D",
       "chamber": "House",
       "district": "5",
-      "phone": "775-684-8503",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Miller has supported increased public education funding.",
-          "voted_for": [
-            "Education funding measures (Nevada Legislature, 2023-2025)"
-          ],
+          "summary": "Supports increased funding for public schools and education programs.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Miller has supported reproductive rights protections.",
-          "voted_for": [
-            "Reproductive health measures (Nevada Legislature, 2023)"
-          ],
+          "summary": "Supports reproductive healthcare access and rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -532,18 +511,16 @@
       "party": "R",
       "chamber": "Senate",
       "district": "5",
-      "phone": "775-684-1466",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Buck has opposed tax increases and supported fiscal conservatism.",
+          "summary": "Opposes tax increases and supports fiscal conservatism.",
           "voted_for": [],
-          "voted_against": [
-            "Tax increase proposals (Nevada Legislature, 2023-2025)"
-          ]
+          "voted_against": []
         }
       }
     },
@@ -552,25 +529,27 @@
       "party": "D",
       "chamber": "House",
       "district": "16",
-      "phone": "775-684-8503",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "González has advocated for increased education funding.",
-          "voted_for": [
-            "Education funding bills (Nevada Legislature, 2023-2025)"
-          ],
+          "summary": "Supports increased funding for public education and teacher resources.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive healthcare access.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "González has supported LGBTQ+ protections.",
-          "voted_for": [
-            "LGBTQ+ rights legislation (Nevada Legislature, 2023)"
-          ],
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -580,25 +559,21 @@
       "party": "D",
       "chamber": "House",
       "district": "11",
-      "phone": "775-684-8503",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Moore has supported public education funding increases.",
-          "voted_for": [
-            "Education funding legislation (Nevada Legislature, 2023-2025)"
-          ],
+          "summary": "Supports increased funding for public schools.",
+          "voted_for": [],
           "voted_against": []
         },
-        "Fresh Food Access": {
+        "Criminal Justice Reform": {
           "stance": "support",
-          "summary": "Moore has advocated for food access programs.",
-          "voted_for": [
-            "Food security initiatives (Nevada Legislature, 2023)"
-          ],
+          "summary": "Supports criminal justice reform measures.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -608,33 +583,27 @@
       "party": "D",
       "chamber": "House",
       "district": "1",
-      "phone": "775-684-8503",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Public School Funding": {
           "stance": "support",
-          "summary": "Monroe-Moreno has been a strong advocate for public education funding.",
-          "voted_for": [
-            "Education funding measures (Nevada Legislature, 2021-2025)"
-          ],
+          "summary": "Supports increased public school funding and education equity.",
+          "voted_for": [],
           "voted_against": []
         },
         "Reproductive Health Rights": {
           "stance": "support",
-          "summary": "Monroe-Moreno has supported reproductive rights protections.",
-          "voted_for": [
-            "Reproductive health legislation (Nevada Legislature, 2021-2023)"
-          ],
+          "summary": "Supports reproductive healthcare access and rights.",
+          "voted_for": [],
           "voted_against": []
         },
         "LGBTQ+ Rights": {
           "stance": "support",
-          "summary": "Monroe-Moreno has supported LGBTQ+ equality measures.",
-          "voted_for": [
-            "LGBTQ+ rights legislation (Nevada Legislature, 2021-2023)"
-          ],
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
           "voted_against": []
         }
       }
@@ -644,18 +613,16 @@
       "party": "R",
       "chamber": "House",
       "district": "23",
-      "phone": "775-684-8503",
-      "website": "https://www.leg.state.nv.us",
+      "phone": null,
+      "website": null,
       "twitter": null,
       "instagram": null,
       "positions": {
         "Progressive Taxation": {
           "stance": "oppose",
-          "summary": "Gallant has opposed tax increases.",
+          "summary": "Opposes tax increases and supports limited government spending.",
           "voted_for": [],
-          "voted_against": [
-            "Tax increase proposals (Nevada Legislature, 2023-2025)"
-          ]
+          "voted_against": []
         }
       }
     }
