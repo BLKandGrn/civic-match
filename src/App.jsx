@@ -367,9 +367,8 @@ function Tabs(props) {
       <div className="print-only">
         <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", marginBottom:"16px", paddingBottom:"16px", borderBottom:"3px solid #445B3E" }}>
           <div>
-            <img src="/blkgrn-logo.png" alt="BLK + GRN" style={{ height:"32px", marginBottom:"8px", display:"block" }} />
-            <div style={{ fontFamily:"Arial Black, Arial, sans-serif", fontSize:"22px", fontWeight:"900", letterSpacing:"2px", color:"#181818", marginBottom:"4px" }}>CIVIC MATCH</div>
-            <div style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:"#90A791", marginBottom:"8px" }}>Powered by BLK + GRN &nbsp;|&nbsp; blkgrn.com</div>
+            <img src="/blkgrn-logo.png" alt="BLK + GRN" style={{ height:"48px", marginBottom:"8px", display:"block" }} />
+            <div style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:"#90A791", marginBottom:"8px" }}>blkgrn.com</div>
             <div style={{ fontFamily:"Arial, sans-serif", fontSize:"12px", color:"#333", lineHeight:"1.6", maxWidth:"500px" }}>
               Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads. Below is a factual record of how your elected officials have actually voted on the issues that matter to you.
             </div>
