@@ -904,10 +904,9 @@ if (d.thumbnail && d.thumbnail.source && isPersonPage(d) && isPolitician) return
           .candidate-block{page-break-inside:avoid!important;break-inside:avoid!important;}
           .print-disclaimer{display:none!important;}
         }
-        }
         input:focus{outline:none;border-color:#445B3E!important;}
         a{color:#445B3E;}
-        .regBtn{transition:border-color .15s ease;}
+        .regBtn{transition:border-color .15s ease;cursor:pointer;}
         .regBtn:hover{border-color:#445B3E!important;}
         .regBtn.sel{border-color:#445B3E!important;background:rgba(200,249,122,.08)!important;}
         .pBtn{transition:all .15s ease;cursor:pointer;border:none;}
