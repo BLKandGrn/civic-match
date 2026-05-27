@@ -1102,31 +1102,17 @@ return (
           )}
 
           {cur === "results" && results && (
-            <div style={{ display:"flex", flexDirection:"column", gap:"0" }}>
-              {/* Branded guide header */}
-              <div style={{ background:"#fff", borderRadius:"8px", padding:"32px 32px 24px", marginBottom:"24px", borderBottom:"3px solid #445B3E" }}>
-                <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:"16px", flexWrap:"wrap" }}>
-                  <div style={{ display:"flex", flexDirection:"column", gap:"10px" }}>
-                    <a href="https://blkgrn.com" target="_blank" rel="noopener noreferrer">
-                      <img src="/blkgrn-logo.png" alt="BLK + GRN" style={{ height:"36px", display:"block" }} />
-                    </a>
-                    <div style={{ fontFamily:"'Arial Black', Arial, sans-serif", fontSize:"clamp(22px,4vw,32px)", fontWeight:900, letterSpacing:"3px", color:"#181818", textTransform:"uppercase", lineHeight:1 }}>CIVIC MATCH</div>
-                    <div style={{ fontFamily:"Arial, sans-serif", fontSize:"12px", color:"#90A791", letterSpacing:".06em" }}>Powered by BLK + GRN &nbsp;|&nbsp; blkgrn.com</div>
-                    <div style={{ fontFamily:"Arial, sans-serif", fontSize:"13px", color:"#444", lineHeight:1.6, maxWidth:"480px", marginTop:"4px" }}>
-                      Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads.
-                    </div>
-                  </div>
-                  <div style={{ textAlign:"right", flexShrink:0 }}>
-                    <div style={{ fontFamily:"Arial, sans-serif", fontSize:"13px", fontWeight:"bold", color:"#181818", marginBottom:"4px" }}>
-                      {[addr.city, addr.state].filter(Boolean).join(", ")}
-                    </div>
-                    <div style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:"#90A791" }}>Civic Match Voter Guide</div>
-                  </div>
+            <div style={{ display:"flex", flexDirection:"column", gap:"24px" }}>
+              <div className="screen-only" style={{ display:"flex", flexDirection:"column", gap:"12px" }}>
+                <div style={{ fontFamily:FF_SYNE, fontSize:"11px", fontWeight:600, letterSpacing:".18em", color:"#445B3E", textTransform:"uppercase" }}>Your Civic Match</div>
+                <h2 style={{ fontFamily:FF_SYNE, fontSize:"clamp(26px,5vw,42px)", fontWeight:700, lineHeight:1.1, color:"#f8f8f8" }}>Your personalized<br />voter guide</h2>
+                <div style={{ fontFamily:FF_SYNE, fontSize:"15px", color:"#aaa" }}>
+                  {[addr.city, addr.state].filter(Boolean).join(", ")}
                 </div>
               </div>
 
-              <div className="print-disclaimer screen-only" style={{ background:"#FBFCF4", border:"1px solid #DCEEDF", borderRadius:"6px", padding:"12px 16px", fontSize:"12px", color:"#445B3E", lineHeight:1.6, marginBottom:"16px" }}>
-                AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E", fontWeight:"bold", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
+              <div className="print-disclaimer screen-only" style={{ background:"#1a1a1a", border:"1px solid #333", borderRadius:"6px", padding:"12px 16px", fontSize:"12px", color:"#999", lineHeight:1.6, marginTop:"4px" }}>
+                AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
               </div>
 
               <Tabs sections={[...parseSections(results), { heading: "Election Reminders", body: [] }, { heading: "Explore Further", body: [
@@ -1189,9 +1175,9 @@ return (
 
         </div>
       </div>
-      <footer style={{ textAlign:"center", padding:"32px 16px", borderTop:"1px solid #1e1e1e", marginTop:"16px", background:"#0e0e0e" }}>
+      <footer style={{ textAlign:"center", padding:"24px 16px", borderTop:"1px solid #1a1a1a", marginTop:"16px" }}>
         <a href="https://blkgrn.com" target="_blank" rel="noopener noreferrer">
-          <img src="/blkgrn-logo.png" alt="BLK + GRN" style={{ height:"48px", marginBottom:"12px", display:"block", margin:"0 auto 12px" }} />
+          <img src="/blkgrn-logo.png" alt="BLK + GRN" style={{ height:"28px", marginBottom:"10px", opacity:0.85 }} />
         </a>
         <div style={{ fontSize:"11px", color:"#555", lineHeight:1.6 }}>
           Civic Match is a BLK + GRN initiative &nbsp;&bull;&nbsp;
