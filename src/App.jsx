@@ -671,6 +671,22 @@ export default function App() {
     return true;
   }
 
+  function scoreVotes(votes, priorities) {
+    const scores = {};
+    const issueLookup = (priorities || []).map(function(p) { return (p.label || p).toLowerCase(); });
+    (votes || []).forEach(function(v) {
+      const desc = ((v.description || "") + " " + (v.question || "")).toLowerCase();
+      issueLookup.forEach(function(issue) {
+        if (desc.indexOf(issue.slice(0, 6)) !== -1) {
+          if (!scores[issue]) scores[issue] = { for: 0, against: 0 };
+          if (v.position === "Yes") scores[issue].for++;
+          else if (v.position === "No") scores[issue].against++;
+        }
+      });
+    });
+    return scores;
+  }
+
   async function fetchWikiPhoto(name) {
     try {
       const q = encodeURIComponent(name.replace(/ /g, "_"));
