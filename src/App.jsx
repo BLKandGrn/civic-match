@@ -339,7 +339,7 @@ function Tabs(props) {
       <div className="screen-only" style={{ background:"#141414", border:"1px solid #222", borderRadius:"6px", padding:"22px", display:"flex", flexDirection:"column", gap:"14px", marginTop:"0" }}>
         <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", letterSpacing:".08em", color:"#445B3E", textTransform:"uppercase", paddingBottom:"10px", borderBottom:"1px solid #1e1e1e" }}>{cur.heading}</div>
         {cur.heading === "Election Reminders" && (
-          <ElectionReminders proxy={PROXY} />
+          <ElectionReminders stateCode={addr && addr.state} />
         )}
         {cur.heading === "Questions to Ask" && (
           <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"14px 18px", marginBottom:"4px" }}>
@@ -458,74 +458,52 @@ function RegRegisterPanel(props) {
   );
 }
 
-function ElectionReminders({ proxy }) {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [status, setStatus] = useState(null); // null | "loading" | "success" | "error"
-  const [msg, setMsg] = useState("");
-
-  async function handleSubmit() {
-    if (!email || !email.includes("@")) { setMsg("Please enter a valid email address."); return; }
-    setStatus("loading");
-    try {
-      const params = new URLSearchParams({ endpoint: "subscribe", email });
-      if (name) params.append("name", name);
-      if (phone) params.append("phone", phone);
-      const res = await fetch(proxy + "?" + params.toString());
-      const data = await res.json();
-      if (data.success) {
-        setStatus("success");
-        setMsg("You're signed up! We'll remind you before registration deadlines and election days.");
-      } else {
-        setStatus("error");
-        setMsg("Something went wrong. Please try again.");
-      }
-    } catch(e) {
-      setStatus("error");
-      setMsg("Something went wrong. Please try again.");
-    }
+function ElectionReminders({ stateCode }) {
+  // Build a Google Calendar URL for a given event
+  function calUrl(title, date, details) {
+    const d = date.replace(/-/g, "");
+    const params = new URLSearchParams({
+      action: "TEMPLATE",
+      text: title,
+      dates: d + "/" + d,
+      details: details || "",
+    });
+    return "https://calendar.google.com/calendar/render?" + params.toString();
   }
 
-  if (status === "success") {
-    return (
-      <div style={{ background:"#111", border:"1px solid #445B3E", borderRadius:"8px", padding:"28px 24px", textAlign:"center" }}>
-        <div style={{ fontSize:"32px", marginBottom:"12px" }}>✓</div>
-        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"16px", color:"#445B3E", marginBottom:"8px" }}>You're signed up!</div>
-        <div style={{ fontSize:"14px", color:"#aaa", lineHeight:1.6 }}>{msg}</div>
-      </div>
-    );
-  }
+  // Key 2026 election dates — national + common state patterns
+  const events = [
+    { label: "Primary Election Day (most states)", date: "2026-06-02", detail: "Check your state's official site for your exact primary date." },
+    { label: "General Election Day", date: "2026-11-03", detail: "Federal midterm elections — U.S. Senate, U.S. House, and many state races." },
+    { label: "Voter Registration Deadline (check your state)", date: "2026-10-04", detail: "Many states require registration 30 days before Election Day. Verify your deadline at vote.gov." },
+    { label: "Early Voting Begins (typical)", date: "2026-10-20", detail: "Early voting windows vary by state. Check with your local election office." },
+    { label: "Last Day to Request Mail Ballot (typical)", date: "2026-10-27", detail: "Deadlines vary by state. Check with your local election office." },
+  ];
 
   return (
-    <div style={{ display:"flex", flexDirection:"column", gap:"16px" }}>
-      <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"20px 22px" }}>
-        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", color:"#445B3E", marginBottom:"8px" }}>Never miss an election</div>
-        <div style={{ fontSize:"13px", color:"#aaa", lineHeight:1.7 }}>Sign up to receive reminders before voter registration deadlines, early voting windows, and election days in your area. We will never spam you or share your information.</div>
+    <div style={{ display:"flex", flexDirection:"column", gap:"12px" }}>
+      <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"18px 20px", marginBottom:"4px" }}>
+        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", color:"#445B3E", marginBottom:"6px" }}>2026 Key Election Dates</div>
+        <div style={{ fontSize:"13px", color:"#888", lineHeight:1.6 }}>Add dates to your calendar. Always verify exact dates with your <a href="https://vote.gov" target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E" }}>state's official election site</a>.</div>
       </div>
-      <input
-        type="text" placeholder="First and last name" value={name}
-        onChange={function(e) { setName(e.target.value); }}
-        style={{ fontFamily:FF_SYNE, fontSize:"15px", background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"14px 16px", color:"#f8f8f8", outline:"none", width:"100%" }}
-      />
-      <input
-        type="email" placeholder="Email address (required)" value={email}
-        onChange={function(e) { setEmail(e.target.value); }}
-        style={{ fontFamily:FF_SYNE, fontSize:"15px", background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"14px 16px", color:"#f8f8f8", outline:"none", width:"100%" }}
-      />
-      <input
-        type="tel" placeholder="Phone number for SMS reminders (optional)" value={phone}
-        onChange={function(e) { setPhone(e.target.value); }}
-        style={{ fontFamily:FF_SYNE, fontSize:"15px", background:"#141414", border:"1px solid #2a2a2a", borderRadius:"6px", padding:"14px 16px", color:"#f8f8f8", outline:"none", width:"100%" }}
-      />
-      {msg && <div style={{ fontSize:"13px", color: status === "error" ? "#e55" : "#aaa" }}>{msg}</div>}
-      <button
-        onClick={handleSubmit}
-        disabled={status === "loading"}
-        style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"15px", letterSpacing:".06em", padding:"16px 36px", borderRadius:"4px", background:"#445B3E", color:"#fff", border:"none", cursor:"pointer", opacity: status === "loading" ? 0.6 : 1 }}>
-        {status === "loading" ? "Signing up..." : "Get Election Reminders"}
-      </button>
-      <div style={{ fontSize:"11px", color:"#555", lineHeight:1.6 }}>By signing up you agree to receive election reminders from Civic Match by BLK + GRN. You can unsubscribe at any time.</div>
+      {events.map(function(ev, i) {
+        return (
+          <div key={i} style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"16px 18px", display:"flex", alignItems:"center", justifyContent:"space-between", gap:"12px" }}>
+            <div>
+              <div style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"14px", color:"#f0f0f0", marginBottom:"3px" }}>{ev.label}</div>
+              <div style={{ fontSize:"13px", color:"#666" }}>{ev.date}</div>
+              <div style={{ fontSize:"12px", color:"#555", marginTop:"3px", lineHeight:1.5 }}>{ev.detail}</div>
+            </div>
+            <a
+              href={calUrl(ev.label + " — Civic Match", ev.date, ev.detail)}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ flexShrink:0, fontFamily:FF_SYNE, fontWeight:600, fontSize:"12px", letterSpacing:".06em", padding:"8px 14px", borderRadius:"4px", background:"#445B3E", color:"#fff", textDecoration:"none", whiteSpace:"nowrap" }}>
+              + Add to Calendar
+            </a>
+          </div>
+        );
+      })}
     </div>
   );
 }
