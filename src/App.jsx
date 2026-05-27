@@ -580,7 +580,7 @@ export default function App() {
       ? members.map(function(m) {
           const party = m.partyName==="Democrat"||m.partyName==="Democratic"?"D":m.partyName==="Republican"?"R":"N";
           const staticData = staticFederalMap[m.name] || {};
-          const contact = [staticData.phone, staticData.website, staticData.twitter ? "@"+staticData.twitter : null].filter(Boolean).join(" | ");
+          const contact = [staticData.website, staticData.twitter ? "@"+staticData.twitter : null].filter(Boolean).join(" | ");
           return "- " + m.name + " (" + party + ", " + (m.chamber||"Congress") + (m.district ? ", District " + m.district : "") + ")" + (contact ? " — " + contact : "") + formatPositions(staticData);
         }).join("\n")
       : "No federal member data retrieved.";
@@ -589,7 +589,7 @@ export default function App() {
       ? stateLeg.map(function(l) {
           const party = l.party==="Democrat"||l.party==="Democratic"?"D":l.party==="Republican"?"R":l.party?"N":"N";
           const staticData = staticStateMap[l.name] || {};
-          const contact = [staticData.phone, staticData.website].filter(Boolean).join(" | ");
+          const contact = [staticData.website].filter(Boolean).join(" | ");
           return "- " + l.name + " (" + party + ", " + (l.current_role&&l.current_role.chamber?l.current_role.chamber:"State Legislature") + ", District " + (l.current_role&&l.current_role.district?l.current_role.district:"?") + ")" + (contact ? " — " + contact : "") + formatPositions(staticData);
         }).join("\n")
       : "No state legislator data retrieved.";
@@ -1193,7 +1193,7 @@ return (
 
         </div>
       </div>
-      <footer style={{ textAlign:"center", padding:"24px 16px", borderTop:"1px solid #1a1a1a", marginTop:"16px" }}>
+      <footer className="screen-only" style={{ textAlign:"center", padding:"24px 16px", borderTop:"1px solid #1a1a1a", marginTop:"16px" }}>
         <a href="https://blkgrn.com" target="_blank" rel="noopener noreferrer">
           <img src="/blkgrn-logo.png" alt="BLK + GRN" style={{ height:"28px", marginBottom:"10px", opacity:0.85 }} />
         </a>
