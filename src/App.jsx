@@ -365,17 +365,16 @@ function Tabs(props) {
       </div>
       {/* Print view: all sections expanded */}
       <div className="print-only">
-        <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", marginBottom:"16px", paddingBottom:"16px", borderBottom:"3px solid #445B3E" }}>
-          <div>
-            <img src="/blkgrn-logo-color.png" alt="BLK + GRN" style={{ width:"48%", maxWidth:"420px", height:"auto", marginBottom:"16px", display:"block" }} />
-            <div style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:"#90A791", marginBottom:"8px" }}>blkgrn.com</div>
-            <div style={{ fontFamily:"Arial, sans-serif", fontSize:"12px", color:"#333", lineHeight:"1.6", maxWidth:"500px" }}>
-              Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads. Below is a factual record of how your elected officials have actually voted on the issues that matter to you.
+        <div style={{ marginBottom:"20px", paddingBottom:"16px", borderBottom:"3px solid #445B3E" }}>
+          <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:"16px" }}>
+            <img src="/blkgrn-logo-color.png" alt="BLK + GRN" style={{ width:"55%", maxWidth:"520px", height:"auto", display:"block" }} />
+            <div style={{ textAlign:"right", fontSize:"11px", color:"#666", whiteSpace:"nowrap", paddingTop:"4px" }}>
+              <div style={{ fontWeight:"bold", color:"#181818", marginBottom:"4px" }}>{props.location || ""}</div>
+              <div style={{ color:"#90A791" }}>Civic Match Voter Guide</div>
             </div>
           </div>
-          <div style={{ textAlign:"right", fontSize:"11px", color:"#666", whiteSpace:"nowrap", paddingLeft:"20px" }}>
-            <div style={{ fontWeight:"bold", color:"#181818", marginBottom:"4px" }}>{props.location || ""}</div>
-            <div style={{ color:"#90A791" }}>Civic Match Voter Guide</div>
+          <div style={{ fontFamily:"Arial, sans-serif", fontSize:"12px", color:"#555", lineHeight:"1.6", marginTop:"12px" }}>
+            Civic Match is a nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads.
           </div>
         </div>
         {secs.map(function(sec, si) {
@@ -389,6 +388,10 @@ function Tabs(props) {
             </div>
           );
         })}
+        <div style={{ marginTop:"32px", paddingTop:"12px", borderTop:"1px solid #ccc", display:"flex", justifyContent:"space-between", alignItems:"center", fontSize:"11px", color:"#888", fontFamily:"Arial, sans-serif" }}>
+          <div>blkgrn.com &nbsp;|&nbsp; hello@blkandgrnlifestyle.com</div>
+          <div>&copy; {new Date().getFullYear()} BLK + GRN. For informational purposes only.</div>
+        </div>
       </div>
     </div>
   );
