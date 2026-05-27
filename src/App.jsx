@@ -371,14 +371,19 @@ function Tabs(props) {
       <div className="print-only">
         {/* Print header */}
         <div style={{ marginBottom:"24px", paddingBottom:"20px", borderBottom:"3px solid #445B3E" }}>
-          <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", gap:"16px", marginBottom:"10px" }}>
-            <img src="/blkgrn-logo-color.png" alt="BLK + GRN" className="print-logo" style={{ width:"55%", maxWidth:"520px", height:"auto", display:"block" }} />
-            <div style={{ textAlign:"right", whiteSpace:"nowrap" }}>
+          <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:"16px", marginBottom:"12px" }}>
+            <div>
+              <div style={{ fontFamily:"Arial Black, Arial, sans-serif", fontSize:"42px", fontWeight:900, letterSpacing:"3px", color:"#181818", lineHeight:1, marginBottom:"10px" }}>CIVIC MATCH</div>
+              <div style={{ display:"flex", alignItems:"center", gap:"10px" }}>
+                <span style={{ fontFamily:"Arial, sans-serif", fontSize:"12px", color:"#555", letterSpacing:".04em" }}>An initiative by</span>
+                <img src="/blkgrn-logo-color.png" alt="BLK + GRN" className="print-logo" style={{ height:"22px", width:"auto", display:"block" }} />
+              </div>
+            </div>
+            <div style={{ textAlign:"right", whiteSpace:"nowrap", paddingTop:"6px" }}>
               <div style={{ fontFamily:"Arial, sans-serif", fontSize:"13px", fontWeight:"bold", color:"#181818", marginBottom:"3px" }}>{props.location || ""}</div>
               <div style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:"#445B3E", letterSpacing:".04em" }}>Civic Match Voter Guide</div>
             </div>
           </div>
-          <div style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:"#90A791", marginBottom:"6px", letterSpacing:".04em" }}>Powered by BLK + GRN</div>
           <div style={{ fontFamily:"Arial, sans-serif", fontSize:"12px", color:"#555", lineHeight:"1.6" }}>
             A nonpartisan voter guide powered by real voting records, bill sponsorships, and public statements — not campaign ads.
           </div>
@@ -918,7 +923,7 @@ if (d.thumbnail && d.thumbnail.source && isPersonPage(d) && isPolitician) return
           button{display:none!important;}
           *{color:#000!important;background:#fff!important;border-color:#ddd!important;box-shadow:none!important;}
           img{border-radius:50%!important;object-fit:cover!important;max-width:44px!important;max-height:44px!important;}
-          img.print-logo{border-radius:0!important;object-fit:contain!important;max-width:55%!important;max-height:none!important;width:55%!important;height:auto!important;}
+          img.print-logo{border-radius:0!important;object-fit:contain!important;max-width:none!important;max-height:none!important;}
           h2{font-size:20px!important;margin-bottom:6px!important;}
           .candidate-block{page-break-inside:avoid!important;break-inside:avoid!important;}
           .print-disclaimer{display:none!important;}
