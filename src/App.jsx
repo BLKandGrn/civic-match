@@ -389,7 +389,7 @@ function Tabs(props) {
           );
         })}
         <div style={{ marginTop:"32px", paddingTop:"12px", borderTop:"1px solid #ccc", display:"flex", justifyContent:"space-between", alignItems:"center", fontSize:"11px", color:"#888", fontFamily:"Arial, sans-serif" }}>
-          <div>blkgrn.com &nbsp;|&nbsp; hello@blkandgrnlifestyle.com</div>
+          <div>blkgrn.com &nbsp;|&nbsp; hello@blkgrn.com</div>
           <div>&copy; {new Date().getFullYear()} BLK + GRN. For informational purposes only.</div>
         </div>
       </div>
