@@ -367,7 +367,7 @@ function Tabs(props) {
       <div className="print-only">
         <div style={{ marginBottom:"20px", paddingBottom:"16px", borderBottom:"3px solid #445B3E" }}>
           <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:"16px" }}>
-            <img src="/blkgrn-logo-color.png" alt="BLK + GRN" style={{ width:"55%", maxWidth:"520px", height:"auto", display:"block" }} />
+            <img src="/blkgrn-logo-color.png" alt="BLK + GRN" className="print-logo" style={{ width:"55%", maxWidth:"520px", height:"auto", display:"block" }} />
             <div style={{ textAlign:"right", fontSize:"11px", color:"#666", whiteSpace:"nowrap", paddingTop:"4px" }}>
               <div style={{ fontWeight:"bold", color:"#181818", marginBottom:"4px" }}>{props.location || ""}</div>
               <div style={{ color:"#90A791" }}>Civic Match Voter Guide</div>
@@ -903,6 +903,7 @@ if (d.thumbnail && d.thumbnail.source && isPersonPage(d) && isPolitician) return
           button{display:none!important;}
           *{color:#000!important;background:#fff!important;border-color:#ddd!important;box-shadow:none!important;}
           img{border-radius:50%!important;object-fit:cover!important;max-width:44px!important;max-height:44px!important;}
+          img.print-logo{border-radius:0!important;object-fit:contain!important;max-width:55%!important;max-height:none!important;width:55%!important;height:auto!important;}
           h2{font-size:20px!important;margin-bottom:6px!important;}
           .candidate-block{page-break-inside:avoid!important;break-inside:avoid!important;}
           .print-disclaimer{display:none!important;}
