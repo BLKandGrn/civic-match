@@ -1,0 +1,682 @@
+{
+  "state": "OH",
+  "generated": "2026-05-27",
+  "federal": [
+    {
+      "name": "Bernie Moreno",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3353",
+      "website": "https://www.moreno.senate.gov",
+      "twitter": "@SenMorenoOH",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations and supports expanded fossil fuel production.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports federal restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal protections for LGBTQ+ individuals in various contexts.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Jon Husted",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2315",
+      "website": "https://www.husted.senate.gov",
+      "twitter": "@SenHustedOH",
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports tax relief and regulatory reduction for small businesses.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes increasing taxes on higher income earners.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Robert E. Latta",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-6405",
+      "website": "https://latta.house.gov",
+      "twitter": "@boblatta",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes Biden administration environmental regulations and supports energy independence through fossil fuels.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act (118th Congress, March 2023)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (117th Congress, August 2022)"
+          ]
+        },
+        "Data Center Regulation": {
+          "stance": "oppose",
+          "summary": "Opposes increased regulation of data centers and supports technology sector growth.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Michael A. Rulli",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-3394",
+      "website": "https://rulli.house.gov",
+      "twitter": "@RepRulli",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "Supports tough-on-crime policies and opposes progressive criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased local control and funding for public schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "David J. Taylor",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-3164",
+      "website": "https://taylor.house.gov",
+      "twitter": "@RepDavidTaylor",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax cuts.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Emilia Strong Sykes",
+      "party": "D",
+      "chamber": "House",
+      "district": "13",
+      "phone": "202-225-3401",
+      "website": "https://sykes.house.gov",
+      "twitter": "@RepEmiliaSykes",
+      "instagram": "@RepEmiliaSykes",
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and access to abortion services.",
+          "voted_for": [
+            "Women's Health Protection Act (118th Congress, 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports comprehensive LGBTQ+ protections and equality legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (117th Congress, December 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform measures and accountability legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protection measures.",
+          "voted_for": [
+            "Inflation Reduction Act (117th Congress, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased federal and state public school funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Max L. Miller",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-5731",
+      "website": "https://maxmiller.house.gov",
+      "twitter": "@RepMaxMiller",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations that he views as harmful to economic growth.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxes.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Greg Landsman",
+      "party": "D",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-2216",
+      "website": "https://landsman.house.gov",
+      "twitter": "@RepGregLandsman",
+      "instagram": "@RepGregLandsman",
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for increased public school funding and teacher support.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports protecting and expanding reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act (118th Congress, 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and non-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform and reducing incarceration rates.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports climate action and environmental protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Mike Carey",
+      "party": "R",
+      "chamber": "House",
+      "district": "15",
+      "phone": "202-225-2015",
+      "website": "https://carey.house.gov",
+      "twitter": "@RepMikeCarey",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes Biden environmental regulations and supports coal and natural gas industries.",
+          "voted_for": [
+            "H.R. 1 Lower Energy Costs Act (118th Congress, March 2023)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports energy sector tax benefits.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Shontel M. Brown",
+      "party": "D",
+      "chamber": "House",
+      "district": "11",
+      "phone": "202-225-7032",
+      "website": "https://brown.house.gov",
+      "twitter": "@RepShontelBrown",
+      "instagram": "@RepShontelBrown",
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of reproductive rights and abortion access.",
+          "voted_for": [
+            "Women's Health Protection Act (118th Congress, 2023)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports comprehensive LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police accountability measures while maintaining public safety.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports environmental justice and climate action.",
+          "voted_for": [
+            "Inflation Reduction Act (117th Congress, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased federal education funding and equity.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Troy Balderson",
+      "party": "R",
+      "chamber": "House",
+      "district": "12",
+      "phone": "202-225-5355",
+      "website": "https://balderson.house.gov",
+      "twitter": "@RepBalderson",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes strict environmental regulations and supports agricultural and energy industries.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business tax relief and reduced regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes progressive tax increases.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Warren Davidson",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-6205",
+      "website": "https://davidson.house.gov",
+      "twitter": "@WarrenDavidson",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and supports free-market energy solutions.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (117th Congress, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Strongly opposes tax increases and advocates for flat tax systems.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Data Center Regulation": {
+          "stance": "oppose",
+          "summary": "Opposes government regulation of technology and cryptocurrency sectors.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "mixed",
+          "summary": "Has supported some hemp and CBD legislation but opposes full federal legalization.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Adam Bird",
+      "party": "R",
+      "chamber": "House",
+      "district": "63",
+      "phone": "614-466-8550",
+      "website": "https://ohiohouse.gov/members/adam-bird",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supported restrictions following Issue 1 passage.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam Holmes",
+      "party": "R",
+      "chamber": "House",
+      "district": "97",
+      "phone": "614-466-2486",
+      "website": "https://ohiohouse.gov/members/adam-holmes",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding while promoting accountability and local control.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Adam Mathews",
+      "party": "R",
+      "chamber": "House",
+      "district": "56",
+      "phone": "614-466-8100",
+      "website": "https://ohiohouse.gov/members/adam-mathews",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supports some sentencing reforms while maintaining tough-on-crime positions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Al Cutrona",
+      "party": "R",
+      "chamber": "House",
+      "district": "33",
+      "phone": "614-466-9628",
+      "website": "https://ohiohouse.gov/members/al-cutrona",
+      "twitter": "@RepCutrona",
+      "instagram": null,
+      "positions": {
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Opposes reform measures that he views as weakening law enforcement.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Supported transgender sports bans and opposed LGBTQ+ curriculum inclusion.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Al Landis",
+      "party": "R",
+      "chamber": "House",
+      "district": "31",
+      "phone": "614-644-6041",
+      "website": "https://ohiohouse.gov/members/al-landis",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business tax relief and regulatory reduction.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Allison Russo",
+      "party": "D",
+      "chamber": "House",
+      "district": "7",
+      "phone": "614-466-8012",
+      "website": "https://ohiohouse.gov/members/allison-russo",
+      "twitter": "@AllisonRusso4OH",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strongly supports reproductive rights and opposed abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "H.B. 598 20-week abortion ban (132nd GA)"
+          ]
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public school funding and equitable distribution.",
+          "voted_for": [
+            "H.B. 110 state budget with education funding (134th GA, 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Opposes discrimination and supports LGBTQ+ protections.",
+          "voted_for": [],
+          "voted_against": [
+            "H.B. 616 transgender sports ban (134th GA, 2022)"
+          ]
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Supports clean energy initiatives and environmental protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supported cannabis legalization and medical marijuana access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrea White",
+      "party": "R",
+      "chamber": "House",
+      "district": "36",
+      "phone": "614-644-6034",
+      "website": "https://ohiohouse.gov/members/andrea-white",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on accountability.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Brenner",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "19",
+      "phone": "614-466-6247",
+      "website": "https://ohiosenate.gov/senators/brenner",
+      "twitter": "@Brenner4Ohio",
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ protections and supported transgender restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports school choice and public education funding with parental rights emphasis.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Strongly opposes abortion access and supported restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angie King",
+      "party": "R",
+      "chamber": "House",
+      "district": "84",
+      "phone": "614-466-9690",
+      "website": "https://ohiohouse.gov/members/angie-king",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "oppose",
+          "summary": "Supports traditional law enforcement approaches and opposes progressive reforms.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anita Somani",
+      "party": "D",
+      "chamber": "House",
+      "district": "8",
+      "phone": "614-466-1896",
+      "website": "https://ohiohouse.gov/members/anita-somani",
+      "twitter": "@AnitaSomaniOH",
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive rights and access to healthcare.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Advocates for increased public school funding and educational equity.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality and non-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ashley Bryant Bailey",
+      "party": "D",
+      "chamber": "House",
+      "district": "26",
+      "phone": "614-466-1405",
+      "website": "https://ohiohouse.gov/members/ashley-bryant-bailey",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive freedom and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ protections and equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bernie Willis",
+      "party": "R",
+      "chamber": "House",
+      "district": "74",
+      "phone": "614-466-1731",
+      "website": "https://ohiohouse.gov/members/bernie-willis",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and reduced regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

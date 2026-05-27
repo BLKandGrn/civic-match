@@ -1,0 +1,721 @@
+{
+  "state": "TN",
+  "generated": "2026-05-27",
+  "federal": [
+    {
+      "name": "Marsha Blackburn",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-3344",
+      "website": "https://www.blackburn.senate.gov",
+      "twitter": "@MarshaBlackburn",
+      "instagram": "@marshablackburn",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Consistently opposes climate regulations and supports fossil fuel development.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Supported bipartisan First Step Act but generally takes tough-on-crime positions.",
+          "voted_for": [
+            "First Step Act (Senate, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases on high earners and supports tax cuts.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposes federal marijuana legalization and decriminalization efforts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports restrictions on reproductive rights.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes same-sex marriage protections and LGBTQ+ anti-discrimination measures.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bill Hagerty",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4944",
+      "website": "https://www.hagerty.senate.gov",
+      "twitter": "@SenatorHagerty",
+      "instagram": "@senatorhagerty",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations and supports expanded fossil fuel production.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lowering corporate tax rates.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Opposes abortion access and supports pro-life legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes federal protections for LGBTQ+ individuals.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Diana Harshbarger",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-6356",
+      "website": "https://harshbarger.house.gov",
+      "twitter": "@RepHarshbarger",
+      "instagram": "@repharshbarger",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate change legislation and supports energy independence through fossil fuels.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Pro-life voting record opposing abortion access.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House, September 2021)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxes.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Tim Burchett",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-5435",
+      "website": "https://burchett.house.gov",
+      "twitter": "@RepTimBurchett",
+      "instagram": "@reptimburchett",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal climate regulations and supports local environmental decisions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported bipartisan criminal justice reform measures.",
+          "voted_for": [
+            "First Step Act (House, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports lower taxes and opposes progressive taxation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Pro-life voting record.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House, September 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Charles J. Fleischmann",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-3271",
+      "website": "https://fleischmann.house.gov",
+      "twitter": "@RepChuck",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes stringent environmental regulations favoring business flexibility.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes higher taxes on wealthy individuals.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Consistently votes pro-life on reproductive health issues.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business assistance and reduced regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Scott DesJarlais",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-6831",
+      "website": "https://desjarlais.house.gov",
+      "twitter": "@DesJarlaisTN04",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal environmental regulations and climate legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports lower taxes.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Votes pro-life on reproductive health legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House, September 2021)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Opposes marijuana legalization efforts.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Ogles",
+      "party": "R",
+      "chamber": "House",
+      "district": "5",
+      "phone": "202-225-4311",
+      "website": "https://ogles.house.gov",
+      "twitter": "@RepOgles",
+      "instagram": "@repogles",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations and supports fossil fuel energy.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports lower taxes and opposes progressive tax policies.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Pro-life stance opposing abortion access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Opposes LGBTQ+ protections and related legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "John W. Rose",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": "202-225-4231",
+      "website": "https://johnrose.house.gov",
+      "twitter": "@RepJohnRose",
+      "instagram": "@repjohnrose",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes federal climate regulations and supports agricultural interests.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases and supports tax relief.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and reduced regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Pro-life voting record.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House, September 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Matt Van Epps",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": "202-225-2811",
+      "website": "https://vanepps.house.gov",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Opposes tax increases consistent with Republican platform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding with emphasis on local control.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "David Kustoff",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": "202-225-4714",
+      "website": "https://kustoff.house.gov",
+      "twitter": "@RepDavidKustoff",
+      "instagram": "@repdavidkustoff",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Opposes climate regulations and supports energy independence.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Supports tax cuts and opposes progressive taxation.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act (House, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supported bipartisan criminal justice reform.",
+          "voted_for": [
+            "First Step Act (House, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Pro-life voting record.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House, September 2021)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Steve Cohen",
+      "party": "D",
+      "chamber": "House",
+      "district": "9",
+      "phone": "202-225-3265",
+      "website": "https://cohen.house.gov",
+      "twitter": "@RepCohen",
+      "instagram": "@repcohen",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Strong supporter of climate action and environmental regulations.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (House, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Supports police reform and accountability measures.",
+          "voted_for": [
+            "George Floyd Justice in Policing Act (House, March 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Long-standing advocate for criminal justice reform.",
+          "voted_for": [
+            "First Step Act (House, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Supports higher taxes on wealthy individuals and corporations.",
+          "voted_for": [],
+          "voted_against": [
+            "Tax Cuts and Jobs Act (House, December 2017)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Supports marijuana decriminalization and legalization efforts.",
+          "voted_for": [
+            "MORE Act (House, December 2020)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Strong supporter of abortion access and reproductive rights.",
+          "voted_for": [
+            "Women's Health Protection Act (House, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Consistent supporter of LGBTQ+ rights and protections.",
+          "voted_for": [
+            "Respect for Marriage Act (House, July 2022)",
+            "Equality Act (House, February 2021)"
+          ],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased federal funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Adam Lowe",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding consistent with Republican caucus priorities.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Becky Massey",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "6",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education initiatives in the Tennessee Senate.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Becky Jo Alexander",
+      "party": "R",
+      "chamber": "House",
+      "district": "7",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bo Watson",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "11",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Long-serving senator supporting education initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Supports small business development and economic growth.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Farmer",
+      "party": "R",
+      "chamber": "House",
+      "district": "17",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bill Powers",
+      "party": "R",
+      "chamber": "House",
+      "district": "22",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding priorities.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bo Mitchell",
+      "party": "D",
+      "chamber": "House",
+      "district": "50",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong advocate for public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ protections and opposes discriminatory legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive health access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Aftyn Behn",
+      "party": "D",
+      "chamber": "House",
+      "district": "51",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Advocates for LGBTQ+ equality and protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Supports reproductive freedom and healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bob Freeman",
+      "party": "D",
+      "chamber": "House",
+      "district": "56",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Long-time supporter of public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ rights and protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Aron Maberry",
+      "party": "R",
+      "chamber": "House",
+      "district": "68",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Supports education funding initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Antonio Parkinson",
+      "party": "D",
+      "chamber": "House",
+      "district": "98",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Strong supporter of public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Supports criminal justice reform efforts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Supports LGBTQ+ equality.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

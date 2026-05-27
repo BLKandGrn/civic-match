@@ -1,0 +1,815 @@
+{
+  "state": "NY",
+  "generated": "2026-05-27",
+  "federal": [
+    {
+      "name": "Charles E. Schumer",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-6542",
+      "website": "https://www.schumer.senate.gov",
+      "twitter": "@SenSchumer",
+      "instagram": "@senschumer",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Schumer has consistently supported climate action legislation and clean energy investments throughout his Senate tenure.",
+          "voted_for": [
+            "Inflation Reduction Act with $369 billion for climate programs (Congress.gov, August 2022)",
+            "Bipartisan Infrastructure Law with climate resilience funding (Congress.gov, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Schumer has supported federal criminal justice reform measures including sentencing reform.",
+          "voted_for": [
+            "First Step Act for federal prison and sentencing reform (Congress.gov, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Schumer has advocated for higher taxes on corporations and wealthy individuals.",
+          "voted_for": [
+            "Inflation Reduction Act with 15% corporate minimum tax (Congress.gov, August 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act of 2017 (Congress.gov, December 2017)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Schumer has been a vocal supporter of abortion rights and reproductive healthcare access.",
+          "voted_for": [
+            "Women's Health Protection Act to codify Roe v. Wade (Congress.gov, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Schumer has consistently supported LGBTQ+ civil rights protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Congress.gov, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Kirsten E. Gillibrand",
+      "party": "D",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-4451",
+      "website": "https://www.gillibrand.senate.gov",
+      "twitter": "@SenGillibrand",
+      "instagram": "@sengillibrand",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Gillibrand has championed climate legislation and environmental justice initiatives.",
+          "voted_for": [
+            "Inflation Reduction Act with climate provisions (Congress.gov, August 2022)",
+            "Bipartisan Infrastructure Law (Congress.gov, November 2021)"
+          ],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Gillibrand has supported criminal justice reform including police accountability measures.",
+          "voted_for": [
+            "First Step Act (Congress.gov, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Gillibrand has supported tax increases on corporations and high earners.",
+          "voted_for": [
+            "Inflation Reduction Act with corporate minimum tax (Congress.gov, August 2022)"
+          ],
+          "voted_against": [
+            "Tax Cuts and Jobs Act of 2017 (Congress.gov, December 2017)"
+          ]
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Gillibrand has advocated for food security programs and agricultural support.",
+          "voted_for": [
+            "Farm Bill reauthorizations supporting SNAP and nutrition programs (Congress.gov, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Gillibrand has been a strong advocate for abortion rights and reproductive healthcare.",
+          "voted_for": [
+            "Women's Health Protection Act (Congress.gov, February 2022)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Gillibrand has consistently supported LGBTQ+ equality legislation.",
+          "voted_for": [
+            "Respect for Marriage Act (Congress.gov, November 2022)",
+            "Don't Ask Don't Tell Repeal Act (Congress.gov, December 2010)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Josh Riley",
+      "party": "D",
+      "chamber": "House",
+      "district": "19",
+      "phone": "202-225-5614",
+      "website": "https://riley.house.gov",
+      "twitter": "@RepJoshRiley",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Riley campaigned on climate action and protecting natural resources in New York's 19th district.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Riley has expressed support for codifying abortion rights at the federal level.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "John W. Mannion",
+      "party": "D",
+      "chamber": "House",
+      "district": "22",
+      "phone": "202-225-3701",
+      "website": "https://mannion.house.gov",
+      "twitter": "@RepJohnMannion",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "As a former teacher and state senator, Mannion has advocated for increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Mannion supported environmental initiatives during his state senate tenure.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "George Latimer",
+      "party": "D",
+      "chamber": "House",
+      "district": "16",
+      "phone": "202-225-6506",
+      "website": "https://latimer.house.gov",
+      "twitter": "@RepLatimer",
+      "instagram": null,
+      "positions": {
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Latimer has supported progressive tax policies during his career in local and county government.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "As Westchester County Executive, Latimer pursued environmental protection initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Laura Gillen",
+      "party": "D",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-5516",
+      "website": "https://gillen.house.gov",
+      "twitter": "@RepLauraGillen",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Gillen has emphasized environmental protection and climate resilience for coastal communities.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Gillen campaigned on protecting abortion rights and reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Timothy M. Kennedy",
+      "party": "D",
+      "chamber": "House",
+      "district": "26",
+      "phone": "202-225-3306",
+      "website": "https://kennedy.house.gov",
+      "twitter": "@RepTimKennedy",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Kennedy supported environmental initiatives including Great Lakes protection during his state senate tenure.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Kennedy advocated for education funding increases as a New York State Senator.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Thomas R. Suozzi",
+      "party": "D",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-3335",
+      "website": "https://suozzi.house.gov",
+      "twitter": "@RepTomSuozzi",
+      "instagram": "@repsuozzi",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Suozzi has supported environmental protection and climate initiatives during his House tenure.",
+          "voted_for": [
+            "Inflation Reduction Act climate provisions (Congress.gov, August 2022)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "mixed",
+          "summary": "Suozzi has supported some tax increases but also advocated for SALT deduction cap repeal.",
+          "voted_for": [
+            "Efforts to restore state and local tax (SALT) deductions (Congress.gov, 2021-2022)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Suozzi has supported abortion rights legislation.",
+          "voted_for": [
+            "Women's Health Protection Act (Congress.gov, September 2021)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Suozzi has supported LGBTQ+ civil rights protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Congress.gov, December 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Michael Lawler",
+      "party": "R",
+      "chamber": "House",
+      "district": "17",
+      "phone": "202-225-6506",
+      "website": "https://lawler.house.gov",
+      "twitter": "@RepMikeLawler",
+      "instagram": "@repmikelawler",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Lawler has supported some environmental measures while opposing others he views as economically harmful.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Lawler has emphasized public safety while supporting some reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "mixed",
+          "summary": "Lawler has stated he would not support a federal abortion ban while emphasizing state-level decisions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Lawler voted for marriage equality protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Congress.gov, December 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Nicholas A. Langworthy",
+      "party": "R",
+      "chamber": "House",
+      "district": "23",
+      "phone": "202-225-3161",
+      "website": "https://langworthy.house.gov",
+      "twitter": "@RepLangworthy",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Langworthy has opposed Biden administration environmental regulations he views as harmful to energy production.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (Congress.gov, August 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Langworthy has opposed tax increases on businesses and higher earners.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act tax provisions (Congress.gov, August 2022)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Langworthy has advocated for small business support and reduced regulations.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Nick LaLota",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-3826",
+      "website": "https://lalota.house.gov",
+      "twitter": "@RepLalota",
+      "instagram": "@replalota",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "LaLota has supported environmental protection for Long Island while opposing certain federal climate regulations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "LaLota has opposed tax increases and advocated for SALT deduction cap repeal.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "LaLota voted for marriage equality protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Congress.gov, December 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Daniel S. Goldman",
+      "party": "D",
+      "chamber": "House",
+      "district": "10",
+      "phone": "202-225-7944",
+      "website": "https://goldman.house.gov",
+      "twitter": "@RepDanGoldman",
+      "instagram": "@repdangoldman",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Goldman has supported climate action and environmental protection legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Goldman has advocated for police accountability measures and criminal justice reform.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Goldman has supported criminal justice reform measures based on his prosecutorial experience.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Goldman has supported higher taxes on wealthy individuals and corporations.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Goldman has been a vocal supporter of abortion rights and reproductive healthcare access.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Goldman has consistently supported LGBTQ+ civil rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Al Stirpe",
+      "party": "D",
+      "chamber": "House",
+      "district": "127",
+      "phone": "518-455-4505",
+      "website": "https://nyassembly.gov/mem/Al-Stirpe",
+      "twitter": "@AlStirpe",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Stirpe has consistently supported increased public education funding in the state budget.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Stirpe has advocated for small business support programs and tax relief.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Al Taylor",
+      "party": "D",
+      "chamber": "House",
+      "district": "71",
+      "phone": "518-455-5811",
+      "website": "https://nyassembly.gov/mem/Al-Taylor",
+      "twitter": "@AMTaylor71",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Taylor has supported criminal justice reform measures in the New York Assembly.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Taylor has advocated for increased education funding for New York City schools.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Taylor has supported LGBTQ+ civil rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alec Brook-Krasny",
+      "party": "N",
+      "chamber": "House",
+      "district": "46",
+      "phone": "518-455-5421",
+      "website": "https://nyassembly.gov/mem/Alec-Brook-Krasny",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Brook-Krasny has supported education funding during his legislative tenure.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alex Bores",
+      "party": "N",
+      "chamber": "House",
+      "district": "73",
+      "phone": "518-455-5545",
+      "website": "https://nyassembly.gov/mem/Alex-Bores",
+      "twitter": "@AlexBoresNYC",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Bores has emphasized environmental sustainability and climate action in Manhattan.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Bores has supported increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alexis Weik",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "8",
+      "phone": "518-455-3711",
+      "website": "https://www.nysenate.gov/senators/alexis-weik",
+      "twitter": "@SenatorWeik",
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Weik has advocated for small business support and reducing regulatory burdens.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Weik has supported environmental protection for Long Island including water quality initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Alicia Hyndman",
+      "party": "D",
+      "chamber": "House",
+      "district": "29",
+      "phone": "518-455-4451",
+      "website": "https://nyassembly.gov/mem/Alicia-Hyndman",
+      "twitter": "@AMHyndman",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Hyndman has consistently supported increased education funding for Queens schools.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Fresh Food Access": {
+          "stance": "support",
+          "summary": "Hyndman has advocated for food security programs and addressing food deserts.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Hyndman has supported reproductive healthcare access legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amanda Septimo",
+      "party": "N",
+      "chamber": "House",
+      "district": "84",
+      "phone": "518-455-5871",
+      "website": "https://nyassembly.gov/mem/Amanda-Septimo",
+      "twitter": "@AmandaSeptimo",
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Septimo has supported criminal justice reform and police accountability measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Septimo has advocated for increased education funding in the Bronx.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Septimo has supported LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amy Paulin",
+      "party": "D",
+      "chamber": "House",
+      "district": "88",
+      "phone": "518-455-5585",
+      "website": "https://nyassembly.gov/mem/Amy-Paulin",
+      "twitter": "@AmyPaulin",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Paulin has been a long-time supporter of environmental protection legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Paulin has championed reproductive rights legislation in the Assembly.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Paulin has supported increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Paulin has consistently supported LGBTQ+ equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrea Bailey",
+      "party": "N",
+      "chamber": "House",
+      "district": "133",
+      "phone": "518-455-5783",
+      "website": "https://nyassembly.gov/mem/Andrea-Bailey",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Bailey has supported education funding initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrea Stewart-Cousins",
+      "party": "N",
+      "chamber": "Senate",
+      "district": "35",
+      "phone": "518-455-2585",
+      "website": "https://www.nysenate.gov/senators/andrea-stewart-cousins",
+      "twitter": "@AndreaSCousins",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "As Senate Majority Leader, Stewart-Cousins has supported comprehensive environmental legislation including climate action.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Stewart-Cousins has supported criminal justice reform including bail reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Stewart-Cousins has supported progressive tax measures in state budgets.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Cannabis Policy": {
+          "stance": "support",
+          "summary": "Stewart-Cousins helped pass marijuana legalization in New York.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Stewart-Cousins has championed increased education funding as Senate leader.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Stewart-Cousins has been a strong advocate for reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Stewart-Cousins has consistently supported LGBTQ+ rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Gounardes",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "26",
+      "phone": "518-455-3270",
+      "website": "https://www.nysenate.gov/senators/andrew-gounardes",
+      "twitter": "@AndrewGounardes",
+      "instagram": "@andrewgounardes",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Gounardes has supported environmental protection and climate resilience legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Gounardes has supported criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Gounardes has supported progressive taxation measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Gounardes has advocated for increased education funding.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Gounardes has supported reproductive healthcare access legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Gounardes has supported LGBTQ+ civil rights protections.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Andrew Hevesi",
+      "party": "D",
+      "chamber": "House",
+      "district": "28",
+      "phone": "518-455-4926",
+      "website": "https://nyassembly.gov/mem/Andrew-Hevesi",
+      "twitter": "@AndrewHevesi",
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Hevesi has consistently supported increased education funding and serves on the Education Committee.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "support",
+          "summary": "Hevesi has supported progressive tax measures in state budgets.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Hevesi has supported reproductive rights legislation.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Hevesi has supported LGBTQ+ equality measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

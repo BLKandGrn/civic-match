@@ -1,0 +1,498 @@
+{
+  "state": "UT",
+  "generated": "2026-05-27",
+  "federal": [
+    {
+      "name": "Mike Lee",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5444",
+      "website": "https://www.lee.senate.gov",
+      "twitter": "@SenMikeLee",
+      "instagram": "@senmikelee",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Lee consistently opposes federal environmental regulations, viewing them as overreach.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act with climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Lee has been a proponent of bipartisan criminal justice reform efforts.",
+          "voted_for": [
+            "First Step Act (Senate vote, December 2018)"
+          ],
+          "voted_against": []
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Lee opposes tax increases and supports flat or reduced tax structures.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act corporate tax provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Lee opposes abortion access and supports restrictions on reproductive healthcare.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Lee has opposed legislation expanding LGBTQ+ protections.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "John R. Curtis",
+      "party": "R",
+      "chamber": "House",
+      "district": null,
+      "phone": "202-225-7751",
+      "website": "https://curtis.house.gov",
+      "twitter": "@RepJohnCurtis",
+      "instagram": "@repjohncurtis",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "mixed",
+          "summary": "Curtis advocates for conservative environmental policies while acknowledging climate change concerns.",
+          "voted_for": [
+            "Conservative climate caucus initiatives (House, 2021-2024)"
+          ],
+          "voted_against": [
+            "Build Back Better Act environmental provisions (House vote, November 2021)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Curtis has consistently voted for abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Curtis supports small business assistance and reduced regulatory burdens.",
+          "voted_for": [
+            "Paycheck Protection Program (House votes, 2020-2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Mike Kennedy",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": "202-225-7751",
+      "website": "https://kennedy.house.gov",
+      "twitter": "@RepMikeKennedy",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Kennedy opposes federal environmental regulations and supports energy independence.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Kennedy has a strongly anti-abortion voting record.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Celeste Maloy",
+      "party": "R",
+      "chamber": "House",
+      "district": "2",
+      "phone": "202-225-9730",
+      "website": "https://maloy.house.gov",
+      "twitter": "@RepMaloy",
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Maloy prioritizes natural resource development over environmental restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Maloy supports education funding while advocating for local control.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Burgess Owens",
+      "party": "R",
+      "chamber": "House",
+      "district": "4",
+      "phone": "202-225-3011",
+      "website": "https://owens.house.gov",
+      "twitter": "@RepBurgessOwens",
+      "instagram": "@repburgessowens",
+      "positions": {
+        "Police Accountability": {
+          "stance": "oppose",
+          "summary": "Owens opposes police reform measures and supports law enforcement funding.",
+          "voted_for": [],
+          "voted_against": [
+            "George Floyd Justice in Policing Act (House vote, March 2021)"
+          ]
+        },
+        "Criminal Justice Reform": {
+          "stance": "mixed",
+          "summary": "Owens supports some reform measures while emphasizing law and order.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Owens has a consistent anti-abortion voting record.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Owens has opposed LGBTQ+ rights legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Respect for Marriage Act (House vote, December 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Blake D. Moore",
+      "party": "R",
+      "chamber": "House",
+      "district": "1",
+      "phone": "202-225-0453",
+      "website": "https://blakemoore.house.gov",
+      "twitter": "@RepBlakeMoore",
+      "instagram": "@repblakemoore",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Moore opposes restrictive environmental regulations affecting Utah industries.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Moore supports small business relief and economic development programs.",
+          "voted_for": [
+            "Paycheck Protection Program (House votes, 2020-2021)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Moore has voted for abortion restrictions.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Andrew Stoddard",
+      "party": "D",
+      "chamber": "House",
+      "district": "40",
+      "phone": "801-538-1029",
+      "website": "https://house.utleg.gov/rep/STODDAN",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Stoddard supports environmental protection measures and clean energy initiatives.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Stoddard has been an advocate for LGBTQ+ protections in the legislature.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Stoddard consistently supports increased funding for public education.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Angela Romero",
+      "party": "D",
+      "chamber": "House",
+      "district": "25",
+      "phone": "801-538-1029",
+      "website": "https://house.utleg.gov/rep/ROMERAN",
+      "twitter": "@angelaromero25",
+      "instagram": null,
+      "positions": {
+        "Police Accountability": {
+          "stance": "support",
+          "summary": "Romero has advocated for police accountability and transparency measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Romero supports criminal justice reform and reduced incarceration.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Romero has opposed abortion restrictions in the Utah legislature.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Romero supports LGBTQ+ rights and anti-discrimination protections.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Romero is a strong advocate for public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ann Millner",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "5",
+      "phone": "801-538-1035",
+      "website": "https://senate.utleg.gov/millner/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Millner, with her education background, supports funding for public schools.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Anthony Loubet",
+      "party": "R",
+      "chamber": "House",
+      "district": "27",
+      "phone": "801-538-1029",
+      "website": "https://house.utleg.gov/rep/LOUBETA",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Loubet supports small business initiatives and economic development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ariel Defay",
+      "party": "R",
+      "chamber": "House",
+      "district": "15",
+      "phone": "801-538-1029",
+      "website": "https://house.utleg.gov/rep/DEFAYA",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Defay supports education funding within conservative budget frameworks.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Ashlee Matthews",
+      "party": "D",
+      "chamber": "House",
+      "district": "37",
+      "phone": "801-538-1029",
+      "website": "https://house.utleg.gov/rep/MATTHASH",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "support",
+          "summary": "Matthews supports environmental protection and air quality improvements.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "support",
+          "summary": "Matthews opposes abortion restrictions and supports reproductive rights.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "support",
+          "summary": "Matthews supports LGBTQ+ protections and anti-discrimination measures.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Matthews advocates for increased public education funding.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Brady Brammer",
+      "party": "R",
+      "chamber": "House",
+      "district": "21",
+      "phone": "801-538-1029",
+      "website": "https://house.utleg.gov/rep/BRAMMB",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Criminal Justice Reform": {
+          "stance": "support",
+          "summary": "Brammer has supported some criminal justice reform measures.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bridger Bolinder",
+      "party": "R",
+      "chamber": "House",
+      "district": "29",
+      "phone": "801-538-1029",
+      "website": "https://house.utleg.gov/rep/BOLINB",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Bolinder supports small business and rural economic development.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Cal Musselman",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "4",
+      "phone": "801-538-1035",
+      "website": "https://senate.utleg.gov/musselman/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Musselman supports education funding while emphasizing fiscal responsibility.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Cal Roberts",
+      "party": "R",
+      "chamber": "House",
+      "district": "46",
+      "phone": "801-538-1029",
+      "website": "https://house.utleg.gov/rep/ROBERTC",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Roberts supports business-friendly policies and economic growth.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Candice Pierucci",
+      "party": "R",
+      "chamber": "House",
+      "district": "49",
+      "phone": "801-538-1029",
+      "website": "https://house.utleg.gov/rep/PIERUC",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Pierucci supports education funding and teacher compensation.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Carl Albrecht",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "70",
+      "phone": "801-538-1035",
+      "website": "https://senate.utleg.gov/albrecht/",
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Albrecht prioritizes agricultural and resource development over environmental restrictions.",
+          "voted_for": [],
+          "voted_against": []
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Albrecht supports rural business development and agricultural support.",
+          "voted_for": [],
+          "voted_against": []
+        }
+      }
+    }
+  ]
+}

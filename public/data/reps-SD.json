@@ -1,0 +1,304 @@
+{
+  "state": "SD",
+  "generated": "2026-05-27",
+  "federal": [
+    {
+      "name": "John Thune",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-2321",
+      "website": "https://www.thune.senate.gov",
+      "twitter": "@SenJohnThune",
+      "instagram": "@senatorjohnthune",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Thune has consistently opposed major federal climate regulations and supported fossil fuel development.",
+          "voted_for": [
+            "Keystone XL Pipeline approval (Senate vote, 2015)",
+            "Resolution to overturn EPA Clean Power Plan (Senate vote, 2015)"
+          ],
+          "voted_against": [
+            "Inflation Reduction Act containing climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Thune has opposed federal marijuana legalization efforts.",
+          "voted_for": [],
+          "voted_against": [
+            "MORE Act - federal marijuana decriminalization (procedural opposition, 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Thune has supported tax cuts and opposed increased taxation on wealthy individuals and corporations.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act of 2017 (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Thune has a consistent anti-abortion voting record and supports restrictions on reproductive rights.",
+          "voted_for": [
+            "Pain-Capable Unborn Child Protection Act (Senate vote, 2018)"
+          ],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mike Rounds",
+      "party": "R",
+      "chamber": "Senate",
+      "district": null,
+      "phone": "202-224-5842",
+      "website": "https://www.rounds.senate.gov",
+      "twitter": "@SenatorRounds",
+      "instagram": "@senmikerounds",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Rounds has opposed federal climate regulations and supported energy independence through fossil fuels.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act climate provisions (Senate vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Rounds has consistently voted against abortion access legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (Senate vote, February 2022)"
+          ]
+        },
+        "Progressive Taxation": {
+          "stance": "oppose",
+          "summary": "Rounds supported the 2017 tax cuts and has opposed tax increases on corporations and high earners.",
+          "voted_for": [
+            "Tax Cuts and Jobs Act of 2017 (Senate vote, December 2017)"
+          ],
+          "voted_against": []
+        },
+        "LGBTQ+ Rights": {
+          "stance": "mixed",
+          "summary": "Rounds voted for the Respect for Marriage Act but has opposed other LGBTQ+ protections.",
+          "voted_for": [
+            "Respect for Marriage Act (Senate vote, November 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Dusty Johnson",
+      "party": "R",
+      "chamber": "House",
+      "district": "At-Large",
+      "phone": "202-225-2801",
+      "website": "https://dustyjohnson.house.gov",
+      "twitter": "@RepDustyJohnson",
+      "instagram": "@repdustyjohnson",
+      "positions": {
+        "Environmental Protection": {
+          "stance": "oppose",
+          "summary": "Johnson has opposed major climate legislation while supporting agricultural conservation programs.",
+          "voted_for": [],
+          "voted_against": [
+            "Inflation Reduction Act (House vote, August 2022)"
+          ]
+        },
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Johnson has voted for abortion restrictions and against federal protections for abortion access.",
+          "voted_for": [],
+          "voted_against": [
+            "Women's Health Protection Act (House vote, September 2021)"
+          ]
+        },
+        "Cannabis Policy": {
+          "stance": "oppose",
+          "summary": "Johnson has opposed federal marijuana legalization legislation.",
+          "voted_for": [],
+          "voted_against": [
+            "MORE Act - marijuana decriminalization (House vote, April 2022)"
+          ]
+        },
+        "Small Business Funding": {
+          "stance": "support",
+          "summary": "Johnson has supported small business assistance programs and PPP funding.",
+          "voted_for": [
+            "Paycheck Protection Program extensions (House votes, 2020-2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    }
+  ],
+  "state_legislators": [
+    {
+      "name": "Aaron Aylward",
+      "party": "R",
+      "chamber": "House",
+      "district": "6",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Reproductive Health Rights": {
+          "stance": "oppose",
+          "summary": "Aylward has supported abortion restrictions in the South Dakota Legislature.",
+          "voted_for": [
+            "HB 1217 - transgender athlete ban (South Dakota House, 2021)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Al Novstrup",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "Public School Funding": {
+          "stance": "support",
+          "summary": "Novstrup has supported education funding increases in the state legislature.",
+          "voted_for": [
+            "Teacher pay increase legislation (South Dakota House, 2016)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Amber Arlint",
+      "party": "R",
+      "chamber": "House",
+      "district": "12",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Amber Hulse",
+      "party": "R",
+      "chamber": "House",
+      "district": "30",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Arch Beal",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "12",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {
+        "LGBTQ+ Rights": {
+          "stance": "oppose",
+          "summary": "Beal has supported legislation limiting transgender rights in South Dakota.",
+          "voted_for": [
+            "SB 46 - transgender sports ban (South Dakota Senate, 2022)"
+          ],
+          "voted_against": []
+        }
+      }
+    },
+    {
+      "name": "Bethany Soye",
+      "party": "R",
+      "chamber": "House",
+      "district": "9",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Bobbi Andera",
+      "party": "R",
+      "chamber": "House",
+      "district": "10",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Brandei Schaefbauer",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "3",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Brandon Wipf",
+      "party": "R",
+      "chamber": "House",
+      "district": "22",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Brian Mulder",
+      "party": "R",
+      "chamber": "House",
+      "district": "11",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Carl Perry",
+      "party": "R",
+      "chamber": "House",
+      "district": "3",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    },
+    {
+      "name": "Casey Crabtree",
+      "party": "R",
+      "chamber": "House",
+      "district": "8",
+      "phone": null,
+      "website": null,
+      "twitter": null,
+      "instagram": null,
+      "positions": {}
+    }
+  ]
+}
