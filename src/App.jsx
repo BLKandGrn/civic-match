@@ -292,6 +292,10 @@ function renderLine(line, i, photos, usedPhotoUrls, sectionHeading) {
       </div>
     );
   }
+  if (t.trim() === "---" || t.trim() === "***" || t.trim() === "___") {
+    return <hr key={i} style={{ border:"none", borderTop:"1px solid #333", margin:"8px 0" }} />;
+  }
+  if (!t.trim()) return <div key={i} style={{ height:"6px" }} />;
   return <p key={i} style={{ fontSize:"15px", lineHeight:1.7, color:"#bbb" }} dangerouslySetInnerHTML={{ __html: styleCitations(t) }} />;
 }
 
@@ -870,6 +874,14 @@ if (d.thumbnail && d.thumbnail.source && isPersonPage(d) && isPolitician) return
       setLoading(false);
     }
   }
+
+  useEffect(function() {
+    if (cur === "results" && results) {
+      document.title = "Civic Match Voter Guide — Powered by BLK + GRN";
+    } else {
+      document.title = "Civic Match — BLK + GRN";
+    }
+  }, [cur, results]);
 
   useEffect(function() {
     function reportHeight() {
