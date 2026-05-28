@@ -595,9 +595,11 @@ function UpcomingBallot({ addr, proxy }) {
   const [loading, setLoading] = useState(true);
   const [candidates, setCandidates] = useState([]);
   const [financeMap, setFinanceMap] = useState({});
+  const [dwElections, setDwElections] = useState([]);
   const [error, setError] = useState(null);
 
   const stateCode = addr && addr.state ? addr.state.toUpperCase() : null;
+  const fullAddr = addr ? [addr.street, addr.city, addr.state, addr.zip].filter(Boolean).join(", ") : null;
   const cycle = "2026";
 
   // 2026 key election dates
@@ -630,6 +632,17 @@ function UpcomingBallot({ addr, proxy }) {
           } catch(e) {}
         }));
         setFinanceMap(fMap);
+
+        // Democracy Works — address-specific local elections and ballot measures
+        if (fullAddr) {
+          try {
+            const dwRes = await fetch(proxy + "?endpoint=dw-ballot&address=" + encodeURIComponent(fullAddr));
+            if (dwRes.ok) {
+              const dwData = await dwRes.json();
+              setDwElections(Array.isArray(dwData) ? dwData : (dwData.elections || []));
+            }
+          } catch(e) { console.warn("DW ballot:", e.message); }
+        }
       } catch(e) {
         setError("Unable to load candidate data.");
       } finally {
@@ -637,7 +650,7 @@ function UpcomingBallot({ addr, proxy }) {
       }
     }
     load();
-  }, [stateCode]);
+  }, [stateCode, fullAddr]);
 
   if (!stateCode) return (
     <div style={{ fontSize:"14px", color:"#888", padding:"16px 0" }}>Enter a full address to see your upcoming ballot.</div>
@@ -664,7 +677,61 @@ function UpcomingBallot({ addr, proxy }) {
         </div>
       </div>
 
-      {/* Candidates */}
+      {/* Democracy Works — Local Elections & Ballot Measures */}
+      {dwElections.length > 0 && (
+        <div style={{ display:"flex", flexDirection:"column", gap:"8px" }}>
+          <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E", letterSpacing:".08em", textTransform:"uppercase" }}>Your Local Ballot</div>
+          <div style={{ fontSize:"12px", color:"#555", marginTop:"-4px", marginBottom:"4px" }}>Verified elections for your address from Democracy Works.</div>
+          {dwElections.map(function(el, i) {
+            const contests = el.contests || [];
+            const measures = el.ballot_measures || [];
+            return (
+              <div key={i} style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"14px 16px" }}>
+                <div style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-start", gap:"12px", marginBottom:"8px" }}>
+                  <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#f0f0f0" }}>{el.name || el.election_type || "Local Election"}</div>
+                  <div style={{ fontSize:"12px", color:"#C8F97A", whiteSpace:"nowrap", flexShrink:0 }}>{el.date || el.election_date || ""}</div>
+                </div>
+                {contests.length > 0 && (
+                  <div style={{ marginBottom:"8px" }}>
+                    <div style={{ fontSize:"11px", color:"#555", textTransform:"uppercase", letterSpacing:".06em", marginBottom:"4px" }}>Races</div>
+                    {contests.map(function(c, j) {
+                      return (
+                        <div key={j} style={{ fontSize:"12px", color:"#aaa", padding:"4px 0", borderBottom:"1px solid #1a1a1a" }}>
+                          <span style={{ color:"#f0f0f0", fontWeight:600 }}>{c.office || c.name}</span>
+                          {c.candidates && c.candidates.length > 0 && (
+                            <span style={{ color:"#666" }}> — {c.candidates.map(function(cd) { return cd.name; }).join(", ")}</span>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+                {measures.length > 0 && (
+                  <div>
+                    <div style={{ fontSize:"11px", color:"#555", textTransform:"uppercase", letterSpacing:".06em", marginBottom:"4px" }}>Ballot Measures</div>
+                    {measures.map(function(m, j) {
+                      return (
+                        <div key={j} style={{ fontSize:"12px", color:"#aaa", padding:"4px 0", borderBottom:"1px solid #1a1a1a" }}>
+                          <span style={{ color:"#f0f0f0", fontWeight:600 }}>{m.name || m.title}</span>
+                          {m.summary && <div style={{ color:"#666", fontSize:"11px", marginTop:"2px" }}>{m.summary}</div>}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+                {el.sample_ballot_url && (
+                  <a href={el.sample_ballot_url} target="_blank" rel="noopener noreferrer"
+                    style={{ display:"inline-block", marginTop:"8px", fontSize:"11px", color:"#445B3E", textDecoration:"underline" }}>
+                    View Sample Ballot ↗
+                  </a>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Federal Candidates (FEC) */}
       <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E", letterSpacing:".08em", textTransform:"uppercase" }}>
         2026 Federal Candidates — {stateCode}
       </div>
