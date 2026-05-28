@@ -478,17 +478,17 @@ function CandidateCard({ c, fin, proxy }) {
     setBioLoading(true);
     setExpanded(true);
     try {
-      const prompt = "Summarize " + c.name + "'s publicly stated policy positions in 2-3 sentences. Use only verified public information — campaign website, interviews, or voting record. If limited public record exists, respond with only: 'Limited public record available. Check their campaign website or FEC profile for more information.'";
-      const res = await fetch(proxy + "?endpoint=generate-guide", {
+      const res = await fetch(proxy + "?endpoint=candidate-bio", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt: prompt, maxTokens: 300 })
+        body: JSON.stringify({
+          name: c.name,
+          office: c.office === "S" ? "U.S. Senate" : "U.S. House District " + (c.district || ""),
+          state: c.state || ""
+        })
       });
       const data = await res.json();
-      // Anthropic response has content[0].text
-      const text = (data.content && data.content[0] && data.content[0].text)
-        || data.result || data.text || null;
-      setBio(text || "No public information available.");
+      setBio(data.text || "Limited public record. Visit their FEC profile or search their name for campaign information.");
     } catch(e) {
       setBio("Unable to load candidate information.");
     } finally {
