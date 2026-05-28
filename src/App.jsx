@@ -517,8 +517,14 @@ function CandidateCard({ c, fin, proxy }) {
             {c.party_full || c.party} — {officeName}
           </div>
         </div>
-        <a href={"https://www.fec.gov/data/candidate/" + c.candidate_id + "/"} target="_blank" rel="noopener noreferrer"
-          style={{ fontSize:"11px", color:"#445B3E", whiteSpace:"nowrap", flexShrink:0 }}>FEC profile ↗</a>
+        <div style={{ display:"flex", flexDirection:"column", gap:"4px", alignItems:"flex-end", flexShrink:0 }}>
+          <a href={"https://www.fec.gov/data/candidate/" + c.candidate_id + "/"} target="_blank" rel="noopener noreferrer"
+            style={{ fontSize:"11px", color:"#445B3E", whiteSpace:"nowrap" }}>FEC ↗</a>
+          <a href={"https://ballotpedia.org/" + displayName.replace(/ /g, "_")} target="_blank" rel="noopener noreferrer"
+            style={{ fontSize:"11px", color:"#445B3E", whiteSpace:"nowrap" }}>Ballotpedia ↗</a>
+          <a href={"https://en.wikipedia.org/wiki/" + displayName.replace(/ /g, "_")} target="_blank" rel="noopener noreferrer"
+            style={{ fontSize:"11px", color:"#445B3E", whiteSpace:"nowrap" }}>Wikipedia ↗</a>
+        </div>
       </div>
 
       {fin ? (
