@@ -461,10 +461,20 @@ function RegRegisterPanel(props) {
   );
 }
 
+function formatFecName(raw) {
+  if (!raw || raw !== raw.toUpperCase()) return raw;
+  const parts = raw.split(",");
+  if (parts.length < 2) return raw.split(" ").map(function(w) { return w.charAt(0) + w.slice(1).toLowerCase(); }).join(" ");
+  const last = parts[0].trim().split(" ").map(function(w) { return w.charAt(0) + w.slice(1).toLowerCase(); }).join(" ");
+  const first = parts[1].trim().split(" ").map(function(w) { return w.charAt(0) + w.slice(1).toLowerCase(); }).join(" ");
+  return first + " " + last;
+}
+
 function CandidateCard({ c, fin, proxy }) {
   const [bio, setBio] = useState(null);
   const [bioLoading, setBioLoading] = useState(false);
   const [expanded, setExpanded] = useState(false);
+  const displayName = formatFecName(c.name);
 
   function fmt(n) {
     if (!n && n !== 0) return "—";
@@ -502,7 +512,7 @@ function CandidateCard({ c, fin, proxy }) {
     <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"16px 18px", display:"flex", flexDirection:"column", gap:"8px" }}>
       <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:"12px" }}>
         <div>
-          <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#f0f0f0" }}>{c.name}</div>
+          <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#f0f0f0" }}>{displayName}</div>
           <div style={{ fontSize:"12px", color:"#666", marginTop:"2px" }}>
             {c.party_full || c.party} — {officeName}
           </div>
