@@ -181,7 +181,7 @@ const STATE_ELECTION_SITES = {
 
 function renderLine(line, i, photos, usedPhotoUrls, sectionHeading) {
   if (!usedPhotoUrls) usedPhotoUrls = new Set();
-  const noPhotosSection = sectionHeading === "Explore Further" || sectionHeading === "Election Reminders" || sectionHeading === "Upcoming Ballot";
+  const noPhotosSection = sectionHeading === "Resources" || sectionHeading === "Election Reminders" || sectionHeading === "Upcoming Ballot";
   const t = line.trim();
   if (!t) return <br key={i} />;
   if (t.indexOf("Note:") === 0 || t.indexOf("Note (") === 0) return null;
@@ -478,7 +478,7 @@ function CandidateCard({ c, fin, proxy }) {
     setBioLoading(true);
     setExpanded(true);
     try {
-      const prompt = "In 3-4 sentences, summarize " + c.name + "'s publicly stated policy positions and beliefs based on campaign statements, interviews, and voting record if available. Focus on their actual positions, not biography. Be factual and nonpartisan. If they have limited public record, say so clearly.";
+      const prompt = "Summarize " + c.name + "'s publicly stated policy positions in 2-3 sentences. Use only verified public information — campaign website, interviews, or voting record. If limited public record exists, respond with only: 'Limited public record available. Check their campaign website or FEC profile for more information.'";
       const res = await fetch(proxy + "?endpoint=generate-guide", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -669,12 +669,31 @@ function ElectionReminders({ stateCode }) {
   }
 
   // Key 2026 election dates — national + common state patterns
+  // State-specific primary dates for 2026
+  const STATE_PRIMARY_DATES = {
+    AL:"June 2, 2026", AK:"August 25, 2026", AZ:"August 4, 2026", AR:"May 19, 2026",
+    CA:"June 2, 2026", CO:"June 23, 2026", CT:"August 11, 2026", DE:"September 15, 2026",
+    FL:"August 18, 2026", GA:"May 19, 2026", HI:"August 8, 2026", ID:"May 19, 2026",
+    IL:"March 17, 2026", IN:"May 5, 2026", IA:"June 2, 2026", KS:"August 4, 2026",
+    KY:"May 19, 2026", LA:"October 24, 2026", ME:"June 9, 2026", MD:"June 23, 2026",
+    MA:"September 15, 2026", MI:"August 4, 2026", MN:"August 11, 2026", MS:"June 2, 2026",
+    MO:"August 4, 2026", MT:"June 2, 2026", NE:"May 12, 2026", NV:"June 9, 2026",
+    NH:"September 8, 2026", NJ:"June 2, 2026", NM:"June 2, 2026", NY:"June 23, 2026",
+    NC:"May 19, 2026", ND:"June 9, 2026", OH:"May 5, 2026", OK:"June 23, 2026",
+    OR:"May 19, 2026", PA:"May 19, 2026", RI:"September 15, 2026", SC:"June 9, 2026",
+    SD:"June 2, 2026", TN:"August 4, 2026", TX:"March 3, 2026", UT:"June 23, 2026",
+    VT:"August 11, 2026", VA:"June 9, 2026", WA:"August 4, 2026", WV:"May 12, 2026",
+    WI:"August 11, 2026", WY:"August 18, 2026", DC:"June 2, 2026"
+  };
+  const primaryDate = STATE_PRIMARY_DATES[stateCode] || "Check your state election site";
+  const stateElectionUrl = "https://vote.gov/register/" + (stateCode || "").toLowerCase();
+
   const events = [
-    { label: "Primary Election Day (most states)", date: "2026-06-02", detail: "Check your state's official site for your exact primary date." },
-    { label: "General Election Day", date: "2026-11-03", detail: "Federal midterm elections — U.S. Senate, U.S. House, and many state races." },
-    { label: "Voter Registration Deadline (check your state)", date: "2026-10-04", detail: "Many states require registration 30 days before Election Day. Verify your deadline at vote.gov." },
-    { label: "Early Voting Begins (typical)", date: "2026-10-20", detail: "Early voting windows vary by state. Check with your local election office." },
-    { label: "Last Day to Request Mail Ballot (typical)", date: "2026-10-27", detail: "Deadlines vary by state. Check with your local election office." },
+    { label: "Primary Election Day", date: primaryDate, detail: "Your " + (stateCode || "state") + " primary date. Verify at your state election office." },
+    { label: "General Election Day", date: "November 3, 2026", detail: "Federal midterms — U.S. Senate, U.S. House, and many state races." },
+    { label: "Voter Registration Deadline", date: "~30 days before election", detail: "Verify your exact deadline at vote.gov or your state election site." },
+    { label: "Early Voting (typical)", date: "~2 weeks before election", detail: "Early voting windows vary. Check your local election office." },
+    { label: "Mail Ballot Request Deadline", date: "~1 week before election", detail: "Deadlines vary by state. Check your local election office." },
   ];
 
   return (
@@ -1327,7 +1346,7 @@ return (
                 AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
               </div>
 
-              <Tabs sections={[...parseSections(results), { heading: "Upcoming Ballot", body: [] }, { heading: "Election Reminders", body: [] }, { heading: "Explore Further", body: [
+              <Tabs sections={[...parseSections(results), { heading: "Upcoming Ballot", body: [] }, { heading: "Election Reminders", body: [] }, { heading: "Resources", body: [
           "**NAACP Legal Defense Fund** — Fighting for voting rights and racial justice in the courts",
           "Website: https://www.naacpldf.org | Instagram: https://www.instagram.com/naacp_ldf",
           "",
