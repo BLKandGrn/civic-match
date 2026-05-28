@@ -863,34 +863,32 @@ export default function App() {
   }
 
   async function fetchWikiPhoto(name) {
+    function checkPhoto(d) {
+      if (!d || !d.thumbnail || !d.thumbnail.source || !isPersonPage(d)) return null;
+      const desc = (d.description || "").toLowerCase();
+      const isPol = desc.includes("council") || desc.includes("politician") || desc.includes("representative") || desc.includes("senator") || desc.includes("mayor") || desc.includes("assembly") || desc.includes("commissioner") || desc.includes("delegate") || desc.includes("board") || desc.includes("official");
+      return isPol ? d.thumbnail.source : null;
+    }
     try {
-      const q = encodeURIComponent(name.replace(/ /g, "_"));
-      const r = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + q);
-      if (r.ok) {
-        const d = await r.json();
-       const descLower = (d.description || "").toLowerCase();
-const isPolitician = descLower.includes("council") || descLower.includes("politician") || descLower.includes("representative") || descLower.includes("senator") || descLower.includes("mayor") || descLower.includes("assembly") || descLower.includes("commissioner") || descLower.includes("delegate") || descLower.includes("board");
-if (d.thumbnail && d.thumbnail.source && isPersonPage(d) && isPolitician) return d.thumbnail.source;
-      }
-      // Try with disambiguation terms
-      for (const suffix of [" politician"]) {
-        const rs = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent((name + suffix).replace(/ /g, "_")));
-        if (rs.ok) {
-          const ds = await rs.json();
-const descLower = (d.description || "").toLowerCase();
-const isPolitician = descLower.includes("council") || descLower.includes("politician") || descLower.includes("representative") || descLower.includes("senator") || descLower.includes("mayor") || descLower.includes("assembly") || descLower.includes("commissioner") || descLower.includes("delegate") || descLower.includes("board");
-if (d.thumbnail && d.thumbnail.source && isPersonPage(d) && isPolitician) return d.thumbnail.source;
+      // Try direct name first
+      const r1 = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(name.replace(/ /g, "_")));
+      if (r1.ok) { const p = checkPhoto(await r1.json()); if (p) return p; }
+
+      // Try with politician suffix
+      const r2 = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent((name + " politician").replace(/ /g, "_")));
+      if (r2.ok) { const p = checkPhoto(await r2.json()); if (p) return p; }
+
+      // Try Wikipedia search — most reliable for disambiguation
+      const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(name + " politician United States") + "&format=json&origin=*&srlimit=3");
+      if (s.ok) {
+        const sd = await s.json();
+        const results = (sd.query && sd.query.search) || [];
+        for (const result of results) {
+          const r3 = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(result.title.replace(/ /g, "_")));
+          if (r3.ok) { const p = checkPhoto(await r3.json()); if (p) return p; }
         }
       }
-      const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(name + " politician") + "&format=json&origin=*&srlimit=1");
-      if (!s.ok) return null;
-      const sd = await s.json();
-      const title = sd.query && sd.query.search && sd.query.search[0] && sd.query.search[0].title;
-      if (!title) return null;
-      const r2 = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(title.replace(/ /g, "_")));
-      if (!r2.ok) return null;
-      const d2 = await r2.json();
-      return (d2.thumbnail && d2.thumbnail.source && isPersonPage(d2)) ? d2.thumbnail.source : null;
+      return null;
     } catch(e) { return null; }
   }
 
