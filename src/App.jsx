@@ -474,7 +474,32 @@ function CandidateCard({ c, fin, proxy }) {
   const [bio, setBio] = useState(null);
   const [bioLoading, setBioLoading] = useState(false);
   const [expanded, setExpanded] = useState(false);
+  const [wikiUrl, setWikiUrl] = useState(null);
   const displayName = formatFecName(c.name);
+
+  // Validate Wikipedia link on mount — only show if page exists and is about this politician
+  useEffect(function() {
+    async function checkWiki() {
+      try {
+        // Use Wikipedia search API to find the right page
+        const s = await fetch("https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + encodeURIComponent(displayName + " politician") + "&format=json&origin=*&srlimit=3");
+        if (!s.ok) return;
+        const sd = await s.json();
+        const results = (sd.query && sd.query.search) || [];
+        for (const r of results) {
+          // Only use if title closely matches the candidate name
+          const titleLower = r.title.toLowerCase();
+          const nameParts = displayName.toLowerCase().split(" ");
+          const matchScore = nameParts.filter(function(p) { return p.length > 2 && titleLower.includes(p); }).length;
+          if (matchScore >= 2) {
+            setWikiUrl("https://en.wikipedia.org/wiki/" + encodeURIComponent(r.title.replace(/ /g, "_")));
+            return;
+          }
+        }
+      } catch(e) {}
+    }
+    checkWiki();
+  }, [displayName]);
 
   function fmt(n) {
     if (!n && n !== 0) return "—";
@@ -522,8 +547,10 @@ function CandidateCard({ c, fin, proxy }) {
             style={{ fontSize:"11px", color:"#445B3E", whiteSpace:"nowrap" }}>FEC ↗</a>
           <a href={"https://ballotpedia.org/" + displayName.replace(/ /g, "_")} target="_blank" rel="noopener noreferrer"
             style={{ fontSize:"11px", color:"#445B3E", whiteSpace:"nowrap" }}>Ballotpedia ↗</a>
-          <a href={"https://en.wikipedia.org/wiki/" + displayName.replace(/ /g, "_")} target="_blank" rel="noopener noreferrer"
-            style={{ fontSize:"11px", color:"#445B3E", whiteSpace:"nowrap" }}>Wikipedia ↗</a>
+          {wikiUrl && (
+            <a href={wikiUrl} target="_blank" rel="noopener noreferrer"
+              style={{ fontSize:"11px", color:"#445B3E", whiteSpace:"nowrap" }}>Wikipedia ↗</a>
+          )}
         </div>
       </div>
 
