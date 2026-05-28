@@ -461,25 +461,53 @@ function RegRegisterPanel(props) {
   );
 }
 
-function CandidateCard({ c, fin }) {
+function CandidateCard({ c, fin, proxy }) {
+  const [bio, setBio] = useState(null);
+  const [bioLoading, setBioLoading] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+
   function fmt(n) {
     if (!n && n !== 0) return "—";
     if (n >= 1000000) return "$" + (n / 1000000).toFixed(1) + "M";
     if (n >= 1000) return "$" + (n / 1000).toFixed(0) + "K";
     return "$" + n.toFixed(0);
   }
+
+  async function loadBio() {
+    if (bio !== null || bioLoading) { setExpanded(!expanded); return; }
+    setBioLoading(true);
+    setExpanded(true);
+    try {
+      const prompt = "In 3-4 sentences, summarize " + c.name + "'s publicly stated policy positions and beliefs based on campaign statements, interviews, and voting record if available. Focus on their actual positions, not biography. Be factual and nonpartisan. If they have limited public record, say so clearly.";
+      const res = await fetch(proxy + "?endpoint=generate-guide", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt: prompt, maxTokens: 300 })
+      });
+      const data = await res.json();
+      setBio(data.result || data.text || "No public information available.");
+    } catch(e) {
+      setBio("Unable to load candidate information.");
+    } finally {
+      setBioLoading(false);
+    }
+  }
+
+  const officeName = c.office === "S" ? "U.S. Senate" : "U.S. House" + (c.district ? ", District " + parseInt(c.district) : "");
+
   return (
     <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"16px 18px", display:"flex", flexDirection:"column", gap:"8px" }}>
       <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:"12px" }}>
         <div>
           <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#f0f0f0" }}>{c.name}</div>
           <div style={{ fontSize:"12px", color:"#666", marginTop:"2px" }}>
-            {c.party_full || c.party} — {c.office === "S" ? "U.S. Senate" : "U.S. House" + (c.district ? ", District " + parseInt(c.district) : "")}
+            {c.party_full || c.party} — {officeName}
           </div>
         </div>
         <a href={"https://www.fec.gov/data/candidate/" + c.candidate_id + "/"} target="_blank" rel="noopener noreferrer"
           style={{ fontSize:"11px", color:"#445B3E", whiteSpace:"nowrap", flexShrink:0 }}>FEC profile ↗</a>
       </div>
+
       {fin ? (
         <div style={{ display:"flex", gap:"16px", flexWrap:"wrap", paddingTop:"8px", borderTop:"1px solid #1e1e1e" }}>
           <div>
@@ -498,6 +526,21 @@ function CandidateCard({ c, fin }) {
       ) : (
         <div style={{ fontSize:"12px", color:"#444", paddingTop:"6px", borderTop:"1px solid #1e1e1e" }}>Finance data not yet filed for 2026</div>
       )}
+
+      <button onClick={loadBio}
+        style={{ alignSelf:"flex-start", fontFamily:FF_SYNE, fontWeight:600, fontSize:"12px", padding:"6px 12px", borderRadius:"4px", background:"#1a1a1a", color:"#445B3E", border:"1px solid #445B3E", cursor:"pointer", marginTop:"4px" }}>
+        {bioLoading ? "Loading..." : expanded ? "Hide positions" : "View positions ↓"}
+      </button>
+
+      {expanded && (
+        <div style={{ background:"#0e0e0e", border:"1px solid #1e1e1e", borderRadius:"6px", padding:"12px 14px", fontSize:"13px", color:"#aaa", lineHeight:1.7, marginTop:"2px" }}>
+          {bioLoading ? (
+            <span style={{ color:"#555" }}>Pulling public record...</span>
+          ) : (
+            <span>{bio}</span>
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -510,6 +553,13 @@ function UpcomingBallot({ addr, proxy }) {
 
   const stateCode = addr && addr.state ? addr.state.toUpperCase() : null;
   const cycle = "2026";
+
+  // 2026 key election dates
+  const electionDates = [
+    { label: "Primary Season", date: "May–Aug 2026", detail: "Dates vary by state. Check your state election site for your exact primary date." },
+    { label: "General Election Day", date: "November 3, 2026", detail: "Federal midterms — U.S. Senate, U.S. House, and many state races." },
+    { label: "Voter Registration Deadline", date: "~30 days before election", detail: "Deadlines vary by state. Verify at vote.gov." },
+  ];
 
   useEffect(function() {
     if (!stateCode) { setLoading(false); return; }
@@ -546,38 +596,61 @@ function UpcomingBallot({ addr, proxy }) {
   if (!stateCode) return (
     <div style={{ fontSize:"14px", color:"#888", padding:"16px 0" }}>Enter a full address to see your upcoming ballot.</div>
   );
-  if (loading) return (
-    <div style={{ fontSize:"14px", color:"#666", padding:"16px 0" }}>Loading candidates for {stateCode}...</div>
-  );
-  if (error) return (
-    <div style={{ fontSize:"14px", color:"#e55", padding:"16px 0" }}>{error}</div>
-  );
-  if (!candidates.length) return (
-    <div style={{ display:"flex", flexDirection:"column", gap:"12px" }}>
-      <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"18px 20px" }}>
-        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#445B3E", marginBottom:"6px" }}>No federal candidates found yet for {cycle}</div>
-        <div style={{ fontSize:"13px", color:"#888", lineHeight:1.6 }}>Federal candidates file with the FEC as elections approach. Check your <a href={"https://vote.gov/register/"+stateCode.toLowerCase()} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E" }}>state election site</a> for state and local races.</div>
-      </div>
-    </div>
-  );
-
-  const senators = candidates.filter(function(c) { return c.office === "S"; });
-  const reps = candidates.filter(function(c) { return c.office === "H"; });
 
   return (
-    <div style={{ display:"flex", flexDirection:"column", gap:"12px" }}>
-      <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"14px 18px", marginBottom:"4px" }}>
-        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#445B3E", marginBottom:"4px" }}>2026 Federal Candidates — {stateCode}</div>
-        <div style={{ fontSize:"12px", color:"#666", lineHeight:1.6 }}>Federal candidates registered with the FEC. For state and local races visit your <a href={"https://vote.gov/register/"+stateCode.toLowerCase()} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E" }}>state election site</a>.</div>
+    <div style={{ display:"flex", flexDirection:"column", gap:"16px" }}>
+
+      {/* Election Dates */}
+      <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"16px 18px" }}>
+        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E", letterSpacing:".08em", textTransform:"uppercase", marginBottom:"12px" }}>2026 Key Dates</div>
+        <div style={{ display:"flex", flexDirection:"column", gap:"10px" }}>
+          {electionDates.map(function(ev, i) {
+            return (
+              <div key={i} style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-start", gap:"12px", paddingBottom: i < electionDates.length-1 ? "10px" : "0", borderBottom: i < electionDates.length-1 ? "1px solid #1a1a1a" : "none" }}>
+                <div>
+                  <div style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"13px", color:"#f0f0f0" }}>{ev.label}</div>
+                  <div style={{ fontSize:"12px", color:"#555", marginTop:"2px", lineHeight:1.5 }}>{ev.detail}</div>
+                </div>
+                <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#C8F97A", whiteSpace:"nowrap", flexShrink:0 }}>{ev.date}</div>
+              </div>
+            );
+          })}
+        </div>
       </div>
-      {senators.length > 0 && <div style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"11px", letterSpacing:".1em", color:"#555", textTransform:"uppercase", paddingTop:"4px" }}>U.S. Senate</div>}
-      {senators.map(function(c) { return <CandidateCard key={c.candidate_id} c={c} fin={financeMap[c.candidate_id]} />; })}
-      {reps.length > 0 && <div style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"11px", letterSpacing:".1em", color:"#555", textTransform:"uppercase", paddingTop:"4px" }}>U.S. House</div>}
-      {reps.map(function(c) { return <CandidateCard key={c.candidate_id} c={c} fin={financeMap[c.candidate_id]} />; })}
+
+      {/* Candidates */}
+      <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"13px", color:"#445B3E", letterSpacing:".08em", textTransform:"uppercase" }}>
+        2026 Federal Candidates — {stateCode}
+      </div>
+      <div style={{ fontSize:"12px", color:"#555", marginTop:"-8px" }}>
+        Registered with the FEC. Click "View positions" on any candidate for their publicly stated beliefs. For state and local races visit your{" "}
+        <a href={"https://vote.gov/register/" + stateCode.toLowerCase()} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E" }}>state election site</a>.
+      </div>
+
+      {loading && <div style={{ fontSize:"14px", color:"#666" }}>Loading candidates for {stateCode}...</div>}
+      {error && <div style={{ fontSize:"14px", color:"#e55" }}>{error}</div>}
+
+      {!loading && !error && candidates.length === 0 && (
+        <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"16px 18px", fontSize:"13px", color:"#888" }}>
+          No federal candidates found yet for 2026 in {stateCode}. Check back as the election cycle progresses.
+        </div>
+      )}
+
+      {!loading && candidates.length > 0 && (function() {
+        const senators = candidates.filter(function(c) { return c.office === "S"; });
+        const reps = candidates.filter(function(c) { return c.office === "H"; });
+        return (
+          <>
+            {senators.length > 0 && <div style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"11px", letterSpacing:".1em", color:"#555", textTransform:"uppercase" }}>U.S. Senate</div>}
+            {senators.map(function(c) { return <CandidateCard key={c.candidate_id} c={c} fin={financeMap[c.candidate_id]} proxy={proxy} />; })}
+            {reps.length > 0 && <div style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"11px", letterSpacing:".1em", color:"#555", textTransform:"uppercase", marginTop:"8px" }}>U.S. House</div>}
+            {reps.map(function(c) { return <CandidateCard key={c.candidate_id} c={c} fin={financeMap[c.candidate_id]} proxy={proxy} />; })}
+          </>
+        );
+      })()}
     </div>
   );
 }
-
 
 function ElectionReminders({ stateCode }) {
   // Build a Google Calendar URL for a given event
