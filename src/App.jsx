@@ -181,7 +181,7 @@ const STATE_ELECTION_SITES = {
 
 function renderLine(line, i, photos, usedPhotoUrls, sectionHeading) {
   if (!usedPhotoUrls) usedPhotoUrls = new Set();
-  const noPhotosSection = sectionHeading === "Explore Further" || sectionHeading === "Election Reminders";
+  const noPhotosSection = sectionHeading === "Explore Further" || sectionHeading === "Election Reminders" || sectionHeading === "Upcoming Ballot";
   const t = line.trim();
   if (!t) return <br key={i} />;
   if (t.indexOf("Note:") === 0 || t.indexOf("Note (") === 0) return null;
@@ -338,6 +338,9 @@ function Tabs(props) {
       {/* Screen view: single active tab */}
       <div className="screen-only" style={{ background:"#141414", border:"1px solid #222", borderRadius:"6px", padding:"22px", display:"flex", flexDirection:"column", gap:"14px", marginTop:"0" }}>
         <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", letterSpacing:".08em", color:"#445B3E", textTransform:"uppercase", paddingBottom:"10px", borderBottom:"1px solid #1e1e1e" }}>{cur.heading}</div>
+        {cur.heading === "Upcoming Ballot" && (
+          <UpcomingBallot addr={addr} proxy={PROXY} />
+        )}
         {cur.heading === "Election Reminders" && (
           <ElectionReminders stateCode={addr && addr.state} />
         )}
@@ -454,6 +457,136 @@ function RegRegisterPanel(props) {
       <a href={regUrl} target="_blank" rel="noopener noreferrer" style={{ background:"#445B3E", color:"#fff", fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", padding:"12px 20px", borderRadius:"4px", textDecoration:"none", alignSelf:"flex-start" }}>
         {"Register to Vote in " + (props.state || "Your State")}
       </a>
+    </div>
+  );
+}
+
+function UpcomingBallot({ addr, proxy }) {
+  const [loading, setLoading] = useState(true);
+  const [candidates, setCandidates] = useState([]);
+  const [financeMap, setFinanceMap] = useState({});
+  const [error, setError] = useState(null);
+
+  const stateCode = addr && addr.state ? addr.state.toUpperCase() : null;
+  const cycle = "2026";
+
+  useEffect(function() {
+    if (!stateCode) { setLoading(false); return; }
+    async function load() {
+      try {
+        // Fetch federal candidates for this state (Senate + House)
+        const [senRes, houseRes] = await Promise.all([
+          fetch(proxy + "?endpoint=fec-candidates&state=" + stateCode + "&office=S&cycle=" + cycle),
+          fetch(proxy + "?endpoint=fec-candidates&state=" + stateCode + "&office=H&cycle=" + cycle),
+        ]);
+        const senData = senRes.ok ? await senRes.json() : { results: [] };
+        const houseData = houseRes.ok ? await houseRes.json() : { results: [] };
+        const all = [...(senData.results || []), ...(houseData.results || [])].slice(0, 20);
+        setCandidates(all);
+
+        // Fetch finance totals for each candidate
+        const fMap = {};
+        await Promise.all(all.map(async function(c) {
+          try {
+            const totRes = await fetch(proxy + "?endpoint=fec-totals&candidateId=" + c.candidate_id + "&cycle=" + cycle);
+            if (!totRes.ok) return;
+            const tot = await totRes.json();
+            const t = (tot.results || [])[0];
+            if (t) fMap[c.candidate_id] = { raised: t.receipts, spent: t.disbursements, cash: t.cash_on_hand_end_period };
+          } catch(e) {}
+        }));
+        setFinanceMap(fMap);
+      } catch(e) {
+        setError("Unable to load candidate data.");
+      } finally {
+        setLoading(false);
+      }
+    }
+    load();
+  }, [stateCode]);
+
+  function fmt(n) {
+    if (!n && n !== 0) return "—";
+    if (n >= 1000000) return "$" + (n / 1000000).toFixed(1) + "M";
+    if (n >= 1000) return "$" + (n / 1000).toFixed(0) + "K";
+    return "$" + n.toFixed(0);
+  }
+
+  if (!stateCode) return (
+    <div style={{ fontSize:"14px", color:"#888", padding:"16px 0" }}>Enter a full address to see your upcoming ballot.</div>
+  );
+
+  if (loading) return (
+    <div style={{ fontSize:"14px", color:"#666", padding:"16px 0" }}>Loading candidates for {stateCode}...</div>
+  );
+
+  if (error) return (
+    <div style={{ fontSize:"14px", color:"#e55", padding:"16px 0" }}>{error}</div>
+  );
+
+  if (!candidates.length) return (
+    <div style={{ display:"flex", flexDirection:"column", gap:"12px" }}>
+      <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"18px 20px" }}>
+        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#445B3E", marginBottom:"6px" }}>No federal candidates found yet for {cycle}</div>
+        <div style={{ fontSize:"13px", color:"#888", lineHeight:1.6 }}>Federal candidates file with the FEC as elections approach. Check back closer to the 2026 election. For state and local races, visit your <a href={"https://vote.gov/register/"+stateCode.toLowerCase()} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E" }}>state election site</a>.</div>
+      </div>
+    </div>
+  );
+
+  // Group by office
+  const senators = candidates.filter(function(c) { return c.office === "S"; });
+  const reps = candidates.filter(function(c) { return c.office === "H"; });
+
+  function CandidateCard({ c }) {
+    const fin = financeMap[c.candidate_id];
+    return (
+      <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"16px 18px", display:"flex", flexDirection:"column", gap:"8px" }}>
+        <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:"12px" }}>
+          <div>
+            <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#f0f0f0" }}>{c.name}</div>
+            <div style={{ fontSize:"12px", color:"#666", marginTop:"2px" }}>
+              {c.party_full || c.party} — {c.office === "S" ? "U.S. Senate" : "U.S. House" + (c.district ? ", District " + parseInt(c.district) : "")}
+            </div>
+          </div>
+          <a href={"https://www.fec.gov/data/candidate/" + c.candidate_id + "/"} target="_blank" rel="noopener noreferrer"
+            style={{ fontSize:"11px", color:"#445B3E", whiteSpace:"nowrap", flexShrink:0 }}>FEC profile ↗</a>
+        </div>
+        {fin ? (
+          <div style={{ display:"flex", gap:"16px", flexWrap:"wrap", paddingTop:"8px", borderTop:"1px solid #1e1e1e" }}>
+            <div>
+              <div style={{ fontSize:"11px", color:"#555", marginBottom:"2px" }}>Total Raised</div>
+              <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#C8F97A" }}>{fmt(fin.raised)}</div>
+            </div>
+            <div>
+              <div style={{ fontSize:"11px", color:"#555", marginBottom:"2px" }}>Total Spent</div>
+              <div style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"14px", color:"#aaa" }}>{fmt(fin.spent)}</div>
+            </div>
+            <div>
+              <div style={{ fontSize:"11px", color:"#555", marginBottom:"2px" }}>Cash on Hand</div>
+              <div style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"14px", color:"#aaa" }}>{fmt(fin.cash)}</div>
+            </div>
+          </div>
+        ) : (
+          <div style={{ fontSize:"12px", color:"#444", paddingTop:"6px", borderTop:"1px solid #1e1e1e" }}>Finance data not yet filed for {cycle}</div>
+        )}
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ display:"flex", flexDirection:"column", gap:"12px" }}>
+      <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"14px 18px", marginBottom:"4px" }}>
+        <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", color:"#445B3E", marginBottom:"4px" }}>2026 Federal Candidates — {stateCode}</div>
+        <div style={{ fontSize:"12px", color:"#666", lineHeight:1.6 }}>Federal candidates registered with the FEC. State and local candidates: check your <a href={"https://vote.gov/register/"+stateCode.toLowerCase()} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E" }}>state election site</a>. Finance data updates as filings come in.</div>
+      </div>
+      {senators.length > 0 && (
+        <div style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"11px", letterSpacing:".1em", color:"#555", textTransform:"uppercase", paddingTop:"4px" }}>U.S. Senate</div>
+      )}
+      {senators.map(function(c) { return <CandidateCard key={c.candidate_id} c={c} />; })}
+      {reps.length > 0 && (
+        <div style={{ fontFamily:FF_SYNE, fontWeight:600, fontSize:"11px", letterSpacing:".1em", color:"#555", textTransform:"uppercase", paddingTop:"4px" }}>U.S. House</div>
+      )}
+      {reps.map(function(c) { return <CandidateCard key={c.candidate_id} c={c} />; })}
     </div>
   );
 }
@@ -1132,7 +1265,7 @@ return (
                 AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
               </div>
 
-              <Tabs sections={[...parseSections(results), { heading: "Election Reminders", body: [] }, { heading: "Explore Further", body: [
+              <Tabs sections={[...parseSections(results), { heading: "Upcoming Ballot", body: [] }, { heading: "Election Reminders", body: [] }, { heading: "Explore Further", body: [
           "**NAACP Legal Defense Fund** — Fighting for voting rights and racial justice in the courts",
           "Website: https://www.naacpldf.org | Instagram: https://www.instagram.com/naacp_ldf",
           "",
