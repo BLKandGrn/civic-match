@@ -338,6 +338,9 @@ function Tabs(props) {
       {/* Screen view: single active tab */}
       <div className="screen-only" style={{ background:"#141414", border:"1px solid #222", borderRadius:"6px", padding:"22px", display:"flex", flexDirection:"column", gap:"14px", marginTop:"0" }}>
         <div style={{ fontFamily:FF_SYNE, fontWeight:700, fontSize:"14px", letterSpacing:".08em", color:"#445B3E", textTransform:"uppercase", paddingBottom:"10px", borderBottom:"1px solid #1e1e1e" }}>{cur.heading}</div>
+        {cur.heading === "BlackVoteWatch" && (
+          <BlackVoteWatchTab members={props.federalMembers} zip={props.addr && props.addr.zip} />
+        )}
         {cur.heading === "Upcoming Ballot" && (
           <UpcomingBallot addr={props.addr} proxy={props.proxy} />
         )}
@@ -587,6 +590,127 @@ function CandidateCard({ c, fin, proxy }) {
           )}
         </div>
       )}
+    </div>
+  );
+}
+
+function BlackVoteWatchTab({ members, zip }) {
+  // Build BVW slug from a full name: "Angela Alsobrooks" → "alsobrooks-angela"
+  function toBvwSlug(fullName) {
+    if (!fullName) return null;
+    // Strip titles/suffixes
+    const cleaned = fullName
+      .replace(/\b(Jr\.|Sr\.|III|II|IV|Dr\.|Rep\.|Sen\.)\b/gi, "")
+      .replace(/,/g, "")
+      .trim();
+    const parts = cleaned.split(/\s+/).filter(Boolean);
+    if (parts.length < 2) return null;
+    const last = parts[parts.length - 1].toLowerCase();
+    const first = parts[0].toLowerCase();
+    return last + "-" + first;
+  }
+
+  const federalReps = (members || []).filter(function(m) {
+    return m.chamber === "Senate" || m.chamber === "House" || m.chamber === "senate" || m.chamber === "house";
+  });
+
+  const GREEN = "#445B3E";
+  const BVW_BASE = "https://www.blackvotewatch.org";
+
+  return (
+    <div style={{ display:"flex", flexDirection:"column", gap:"20px" }}>
+
+      {/* Attribution header */}
+      <div style={{ background:"#111", border:"1px solid #2a2a2a", borderRadius:"8px", padding:"20px 22px", display:"flex", flexDirection:"column", gap:"12px" }}>
+        <div style={{ display:"flex", alignItems:"center", gap:"12px", flexWrap:"wrap" }}>
+          <div style={{ fontFamily:"Arial Black, Arial, sans-serif", fontWeight:900, fontSize:"20px", letterSpacing:"1px", color:"#fff" }}>B</div>
+          <div style={{ fontFamily:"Arial Black, Arial, sans-serif", fontWeight:900, fontSize:"15px", color:"#fff", letterSpacing:".5px" }}>BlackVoteWatch</div>
+          <a href={BVW_BASE} target="_blank" rel="noopener noreferrer"
+            style={{ fontFamily:"Arial, sans-serif", fontSize:"11px", color:GREEN, textDecoration:"none", border:"1px solid " + GREEN, borderRadius:"3px", padding:"3px 8px", letterSpacing:".04em" }}>
+            Visit Site
+          </a>
+        </div>
+        <div style={{ fontSize:"13px", color:"#aaa", lineHeight:1.75 }}>
+          BlackVoteWatch tracks how members of Congress vote, who funds them, and how they score on issues affecting Black Americans. Grades are built from voting records, co-sponsorship patterns, and leverage analysis — not party affiliation.
+        </div>
+        <div style={{ fontSize:"12px", color:"#666", lineHeight:1.6 }}>
+          Grading methodology: a dual-score system combining a Policy Score (roll-call votes and bill sponsorships) and an Accountability Score (donor conflicts, legislative leverage, and red flags), weighted by the representative's power level. Letter grades run A through F.{" "}
+          <a href={BVW_BASE + "/methodology"} target="_blank" rel="noopener noreferrer"
+            style={{ color:GREEN, textDecoration:"underline" }}>
+            Read the full methodology
+          </a>
+        </div>
+        <div style={{ fontSize:"11px", color:"#555", lineHeight:1.6, paddingTop:"4px", borderTop:"1px solid #1e1e1e" }}>
+          Data sourced from Congress.gov and FEC.gov. Scores and grades are independent research by BlackVoteWatch and are not affiliated with Civic Match or BLK + GRN.
+        </div>
+      </div>
+
+      {/* Your federal reps on BVW */}
+      {federalReps.length > 0 && (
+        <div style={{ display:"flex", flexDirection:"column", gap:"10px" }}>
+          <div style={{ fontFamily:"Arial, sans-serif", fontWeight:700, fontSize:"12px", letterSpacing:".08em", color:GREEN, textTransform:"uppercase" }}>
+            Your Federal Representatives on BlackVoteWatch
+          </div>
+          {federalReps.map(function(rep, i) {
+            const slug = toBvwSlug(rep.name);
+            const bvwUrl = slug ? BVW_BASE + "/representative/" + slug : null;
+            const chamberLabel = rep.chamber ? (rep.chamber.charAt(0).toUpperCase() + rep.chamber.slice(1).toLowerCase()) : "Congress";
+            return (
+              <div key={i} style={{ background:"#111", border:"1px solid #222", borderRadius:"6px", padding:"14px 18px", display:"flex", justifyContent:"space-between", alignItems:"center", flexWrap:"wrap", gap:"10px" }}>
+                <div>
+                  <div style={{ fontSize:"14px", color:"#fff", fontWeight:700 }}>{rep.name}</div>
+                  <div style={{ fontSize:"12px", color:"#666", marginTop:"3px" }}>
+                    {chamberLabel}{rep.district ? " · District " + rep.district : ""}
+                    {rep.partyName ? " · " + (rep.partyName === "Democrat" ? "(D)" : rep.partyName === "Republican" ? "(R)" : "(I)") : ""}
+                  </div>
+                </div>
+                {bvwUrl ? (
+                  <a href={bvwUrl} target="_blank" rel="noopener noreferrer"
+                    style={{ fontFamily:"Arial, sans-serif", fontWeight:700, fontSize:"12px", letterSpacing:".05em", color:"#0e0e0e", background:GREEN, borderRadius:"4px", padding:"8px 16px", textDecoration:"none", whiteSpace:"nowrap" }}>
+                    View BVW Profile
+                  </a>
+                ) : (
+                  <a href={BVW_BASE + "/rankings"} target="_blank" rel="noopener noreferrer"
+                    style={{ fontFamily:"Arial, sans-serif", fontWeight:700, fontSize:"12px", letterSpacing:".05em", color:GREEN, border:"1px solid " + GREEN, borderRadius:"4px", padding:"8px 16px", textDecoration:"none", whiteSpace:"nowrap" }}>
+                    Search Rankings
+                  </a>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {/* ZIP lookup CTA */}
+      <div style={{ background:"#111", border:"1px solid #222", borderRadius:"6px", padding:"16px 18px", display:"flex", flexDirection:"column", gap:"10px" }}>
+        <div style={{ fontSize:"13px", color:"#aaa" }}>
+          BlackVoteWatch also supports direct ZIP code lookup for grades, donor data, and full voting history.
+        </div>
+        <div style={{ display:"flex", gap:"10px", flexWrap:"wrap" }}>
+          <a href={BVW_BASE + (zip ? "/?zip=" + zip : "")} target="_blank" rel="noopener noreferrer"
+            style={{ fontFamily:"Arial, sans-serif", fontWeight:700, fontSize:"12px", letterSpacing:".05em", color:"#0e0e0e", background:GREEN, borderRadius:"4px", padding:"8px 16px", textDecoration:"none" }}>
+            Look Up by ZIP on BVW
+          </a>
+          <a href={BVW_BASE + "/rankings"} target="_blank" rel="noopener noreferrer"
+            style={{ fontFamily:"Arial, sans-serif", fontWeight:700, fontSize:"12px", letterSpacing:".05em", color:GREEN, border:"1px solid #333", borderRadius:"4px", padding:"8px 16px", textDecoration:"none" }}>
+            Full Congress Rankings
+          </a>
+          <a href={BVW_BASE + "/follow-the-money"} target="_blank" rel="noopener noreferrer"
+            style={{ fontFamily:"Arial, sans-serif", fontWeight:700, fontSize:"12px", letterSpacing:".05em", color:GREEN, border:"1px solid #333", borderRadius:"4px", padding:"8px 16px", textDecoration:"none" }}>
+            Follow the Money
+          </a>
+        </div>
+      </div>
+
+      {/* Support BVW */}
+      <div style={{ fontSize:"12px", color:"#555", textAlign:"center", lineHeight:1.7 }}>
+        BlackVoteWatch is independent, nonprofit civic infrastructure.{" "}
+        <a href={BVW_BASE + "/support"} target="_blank" rel="noopener noreferrer"
+          style={{ color:GREEN, textDecoration:"underline" }}>
+          Support their work
+        </a>
+      </div>
+
     </div>
   );
 }
@@ -854,6 +978,7 @@ export default function App() {
   const [regUrl, setRegUrl] = useState(null);
   const [error, setError] = useState(null);
   const [anim, setAnim] = useState(true);
+  const [federalMembers, setFederalMembers] = useState([]);
 
   const cur = STEPS[step];
   const fullAddr = [addr.street, addr.city, addr.state, addr.zip].filter(function(v) { return v && v.trim(); }).join(", ");
@@ -1159,6 +1284,7 @@ export default function App() {
       const text = data.content.filter(function(b) { return b.type === "text"; }).map(function(b) { return b.text; }).join("\n");
       if (!text.trim()) throw new Error("No text returned.");
       setResults(text);
+      setFederalMembers(members);
 
       // Extract candidate names from bold headers in AI output and fetch missing photos
       try {
@@ -1463,7 +1589,7 @@ return (
                 AI-generated from Congress.gov, OpenStates, and public records. Officeholder data may be outdated — always verify with your{" "}<a href={STATE_ELECTION_SITES[addr.state] || "https://usa.gov/election-office"} target="_blank" rel="noopener noreferrer" style={{ color:"#445B3E", textDecoration:"underline" }}>{addr.state} State Election Website</a>.
               </div>
 
-              <Tabs sections={[...parseSections(results), { heading: "Upcoming Ballot", body: [] }, { heading: "Election Reminders", body: [] }, { heading: "Resources", body: [
+              <Tabs sections={[...parseSections(results), { heading: "BlackVoteWatch", body: [] }, { heading: "Upcoming Ballot", body: [] }, { heading: "Election Reminders", body: [] }, { heading: "Resources", body: [
           "**NAACP Legal Defense Fund** — Fighting for voting rights and racial justice in the courts",
           "Website: https://www.naacpldf.org | Instagram: https://www.instagram.com/naacp_ldf",
           "",
@@ -1490,7 +1616,7 @@ return (
           "",
           "**USA.gov Elected Officials** — Find all your current elected officials at every level",
           "Website: https://www.usa.gov/elected-officials"
-        ] }]} photos={photos} location={[addr.city, addr.state].filter(Boolean).join(", ")} addr={addr} proxy={PROXY} />
+        ] }]} photos={photos} location={[addr.city, addr.state].filter(Boolean).join(", ")} addr={addr} proxy={PROXY} federalMembers={federalMembers} />
 
               
 
@@ -1536,3 +1662,4 @@ return (
     </div>
   );
 }
+
